@@ -1,0 +1,154 @@
+{
+  "dataOrigin": "synthetic-fixture",
+  "nativeRuntimeExecuted": false,
+  "result": {
+    "attachmentChanged": [
+      "attachment-rule",
+      "prop",
+      "render"
+    ],
+    "baselineCid": "cidv1-sha256-cc1e8a96d0f0e528f07eaa4b2258f4a57e8b866e975b6409c12789b0128c18c8",
+    "evidenceMode": {
+      "appearanceEvidenceComplete": false,
+      "decoderExecuted": false,
+      "generatedAppearanceIsObservation": false,
+      "missingAssets": [],
+      "missingWitnesses": [
+        "cidv1-sha256-7aa8efc0b54659537a8735fd8e220c122abe9277c5f533de3004509343331c6b"
+      ],
+      "mode": "evidence",
+      "reasons": [],
+      "status": "degraded-wireframe"
+    },
+    "perceptualMode": {
+      "appearanceEvidenceComplete": false,
+      "decoderExecuted": false,
+      "generatedAppearanceIsObservation": false,
+      "missingAssets": [],
+      "missingWitnesses": [
+        "cidv1-sha256-7aa8efc0b54659537a8735fd8e220c122abe9277c5f533de3004509343331c6b"
+      ],
+      "mode": "perceptual",
+      "reasons": [],
+      "status": "synthesis-labeled"
+    },
+    "transformedPoint": {
+      "frame": "stage",
+      "point": [
+        "3.0",
+        "3.0",
+        "0.0"
+      ],
+      "transformEvidence": [
+        "cidv1-sha256-8dcc3c9af9726903727212568ce6554ffc368d53f10dcf0c8b0d90b375e8b971"
+      ],
+      "uncertainty": "not-propagated-reference-subset"
+    },
+    "witnessAvailable": {
+      "appearanceEvidenceComplete": true,
+      "decoderExecuted": false,
+      "generatedAppearanceIsObservation": false,
+      "missingAssets": [],
+      "missingWitnesses": [],
+      "mode": "evidence",
+      "reasons": [],
+      "status": "ready-for-declared-decoder"
+    }
+  },
+  "scenario": "generative-reality",
+  "tileCount": 4,
+  "tiles": [
+    {
+      "canonical": "{\"kind\":\"indranet.asset\",\"pack\":\"indranet.context\",\"parents\":[],\"payload\":{\"assetId\":\"venue-box-geometry\",\"geometry\":{\"dimensions\":[\"10\",\"8\",\"4\"],\"primitive\":\"box\",\"unit\":\"m\"},\"mediaType\":\"application/json\",\"status\":\"synthetic-example\"},\"version\":\"0.5.0\"}",
+      "cid": "cidv1-sha256-8dcc3c9af9726903727212568ce6554ffc368d53f10dcf0c8b0d90b375e8b971",
+      "createdAt": "2026-09-15T12:00:00Z",
+      "kind": "indranet.asset",
+      "pack": "indranet.context",
+      "parents": [],
+      "payload": {
+        "assetId": "venue-box-geometry",
+        "geometry": {
+          "dimensions": [
+            "10",
+            "8",
+            "4"
+          ],
+          "primitive": "box",
+          "unit": "m"
+        },
+        "mediaType": "application/json",
+        "status": "synthetic-example"
+      },
+      "version": "0.5.0"
+    },
+    {
+      "canonical": "{\"kind\":\"indranet.witness\",\"pack\":\"indranet.context\",\"parents\":[],\"payload\":{\"content\":\"A red prop appears near the stage. This textual fixture is not a photorealistic witness.\",\"dataOrigin\":\"synthetic-fixture\",\"eventTime\":\"2026-09-15T12:00:02Z\",\"knownAt\":\"2026-09-15T12:00:03Z\",\"mediaType\":\"text/plain\",\"purposes\":[\"remote-presence\"],\"witnessId\":\"unexpected-red-prop\"},\"version\":\"0.5.0\"}",
+      "cid": "cidv1-sha256-7aa8efc0b54659537a8735fd8e220c122abe9277c5f533de3004509343331c6b",
+      "createdAt": "2026-09-15T12:00:03Z",
+      "kind": "indranet.witness",
+      "pack": "indranet.context",
+      "parents": [],
+      "payload": {
+        "content": "A red prop appears near the stage. This textual fixture is not a photorealistic witness.",
+        "dataOrigin": "synthetic-fixture",
+        "eventTime": "2026-09-15T12:00:02Z",
+        "knownAt": "2026-09-15T12:00:03Z",
+        "mediaType": "text/plain",
+        "purposes": [
+          "remote-presence"
+        ],
+        "witnessId": "unexpected-red-prop"
+      },
+      "version": "0.5.0"
+    },
+    {
+      "canonical": "{\"kind\":\"indranet.world_package\",\"pack\":\"indranet.context\",\"parents\":[\"cidv1-sha256-8dcc3c9af9726903727212568ce6554ffc368d53f10dcf0c8b0d90b375e8b971\"],\"payload\":{\"decoderProfile\":\"reference-wireframe-v1\",\"frame\":\"venue-A\",\"knownAt\":\"2026-09-15T12:00:00Z\",\"purposes\":[\"remote-presence\"],\"requiredAssets\":[\"cidv1-sha256-8dcc3c9af9726903727212568ce6554ffc368d53f10dcf0c8b0d90b375e8b971\"]},\"version\":\"0.5.0\"}",
+      "cid": "cidv1-sha256-cc1e8a96d0f0e528f07eaa4b2258f4a57e8b866e975b6409c12789b0128c18c8",
+      "createdAt": "2026-09-15T12:00:00Z",
+      "kind": "indranet.world_package",
+      "pack": "indranet.context",
+      "parents": [
+        "cidv1-sha256-8dcc3c9af9726903727212568ce6554ffc368d53f10dcf0c8b0d90b375e8b971"
+      ],
+      "payload": {
+        "decoderProfile": "reference-wireframe-v1",
+        "frame": "venue-A",
+        "knownAt": "2026-09-15T12:00:00Z",
+        "purposes": [
+          "remote-presence"
+        ],
+        "requiredAssets": [
+          "cidv1-sha256-8dcc3c9af9726903727212568ce6554ffc368d53f10dcf0c8b0d90b375e8b971"
+        ]
+      },
+      "version": "0.5.0"
+    },
+    {
+      "canonical": "{\"kind\":\"indranet.reconstruction_state\",\"pack\":\"indranet.context\",\"parents\":[\"cidv1-sha256-cc1e8a96d0f0e528f07eaa4b2258f4a57e8b866e975b6409c12789b0128c18c8\"],\"payload\":{\"baselineCid\":\"cidv1-sha256-cc1e8a96d0f0e528f07eaa4b2258f4a57e8b866e975b6409c12789b0128c18c8\",\"changedObjects\":[\"prop-7\"],\"epistemicRole\":\"inferred\",\"eventTime\":\"2026-09-15T12:00:02Z\",\"knownAt\":\"2026-09-15T12:00:03Z\",\"purposes\":[\"remote-presence\"],\"requiredWitnesses\":[\"cidv1-sha256-7aa8efc0b54659537a8735fd8e220c122abe9277c5f533de3004509343331c6b\"],\"validUntil\":\"2026-09-15T12:01:00Z\"},\"version\":\"0.5.0\"}",
+      "cid": "cidv1-sha256-58b6026a184aeeec56bb4b914a5e6ce276aef2fcfa7f1342d1d21b73bb725cb3",
+      "createdAt": "2026-09-15T12:00:03Z",
+      "kind": "indranet.reconstruction_state",
+      "pack": "indranet.context",
+      "parents": [
+        "cidv1-sha256-cc1e8a96d0f0e528f07eaa4b2258f4a57e8b866e975b6409c12789b0128c18c8"
+      ],
+      "payload": {
+        "baselineCid": "cidv1-sha256-cc1e8a96d0f0e528f07eaa4b2258f4a57e8b866e975b6409c12789b0128c18c8",
+        "changedObjects": [
+          "prop-7"
+        ],
+        "epistemicRole": "inferred",
+        "eventTime": "2026-09-15T12:00:02Z",
+        "knownAt": "2026-09-15T12:00:03Z",
+        "purposes": [
+          "remote-presence"
+        ],
+        "requiredWitnesses": [
+          "cidv1-sha256-7aa8efc0b54659537a8735fd8e220c122abe9277c5f533de3004509343331c6b"
+        ],
+        "validUntil": "2026-09-15T12:01:00Z"
+      },
+      "version": "0.5.0"
+    }
+  ]
+}

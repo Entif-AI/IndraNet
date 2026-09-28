@@ -1,0 +1,188 @@
+{
+  "dataOrigin": "synthetic-fixture",
+  "nativeRuntimeExecuted": false,
+  "result": {
+    "aggregate": {
+      "privacyGuarantee": "none; illustrative suppression, not differential privacy or anonymity proof",
+      "suppressedZones": 1,
+      "zones": [
+        {
+          "count": 6,
+          "zone": "entry"
+        },
+        {
+          "count": 4,
+          "zone": "exit"
+        }
+      ]
+    },
+    "operatorView": {
+      "actuationAuthority": false,
+      "eventAt": "2026-09-15T12:00:04Z",
+      "groups": [
+        {
+          "candidates": [
+            {
+              "ageSeconds": 4,
+              "cid": "cidv1-sha256-e8c789286d9ed9a3bae5cb2921547c7ca5b731f8cfd526503df114d14249e78b",
+              "dataOrigin": "synthetic-fixture",
+              "epistemicRole": "reported-measurement",
+              "eventTime": "2026-09-15T12:00:00Z",
+              "frame": null,
+              "source": "fixture",
+              "stale": false,
+              "uncertainty": {
+                "kind": "unknown"
+              },
+              "value": {
+                "privacyGuarantee": "none; illustrative suppression, not differential privacy or anonymity proof",
+                "suppressedZones": 1,
+                "zones": [
+                  {
+                    "count": 6,
+                    "zone": "entry"
+                  },
+                  {
+                    "count": 4,
+                    "zone": "exit"
+                  }
+                ]
+              }
+            }
+          ],
+          "predicate": "occupancy",
+          "status": "available",
+          "subject": "rid:indranet:venue-zone-summary"
+        }
+      ],
+      "knownAt": "2026-09-15T12:00:04Z",
+      "omittedCount": 0,
+      "purpose": "situational-awareness"
+    },
+    "publicView": {
+      "actuationAuthority": false,
+      "eventAt": "2026-09-15T12:00:04Z",
+      "groups": [],
+      "knownAt": "2026-09-15T12:00:04Z",
+      "omittedCount": 1,
+      "purpose": "public-display"
+    },
+    "review": {
+      "automaticEnforcement": false,
+      "disposition": "human-review-requested",
+      "evidenceCids": [
+        "cidv1-sha256-e8c789286d9ed9a3bae5cb2921547c7ca5b731f8cfd526503df114d14249e78b"
+      ],
+      "identityInference": false,
+      "knownAt": "2026-09-15T12:00:02Z",
+      "question": "Does an operator need to inspect the entrance?"
+    }
+  },
+  "scenario": "public-space",
+  "tileCount": 4,
+  "tiles": [
+    {
+      "canonical": "{\"kind\":\"rosetta.observation\",\"pack\":\"rosetta.core\",\"parents\":[],\"payload\":{\"observationId\":\"observation.f1a7c90f8a5926d2\",\"signal\":\"{\\\"zones\\\": [{\\\"zone\\\": \\\"entry\\\", \\\"count\\\": 6}, {\\\"zone\\\": \\\"exit\\\", \\\"count\\\": 4}], \\\"suppressedZones\\\": 1, \\\"privacyGuarantee\\\": \\\"none; illustrative suppression, not differential privacy or anonymity proof\\\"}\",\"source\":\"fixture:zone-aggregate\"},\"version\":\"0.1.0\"}",
+      "cid": "cidv1-sha256-dbe5baa31000f67ffd7fc4ff80f3bad3d186e1d9f8c5d629a318024e40ddb2cc",
+      "createdAt": "2026-09-15T12:00:01Z",
+      "kind": "rosetta.observation",
+      "pack": "rosetta.core",
+      "parents": [],
+      "payload": {
+        "observationId": "observation.f1a7c90f8a5926d2",
+        "signal": "{\"zones\": [{\"zone\": \"entry\", \"count\": 6}, {\"zone\": \"exit\", \"count\": 4}], \"suppressedZones\": 1, \"privacyGuarantee\": \"none; illustrative suppression, not differential privacy or anonymity proof\"}",
+        "source": "fixture:zone-aggregate"
+      },
+      "version": "0.1.0"
+    },
+    {
+      "canonical": "{\"kind\":\"indranet.parsed_signal\",\"pack\":\"indranet.context\",\"parents\":[\"cidv1-sha256-dbe5baa31000f67ffd7fc4ff80f3bad3d186e1d9f8c5d629a318024e40ddb2cc\"],\"payload\":{\"dataOrigin\":\"synthetic-fixture\",\"eventTime\":\"2026-09-15T12:00:00Z\",\"knownAt\":\"2026-09-15T12:00:01Z\",\"mediaType\":\"application/json\",\"observationCid\":\"cidv1-sha256-dbe5baa31000f67ffd7fc4ff80f3bad3d186e1d9f8c5d629a318024e40ddb2cc\",\"parser\":\"python-json-reference\",\"purposes\":[\"situational-awareness\"],\"sourceSha256\":\"f1a7c90f8a5926d29619cd58d31db42df3ec580c7a2c9e9f4bd2943639ac5ca6\"},\"version\":\"0.5.0\"}",
+      "cid": "cidv1-sha256-c03fa6e5c8725927a7f7cf230f9f07f4bdad796f715bc31ba40e8f94c0ada246",
+      "createdAt": "2026-09-15T12:00:01Z",
+      "kind": "indranet.parsed_signal",
+      "pack": "indranet.context",
+      "parents": [
+        "cidv1-sha256-dbe5baa31000f67ffd7fc4ff80f3bad3d186e1d9f8c5d629a318024e40ddb2cc"
+      ],
+      "payload": {
+        "dataOrigin": "synthetic-fixture",
+        "eventTime": "2026-09-15T12:00:00Z",
+        "knownAt": "2026-09-15T12:00:01Z",
+        "mediaType": "application/json",
+        "observationCid": "cidv1-sha256-dbe5baa31000f67ffd7fc4ff80f3bad3d186e1d9f8c5d629a318024e40ddb2cc",
+        "parser": "python-json-reference",
+        "purposes": [
+          "situational-awareness"
+        ],
+        "sourceSha256": "f1a7c90f8a5926d29619cd58d31db42df3ec580c7a2c9e9f4bd2943639ac5ca6"
+      },
+      "version": "0.5.0"
+    },
+    {
+      "canonical": "{\"kind\":\"indranet.state_assertion\",\"pack\":\"indranet.context\",\"parents\":[\"cidv1-sha256-c03fa6e5c8725927a7f7cf230f9f07f4bdad796f715bc31ba40e8f94c0ada246\"],\"payload\":{\"dataOrigin\":\"synthetic-fixture\",\"epistemicRole\":\"reported-measurement\",\"eventTime\":\"2026-09-15T12:00:00Z\",\"evidenceCids\":[\"cidv1-sha256-c03fa6e5c8725927a7f7cf230f9f07f4bdad796f715bc31ba40e8f94c0ada246\"],\"frame\":null,\"knownAt\":\"2026-09-15T12:00:01Z\",\"predicate\":\"occupancy\",\"purposes\":[\"situational-awareness\"],\"source\":\"fixture\",\"subject\":\"rid:indranet:venue-zone-summary\",\"uncertainty\":{\"kind\":\"unknown\"},\"validUntil\":null,\"value\":{\"privacyGuarantee\":\"none; illustrative suppression, not differential privacy or anonymity proof\",\"suppressedZones\":1,\"zones\":[{\"count\":6,\"zone\":\"entry\"},{\"count\":4,\"zone\":\"exit\"}]}},\"version\":\"0.5.0\"}",
+      "cid": "cidv1-sha256-e8c789286d9ed9a3bae5cb2921547c7ca5b731f8cfd526503df114d14249e78b",
+      "createdAt": "2026-09-15T12:00:01Z",
+      "kind": "indranet.state_assertion",
+      "pack": "indranet.context",
+      "parents": [
+        "cidv1-sha256-c03fa6e5c8725927a7f7cf230f9f07f4bdad796f715bc31ba40e8f94c0ada246"
+      ],
+      "payload": {
+        "dataOrigin": "synthetic-fixture",
+        "epistemicRole": "reported-measurement",
+        "eventTime": "2026-09-15T12:00:00Z",
+        "evidenceCids": [
+          "cidv1-sha256-c03fa6e5c8725927a7f7cf230f9f07f4bdad796f715bc31ba40e8f94c0ada246"
+        ],
+        "frame": null,
+        "knownAt": "2026-09-15T12:00:01Z",
+        "predicate": "occupancy",
+        "purposes": [
+          "situational-awareness"
+        ],
+        "source": "fixture",
+        "subject": "rid:indranet:venue-zone-summary",
+        "uncertainty": {
+          "kind": "unknown"
+        },
+        "validUntil": null,
+        "value": {
+          "privacyGuarantee": "none; illustrative suppression, not differential privacy or anonymity proof",
+          "suppressedZones": 1,
+          "zones": [
+            {
+              "count": 6,
+              "zone": "entry"
+            },
+            {
+              "count": 4,
+              "zone": "exit"
+            }
+          ]
+        }
+      },
+      "version": "0.5.0"
+    },
+    {
+      "canonical": "{\"kind\":\"indranet.review_request\",\"pack\":\"indranet.context\",\"parents\":[\"cidv1-sha256-e8c789286d9ed9a3bae5cb2921547c7ca5b731f8cfd526503df114d14249e78b\"],\"payload\":{\"automaticEnforcement\":false,\"disposition\":\"human-review-requested\",\"evidenceCids\":[\"cidv1-sha256-e8c789286d9ed9a3bae5cb2921547c7ca5b731f8cfd526503df114d14249e78b\"],\"identityInference\":false,\"knownAt\":\"2026-09-15T12:00:02Z\",\"question\":\"Does an operator need to inspect the entrance?\"},\"version\":\"0.5.0\"}",
+      "cid": "cidv1-sha256-1f9d2123d9de2584a443a3fdcf93dbabc8da91a6c116af8c3ea1a0e28fd051cf",
+      "createdAt": "2026-09-15T12:00:02Z",
+      "kind": "indranet.review_request",
+      "pack": "indranet.context",
+      "parents": [
+        "cidv1-sha256-e8c789286d9ed9a3bae5cb2921547c7ca5b731f8cfd526503df114d14249e78b"
+      ],
+      "payload": {
+        "automaticEnforcement": false,
+        "disposition": "human-review-requested",
+        "evidenceCids": [
+          "cidv1-sha256-e8c789286d9ed9a3bae5cb2921547c7ca5b731f8cfd526503df114d14249e78b"
+        ],
+        "identityInference": false,
+        "knownAt": "2026-09-15T12:00:02Z",
+        "question": "Does an operator need to inspect the entrance?"
+      },
+      "version": "0.5.0"
+    }
+  ]
+}

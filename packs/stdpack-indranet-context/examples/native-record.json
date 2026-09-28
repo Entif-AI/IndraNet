@@ -1,0 +1,68 @@
+{
+  "schema": "native-record",
+  "payload": {
+    "schemaVersion": "0.5.0",
+    "recordId": "urn:fixture:performance:0",
+    "entity": "urn:fixture:performance:asset-7",
+    "predicate": "position",
+    "role": "reported-measurement",
+    "eventTime": {
+      "start": "2026-09-28T12:00:00Z",
+      "end": null,
+      "basis": "UTC"
+    },
+    "knownAt": "2026-09-28T12:00:01Z",
+    "spatial": {
+      "frame": "urn:frame:performance:stage",
+      "units": [
+        "m",
+        "m",
+        "m"
+      ],
+      "position": [
+        "0",
+        "2",
+        "0"
+      ],
+      "orientation": {
+        "x": "0",
+        "y": "0",
+        "z": "0",
+        "w": "1"
+      },
+      "transformRefs": [
+        "urn:fixture:calibration:v1"
+      ]
+    },
+    "quality": {
+      "kind": "unknown"
+    },
+    "sources": [
+      "urn:fixture:provider-A"
+    ],
+    "derivation": {
+      "parents": [],
+      "method": "synthetic-fixture",
+      "branch": "historical",
+      "counterfactual": false
+    },
+    "rights": {
+      "purposes": [
+        "operations",
+        "review",
+        "xr"
+      ],
+      "expiresAt": "2026-09-28T12:05:00Z",
+      "prohibitedInferences": [
+        "biometric-identification",
+        "actuation-authorization"
+      ]
+    },
+    "lifecycle": {
+      "operation": "assert",
+      "target": null,
+      "validUntil": "2026-09-28T12:00:05Z"
+    },
+    "origin": "synthetic-fixture-not-sensor-data"
+  }
+}
