@@ -1,0 +1,6818 @@
+{
+  "durationSeconds": 90,
+  "origin": "synthetic-fixture",
+  "records": [
+    {
+      "derivation": {
+        "branch": "historical",
+        "counterfactual": false,
+        "method": "synthetic-fixture",
+        "parents": []
+      },
+      "entity": "urn:fixture:performance:asset-7",
+      "eventTime": {
+        "basis": "UTC",
+        "end": null,
+        "start": "2026-09-28T12:00:00Z"
+      },
+      "knownAt": "2026-09-28T12:00:01Z",
+      "lifecycle": {
+        "operation": "assert",
+        "target": null,
+        "validUntil": "2026-09-28T12:00:05Z"
+      },
+      "origin": "synthetic-fixture-not-sensor-data",
+      "predicate": "position",
+      "quality": {
+        "kind": "unknown"
+      },
+      "recordId": "urn:fixture:performance:0",
+      "rights": {
+        "expiresAt": "2026-09-28T12:05:00Z",
+        "prohibitedInferences": [
+          "biometric-identification",
+          "actuation-authorization"
+        ],
+        "purposes": [
+          "operations",
+          "review",
+          "xr"
+        ]
+      },
+      "role": "reported-measurement",
+      "schemaVersion": "0.5.0",
+      "sources": [
+        "urn:fixture:provider-A"
+      ],
+      "spatial": {
+        "frame": "urn:frame:performance:stage",
+        "orientation": {
+          "w": "1",
+          "x": "0",
+          "y": "0",
+          "z": "0"
+        },
+        "position": [
+          "0",
+          "2",
+          "0"
+        ],
+        "transformRefs": [
+          "urn:fixture:calibration:v1"
+        ],
+        "units": [
+          "m",
+          "m",
+          "m"
+        ]
+      }
+    },
+    {
+      "derivation": {
+        "branch": "historical",
+        "counterfactual": false,
+        "method": "fixture-position-report",
+        "parents": []
+      },
+      "entity": "urn:fixture:performance:asset-7",
+      "eventTime": {
+        "basis": "UTC",
+        "end": null,
+        "start": "2026-09-28T12:00:01Z"
+      },
+      "knownAt": "2026-09-28T12:00:02Z",
+      "lifecycle": {
+        "operation": "assert",
+        "target": null,
+        "validUntil": "2026-09-28T12:00:06Z"
+      },
+      "origin": "synthetic-fixture-not-sensor-data",
+      "predicate": "position",
+      "quality": {
+        "kind": "unknown"
+      },
+      "recordId": "urn:fixture:performance:1",
+      "rights": {
+        "expiresAt": "2026-09-28T12:05:00Z",
+        "prohibitedInferences": [
+          "biometric-identification",
+          "actuation-authorization"
+        ],
+        "purposes": [
+          "operations",
+          "review",
+          "xr"
+        ]
+      },
+      "role": "reported-measurement",
+      "schemaVersion": "0.5.0",
+      "sources": [
+        "urn:fixture:provider-A"
+      ],
+      "spatial": {
+        "frame": "urn:frame:performance:stage",
+        "orientation": {
+          "w": "1",
+          "x": "0",
+          "y": "0",
+          "z": "0"
+        },
+        "position": [
+          "1",
+          "2",
+          "0"
+        ],
+        "transformRefs": [
+          "urn:fixture:calibration:v1"
+        ],
+        "units": [
+          "m",
+          "m",
+          "m"
+        ]
+      }
+    },
+    {
+      "derivation": {
+        "branch": "historical",
+        "counterfactual": false,
+        "method": "fixture-position-report",
+        "parents": []
+      },
+      "entity": "urn:fixture:performance:asset-7",
+      "eventTime": {
+        "basis": "UTC",
+        "end": null,
+        "start": "2026-09-28T12:00:02Z"
+      },
+      "knownAt": "2026-09-28T12:00:03Z",
+      "lifecycle": {
+        "operation": "assert",
+        "target": null,
+        "validUntil": "2026-09-28T12:00:07Z"
+      },
+      "origin": "synthetic-fixture-not-sensor-data",
+      "predicate": "position",
+      "quality": {
+        "kind": "unknown"
+      },
+      "recordId": "urn:fixture:performance:2",
+      "rights": {
+        "expiresAt": "2026-09-28T12:05:00Z",
+        "prohibitedInferences": [
+          "biometric-identification",
+          "actuation-authorization"
+        ],
+        "purposes": [
+          "operations",
+          "review",
+          "xr"
+        ]
+      },
+      "role": "reported-measurement",
+      "schemaVersion": "0.5.0",
+      "sources": [
+        "urn:fixture:provider-A"
+      ],
+      "spatial": {
+        "frame": "urn:frame:performance:stage",
+        "orientation": {
+          "w": "1",
+          "x": "0",
+          "y": "0",
+          "z": "0"
+        },
+        "position": [
+          "2",
+          "2",
+          "0"
+        ],
+        "transformRefs": [
+          "urn:fixture:calibration:v1"
+        ],
+        "units": [
+          "m",
+          "m",
+          "m"
+        ]
+      }
+    },
+    {
+      "derivation": {
+        "branch": "historical",
+        "counterfactual": false,
+        "method": "fixture-position-report",
+        "parents": []
+      },
+      "entity": "urn:fixture:performance:asset-7",
+      "eventTime": {
+        "basis": "UTC",
+        "end": null,
+        "start": "2026-09-28T12:00:03Z"
+      },
+      "knownAt": "2026-09-28T12:00:04Z",
+      "lifecycle": {
+        "operation": "assert",
+        "target": null,
+        "validUntil": "2026-09-28T12:00:08Z"
+      },
+      "origin": "synthetic-fixture-not-sensor-data",
+      "predicate": "position",
+      "quality": {
+        "kind": "unknown"
+      },
+      "recordId": "urn:fixture:performance:3",
+      "rights": {
+        "expiresAt": "2026-09-28T12:05:00Z",
+        "prohibitedInferences": [
+          "biometric-identification",
+          "actuation-authorization"
+        ],
+        "purposes": [
+          "operations",
+          "review",
+          "xr"
+        ]
+      },
+      "role": "reported-measurement",
+      "schemaVersion": "0.5.0",
+      "sources": [
+        "urn:fixture:provider-A"
+      ],
+      "spatial": {
+        "frame": "urn:frame:performance:stage",
+        "orientation": {
+          "w": "1",
+          "x": "0",
+          "y": "0",
+          "z": "0"
+        },
+        "position": [
+          "3",
+          "2",
+          "0"
+        ],
+        "transformRefs": [
+          "urn:fixture:calibration:v1"
+        ],
+        "units": [
+          "m",
+          "m",
+          "m"
+        ]
+      }
+    },
+    {
+      "derivation": {
+        "branch": "historical",
+        "counterfactual": false,
+        "method": "fixture-position-report",
+        "parents": []
+      },
+      "entity": "urn:fixture:performance:asset-7",
+      "eventTime": {
+        "basis": "UTC",
+        "end": null,
+        "start": "2026-09-28T12:00:04Z"
+      },
+      "knownAt": "2026-09-28T12:00:05Z",
+      "lifecycle": {
+        "operation": "assert",
+        "target": null,
+        "validUntil": "2026-09-28T12:00:09Z"
+      },
+      "origin": "synthetic-fixture-not-sensor-data",
+      "predicate": "position",
+      "quality": {
+        "kind": "unknown"
+      },
+      "recordId": "urn:fixture:performance:4",
+      "rights": {
+        "expiresAt": "2026-09-28T12:05:00Z",
+        "prohibitedInferences": [
+          "biometric-identification",
+          "actuation-authorization"
+        ],
+        "purposes": [
+          "operations",
+          "review",
+          "xr"
+        ]
+      },
+      "role": "reported-measurement",
+      "schemaVersion": "0.5.0",
+      "sources": [
+        "urn:fixture:provider-A"
+      ],
+      "spatial": {
+        "frame": "urn:frame:performance:stage",
+        "orientation": {
+          "w": "1",
+          "x": "0",
+          "y": "0",
+          "z": "0"
+        },
+        "position": [
+          "4",
+          "2",
+          "0"
+        ],
+        "transformRefs": [
+          "urn:fixture:calibration:v1"
+        ],
+        "units": [
+          "m",
+          "m",
+          "m"
+        ]
+      }
+    },
+    {
+      "derivation": {
+        "branch": "historical",
+        "counterfactual": false,
+        "method": "fixture-position-report",
+        "parents": []
+      },
+      "entity": "urn:fixture:performance:asset-7",
+      "eventTime": {
+        "basis": "UTC",
+        "end": null,
+        "start": "2026-09-28T12:00:05Z"
+      },
+      "knownAt": "2026-09-28T12:00:06Z",
+      "lifecycle": {
+        "operation": "assert",
+        "target": null,
+        "validUntil": "2026-09-28T12:00:10Z"
+      },
+      "origin": "synthetic-fixture-not-sensor-data",
+      "predicate": "position",
+      "quality": {
+        "kind": "unknown"
+      },
+      "recordId": "urn:fixture:performance:5",
+      "rights": {
+        "expiresAt": "2026-09-28T12:05:00Z",
+        "prohibitedInferences": [
+          "biometric-identification",
+          "actuation-authorization"
+        ],
+        "purposes": [
+          "operations",
+          "review",
+          "xr"
+        ]
+      },
+      "role": "reported-measurement",
+      "schemaVersion": "0.5.0",
+      "sources": [
+        "urn:fixture:provider-A"
+      ],
+      "spatial": {
+        "frame": "urn:frame:performance:stage",
+        "orientation": {
+          "w": "1",
+          "x": "0",
+          "y": "0",
+          "z": "0"
+        },
+        "position": [
+          "5",
+          "2",
+          "0"
+        ],
+        "transformRefs": [
+          "urn:fixture:calibration:v1"
+        ],
+        "units": [
+          "m",
+          "m",
+          "m"
+        ]
+      }
+    },
+    {
+      "derivation": {
+        "branch": "historical",
+        "counterfactual": false,
+        "method": "fixture-position-report",
+        "parents": []
+      },
+      "entity": "urn:fixture:performance:asset-7",
+      "eventTime": {
+        "basis": "UTC",
+        "end": null,
+        "start": "2026-09-28T12:00:06Z"
+      },
+      "knownAt": "2026-09-28T12:00:07Z",
+      "lifecycle": {
+        "operation": "assert",
+        "target": null,
+        "validUntil": "2026-09-28T12:00:11Z"
+      },
+      "origin": "synthetic-fixture-not-sensor-data",
+      "predicate": "position",
+      "quality": {
+        "kind": "unknown"
+      },
+      "recordId": "urn:fixture:performance:6",
+      "rights": {
+        "expiresAt": "2026-09-28T12:05:00Z",
+        "prohibitedInferences": [
+          "biometric-identification",
+          "actuation-authorization"
+        ],
+        "purposes": [
+          "operations",
+          "review",
+          "xr"
+        ]
+      },
+      "role": "reported-measurement",
+      "schemaVersion": "0.5.0",
+      "sources": [
+        "urn:fixture:provider-A"
+      ],
+      "spatial": {
+        "frame": "urn:frame:performance:stage",
+        "orientation": {
+          "w": "1",
+          "x": "0",
+          "y": "0",
+          "z": "0"
+        },
+        "position": [
+          "6",
+          "2",
+          "0"
+        ],
+        "transformRefs": [
+          "urn:fixture:calibration:v1"
+        ],
+        "units": [
+          "m",
+          "m",
+          "m"
+        ]
+      }
+    },
+    {
+      "derivation": {
+        "branch": "historical",
+        "counterfactual": false,
+        "method": "fixture-position-report",
+        "parents": []
+      },
+      "entity": "urn:fixture:performance:asset-7",
+      "eventTime": {
+        "basis": "UTC",
+        "end": null,
+        "start": "2026-09-28T12:00:07Z"
+      },
+      "knownAt": "2026-09-28T12:00:08Z",
+      "lifecycle": {
+        "operation": "assert",
+        "target": null,
+        "validUntil": "2026-09-28T12:00:12Z"
+      },
+      "origin": "synthetic-fixture-not-sensor-data",
+      "predicate": "position",
+      "quality": {
+        "kind": "unknown"
+      },
+      "recordId": "urn:fixture:performance:7",
+      "rights": {
+        "expiresAt": "2026-09-28T12:05:00Z",
+        "prohibitedInferences": [
+          "biometric-identification",
+          "actuation-authorization"
+        ],
+        "purposes": [
+          "operations",
+          "review",
+          "xr"
+        ]
+      },
+      "role": "reported-measurement",
+      "schemaVersion": "0.5.0",
+      "sources": [
+        "urn:fixture:provider-A"
+      ],
+      "spatial": {
+        "frame": "urn:frame:performance:stage",
+        "orientation": {
+          "w": "1",
+          "x": "0",
+          "y": "0",
+          "z": "0"
+        },
+        "position": [
+          "7",
+          "2",
+          "0"
+        ],
+        "transformRefs": [
+          "urn:fixture:calibration:v1"
+        ],
+        "units": [
+          "m",
+          "m",
+          "m"
+        ]
+      }
+    },
+    {
+      "derivation": {
+        "branch": "historical",
+        "counterfactual": false,
+        "method": "fixture-position-report",
+        "parents": []
+      },
+      "entity": "urn:fixture:performance:asset-7",
+      "eventTime": {
+        "basis": "UTC",
+        "end": null,
+        "start": "2026-09-28T12:00:08Z"
+      },
+      "knownAt": "2026-09-28T12:00:09Z",
+      "lifecycle": {
+        "operation": "assert",
+        "target": null,
+        "validUntil": "2026-09-28T12:00:13Z"
+      },
+      "origin": "synthetic-fixture-not-sensor-data",
+      "predicate": "position",
+      "quality": {
+        "kind": "unknown"
+      },
+      "recordId": "urn:fixture:performance:8",
+      "rights": {
+        "expiresAt": "2026-09-28T12:05:00Z",
+        "prohibitedInferences": [
+          "biometric-identification",
+          "actuation-authorization"
+        ],
+        "purposes": [
+          "operations",
+          "review",
+          "xr"
+        ]
+      },
+      "role": "reported-measurement",
+      "schemaVersion": "0.5.0",
+      "sources": [
+        "urn:fixture:provider-A"
+      ],
+      "spatial": {
+        "frame": "urn:frame:performance:stage",
+        "orientation": {
+          "w": "1",
+          "x": "0",
+          "y": "0",
+          "z": "0"
+        },
+        "position": [
+          "8",
+          "2",
+          "0"
+        ],
+        "transformRefs": [
+          "urn:fixture:calibration:v1"
+        ],
+        "units": [
+          "m",
+          "m",
+          "m"
+        ]
+      }
+    },
+    {
+      "derivation": {
+        "branch": "historical",
+        "counterfactual": false,
+        "method": "fixture-position-report",
+        "parents": []
+      },
+      "entity": "urn:fixture:performance:asset-7",
+      "eventTime": {
+        "basis": "UTC",
+        "end": null,
+        "start": "2026-09-28T12:00:09Z"
+      },
+      "knownAt": "2026-09-28T12:00:10Z",
+      "lifecycle": {
+        "operation": "assert",
+        "target": null,
+        "validUntil": "2026-09-28T12:00:14Z"
+      },
+      "origin": "synthetic-fixture-not-sensor-data",
+      "predicate": "position",
+      "quality": {
+        "kind": "unknown"
+      },
+      "recordId": "urn:fixture:performance:9",
+      "rights": {
+        "expiresAt": "2026-09-28T12:05:00Z",
+        "prohibitedInferences": [
+          "biometric-identification",
+          "actuation-authorization"
+        ],
+        "purposes": [
+          "operations",
+          "review",
+          "xr"
+        ]
+      },
+      "role": "reported-measurement",
+      "schemaVersion": "0.5.0",
+      "sources": [
+        "urn:fixture:provider-A"
+      ],
+      "spatial": {
+        "frame": "urn:frame:performance:stage",
+        "orientation": {
+          "w": "1",
+          "x": "0",
+          "y": "0",
+          "z": "0"
+        },
+        "position": [
+          "9",
+          "2",
+          "0"
+        ],
+        "transformRefs": [
+          "urn:fixture:calibration:v1"
+        ],
+        "units": [
+          "m",
+          "m",
+          "m"
+        ]
+      }
+    },
+    {
+      "derivation": {
+        "branch": "historical",
+        "counterfactual": false,
+        "method": "fixture-position-report",
+        "parents": []
+      },
+      "entity": "urn:fixture:performance:asset-7",
+      "eventTime": {
+        "basis": "UTC",
+        "end": null,
+        "start": "2026-09-28T12:00:10Z"
+      },
+      "knownAt": "2026-09-28T12:00:11Z",
+      "lifecycle": {
+        "operation": "assert",
+        "target": null,
+        "validUntil": "2026-09-28T12:00:15Z"
+      },
+      "origin": "synthetic-fixture-not-sensor-data",
+      "predicate": "position",
+      "quality": {
+        "kind": "unknown"
+      },
+      "recordId": "urn:fixture:performance:10",
+      "rights": {
+        "expiresAt": "2026-09-28T12:05:00Z",
+        "prohibitedInferences": [
+          "biometric-identification",
+          "actuation-authorization"
+        ],
+        "purposes": [
+          "operations",
+          "review",
+          "xr"
+        ]
+      },
+      "role": "reported-measurement",
+      "schemaVersion": "0.5.0",
+      "sources": [
+        "urn:fixture:provider-A"
+      ],
+      "spatial": {
+        "frame": "urn:frame:performance:stage",
+        "orientation": {
+          "w": "1",
+          "x": "0",
+          "y": "0",
+          "z": "0"
+        },
+        "position": [
+          "10",
+          "2",
+          "0"
+        ],
+        "transformRefs": [
+          "urn:fixture:calibration:v1"
+        ],
+        "units": [
+          "m",
+          "m",
+          "m"
+        ]
+      }
+    },
+    {
+      "derivation": {
+        "branch": "historical",
+        "counterfactual": false,
+        "method": "fixture-position-report",
+        "parents": []
+      },
+      "entity": "urn:fixture:performance:asset-7",
+      "eventTime": {
+        "basis": "UTC",
+        "end": null,
+        "start": "2026-09-28T12:00:11Z"
+      },
+      "knownAt": "2026-09-28T12:00:12Z",
+      "lifecycle": {
+        "operation": "assert",
+        "target": null,
+        "validUntil": "2026-09-28T12:00:16Z"
+      },
+      "origin": "synthetic-fixture-not-sensor-data",
+      "predicate": "position",
+      "quality": {
+        "kind": "unknown"
+      },
+      "recordId": "urn:fixture:performance:11",
+      "rights": {
+        "expiresAt": "2026-09-28T12:05:00Z",
+        "prohibitedInferences": [
+          "biometric-identification",
+          "actuation-authorization"
+        ],
+        "purposes": [
+          "operations",
+          "review",
+          "xr"
+        ]
+      },
+      "role": "reported-measurement",
+      "schemaVersion": "0.5.0",
+      "sources": [
+        "urn:fixture:provider-A"
+      ],
+      "spatial": {
+        "frame": "urn:frame:performance:stage",
+        "orientation": {
+          "w": "1",
+          "x": "0",
+          "y": "0",
+          "z": "0"
+        },
+        "position": [
+          "11",
+          "2",
+          "0"
+        ],
+        "transformRefs": [
+          "urn:fixture:calibration:v1"
+        ],
+        "units": [
+          "m",
+          "m",
+          "m"
+        ]
+      }
+    },
+    {
+      "derivation": {
+        "branch": "historical",
+        "counterfactual": false,
+        "method": "fixture-position-report",
+        "parents": []
+      },
+      "entity": "urn:fixture:performance:asset-7",
+      "eventTime": {
+        "basis": "UTC",
+        "end": null,
+        "start": "2026-09-28T12:00:12Z"
+      },
+      "knownAt": "2026-09-28T12:00:13Z",
+      "lifecycle": {
+        "operation": "assert",
+        "target": null,
+        "validUntil": "2026-09-28T12:00:17Z"
+      },
+      "origin": "synthetic-fixture-not-sensor-data",
+      "predicate": "position",
+      "quality": {
+        "kind": "unknown"
+      },
+      "recordId": "urn:fixture:performance:12",
+      "rights": {
+        "expiresAt": "2026-09-28T12:05:00Z",
+        "prohibitedInferences": [
+          "biometric-identification",
+          "actuation-authorization"
+        ],
+        "purposes": [
+          "operations",
+          "review",
+          "xr"
+        ]
+      },
+      "role": "reported-measurement",
+      "schemaVersion": "0.5.0",
+      "sources": [
+        "urn:fixture:provider-A"
+      ],
+      "spatial": {
+        "frame": "urn:frame:performance:stage",
+        "orientation": {
+          "w": "1",
+          "x": "0",
+          "y": "0",
+          "z": "0"
+        },
+        "position": [
+          "12",
+          "2",
+          "0"
+        ],
+        "transformRefs": [
+          "urn:fixture:calibration:v1"
+        ],
+        "units": [
+          "m",
+          "m",
+          "m"
+        ]
+      }
+    },
+    {
+      "derivation": {
+        "branch": "historical",
+        "counterfactual": false,
+        "method": "fixture-position-report",
+        "parents": []
+      },
+      "entity": "urn:fixture:performance:asset-7",
+      "eventTime": {
+        "basis": "UTC",
+        "end": null,
+        "start": "2026-09-28T12:00:13Z"
+      },
+      "knownAt": "2026-09-28T12:00:14Z",
+      "lifecycle": {
+        "operation": "assert",
+        "target": null,
+        "validUntil": "2026-09-28T12:00:18Z"
+      },
+      "origin": "synthetic-fixture-not-sensor-data",
+      "predicate": "position",
+      "quality": {
+        "kind": "unknown"
+      },
+      "recordId": "urn:fixture:performance:13",
+      "rights": {
+        "expiresAt": "2026-09-28T12:05:00Z",
+        "prohibitedInferences": [
+          "biometric-identification",
+          "actuation-authorization"
+        ],
+        "purposes": [
+          "operations",
+          "review",
+          "xr"
+        ]
+      },
+      "role": "reported-measurement",
+      "schemaVersion": "0.5.0",
+      "sources": [
+        "urn:fixture:provider-A"
+      ],
+      "spatial": {
+        "frame": "urn:frame:performance:stage",
+        "orientation": {
+          "w": "1",
+          "x": "0",
+          "y": "0",
+          "z": "0"
+        },
+        "position": [
+          "13",
+          "2",
+          "0"
+        ],
+        "transformRefs": [
+          "urn:fixture:calibration:v1"
+        ],
+        "units": [
+          "m",
+          "m",
+          "m"
+        ]
+      }
+    },
+    {
+      "derivation": {
+        "branch": "historical",
+        "counterfactual": false,
+        "method": "fixture-position-report",
+        "parents": []
+      },
+      "entity": "urn:fixture:performance:asset-7",
+      "eventTime": {
+        "basis": "UTC",
+        "end": null,
+        "start": "2026-09-28T12:00:14Z"
+      },
+      "knownAt": "2026-09-28T12:00:15Z",
+      "lifecycle": {
+        "operation": "assert",
+        "target": null,
+        "validUntil": "2026-09-28T12:00:19Z"
+      },
+      "origin": "synthetic-fixture-not-sensor-data",
+      "predicate": "position",
+      "quality": {
+        "kind": "unknown"
+      },
+      "recordId": "urn:fixture:performance:14",
+      "rights": {
+        "expiresAt": "2026-09-28T12:05:00Z",
+        "prohibitedInferences": [
+          "biometric-identification",
+          "actuation-authorization"
+        ],
+        "purposes": [
+          "operations",
+          "review",
+          "xr"
+        ]
+      },
+      "role": "reported-measurement",
+      "schemaVersion": "0.5.0",
+      "sources": [
+        "urn:fixture:provider-A"
+      ],
+      "spatial": {
+        "frame": "urn:frame:performance:stage",
+        "orientation": {
+          "w": "1",
+          "x": "0",
+          "y": "0",
+          "z": "0"
+        },
+        "position": [
+          "14",
+          "2",
+          "0"
+        ],
+        "transformRefs": [
+          "urn:fixture:calibration:v1"
+        ],
+        "units": [
+          "m",
+          "m",
+          "m"
+        ]
+      }
+    },
+    {
+      "derivation": {
+        "branch": "historical",
+        "counterfactual": false,
+        "method": "fixture-position-report",
+        "parents": []
+      },
+      "entity": "urn:fixture:performance:asset-7",
+      "eventTime": {
+        "basis": "UTC",
+        "end": null,
+        "start": "2026-09-28T12:00:15Z"
+      },
+      "knownAt": "2026-09-28T12:00:16Z",
+      "lifecycle": {
+        "operation": "assert",
+        "target": null,
+        "validUntil": "2026-09-28T12:00:20Z"
+      },
+      "origin": "synthetic-fixture-not-sensor-data",
+      "predicate": "position",
+      "quality": {
+        "kind": "unknown"
+      },
+      "recordId": "urn:fixture:performance:15",
+      "rights": {
+        "expiresAt": "2026-09-28T12:05:00Z",
+        "prohibitedInferences": [
+          "biometric-identification",
+          "actuation-authorization"
+        ],
+        "purposes": [
+          "operations",
+          "review",
+          "xr"
+        ]
+      },
+      "role": "reported-measurement",
+      "schemaVersion": "0.5.0",
+      "sources": [
+        "urn:fixture:provider-A"
+      ],
+      "spatial": {
+        "frame": "urn:frame:performance:stage",
+        "orientation": {
+          "w": "1",
+          "x": "0",
+          "y": "0",
+          "z": "0"
+        },
+        "position": [
+          "15",
+          "2",
+          "0"
+        ],
+        "transformRefs": [
+          "urn:fixture:calibration:v1"
+        ],
+        "units": [
+          "m",
+          "m",
+          "m"
+        ]
+      }
+    },
+    {
+      "derivation": {
+        "branch": "historical",
+        "counterfactual": false,
+        "method": "fixture-position-report",
+        "parents": []
+      },
+      "entity": "urn:fixture:performance:asset-7",
+      "eventTime": {
+        "basis": "UTC",
+        "end": null,
+        "start": "2026-09-28T12:00:16Z"
+      },
+      "knownAt": "2026-09-28T12:00:17Z",
+      "lifecycle": {
+        "operation": "assert",
+        "target": null,
+        "validUntil": "2026-09-28T12:00:21Z"
+      },
+      "origin": "synthetic-fixture-not-sensor-data",
+      "predicate": "position",
+      "quality": {
+        "kind": "unknown"
+      },
+      "recordId": "urn:fixture:performance:16",
+      "rights": {
+        "expiresAt": "2026-09-28T12:05:00Z",
+        "prohibitedInferences": [
+          "biometric-identification",
+          "actuation-authorization"
+        ],
+        "purposes": [
+          "operations",
+          "review",
+          "xr"
+        ]
+      },
+      "role": "reported-measurement",
+      "schemaVersion": "0.5.0",
+      "sources": [
+        "urn:fixture:provider-A"
+      ],
+      "spatial": {
+        "frame": "urn:frame:performance:stage",
+        "orientation": {
+          "w": "1",
+          "x": "0",
+          "y": "0",
+          "z": "0"
+        },
+        "position": [
+          "16",
+          "2",
+          "0"
+        ],
+        "transformRefs": [
+          "urn:fixture:calibration:v1"
+        ],
+        "units": [
+          "m",
+          "m",
+          "m"
+        ]
+      }
+    },
+    {
+      "derivation": {
+        "branch": "historical",
+        "counterfactual": false,
+        "method": "fixture-position-report",
+        "parents": []
+      },
+      "entity": "urn:fixture:performance:asset-7",
+      "eventTime": {
+        "basis": "UTC",
+        "end": null,
+        "start": "2026-09-28T12:00:17Z"
+      },
+      "knownAt": "2026-09-28T12:00:18Z",
+      "lifecycle": {
+        "operation": "assert",
+        "target": null,
+        "validUntil": "2026-09-28T12:00:22Z"
+      },
+      "origin": "synthetic-fixture-not-sensor-data",
+      "predicate": "position",
+      "quality": {
+        "kind": "unknown"
+      },
+      "recordId": "urn:fixture:performance:17",
+      "rights": {
+        "expiresAt": "2026-09-28T12:05:00Z",
+        "prohibitedInferences": [
+          "biometric-identification",
+          "actuation-authorization"
+        ],
+        "purposes": [
+          "operations",
+          "review",
+          "xr"
+        ]
+      },
+      "role": "reported-measurement",
+      "schemaVersion": "0.5.0",
+      "sources": [
+        "urn:fixture:provider-A"
+      ],
+      "spatial": {
+        "frame": "urn:frame:performance:stage",
+        "orientation": {
+          "w": "1",
+          "x": "0",
+          "y": "0",
+          "z": "0"
+        },
+        "position": [
+          "17",
+          "2",
+          "0"
+        ],
+        "transformRefs": [
+          "urn:fixture:calibration:v1"
+        ],
+        "units": [
+          "m",
+          "m",
+          "m"
+        ]
+      }
+    },
+    {
+      "derivation": {
+        "branch": "historical",
+        "counterfactual": false,
+        "method": "fixture-position-report",
+        "parents": []
+      },
+      "entity": "urn:fixture:performance:asset-7",
+      "eventTime": {
+        "basis": "UTC",
+        "end": null,
+        "start": "2026-09-28T12:00:18Z"
+      },
+      "knownAt": "2026-09-28T12:00:19Z",
+      "lifecycle": {
+        "operation": "assert",
+        "target": null,
+        "validUntil": "2026-09-28T12:00:23Z"
+      },
+      "origin": "synthetic-fixture-not-sensor-data",
+      "predicate": "position",
+      "quality": {
+        "kind": "unknown"
+      },
+      "recordId": "urn:fixture:performance:18",
+      "rights": {
+        "expiresAt": "2026-09-28T12:05:00Z",
+        "prohibitedInferences": [
+          "biometric-identification",
+          "actuation-authorization"
+        ],
+        "purposes": [
+          "operations",
+          "review",
+          "xr"
+        ]
+      },
+      "role": "reported-measurement",
+      "schemaVersion": "0.5.0",
+      "sources": [
+        "urn:fixture:provider-A"
+      ],
+      "spatial": {
+        "frame": "urn:frame:performance:stage",
+        "orientation": {
+          "w": "1",
+          "x": "0",
+          "y": "0",
+          "z": "0"
+        },
+        "position": [
+          "18",
+          "2",
+          "0"
+        ],
+        "transformRefs": [
+          "urn:fixture:calibration:v1"
+        ],
+        "units": [
+          "m",
+          "m",
+          "m"
+        ]
+      }
+    },
+    {
+      "derivation": {
+        "branch": "historical",
+        "counterfactual": false,
+        "method": "fixture-position-report",
+        "parents": []
+      },
+      "entity": "urn:fixture:performance:asset-7",
+      "eventTime": {
+        "basis": "UTC",
+        "end": null,
+        "start": "2026-09-28T12:00:19Z"
+      },
+      "knownAt": "2026-09-28T12:00:20Z",
+      "lifecycle": {
+        "operation": "assert",
+        "target": null,
+        "validUntil": "2026-09-28T12:00:24Z"
+      },
+      "origin": "synthetic-fixture-not-sensor-data",
+      "predicate": "position",
+      "quality": {
+        "kind": "unknown"
+      },
+      "recordId": "urn:fixture:performance:19",
+      "rights": {
+        "expiresAt": "2026-09-28T12:05:00Z",
+        "prohibitedInferences": [
+          "biometric-identification",
+          "actuation-authorization"
+        ],
+        "purposes": [
+          "operations",
+          "review",
+          "xr"
+        ]
+      },
+      "role": "reported-measurement",
+      "schemaVersion": "0.5.0",
+      "sources": [
+        "urn:fixture:provider-A"
+      ],
+      "spatial": {
+        "frame": "urn:frame:performance:stage",
+        "orientation": {
+          "w": "1",
+          "x": "0",
+          "y": "0",
+          "z": "0"
+        },
+        "position": [
+          "19",
+          "2",
+          "0"
+        ],
+        "transformRefs": [
+          "urn:fixture:calibration:v1"
+        ],
+        "units": [
+          "m",
+          "m",
+          "m"
+        ]
+      }
+    },
+    {
+      "derivation": {
+        "branch": "historical",
+        "counterfactual": false,
+        "method": "fixture-position-report",
+        "parents": []
+      },
+      "entity": "urn:fixture:performance:asset-7",
+      "eventTime": {
+        "basis": "UTC",
+        "end": null,
+        "start": "2026-09-28T12:00:20Z"
+      },
+      "knownAt": "2026-09-28T12:00:21Z",
+      "lifecycle": {
+        "operation": "assert",
+        "target": null,
+        "validUntil": "2026-09-28T12:00:25Z"
+      },
+      "origin": "synthetic-fixture-not-sensor-data",
+      "predicate": "position",
+      "quality": {
+        "kind": "unknown"
+      },
+      "recordId": "urn:fixture:performance:20",
+      "rights": {
+        "expiresAt": "2026-09-28T12:05:00Z",
+        "prohibitedInferences": [
+          "biometric-identification",
+          "actuation-authorization"
+        ],
+        "purposes": [
+          "operations",
+          "review",
+          "xr"
+        ]
+      },
+      "role": "reported-measurement",
+      "schemaVersion": "0.5.0",
+      "sources": [
+        "urn:fixture:provider-A"
+      ],
+      "spatial": {
+        "frame": "urn:frame:performance:stage",
+        "orientation": {
+          "w": "1",
+          "x": "0",
+          "y": "0",
+          "z": "0"
+        },
+        "position": [
+          "20",
+          "2",
+          "0"
+        ],
+        "transformRefs": [
+          "urn:fixture:calibration:v1"
+        ],
+        "units": [
+          "m",
+          "m",
+          "m"
+        ]
+      }
+    },
+    {
+      "derivation": {
+        "branch": "historical",
+        "counterfactual": false,
+        "method": "fixture-position-report",
+        "parents": []
+      },
+      "entity": "urn:fixture:performance:asset-7",
+      "eventTime": {
+        "basis": "UTC",
+        "end": null,
+        "start": "2026-09-28T12:00:21Z"
+      },
+      "knownAt": "2026-09-28T12:00:22Z",
+      "lifecycle": {
+        "operation": "assert",
+        "target": null,
+        "validUntil": "2026-09-28T12:00:26Z"
+      },
+      "origin": "synthetic-fixture-not-sensor-data",
+      "predicate": "position",
+      "quality": {
+        "kind": "unknown"
+      },
+      "recordId": "urn:fixture:performance:21",
+      "rights": {
+        "expiresAt": "2026-09-28T12:05:00Z",
+        "prohibitedInferences": [
+          "biometric-identification",
+          "actuation-authorization"
+        ],
+        "purposes": [
+          "operations",
+          "review",
+          "xr"
+        ]
+      },
+      "role": "reported-measurement",
+      "schemaVersion": "0.5.0",
+      "sources": [
+        "urn:fixture:provider-A"
+      ],
+      "spatial": {
+        "frame": "urn:frame:performance:stage",
+        "orientation": {
+          "w": "1",
+          "x": "0",
+          "y": "0",
+          "z": "0"
+        },
+        "position": [
+          "21",
+          "2",
+          "0"
+        ],
+        "transformRefs": [
+          "urn:fixture:calibration:v1"
+        ],
+        "units": [
+          "m",
+          "m",
+          "m"
+        ]
+      }
+    },
+    {
+      "derivation": {
+        "branch": "historical",
+        "counterfactual": false,
+        "method": "fixture-position-report",
+        "parents": []
+      },
+      "entity": "urn:fixture:performance:asset-7",
+      "eventTime": {
+        "basis": "UTC",
+        "end": null,
+        "start": "2026-09-28T12:00:22Z"
+      },
+      "knownAt": "2026-09-28T12:00:23Z",
+      "lifecycle": {
+        "operation": "assert",
+        "target": null,
+        "validUntil": "2026-09-28T12:00:27Z"
+      },
+      "origin": "synthetic-fixture-not-sensor-data",
+      "predicate": "position",
+      "quality": {
+        "kind": "unknown"
+      },
+      "recordId": "urn:fixture:performance:22",
+      "rights": {
+        "expiresAt": "2026-09-28T12:05:00Z",
+        "prohibitedInferences": [
+          "biometric-identification",
+          "actuation-authorization"
+        ],
+        "purposes": [
+          "operations",
+          "review",
+          "xr"
+        ]
+      },
+      "role": "reported-measurement",
+      "schemaVersion": "0.5.0",
+      "sources": [
+        "urn:fixture:provider-A"
+      ],
+      "spatial": {
+        "frame": "urn:frame:performance:stage",
+        "orientation": {
+          "w": "1",
+          "x": "0",
+          "y": "0",
+          "z": "0"
+        },
+        "position": [
+          "22",
+          "2",
+          "0"
+        ],
+        "transformRefs": [
+          "urn:fixture:calibration:v1"
+        ],
+        "units": [
+          "m",
+          "m",
+          "m"
+        ]
+      }
+    },
+    {
+      "derivation": {
+        "branch": "historical",
+        "counterfactual": false,
+        "method": "fixture-position-report",
+        "parents": []
+      },
+      "entity": "urn:fixture:performance:asset-7",
+      "eventTime": {
+        "basis": "UTC",
+        "end": null,
+        "start": "2026-09-28T12:00:23Z"
+      },
+      "knownAt": "2026-09-28T12:00:24Z",
+      "lifecycle": {
+        "operation": "assert",
+        "target": null,
+        "validUntil": "2026-09-28T12:00:28Z"
+      },
+      "origin": "synthetic-fixture-not-sensor-data",
+      "predicate": "position",
+      "quality": {
+        "kind": "unknown"
+      },
+      "recordId": "urn:fixture:performance:23",
+      "rights": {
+        "expiresAt": "2026-09-28T12:05:00Z",
+        "prohibitedInferences": [
+          "biometric-identification",
+          "actuation-authorization"
+        ],
+        "purposes": [
+          "operations",
+          "review",
+          "xr"
+        ]
+      },
+      "role": "reported-measurement",
+      "schemaVersion": "0.5.0",
+      "sources": [
+        "urn:fixture:provider-A"
+      ],
+      "spatial": {
+        "frame": "urn:frame:performance:stage",
+        "orientation": {
+          "w": "1",
+          "x": "0",
+          "y": "0",
+          "z": "0"
+        },
+        "position": [
+          "23",
+          "2",
+          "0"
+        ],
+        "transformRefs": [
+          "urn:fixture:calibration:v1"
+        ],
+        "units": [
+          "m",
+          "m",
+          "m"
+        ]
+      }
+    },
+    {
+      "derivation": {
+        "branch": "historical",
+        "counterfactual": false,
+        "method": "fixture-position-report",
+        "parents": []
+      },
+      "entity": "urn:fixture:performance:asset-7",
+      "eventTime": {
+        "basis": "UTC",
+        "end": null,
+        "start": "2026-09-28T12:00:24Z"
+      },
+      "knownAt": "2026-09-28T12:00:25Z",
+      "lifecycle": {
+        "operation": "assert",
+        "target": null,
+        "validUntil": "2026-09-28T12:00:29Z"
+      },
+      "origin": "synthetic-fixture-not-sensor-data",
+      "predicate": "position",
+      "quality": {
+        "kind": "unknown"
+      },
+      "recordId": "urn:fixture:performance:24",
+      "rights": {
+        "expiresAt": "2026-09-28T12:05:00Z",
+        "prohibitedInferences": [
+          "biometric-identification",
+          "actuation-authorization"
+        ],
+        "purposes": [
+          "operations",
+          "review",
+          "xr"
+        ]
+      },
+      "role": "reported-measurement",
+      "schemaVersion": "0.5.0",
+      "sources": [
+        "urn:fixture:provider-A"
+      ],
+      "spatial": {
+        "frame": "urn:frame:performance:stage",
+        "orientation": {
+          "w": "1",
+          "x": "0",
+          "y": "0",
+          "z": "0"
+        },
+        "position": [
+          "24",
+          "2",
+          "0"
+        ],
+        "transformRefs": [
+          "urn:fixture:calibration:v1"
+        ],
+        "units": [
+          "m",
+          "m",
+          "m"
+        ]
+      }
+    },
+    {
+      "derivation": {
+        "branch": "historical",
+        "counterfactual": false,
+        "method": "fixture-position-report",
+        "parents": []
+      },
+      "entity": "urn:fixture:performance:asset-7",
+      "eventTime": {
+        "basis": "UTC",
+        "end": null,
+        "start": "2026-09-28T12:00:25Z"
+      },
+      "knownAt": "2026-09-28T12:00:26Z",
+      "lifecycle": {
+        "operation": "assert",
+        "target": null,
+        "validUntil": "2026-09-28T12:00:30Z"
+      },
+      "origin": "synthetic-fixture-not-sensor-data",
+      "predicate": "position",
+      "quality": {
+        "kind": "unknown"
+      },
+      "recordId": "urn:fixture:performance:25",
+      "rights": {
+        "expiresAt": "2026-09-28T12:05:00Z",
+        "prohibitedInferences": [
+          "biometric-identification",
+          "actuation-authorization"
+        ],
+        "purposes": [
+          "operations",
+          "review",
+          "xr"
+        ]
+      },
+      "role": "reported-measurement",
+      "schemaVersion": "0.5.0",
+      "sources": [
+        "urn:fixture:provider-A"
+      ],
+      "spatial": {
+        "frame": "urn:frame:performance:stage",
+        "orientation": {
+          "w": "1",
+          "x": "0",
+          "y": "0",
+          "z": "0"
+        },
+        "position": [
+          "25",
+          "2",
+          "0"
+        ],
+        "transformRefs": [
+          "urn:fixture:calibration:v1"
+        ],
+        "units": [
+          "m",
+          "m",
+          "m"
+        ]
+      }
+    },
+    {
+      "derivation": {
+        "branch": "historical",
+        "counterfactual": false,
+        "method": "fixture-position-report",
+        "parents": []
+      },
+      "entity": "urn:fixture:performance:asset-7",
+      "eventTime": {
+        "basis": "UTC",
+        "end": null,
+        "start": "2026-09-28T12:00:26Z"
+      },
+      "knownAt": "2026-09-28T12:00:27Z",
+      "lifecycle": {
+        "operation": "assert",
+        "target": null,
+        "validUntil": "2026-09-28T12:00:31Z"
+      },
+      "origin": "synthetic-fixture-not-sensor-data",
+      "predicate": "position",
+      "quality": {
+        "kind": "unknown"
+      },
+      "recordId": "urn:fixture:performance:26",
+      "rights": {
+        "expiresAt": "2026-09-28T12:05:00Z",
+        "prohibitedInferences": [
+          "biometric-identification",
+          "actuation-authorization"
+        ],
+        "purposes": [
+          "operations",
+          "review",
+          "xr"
+        ]
+      },
+      "role": "reported-measurement",
+      "schemaVersion": "0.5.0",
+      "sources": [
+        "urn:fixture:provider-A"
+      ],
+      "spatial": {
+        "frame": "urn:frame:performance:stage",
+        "orientation": {
+          "w": "1",
+          "x": "0",
+          "y": "0",
+          "z": "0"
+        },
+        "position": [
+          "26",
+          "2",
+          "0"
+        ],
+        "transformRefs": [
+          "urn:fixture:calibration:v1"
+        ],
+        "units": [
+          "m",
+          "m",
+          "m"
+        ]
+      }
+    },
+    {
+      "derivation": {
+        "branch": "historical",
+        "counterfactual": false,
+        "method": "fixture-position-report",
+        "parents": []
+      },
+      "entity": "urn:fixture:performance:asset-7",
+      "eventTime": {
+        "basis": "UTC",
+        "end": null,
+        "start": "2026-09-28T12:00:27Z"
+      },
+      "knownAt": "2026-09-28T12:00:28Z",
+      "lifecycle": {
+        "operation": "assert",
+        "target": null,
+        "validUntil": "2026-09-28T12:00:32Z"
+      },
+      "origin": "synthetic-fixture-not-sensor-data",
+      "predicate": "position",
+      "quality": {
+        "kind": "unknown"
+      },
+      "recordId": "urn:fixture:performance:27",
+      "rights": {
+        "expiresAt": "2026-09-28T12:05:00Z",
+        "prohibitedInferences": [
+          "biometric-identification",
+          "actuation-authorization"
+        ],
+        "purposes": [
+          "operations",
+          "review",
+          "xr"
+        ]
+      },
+      "role": "reported-measurement",
+      "schemaVersion": "0.5.0",
+      "sources": [
+        "urn:fixture:provider-A"
+      ],
+      "spatial": {
+        "frame": "urn:frame:performance:stage",
+        "orientation": {
+          "w": "1",
+          "x": "0",
+          "y": "0",
+          "z": "0"
+        },
+        "position": [
+          "27",
+          "2",
+          "0"
+        ],
+        "transformRefs": [
+          "urn:fixture:calibration:v1"
+        ],
+        "units": [
+          "m",
+          "m",
+          "m"
+        ]
+      }
+    },
+    {
+      "derivation": {
+        "branch": "historical",
+        "counterfactual": false,
+        "method": "fixture-position-report",
+        "parents": []
+      },
+      "entity": "urn:fixture:performance:asset-7",
+      "eventTime": {
+        "basis": "UTC",
+        "end": null,
+        "start": "2026-09-28T12:00:28Z"
+      },
+      "knownAt": "2026-09-28T12:00:29Z",
+      "lifecycle": {
+        "operation": "assert",
+        "target": null,
+        "validUntil": "2026-09-28T12:00:33Z"
+      },
+      "origin": "synthetic-fixture-not-sensor-data",
+      "predicate": "position",
+      "quality": {
+        "kind": "unknown"
+      },
+      "recordId": "urn:fixture:performance:28",
+      "rights": {
+        "expiresAt": "2026-09-28T12:05:00Z",
+        "prohibitedInferences": [
+          "biometric-identification",
+          "actuation-authorization"
+        ],
+        "purposes": [
+          "operations",
+          "review",
+          "xr"
+        ]
+      },
+      "role": "reported-measurement",
+      "schemaVersion": "0.5.0",
+      "sources": [
+        "urn:fixture:provider-A"
+      ],
+      "spatial": {
+        "frame": "urn:frame:performance:stage",
+        "orientation": {
+          "w": "1",
+          "x": "0",
+          "y": "0",
+          "z": "0"
+        },
+        "position": [
+          "28",
+          "2",
+          "0"
+        ],
+        "transformRefs": [
+          "urn:fixture:calibration:v1"
+        ],
+        "units": [
+          "m",
+          "m",
+          "m"
+        ]
+      }
+    },
+    {
+      "derivation": {
+        "branch": "historical",
+        "counterfactual": false,
+        "method": "fixture-position-report",
+        "parents": []
+      },
+      "entity": "urn:fixture:performance:asset-7",
+      "eventTime": {
+        "basis": "UTC",
+        "end": null,
+        "start": "2026-09-28T12:00:29Z"
+      },
+      "knownAt": "2026-09-28T12:00:30Z",
+      "lifecycle": {
+        "operation": "assert",
+        "target": null,
+        "validUntil": "2026-09-28T12:00:34Z"
+      },
+      "origin": "synthetic-fixture-not-sensor-data",
+      "predicate": "position",
+      "quality": {
+        "kind": "unknown"
+      },
+      "recordId": "urn:fixture:performance:29",
+      "rights": {
+        "expiresAt": "2026-09-28T12:05:00Z",
+        "prohibitedInferences": [
+          "biometric-identification",
+          "actuation-authorization"
+        ],
+        "purposes": [
+          "operations",
+          "review",
+          "xr"
+        ]
+      },
+      "role": "reported-measurement",
+      "schemaVersion": "0.5.0",
+      "sources": [
+        "urn:fixture:provider-A"
+      ],
+      "spatial": {
+        "frame": "urn:frame:performance:stage",
+        "orientation": {
+          "w": "1",
+          "x": "0",
+          "y": "0",
+          "z": "0"
+        },
+        "position": [
+          "29",
+          "2",
+          "0"
+        ],
+        "transformRefs": [
+          "urn:fixture:calibration:v1"
+        ],
+        "units": [
+          "m",
+          "m",
+          "m"
+        ]
+      }
+    },
+    {
+      "derivation": {
+        "branch": "historical",
+        "counterfactual": false,
+        "method": "fixture-position-report",
+        "parents": []
+      },
+      "entity": "urn:fixture:performance:asset-7",
+      "eventTime": {
+        "basis": "UTC",
+        "end": null,
+        "start": "2026-09-28T12:00:30Z"
+      },
+      "knownAt": "2026-09-28T12:00:31Z",
+      "lifecycle": {
+        "operation": "assert",
+        "target": null,
+        "validUntil": "2026-09-28T12:00:35Z"
+      },
+      "origin": "synthetic-fixture-not-sensor-data",
+      "predicate": "position",
+      "quality": {
+        "kind": "unknown"
+      },
+      "recordId": "urn:fixture:performance:30",
+      "rights": {
+        "expiresAt": "2026-09-28T12:05:00Z",
+        "prohibitedInferences": [
+          "biometric-identification",
+          "actuation-authorization"
+        ],
+        "purposes": [
+          "operations",
+          "review",
+          "xr"
+        ]
+      },
+      "role": "reported-measurement",
+      "schemaVersion": "0.5.0",
+      "sources": [
+        "urn:fixture:provider-A"
+      ],
+      "spatial": {
+        "frame": "urn:frame:performance:stage",
+        "orientation": {
+          "w": "1",
+          "x": "0",
+          "y": "0",
+          "z": "0"
+        },
+        "position": [
+          "30",
+          "2",
+          "0"
+        ],
+        "transformRefs": [
+          "urn:fixture:calibration:v1"
+        ],
+        "units": [
+          "m",
+          "m",
+          "m"
+        ]
+      }
+    },
+    {
+      "derivation": {
+        "branch": "historical",
+        "counterfactual": false,
+        "method": "fixture-position-report",
+        "parents": []
+      },
+      "entity": "urn:fixture:performance:asset-7",
+      "eventTime": {
+        "basis": "UTC",
+        "end": null,
+        "start": "2026-09-28T12:00:31Z"
+      },
+      "knownAt": "2026-09-28T12:00:32Z",
+      "lifecycle": {
+        "operation": "assert",
+        "target": null,
+        "validUntil": "2026-09-28T12:00:36Z"
+      },
+      "origin": "synthetic-fixture-not-sensor-data",
+      "predicate": "position",
+      "quality": {
+        "kind": "unknown"
+      },
+      "recordId": "urn:fixture:performance:31",
+      "rights": {
+        "expiresAt": "2026-09-28T12:05:00Z",
+        "prohibitedInferences": [
+          "biometric-identification",
+          "actuation-authorization"
+        ],
+        "purposes": [
+          "operations",
+          "review",
+          "xr"
+        ]
+      },
+      "role": "reported-measurement",
+      "schemaVersion": "0.5.0",
+      "sources": [
+        "urn:fixture:provider-A"
+      ],
+      "spatial": {
+        "frame": "urn:frame:performance:stage",
+        "orientation": {
+          "w": "1",
+          "x": "0",
+          "y": "0",
+          "z": "0"
+        },
+        "position": [
+          "31",
+          "2",
+          "0"
+        ],
+        "transformRefs": [
+          "urn:fixture:calibration:v1"
+        ],
+        "units": [
+          "m",
+          "m",
+          "m"
+        ]
+      }
+    },
+    {
+      "derivation": {
+        "branch": "historical",
+        "counterfactual": false,
+        "method": "fixture-position-report",
+        "parents": []
+      },
+      "entity": "urn:fixture:performance:asset-7",
+      "eventTime": {
+        "basis": "UTC",
+        "end": null,
+        "start": "2026-09-28T12:00:32Z"
+      },
+      "knownAt": "2026-09-28T12:00:33Z",
+      "lifecycle": {
+        "operation": "assert",
+        "target": null,
+        "validUntil": "2026-09-28T12:00:37Z"
+      },
+      "origin": "synthetic-fixture-not-sensor-data",
+      "predicate": "position",
+      "quality": {
+        "kind": "unknown"
+      },
+      "recordId": "urn:fixture:performance:32",
+      "rights": {
+        "expiresAt": "2026-09-28T12:05:00Z",
+        "prohibitedInferences": [
+          "biometric-identification",
+          "actuation-authorization"
+        ],
+        "purposes": [
+          "operations",
+          "review",
+          "xr"
+        ]
+      },
+      "role": "reported-measurement",
+      "schemaVersion": "0.5.0",
+      "sources": [
+        "urn:fixture:provider-A"
+      ],
+      "spatial": {
+        "frame": "urn:frame:performance:stage",
+        "orientation": {
+          "w": "1",
+          "x": "0",
+          "y": "0",
+          "z": "0"
+        },
+        "position": [
+          "32",
+          "2",
+          "0"
+        ],
+        "transformRefs": [
+          "urn:fixture:calibration:v1"
+        ],
+        "units": [
+          "m",
+          "m",
+          "m"
+        ]
+      }
+    },
+    {
+      "derivation": {
+        "branch": "historical",
+        "counterfactual": false,
+        "method": "fixture-position-report",
+        "parents": []
+      },
+      "entity": "urn:fixture:performance:asset-7",
+      "eventTime": {
+        "basis": "UTC",
+        "end": null,
+        "start": "2026-09-28T12:00:33Z"
+      },
+      "knownAt": "2026-09-28T12:00:34Z",
+      "lifecycle": {
+        "operation": "assert",
+        "target": null,
+        "validUntil": "2026-09-28T12:00:38Z"
+      },
+      "origin": "synthetic-fixture-not-sensor-data",
+      "predicate": "position",
+      "quality": {
+        "kind": "unknown"
+      },
+      "recordId": "urn:fixture:performance:33",
+      "rights": {
+        "expiresAt": "2026-09-28T12:05:00Z",
+        "prohibitedInferences": [
+          "biometric-identification",
+          "actuation-authorization"
+        ],
+        "purposes": [
+          "operations",
+          "review",
+          "xr"
+        ]
+      },
+      "role": "reported-measurement",
+      "schemaVersion": "0.5.0",
+      "sources": [
+        "urn:fixture:provider-A"
+      ],
+      "spatial": {
+        "frame": "urn:frame:performance:stage",
+        "orientation": {
+          "w": "1",
+          "x": "0",
+          "y": "0",
+          "z": "0"
+        },
+        "position": [
+          "33",
+          "2",
+          "0"
+        ],
+        "transformRefs": [
+          "urn:fixture:calibration:v1"
+        ],
+        "units": [
+          "m",
+          "m",
+          "m"
+        ]
+      }
+    },
+    {
+      "derivation": {
+        "branch": "historical",
+        "counterfactual": false,
+        "method": "fixture-position-report",
+        "parents": []
+      },
+      "entity": "urn:fixture:performance:asset-7",
+      "eventTime": {
+        "basis": "UTC",
+        "end": null,
+        "start": "2026-09-28T12:00:34Z"
+      },
+      "knownAt": "2026-09-28T12:00:35Z",
+      "lifecycle": {
+        "operation": "assert",
+        "target": null,
+        "validUntil": "2026-09-28T12:00:39Z"
+      },
+      "origin": "synthetic-fixture-not-sensor-data",
+      "predicate": "position",
+      "quality": {
+        "kind": "unknown"
+      },
+      "recordId": "urn:fixture:performance:34",
+      "rights": {
+        "expiresAt": "2026-09-28T12:05:00Z",
+        "prohibitedInferences": [
+          "biometric-identification",
+          "actuation-authorization"
+        ],
+        "purposes": [
+          "operations",
+          "review",
+          "xr"
+        ]
+      },
+      "role": "reported-measurement",
+      "schemaVersion": "0.5.0",
+      "sources": [
+        "urn:fixture:provider-A"
+      ],
+      "spatial": {
+        "frame": "urn:frame:performance:stage",
+        "orientation": {
+          "w": "1",
+          "x": "0",
+          "y": "0",
+          "z": "0"
+        },
+        "position": [
+          "34",
+          "2",
+          "0"
+        ],
+        "transformRefs": [
+          "urn:fixture:calibration:v1"
+        ],
+        "units": [
+          "m",
+          "m",
+          "m"
+        ]
+      }
+    },
+    {
+      "derivation": {
+        "branch": "historical",
+        "counterfactual": false,
+        "method": "fixture-position-report",
+        "parents": []
+      },
+      "entity": "urn:fixture:performance:asset-7",
+      "eventTime": {
+        "basis": "UTC",
+        "end": null,
+        "start": "2026-09-28T12:00:35Z"
+      },
+      "knownAt": "2026-09-28T12:00:36Z",
+      "lifecycle": {
+        "operation": "assert",
+        "target": null,
+        "validUntil": "2026-09-28T12:00:40Z"
+      },
+      "origin": "synthetic-fixture-not-sensor-data",
+      "predicate": "position",
+      "quality": {
+        "kind": "unknown"
+      },
+      "recordId": "urn:fixture:performance:35",
+      "rights": {
+        "expiresAt": "2026-09-28T12:05:00Z",
+        "prohibitedInferences": [
+          "biometric-identification",
+          "actuation-authorization"
+        ],
+        "purposes": [
+          "operations",
+          "review",
+          "xr"
+        ]
+      },
+      "role": "reported-measurement",
+      "schemaVersion": "0.5.0",
+      "sources": [
+        "urn:fixture:provider-A"
+      ],
+      "spatial": {
+        "frame": "urn:frame:performance:stage",
+        "orientation": {
+          "w": "1",
+          "x": "0",
+          "y": "0",
+          "z": "0"
+        },
+        "position": [
+          "35",
+          "2",
+          "0"
+        ],
+        "transformRefs": [
+          "urn:fixture:calibration:v1"
+        ],
+        "units": [
+          "m",
+          "m",
+          "m"
+        ]
+      }
+    },
+    {
+      "derivation": {
+        "branch": "historical",
+        "counterfactual": false,
+        "method": "fixture-position-report",
+        "parents": []
+      },
+      "entity": "urn:fixture:performance:asset-7",
+      "eventTime": {
+        "basis": "UTC",
+        "end": null,
+        "start": "2026-09-28T12:00:36Z"
+      },
+      "knownAt": "2026-09-28T12:00:37Z",
+      "lifecycle": {
+        "operation": "assert",
+        "target": null,
+        "validUntil": "2026-09-28T12:00:41Z"
+      },
+      "origin": "synthetic-fixture-not-sensor-data",
+      "predicate": "position",
+      "quality": {
+        "kind": "unknown"
+      },
+      "recordId": "urn:fixture:performance:36",
+      "rights": {
+        "expiresAt": "2026-09-28T12:05:00Z",
+        "prohibitedInferences": [
+          "biometric-identification",
+          "actuation-authorization"
+        ],
+        "purposes": [
+          "operations",
+          "review",
+          "xr"
+        ]
+      },
+      "role": "reported-measurement",
+      "schemaVersion": "0.5.0",
+      "sources": [
+        "urn:fixture:provider-A"
+      ],
+      "spatial": {
+        "frame": "urn:frame:performance:stage",
+        "orientation": {
+          "w": "1",
+          "x": "0",
+          "y": "0",
+          "z": "0"
+        },
+        "position": [
+          "36",
+          "2",
+          "0"
+        ],
+        "transformRefs": [
+          "urn:fixture:calibration:v1"
+        ],
+        "units": [
+          "m",
+          "m",
+          "m"
+        ]
+      }
+    },
+    {
+      "derivation": {
+        "branch": "historical",
+        "counterfactual": false,
+        "method": "fixture-position-report",
+        "parents": []
+      },
+      "entity": "urn:fixture:performance:asset-7",
+      "eventTime": {
+        "basis": "UTC",
+        "end": null,
+        "start": "2026-09-28T12:00:37Z"
+      },
+      "knownAt": "2026-09-28T12:00:38Z",
+      "lifecycle": {
+        "operation": "assert",
+        "target": null,
+        "validUntil": "2026-09-28T12:00:42Z"
+      },
+      "origin": "synthetic-fixture-not-sensor-data",
+      "predicate": "position",
+      "quality": {
+        "kind": "unknown"
+      },
+      "recordId": "urn:fixture:performance:37",
+      "rights": {
+        "expiresAt": "2026-09-28T12:05:00Z",
+        "prohibitedInferences": [
+          "biometric-identification",
+          "actuation-authorization"
+        ],
+        "purposes": [
+          "operations",
+          "review",
+          "xr"
+        ]
+      },
+      "role": "reported-measurement",
+      "schemaVersion": "0.5.0",
+      "sources": [
+        "urn:fixture:provider-A"
+      ],
+      "spatial": {
+        "frame": "urn:frame:performance:stage",
+        "orientation": {
+          "w": "1",
+          "x": "0",
+          "y": "0",
+          "z": "0"
+        },
+        "position": [
+          "37",
+          "2",
+          "0"
+        ],
+        "transformRefs": [
+          "urn:fixture:calibration:v1"
+        ],
+        "units": [
+          "m",
+          "m",
+          "m"
+        ]
+      }
+    },
+    {
+      "derivation": {
+        "branch": "historical",
+        "counterfactual": false,
+        "method": "fixture-position-report",
+        "parents": []
+      },
+      "entity": "urn:fixture:performance:asset-7",
+      "eventTime": {
+        "basis": "UTC",
+        "end": null,
+        "start": "2026-09-28T12:00:38Z"
+      },
+      "knownAt": "2026-09-28T12:00:39Z",
+      "lifecycle": {
+        "operation": "assert",
+        "target": null,
+        "validUntil": "2026-09-28T12:00:43Z"
+      },
+      "origin": "synthetic-fixture-not-sensor-data",
+      "predicate": "position",
+      "quality": {
+        "kind": "unknown"
+      },
+      "recordId": "urn:fixture:performance:38",
+      "rights": {
+        "expiresAt": "2026-09-28T12:05:00Z",
+        "prohibitedInferences": [
+          "biometric-identification",
+          "actuation-authorization"
+        ],
+        "purposes": [
+          "operations",
+          "review",
+          "xr"
+        ]
+      },
+      "role": "reported-measurement",
+      "schemaVersion": "0.5.0",
+      "sources": [
+        "urn:fixture:provider-A"
+      ],
+      "spatial": {
+        "frame": "urn:frame:performance:stage",
+        "orientation": {
+          "w": "1",
+          "x": "0",
+          "y": "0",
+          "z": "0"
+        },
+        "position": [
+          "38",
+          "2",
+          "0"
+        ],
+        "transformRefs": [
+          "urn:fixture:calibration:v1"
+        ],
+        "units": [
+          "m",
+          "m",
+          "m"
+        ]
+      }
+    },
+    {
+      "derivation": {
+        "branch": "historical",
+        "counterfactual": false,
+        "method": "fixture-position-report",
+        "parents": []
+      },
+      "entity": "urn:fixture:performance:asset-7",
+      "eventTime": {
+        "basis": "UTC",
+        "end": null,
+        "start": "2026-09-28T12:00:39Z"
+      },
+      "knownAt": "2026-09-28T12:00:40Z",
+      "lifecycle": {
+        "operation": "assert",
+        "target": null,
+        "validUntil": "2026-09-28T12:00:44Z"
+      },
+      "origin": "synthetic-fixture-not-sensor-data",
+      "predicate": "position",
+      "quality": {
+        "kind": "unknown"
+      },
+      "recordId": "urn:fixture:performance:39",
+      "rights": {
+        "expiresAt": "2026-09-28T12:05:00Z",
+        "prohibitedInferences": [
+          "biometric-identification",
+          "actuation-authorization"
+        ],
+        "purposes": [
+          "operations",
+          "review",
+          "xr"
+        ]
+      },
+      "role": "reported-measurement",
+      "schemaVersion": "0.5.0",
+      "sources": [
+        "urn:fixture:provider-A"
+      ],
+      "spatial": {
+        "frame": "urn:frame:performance:stage",
+        "orientation": {
+          "w": "1",
+          "x": "0",
+          "y": "0",
+          "z": "0"
+        },
+        "position": [
+          "39",
+          "2",
+          "0"
+        ],
+        "transformRefs": [
+          "urn:fixture:calibration:v1"
+        ],
+        "units": [
+          "m",
+          "m",
+          "m"
+        ]
+      }
+    },
+    {
+      "derivation": {
+        "branch": "historical",
+        "counterfactual": false,
+        "method": "fixture-position-report",
+        "parents": []
+      },
+      "entity": "urn:fixture:performance:asset-7",
+      "eventTime": {
+        "basis": "UTC",
+        "end": null,
+        "start": "2026-09-28T12:00:46Z"
+      },
+      "knownAt": "2026-09-28T12:00:47Z",
+      "lifecycle": {
+        "operation": "assert",
+        "target": null,
+        "validUntil": "2026-09-28T12:00:51Z"
+      },
+      "origin": "synthetic-fixture-not-sensor-data",
+      "predicate": "position",
+      "quality": {
+        "kind": "unknown"
+      },
+      "recordId": "urn:fixture:performance:46",
+      "rights": {
+        "expiresAt": "2026-09-28T12:05:00Z",
+        "prohibitedInferences": [
+          "biometric-identification",
+          "actuation-authorization"
+        ],
+        "purposes": [
+          "operations",
+          "review",
+          "xr"
+        ]
+      },
+      "role": "reported-measurement",
+      "schemaVersion": "0.5.0",
+      "sources": [
+        "urn:fixture:provider-A"
+      ],
+      "spatial": {
+        "frame": "urn:frame:performance:stage",
+        "orientation": {
+          "w": "1",
+          "x": "0",
+          "y": "0",
+          "z": "0"
+        },
+        "position": [
+          "46",
+          "2",
+          "0"
+        ],
+        "transformRefs": [
+          "urn:fixture:calibration:v1"
+        ],
+        "units": [
+          "m",
+          "m",
+          "m"
+        ]
+      }
+    },
+    {
+      "derivation": {
+        "branch": "historical",
+        "counterfactual": false,
+        "method": "fixture-position-report",
+        "parents": []
+      },
+      "entity": "urn:fixture:performance:asset-7",
+      "eventTime": {
+        "basis": "UTC",
+        "end": null,
+        "start": "2026-09-28T12:00:47Z"
+      },
+      "knownAt": "2026-09-28T12:00:48Z",
+      "lifecycle": {
+        "operation": "assert",
+        "target": null,
+        "validUntil": "2026-09-28T12:00:52Z"
+      },
+      "origin": "synthetic-fixture-not-sensor-data",
+      "predicate": "position",
+      "quality": {
+        "kind": "unknown"
+      },
+      "recordId": "urn:fixture:performance:47",
+      "rights": {
+        "expiresAt": "2026-09-28T12:05:00Z",
+        "prohibitedInferences": [
+          "biometric-identification",
+          "actuation-authorization"
+        ],
+        "purposes": [
+          "operations",
+          "review",
+          "xr"
+        ]
+      },
+      "role": "reported-measurement",
+      "schemaVersion": "0.5.0",
+      "sources": [
+        "urn:fixture:provider-A"
+      ],
+      "spatial": {
+        "frame": "urn:frame:performance:stage",
+        "orientation": {
+          "w": "1",
+          "x": "0",
+          "y": "0",
+          "z": "0"
+        },
+        "position": [
+          "47",
+          "2",
+          "0"
+        ],
+        "transformRefs": [
+          "urn:fixture:calibration:v1"
+        ],
+        "units": [
+          "m",
+          "m",
+          "m"
+        ]
+      }
+    },
+    {
+      "derivation": {
+        "branch": "historical",
+        "counterfactual": false,
+        "method": "fixture-position-report",
+        "parents": []
+      },
+      "entity": "urn:fixture:performance:asset-7",
+      "eventTime": {
+        "basis": "UTC",
+        "end": null,
+        "start": "2026-09-28T12:00:48Z"
+      },
+      "knownAt": "2026-09-28T12:00:49Z",
+      "lifecycle": {
+        "operation": "assert",
+        "target": null,
+        "validUntil": "2026-09-28T12:00:53Z"
+      },
+      "origin": "synthetic-fixture-not-sensor-data",
+      "predicate": "position",
+      "quality": {
+        "kind": "unknown"
+      },
+      "recordId": "urn:fixture:performance:48",
+      "rights": {
+        "expiresAt": "2026-09-28T12:05:00Z",
+        "prohibitedInferences": [
+          "biometric-identification",
+          "actuation-authorization"
+        ],
+        "purposes": [
+          "operations",
+          "review",
+          "xr"
+        ]
+      },
+      "role": "reported-measurement",
+      "schemaVersion": "0.5.0",
+      "sources": [
+        "urn:fixture:provider-A"
+      ],
+      "spatial": {
+        "frame": "urn:frame:performance:stage",
+        "orientation": {
+          "w": "1",
+          "x": "0",
+          "y": "0",
+          "z": "0"
+        },
+        "position": [
+          "48",
+          "2",
+          "0"
+        ],
+        "transformRefs": [
+          "urn:fixture:calibration:v1"
+        ],
+        "units": [
+          "m",
+          "m",
+          "m"
+        ]
+      }
+    },
+    {
+      "derivation": {
+        "branch": "historical",
+        "counterfactual": false,
+        "method": "fixture-position-report",
+        "parents": []
+      },
+      "entity": "urn:fixture:performance:asset-7",
+      "eventTime": {
+        "basis": "UTC",
+        "end": null,
+        "start": "2026-09-28T12:00:49Z"
+      },
+      "knownAt": "2026-09-28T12:00:50Z",
+      "lifecycle": {
+        "operation": "assert",
+        "target": null,
+        "validUntil": "2026-09-28T12:00:54Z"
+      },
+      "origin": "synthetic-fixture-not-sensor-data",
+      "predicate": "position",
+      "quality": {
+        "kind": "unknown"
+      },
+      "recordId": "urn:fixture:performance:49",
+      "rights": {
+        "expiresAt": "2026-09-28T12:05:00Z",
+        "prohibitedInferences": [
+          "biometric-identification",
+          "actuation-authorization"
+        ],
+        "purposes": [
+          "operations",
+          "review",
+          "xr"
+        ]
+      },
+      "role": "reported-measurement",
+      "schemaVersion": "0.5.0",
+      "sources": [
+        "urn:fixture:provider-A"
+      ],
+      "spatial": {
+        "frame": "urn:frame:performance:stage",
+        "orientation": {
+          "w": "1",
+          "x": "0",
+          "y": "0",
+          "z": "0"
+        },
+        "position": [
+          "49",
+          "2",
+          "0"
+        ],
+        "transformRefs": [
+          "urn:fixture:calibration:v1"
+        ],
+        "units": [
+          "m",
+          "m",
+          "m"
+        ]
+      }
+    },
+    {
+      "derivation": {
+        "branch": "historical",
+        "counterfactual": false,
+        "method": "fixture-position-report",
+        "parents": []
+      },
+      "entity": "urn:fixture:performance:asset-7",
+      "eventTime": {
+        "basis": "UTC",
+        "end": null,
+        "start": "2026-09-28T12:00:50Z"
+      },
+      "knownAt": "2026-09-28T12:00:51Z",
+      "lifecycle": {
+        "operation": "assert",
+        "target": null,
+        "validUntil": "2026-09-28T12:00:55Z"
+      },
+      "origin": "synthetic-fixture-not-sensor-data",
+      "predicate": "position",
+      "quality": {
+        "kind": "unknown"
+      },
+      "recordId": "urn:fixture:performance:50",
+      "rights": {
+        "expiresAt": "2026-09-28T12:05:00Z",
+        "prohibitedInferences": [
+          "biometric-identification",
+          "actuation-authorization"
+        ],
+        "purposes": [
+          "operations",
+          "review",
+          "xr"
+        ]
+      },
+      "role": "reported-measurement",
+      "schemaVersion": "0.5.0",
+      "sources": [
+        "urn:fixture:provider-A"
+      ],
+      "spatial": {
+        "frame": "urn:frame:performance:stage",
+        "orientation": {
+          "w": "1",
+          "x": "0",
+          "y": "0",
+          "z": "0"
+        },
+        "position": [
+          "50",
+          "2",
+          "0"
+        ],
+        "transformRefs": [
+          "urn:fixture:calibration:v1"
+        ],
+        "units": [
+          "m",
+          "m",
+          "m"
+        ]
+      }
+    },
+    {
+      "derivation": {
+        "branch": "historical",
+        "counterfactual": false,
+        "method": "fixture-position-report",
+        "parents": []
+      },
+      "entity": "urn:fixture:performance:asset-7",
+      "eventTime": {
+        "basis": "UTC",
+        "end": null,
+        "start": "2026-09-28T12:00:51Z"
+      },
+      "knownAt": "2026-09-28T12:00:52Z",
+      "lifecycle": {
+        "operation": "assert",
+        "target": null,
+        "validUntil": "2026-09-28T12:00:56Z"
+      },
+      "origin": "synthetic-fixture-not-sensor-data",
+      "predicate": "position",
+      "quality": {
+        "kind": "unknown"
+      },
+      "recordId": "urn:fixture:performance:51",
+      "rights": {
+        "expiresAt": "2026-09-28T12:05:00Z",
+        "prohibitedInferences": [
+          "biometric-identification",
+          "actuation-authorization"
+        ],
+        "purposes": [
+          "operations",
+          "review",
+          "xr"
+        ]
+      },
+      "role": "reported-measurement",
+      "schemaVersion": "0.5.0",
+      "sources": [
+        "urn:fixture:provider-A"
+      ],
+      "spatial": {
+        "frame": "urn:frame:performance:stage",
+        "orientation": {
+          "w": "1",
+          "x": "0",
+          "y": "0",
+          "z": "0"
+        },
+        "position": [
+          "51",
+          "2",
+          "0"
+        ],
+        "transformRefs": [
+          "urn:fixture:calibration:v1"
+        ],
+        "units": [
+          "m",
+          "m",
+          "m"
+        ]
+      }
+    },
+    {
+      "derivation": {
+        "branch": "historical",
+        "counterfactual": false,
+        "method": "fixture-position-report",
+        "parents": []
+      },
+      "entity": "urn:fixture:performance:asset-7",
+      "eventTime": {
+        "basis": "UTC",
+        "end": null,
+        "start": "2026-09-28T12:00:52Z"
+      },
+      "knownAt": "2026-09-28T12:00:53Z",
+      "lifecycle": {
+        "operation": "assert",
+        "target": null,
+        "validUntil": "2026-09-28T12:00:57Z"
+      },
+      "origin": "synthetic-fixture-not-sensor-data",
+      "predicate": "position",
+      "quality": {
+        "kind": "unknown"
+      },
+      "recordId": "urn:fixture:performance:52",
+      "rights": {
+        "expiresAt": "2026-09-28T12:05:00Z",
+        "prohibitedInferences": [
+          "biometric-identification",
+          "actuation-authorization"
+        ],
+        "purposes": [
+          "operations",
+          "review",
+          "xr"
+        ]
+      },
+      "role": "reported-measurement",
+      "schemaVersion": "0.5.0",
+      "sources": [
+        "urn:fixture:provider-A"
+      ],
+      "spatial": {
+        "frame": "urn:frame:performance:stage",
+        "orientation": {
+          "w": "1",
+          "x": "0",
+          "y": "0",
+          "z": "0"
+        },
+        "position": [
+          "52",
+          "2",
+          "0"
+        ],
+        "transformRefs": [
+          "urn:fixture:calibration:v1"
+        ],
+        "units": [
+          "m",
+          "m",
+          "m"
+        ]
+      }
+    },
+    {
+      "derivation": {
+        "branch": "historical",
+        "counterfactual": false,
+        "method": "fixture-position-report",
+        "parents": []
+      },
+      "entity": "urn:fixture:performance:asset-7",
+      "eventTime": {
+        "basis": "UTC",
+        "end": null,
+        "start": "2026-09-28T12:00:53Z"
+      },
+      "knownAt": "2026-09-28T12:00:54Z",
+      "lifecycle": {
+        "operation": "assert",
+        "target": null,
+        "validUntil": "2026-09-28T12:00:58Z"
+      },
+      "origin": "synthetic-fixture-not-sensor-data",
+      "predicate": "position",
+      "quality": {
+        "kind": "unknown"
+      },
+      "recordId": "urn:fixture:performance:53",
+      "rights": {
+        "expiresAt": "2026-09-28T12:05:00Z",
+        "prohibitedInferences": [
+          "biometric-identification",
+          "actuation-authorization"
+        ],
+        "purposes": [
+          "operations",
+          "review",
+          "xr"
+        ]
+      },
+      "role": "reported-measurement",
+      "schemaVersion": "0.5.0",
+      "sources": [
+        "urn:fixture:provider-A"
+      ],
+      "spatial": {
+        "frame": "urn:frame:performance:stage",
+        "orientation": {
+          "w": "1",
+          "x": "0",
+          "y": "0",
+          "z": "0"
+        },
+        "position": [
+          "53",
+          "2",
+          "0"
+        ],
+        "transformRefs": [
+          "urn:fixture:calibration:v1"
+        ],
+        "units": [
+          "m",
+          "m",
+          "m"
+        ]
+      }
+    },
+    {
+      "derivation": {
+        "branch": "historical",
+        "counterfactual": false,
+        "method": "fixture-position-report",
+        "parents": []
+      },
+      "entity": "urn:fixture:performance:asset-7",
+      "eventTime": {
+        "basis": "UTC",
+        "end": null,
+        "start": "2026-09-28T12:00:54Z"
+      },
+      "knownAt": "2026-09-28T12:00:55Z",
+      "lifecycle": {
+        "operation": "assert",
+        "target": null,
+        "validUntil": "2026-09-28T12:00:59Z"
+      },
+      "origin": "synthetic-fixture-not-sensor-data",
+      "predicate": "position",
+      "quality": {
+        "kind": "unknown"
+      },
+      "recordId": "urn:fixture:performance:54",
+      "rights": {
+        "expiresAt": "2026-09-28T12:05:00Z",
+        "prohibitedInferences": [
+          "biometric-identification",
+          "actuation-authorization"
+        ],
+        "purposes": [
+          "operations",
+          "review",
+          "xr"
+        ]
+      },
+      "role": "reported-measurement",
+      "schemaVersion": "0.5.0",
+      "sources": [
+        "urn:fixture:provider-A"
+      ],
+      "spatial": {
+        "frame": "urn:frame:performance:stage",
+        "orientation": {
+          "w": "1",
+          "x": "0",
+          "y": "0",
+          "z": "0"
+        },
+        "position": [
+          "54",
+          "2",
+          "0"
+        ],
+        "transformRefs": [
+          "urn:fixture:calibration:v1"
+        ],
+        "units": [
+          "m",
+          "m",
+          "m"
+        ]
+      }
+    },
+    {
+      "derivation": {
+        "branch": "historical",
+        "counterfactual": false,
+        "method": "fixture-position-report",
+        "parents": []
+      },
+      "entity": "urn:fixture:performance:asset-7",
+      "eventTime": {
+        "basis": "UTC",
+        "end": null,
+        "start": "2026-09-28T12:00:55Z"
+      },
+      "knownAt": "2026-09-28T12:00:56Z",
+      "lifecycle": {
+        "operation": "assert",
+        "target": null,
+        "validUntil": "2026-09-28T12:01:00Z"
+      },
+      "origin": "synthetic-fixture-not-sensor-data",
+      "predicate": "position",
+      "quality": {
+        "kind": "unknown"
+      },
+      "recordId": "urn:fixture:performance:55",
+      "rights": {
+        "expiresAt": "2026-09-28T12:05:00Z",
+        "prohibitedInferences": [
+          "biometric-identification",
+          "actuation-authorization"
+        ],
+        "purposes": [
+          "operations",
+          "review",
+          "xr"
+        ]
+      },
+      "role": "reported-measurement",
+      "schemaVersion": "0.5.0",
+      "sources": [
+        "urn:fixture:provider-A"
+      ],
+      "spatial": {
+        "frame": "urn:frame:performance:stage",
+        "orientation": {
+          "w": "1",
+          "x": "0",
+          "y": "0",
+          "z": "0"
+        },
+        "position": [
+          "55",
+          "2",
+          "0"
+        ],
+        "transformRefs": [
+          "urn:fixture:calibration:v1"
+        ],
+        "units": [
+          "m",
+          "m",
+          "m"
+        ]
+      }
+    },
+    {
+      "derivation": {
+        "branch": "historical",
+        "counterfactual": false,
+        "method": "fixture-position-report",
+        "parents": []
+      },
+      "entity": "urn:fixture:performance:asset-7",
+      "eventTime": {
+        "basis": "UTC",
+        "end": null,
+        "start": "2026-09-28T12:00:56Z"
+      },
+      "knownAt": "2026-09-28T12:00:57Z",
+      "lifecycle": {
+        "operation": "assert",
+        "target": null,
+        "validUntil": "2026-09-28T12:01:01Z"
+      },
+      "origin": "synthetic-fixture-not-sensor-data",
+      "predicate": "position",
+      "quality": {
+        "kind": "unknown"
+      },
+      "recordId": "urn:fixture:performance:56",
+      "rights": {
+        "expiresAt": "2026-09-28T12:05:00Z",
+        "prohibitedInferences": [
+          "biometric-identification",
+          "actuation-authorization"
+        ],
+        "purposes": [
+          "operations",
+          "review",
+          "xr"
+        ]
+      },
+      "role": "reported-measurement",
+      "schemaVersion": "0.5.0",
+      "sources": [
+        "urn:fixture:provider-A"
+      ],
+      "spatial": {
+        "frame": "urn:frame:performance:stage",
+        "orientation": {
+          "w": "1",
+          "x": "0",
+          "y": "0",
+          "z": "0"
+        },
+        "position": [
+          "56",
+          "2",
+          "0"
+        ],
+        "transformRefs": [
+          "urn:fixture:calibration:v1"
+        ],
+        "units": [
+          "m",
+          "m",
+          "m"
+        ]
+      }
+    },
+    {
+      "derivation": {
+        "branch": "historical",
+        "counterfactual": false,
+        "method": "fixture-position-report",
+        "parents": []
+      },
+      "entity": "urn:fixture:performance:asset-7",
+      "eventTime": {
+        "basis": "UTC",
+        "end": null,
+        "start": "2026-09-28T12:00:57Z"
+      },
+      "knownAt": "2026-09-28T12:00:58Z",
+      "lifecycle": {
+        "operation": "assert",
+        "target": null,
+        "validUntil": "2026-09-28T12:01:02Z"
+      },
+      "origin": "synthetic-fixture-not-sensor-data",
+      "predicate": "position",
+      "quality": {
+        "kind": "unknown"
+      },
+      "recordId": "urn:fixture:performance:57",
+      "rights": {
+        "expiresAt": "2026-09-28T12:05:00Z",
+        "prohibitedInferences": [
+          "biometric-identification",
+          "actuation-authorization"
+        ],
+        "purposes": [
+          "operations",
+          "review",
+          "xr"
+        ]
+      },
+      "role": "reported-measurement",
+      "schemaVersion": "0.5.0",
+      "sources": [
+        "urn:fixture:provider-A"
+      ],
+      "spatial": {
+        "frame": "urn:frame:performance:stage",
+        "orientation": {
+          "w": "1",
+          "x": "0",
+          "y": "0",
+          "z": "0"
+        },
+        "position": [
+          "57",
+          "2",
+          "0"
+        ],
+        "transformRefs": [
+          "urn:fixture:calibration:v1"
+        ],
+        "units": [
+          "m",
+          "m",
+          "m"
+        ]
+      }
+    },
+    {
+      "derivation": {
+        "branch": "historical",
+        "counterfactual": false,
+        "method": "fixture-position-report",
+        "parents": []
+      },
+      "entity": "urn:fixture:performance:asset-7",
+      "eventTime": {
+        "basis": "UTC",
+        "end": null,
+        "start": "2026-09-28T12:00:58Z"
+      },
+      "knownAt": "2026-09-28T12:00:59Z",
+      "lifecycle": {
+        "operation": "assert",
+        "target": null,
+        "validUntil": "2026-09-28T12:01:03Z"
+      },
+      "origin": "synthetic-fixture-not-sensor-data",
+      "predicate": "position",
+      "quality": {
+        "kind": "unknown"
+      },
+      "recordId": "urn:fixture:performance:58",
+      "rights": {
+        "expiresAt": "2026-09-28T12:05:00Z",
+        "prohibitedInferences": [
+          "biometric-identification",
+          "actuation-authorization"
+        ],
+        "purposes": [
+          "operations",
+          "review",
+          "xr"
+        ]
+      },
+      "role": "reported-measurement",
+      "schemaVersion": "0.5.0",
+      "sources": [
+        "urn:fixture:provider-A"
+      ],
+      "spatial": {
+        "frame": "urn:frame:performance:stage",
+        "orientation": {
+          "w": "1",
+          "x": "0",
+          "y": "0",
+          "z": "0"
+        },
+        "position": [
+          "58",
+          "2",
+          "0"
+        ],
+        "transformRefs": [
+          "urn:fixture:calibration:v1"
+        ],
+        "units": [
+          "m",
+          "m",
+          "m"
+        ]
+      }
+    },
+    {
+      "derivation": {
+        "branch": "historical",
+        "counterfactual": false,
+        "method": "fixture-position-report",
+        "parents": []
+      },
+      "entity": "urn:fixture:performance:asset-7",
+      "eventTime": {
+        "basis": "UTC",
+        "end": null,
+        "start": "2026-09-28T12:00:59Z"
+      },
+      "knownAt": "2026-09-28T12:01:00Z",
+      "lifecycle": {
+        "operation": "assert",
+        "target": null,
+        "validUntil": "2026-09-28T12:01:04Z"
+      },
+      "origin": "synthetic-fixture-not-sensor-data",
+      "predicate": "position",
+      "quality": {
+        "kind": "unknown"
+      },
+      "recordId": "urn:fixture:performance:59",
+      "rights": {
+        "expiresAt": "2026-09-28T12:05:00Z",
+        "prohibitedInferences": [
+          "biometric-identification",
+          "actuation-authorization"
+        ],
+        "purposes": [
+          "operations",
+          "review",
+          "xr"
+        ]
+      },
+      "role": "reported-measurement",
+      "schemaVersion": "0.5.0",
+      "sources": [
+        "urn:fixture:provider-A"
+      ],
+      "spatial": {
+        "frame": "urn:frame:performance:stage",
+        "orientation": {
+          "w": "1",
+          "x": "0",
+          "y": "0",
+          "z": "0"
+        },
+        "position": [
+          "59",
+          "2",
+          "0"
+        ],
+        "transformRefs": [
+          "urn:fixture:calibration:v1"
+        ],
+        "units": [
+          "m",
+          "m",
+          "m"
+        ]
+      }
+    },
+    {
+      "derivation": {
+        "branch": "historical",
+        "counterfactual": false,
+        "method": "fixture-position-report",
+        "parents": []
+      },
+      "entity": "urn:fixture:performance:asset-7",
+      "eventTime": {
+        "basis": "UTC",
+        "end": null,
+        "start": "2026-09-28T12:01:00Z"
+      },
+      "knownAt": "2026-09-28T12:01:01Z",
+      "lifecycle": {
+        "operation": "assert",
+        "target": null,
+        "validUntil": "2026-09-28T12:01:05Z"
+      },
+      "origin": "synthetic-fixture-not-sensor-data",
+      "predicate": "position",
+      "quality": {
+        "kind": "unknown"
+      },
+      "recordId": "urn:fixture:performance:60",
+      "rights": {
+        "expiresAt": "2026-09-28T12:05:00Z",
+        "prohibitedInferences": [
+          "biometric-identification",
+          "actuation-authorization"
+        ],
+        "purposes": [
+          "operations",
+          "review",
+          "xr"
+        ]
+      },
+      "role": "reported-measurement",
+      "schemaVersion": "0.5.0",
+      "sources": [
+        "urn:fixture:provider-A"
+      ],
+      "spatial": {
+        "frame": "urn:frame:performance:stage",
+        "orientation": {
+          "w": "1",
+          "x": "0",
+          "y": "0",
+          "z": "0"
+        },
+        "position": [
+          "60",
+          "2",
+          "0"
+        ],
+        "transformRefs": [
+          "urn:fixture:calibration:v1"
+        ],
+        "units": [
+          "m",
+          "m",
+          "m"
+        ]
+      }
+    },
+    {
+      "derivation": {
+        "branch": "historical",
+        "counterfactual": false,
+        "method": "fixture-position-report",
+        "parents": []
+      },
+      "entity": "urn:fixture:performance:asset-7",
+      "eventTime": {
+        "basis": "UTC",
+        "end": null,
+        "start": "2026-09-28T12:01:01Z"
+      },
+      "knownAt": "2026-09-28T12:01:02Z",
+      "lifecycle": {
+        "operation": "assert",
+        "target": null,
+        "validUntil": "2026-09-28T12:01:06Z"
+      },
+      "origin": "synthetic-fixture-not-sensor-data",
+      "predicate": "position",
+      "quality": {
+        "kind": "unknown"
+      },
+      "recordId": "urn:fixture:performance:61",
+      "rights": {
+        "expiresAt": "2026-09-28T12:05:00Z",
+        "prohibitedInferences": [
+          "biometric-identification",
+          "actuation-authorization"
+        ],
+        "purposes": [
+          "operations",
+          "review",
+          "xr"
+        ]
+      },
+      "role": "reported-measurement",
+      "schemaVersion": "0.5.0",
+      "sources": [
+        "urn:fixture:provider-A"
+      ],
+      "spatial": {
+        "frame": "urn:frame:performance:stage",
+        "orientation": {
+          "w": "1",
+          "x": "0",
+          "y": "0",
+          "z": "0"
+        },
+        "position": [
+          "61",
+          "2",
+          "0"
+        ],
+        "transformRefs": [
+          "urn:fixture:calibration:v1"
+        ],
+        "units": [
+          "m",
+          "m",
+          "m"
+        ]
+      }
+    },
+    {
+      "derivation": {
+        "branch": "historical",
+        "counterfactual": false,
+        "method": "fixture-position-report",
+        "parents": []
+      },
+      "entity": "urn:fixture:performance:asset-7",
+      "eventTime": {
+        "basis": "UTC",
+        "end": null,
+        "start": "2026-09-28T12:01:02Z"
+      },
+      "knownAt": "2026-09-28T12:01:03Z",
+      "lifecycle": {
+        "operation": "assert",
+        "target": null,
+        "validUntil": "2026-09-28T12:01:07Z"
+      },
+      "origin": "synthetic-fixture-not-sensor-data",
+      "predicate": "position",
+      "quality": {
+        "kind": "unknown"
+      },
+      "recordId": "urn:fixture:performance:62",
+      "rights": {
+        "expiresAt": "2026-09-28T12:05:00Z",
+        "prohibitedInferences": [
+          "biometric-identification",
+          "actuation-authorization"
+        ],
+        "purposes": [
+          "operations",
+          "review",
+          "xr"
+        ]
+      },
+      "role": "reported-measurement",
+      "schemaVersion": "0.5.0",
+      "sources": [
+        "urn:fixture:provider-A"
+      ],
+      "spatial": {
+        "frame": "urn:frame:performance:stage",
+        "orientation": {
+          "w": "1",
+          "x": "0",
+          "y": "0",
+          "z": "0"
+        },
+        "position": [
+          "62",
+          "2",
+          "0"
+        ],
+        "transformRefs": [
+          "urn:fixture:calibration:v1"
+        ],
+        "units": [
+          "m",
+          "m",
+          "m"
+        ]
+      }
+    },
+    {
+      "derivation": {
+        "branch": "historical",
+        "counterfactual": false,
+        "method": "fixture-position-report",
+        "parents": []
+      },
+      "entity": "urn:fixture:performance:asset-7",
+      "eventTime": {
+        "basis": "UTC",
+        "end": null,
+        "start": "2026-09-28T12:01:03Z"
+      },
+      "knownAt": "2026-09-28T12:01:04Z",
+      "lifecycle": {
+        "operation": "assert",
+        "target": null,
+        "validUntil": "2026-09-28T12:01:08Z"
+      },
+      "origin": "synthetic-fixture-not-sensor-data",
+      "predicate": "position",
+      "quality": {
+        "kind": "unknown"
+      },
+      "recordId": "urn:fixture:performance:63",
+      "rights": {
+        "expiresAt": "2026-09-28T12:05:00Z",
+        "prohibitedInferences": [
+          "biometric-identification",
+          "actuation-authorization"
+        ],
+        "purposes": [
+          "operations",
+          "review",
+          "xr"
+        ]
+      },
+      "role": "reported-measurement",
+      "schemaVersion": "0.5.0",
+      "sources": [
+        "urn:fixture:provider-A"
+      ],
+      "spatial": {
+        "frame": "urn:frame:performance:stage",
+        "orientation": {
+          "w": "1",
+          "x": "0",
+          "y": "0",
+          "z": "0"
+        },
+        "position": [
+          "63",
+          "2",
+          "0"
+        ],
+        "transformRefs": [
+          "urn:fixture:calibration:v1"
+        ],
+        "units": [
+          "m",
+          "m",
+          "m"
+        ]
+      }
+    },
+    {
+      "derivation": {
+        "branch": "historical",
+        "counterfactual": false,
+        "method": "fixture-position-report",
+        "parents": []
+      },
+      "entity": "urn:fixture:performance:asset-7",
+      "eventTime": {
+        "basis": "UTC",
+        "end": null,
+        "start": "2026-09-28T12:01:04Z"
+      },
+      "knownAt": "2026-09-28T12:01:05Z",
+      "lifecycle": {
+        "operation": "assert",
+        "target": null,
+        "validUntil": "2026-09-28T12:01:09Z"
+      },
+      "origin": "synthetic-fixture-not-sensor-data",
+      "predicate": "position",
+      "quality": {
+        "kind": "unknown"
+      },
+      "recordId": "urn:fixture:performance:64",
+      "rights": {
+        "expiresAt": "2026-09-28T12:05:00Z",
+        "prohibitedInferences": [
+          "biometric-identification",
+          "actuation-authorization"
+        ],
+        "purposes": [
+          "operations",
+          "review",
+          "xr"
+        ]
+      },
+      "role": "reported-measurement",
+      "schemaVersion": "0.5.0",
+      "sources": [
+        "urn:fixture:provider-A"
+      ],
+      "spatial": {
+        "frame": "urn:frame:performance:stage",
+        "orientation": {
+          "w": "1",
+          "x": "0",
+          "y": "0",
+          "z": "0"
+        },
+        "position": [
+          "64",
+          "2",
+          "0"
+        ],
+        "transformRefs": [
+          "urn:fixture:calibration:v1"
+        ],
+        "units": [
+          "m",
+          "m",
+          "m"
+        ]
+      }
+    },
+    {
+      "derivation": {
+        "branch": "historical",
+        "counterfactual": false,
+        "method": "fixture-position-report",
+        "parents": []
+      },
+      "entity": "urn:fixture:performance:asset-7",
+      "eventTime": {
+        "basis": "UTC",
+        "end": null,
+        "start": "2026-09-28T12:01:05Z"
+      },
+      "knownAt": "2026-09-28T12:01:06Z",
+      "lifecycle": {
+        "operation": "assert",
+        "target": null,
+        "validUntil": "2026-09-28T12:01:10Z"
+      },
+      "origin": "synthetic-fixture-not-sensor-data",
+      "predicate": "position",
+      "quality": {
+        "kind": "unknown"
+      },
+      "recordId": "urn:fixture:performance:65",
+      "rights": {
+        "expiresAt": "2026-09-28T12:05:00Z",
+        "prohibitedInferences": [
+          "biometric-identification",
+          "actuation-authorization"
+        ],
+        "purposes": [
+          "operations",
+          "review",
+          "xr"
+        ]
+      },
+      "role": "reported-measurement",
+      "schemaVersion": "0.5.0",
+      "sources": [
+        "urn:fixture:provider-A"
+      ],
+      "spatial": {
+        "frame": "urn:frame:performance:stage",
+        "orientation": {
+          "w": "1",
+          "x": "0",
+          "y": "0",
+          "z": "0"
+        },
+        "position": [
+          "65",
+          "2",
+          "0"
+        ],
+        "transformRefs": [
+          "urn:fixture:calibration:v1"
+        ],
+        "units": [
+          "m",
+          "m",
+          "m"
+        ]
+      }
+    },
+    {
+      "derivation": {
+        "branch": "historical",
+        "counterfactual": false,
+        "method": "fixture-position-report",
+        "parents": []
+      },
+      "entity": "urn:fixture:performance:asset-7",
+      "eventTime": {
+        "basis": "UTC",
+        "end": null,
+        "start": "2026-09-28T12:01:06Z"
+      },
+      "knownAt": "2026-09-28T12:01:07Z",
+      "lifecycle": {
+        "operation": "assert",
+        "target": null,
+        "validUntil": "2026-09-28T12:01:11Z"
+      },
+      "origin": "synthetic-fixture-not-sensor-data",
+      "predicate": "position",
+      "quality": {
+        "kind": "unknown"
+      },
+      "recordId": "urn:fixture:performance:66",
+      "rights": {
+        "expiresAt": "2026-09-28T12:05:00Z",
+        "prohibitedInferences": [
+          "biometric-identification",
+          "actuation-authorization"
+        ],
+        "purposes": [
+          "operations",
+          "review",
+          "xr"
+        ]
+      },
+      "role": "reported-measurement",
+      "schemaVersion": "0.5.0",
+      "sources": [
+        "urn:fixture:provider-A"
+      ],
+      "spatial": {
+        "frame": "urn:frame:performance:stage",
+        "orientation": {
+          "w": "1",
+          "x": "0",
+          "y": "0",
+          "z": "0"
+        },
+        "position": [
+          "66",
+          "2",
+          "0"
+        ],
+        "transformRefs": [
+          "urn:fixture:calibration:v1"
+        ],
+        "units": [
+          "m",
+          "m",
+          "m"
+        ]
+      }
+    },
+    {
+      "derivation": {
+        "branch": "historical",
+        "counterfactual": false,
+        "method": "fixture-position-report",
+        "parents": []
+      },
+      "entity": "urn:fixture:performance:asset-7",
+      "eventTime": {
+        "basis": "UTC",
+        "end": null,
+        "start": "2026-09-28T12:01:07Z"
+      },
+      "knownAt": "2026-09-28T12:01:08Z",
+      "lifecycle": {
+        "operation": "assert",
+        "target": null,
+        "validUntil": "2026-09-28T12:01:12Z"
+      },
+      "origin": "synthetic-fixture-not-sensor-data",
+      "predicate": "position",
+      "quality": {
+        "kind": "unknown"
+      },
+      "recordId": "urn:fixture:performance:67",
+      "rights": {
+        "expiresAt": "2026-09-28T12:05:00Z",
+        "prohibitedInferences": [
+          "biometric-identification",
+          "actuation-authorization"
+        ],
+        "purposes": [
+          "operations",
+          "review",
+          "xr"
+        ]
+      },
+      "role": "reported-measurement",
+      "schemaVersion": "0.5.0",
+      "sources": [
+        "urn:fixture:provider-A"
+      ],
+      "spatial": {
+        "frame": "urn:frame:performance:stage",
+        "orientation": {
+          "w": "1",
+          "x": "0",
+          "y": "0",
+          "z": "0"
+        },
+        "position": [
+          "67",
+          "2",
+          "0"
+        ],
+        "transformRefs": [
+          "urn:fixture:calibration:v1"
+        ],
+        "units": [
+          "m",
+          "m",
+          "m"
+        ]
+      }
+    },
+    {
+      "derivation": {
+        "branch": "historical",
+        "counterfactual": false,
+        "method": "fixture-position-report",
+        "parents": []
+      },
+      "entity": "urn:fixture:performance:asset-7",
+      "eventTime": {
+        "basis": "UTC",
+        "end": null,
+        "start": "2026-09-28T12:01:08Z"
+      },
+      "knownAt": "2026-09-28T12:01:09Z",
+      "lifecycle": {
+        "operation": "assert",
+        "target": null,
+        "validUntil": "2026-09-28T12:01:13Z"
+      },
+      "origin": "synthetic-fixture-not-sensor-data",
+      "predicate": "position",
+      "quality": {
+        "kind": "unknown"
+      },
+      "recordId": "urn:fixture:performance:68",
+      "rights": {
+        "expiresAt": "2026-09-28T12:05:00Z",
+        "prohibitedInferences": [
+          "biometric-identification",
+          "actuation-authorization"
+        ],
+        "purposes": [
+          "operations",
+          "review",
+          "xr"
+        ]
+      },
+      "role": "reported-measurement",
+      "schemaVersion": "0.5.0",
+      "sources": [
+        "urn:fixture:provider-A"
+      ],
+      "spatial": {
+        "frame": "urn:frame:performance:stage",
+        "orientation": {
+          "w": "1",
+          "x": "0",
+          "y": "0",
+          "z": "0"
+        },
+        "position": [
+          "68",
+          "2",
+          "0"
+        ],
+        "transformRefs": [
+          "urn:fixture:calibration:v1"
+        ],
+        "units": [
+          "m",
+          "m",
+          "m"
+        ]
+      }
+    },
+    {
+      "derivation": {
+        "branch": "historical",
+        "counterfactual": false,
+        "method": "fixture-position-report",
+        "parents": []
+      },
+      "entity": "urn:fixture:performance:asset-7",
+      "eventTime": {
+        "basis": "UTC",
+        "end": null,
+        "start": "2026-09-28T12:01:09Z"
+      },
+      "knownAt": "2026-09-28T12:01:10Z",
+      "lifecycle": {
+        "operation": "assert",
+        "target": null,
+        "validUntil": "2026-09-28T12:01:14Z"
+      },
+      "origin": "synthetic-fixture-not-sensor-data",
+      "predicate": "position",
+      "quality": {
+        "kind": "unknown"
+      },
+      "recordId": "urn:fixture:performance:69",
+      "rights": {
+        "expiresAt": "2026-09-28T12:05:00Z",
+        "prohibitedInferences": [
+          "biometric-identification",
+          "actuation-authorization"
+        ],
+        "purposes": [
+          "operations",
+          "review",
+          "xr"
+        ]
+      },
+      "role": "reported-measurement",
+      "schemaVersion": "0.5.0",
+      "sources": [
+        "urn:fixture:provider-A"
+      ],
+      "spatial": {
+        "frame": "urn:frame:performance:stage",
+        "orientation": {
+          "w": "1",
+          "x": "0",
+          "y": "0",
+          "z": "0"
+        },
+        "position": [
+          "69",
+          "2",
+          "0"
+        ],
+        "transformRefs": [
+          "urn:fixture:calibration:v1"
+        ],
+        "units": [
+          "m",
+          "m",
+          "m"
+        ]
+      }
+    },
+    {
+      "derivation": {
+        "branch": "historical",
+        "counterfactual": false,
+        "method": "fixture-position-report",
+        "parents": []
+      },
+      "entity": "urn:fixture:performance:asset-7",
+      "eventTime": {
+        "basis": "UTC",
+        "end": null,
+        "start": "2026-09-28T12:01:10Z"
+      },
+      "knownAt": "2026-09-28T12:01:11Z",
+      "lifecycle": {
+        "operation": "assert",
+        "target": null,
+        "validUntil": "2026-09-28T12:01:15Z"
+      },
+      "origin": "synthetic-fixture-not-sensor-data",
+      "predicate": "position",
+      "quality": {
+        "kind": "unknown"
+      },
+      "recordId": "urn:fixture:performance:70",
+      "rights": {
+        "expiresAt": "2026-09-28T12:05:00Z",
+        "prohibitedInferences": [
+          "biometric-identification",
+          "actuation-authorization"
+        ],
+        "purposes": [
+          "operations",
+          "review",
+          "xr"
+        ]
+      },
+      "role": "reported-measurement",
+      "schemaVersion": "0.5.0",
+      "sources": [
+        "urn:fixture:provider-A"
+      ],
+      "spatial": {
+        "frame": "urn:frame:performance:stage",
+        "orientation": {
+          "w": "1",
+          "x": "0",
+          "y": "0",
+          "z": "0"
+        },
+        "position": [
+          "70",
+          "2",
+          "0"
+        ],
+        "transformRefs": [
+          "urn:fixture:calibration:v1"
+        ],
+        "units": [
+          "m",
+          "m",
+          "m"
+        ]
+      }
+    },
+    {
+      "derivation": {
+        "branch": "historical",
+        "counterfactual": false,
+        "method": "fixture-position-report",
+        "parents": []
+      },
+      "entity": "urn:fixture:performance:asset-7",
+      "eventTime": {
+        "basis": "UTC",
+        "end": null,
+        "start": "2026-09-28T12:01:11Z"
+      },
+      "knownAt": "2026-09-28T12:01:12Z",
+      "lifecycle": {
+        "operation": "assert",
+        "target": null,
+        "validUntil": "2026-09-28T12:01:16Z"
+      },
+      "origin": "synthetic-fixture-not-sensor-data",
+      "predicate": "position",
+      "quality": {
+        "kind": "unknown"
+      },
+      "recordId": "urn:fixture:performance:71",
+      "rights": {
+        "expiresAt": "2026-09-28T12:05:00Z",
+        "prohibitedInferences": [
+          "biometric-identification",
+          "actuation-authorization"
+        ],
+        "purposes": [
+          "operations",
+          "review",
+          "xr"
+        ]
+      },
+      "role": "reported-measurement",
+      "schemaVersion": "0.5.0",
+      "sources": [
+        "urn:fixture:provider-A"
+      ],
+      "spatial": {
+        "frame": "urn:frame:performance:stage",
+        "orientation": {
+          "w": "1",
+          "x": "0",
+          "y": "0",
+          "z": "0"
+        },
+        "position": [
+          "71",
+          "2",
+          "0"
+        ],
+        "transformRefs": [
+          "urn:fixture:calibration:v1"
+        ],
+        "units": [
+          "m",
+          "m",
+          "m"
+        ]
+      }
+    },
+    {
+      "derivation": {
+        "branch": "historical",
+        "counterfactual": false,
+        "method": "fixture-position-report",
+        "parents": []
+      },
+      "entity": "urn:fixture:performance:asset-7",
+      "eventTime": {
+        "basis": "UTC",
+        "end": null,
+        "start": "2026-09-28T12:01:12Z"
+      },
+      "knownAt": "2026-09-28T12:01:13Z",
+      "lifecycle": {
+        "operation": "assert",
+        "target": null,
+        "validUntil": "2026-09-28T12:01:17Z"
+      },
+      "origin": "synthetic-fixture-not-sensor-data",
+      "predicate": "position",
+      "quality": {
+        "kind": "unknown"
+      },
+      "recordId": "urn:fixture:performance:72",
+      "rights": {
+        "expiresAt": "2026-09-28T12:05:00Z",
+        "prohibitedInferences": [
+          "biometric-identification",
+          "actuation-authorization"
+        ],
+        "purposes": [
+          "operations",
+          "review",
+          "xr"
+        ]
+      },
+      "role": "reported-measurement",
+      "schemaVersion": "0.5.0",
+      "sources": [
+        "urn:fixture:provider-A"
+      ],
+      "spatial": {
+        "frame": "urn:frame:performance:stage",
+        "orientation": {
+          "w": "1",
+          "x": "0",
+          "y": "0",
+          "z": "0"
+        },
+        "position": [
+          "72",
+          "2",
+          "0"
+        ],
+        "transformRefs": [
+          "urn:fixture:calibration:v1"
+        ],
+        "units": [
+          "m",
+          "m",
+          "m"
+        ]
+      }
+    },
+    {
+      "derivation": {
+        "branch": "historical",
+        "counterfactual": false,
+        "method": "fixture-position-report",
+        "parents": []
+      },
+      "entity": "urn:fixture:performance:asset-7",
+      "eventTime": {
+        "basis": "UTC",
+        "end": null,
+        "start": "2026-09-28T12:01:13Z"
+      },
+      "knownAt": "2026-09-28T12:01:14Z",
+      "lifecycle": {
+        "operation": "assert",
+        "target": null,
+        "validUntil": "2026-09-28T12:01:18Z"
+      },
+      "origin": "synthetic-fixture-not-sensor-data",
+      "predicate": "position",
+      "quality": {
+        "kind": "unknown"
+      },
+      "recordId": "urn:fixture:performance:73",
+      "rights": {
+        "expiresAt": "2026-09-28T12:05:00Z",
+        "prohibitedInferences": [
+          "biometric-identification",
+          "actuation-authorization"
+        ],
+        "purposes": [
+          "operations",
+          "review",
+          "xr"
+        ]
+      },
+      "role": "reported-measurement",
+      "schemaVersion": "0.5.0",
+      "sources": [
+        "urn:fixture:provider-A"
+      ],
+      "spatial": {
+        "frame": "urn:frame:performance:stage",
+        "orientation": {
+          "w": "1",
+          "x": "0",
+          "y": "0",
+          "z": "0"
+        },
+        "position": [
+          "73",
+          "2",
+          "0"
+        ],
+        "transformRefs": [
+          "urn:fixture:calibration:v1"
+        ],
+        "units": [
+          "m",
+          "m",
+          "m"
+        ]
+      }
+    },
+    {
+      "derivation": {
+        "branch": "historical",
+        "counterfactual": false,
+        "method": "fixture-position-report",
+        "parents": []
+      },
+      "entity": "urn:fixture:performance:asset-7",
+      "eventTime": {
+        "basis": "UTC",
+        "end": null,
+        "start": "2026-09-28T12:01:14Z"
+      },
+      "knownAt": "2026-09-28T12:01:15Z",
+      "lifecycle": {
+        "operation": "assert",
+        "target": null,
+        "validUntil": "2026-09-28T12:01:19Z"
+      },
+      "origin": "synthetic-fixture-not-sensor-data",
+      "predicate": "position",
+      "quality": {
+        "kind": "unknown"
+      },
+      "recordId": "urn:fixture:performance:74",
+      "rights": {
+        "expiresAt": "2026-09-28T12:05:00Z",
+        "prohibitedInferences": [
+          "biometric-identification",
+          "actuation-authorization"
+        ],
+        "purposes": [
+          "operations",
+          "review",
+          "xr"
+        ]
+      },
+      "role": "reported-measurement",
+      "schemaVersion": "0.5.0",
+      "sources": [
+        "urn:fixture:provider-A"
+      ],
+      "spatial": {
+        "frame": "urn:frame:performance:stage",
+        "orientation": {
+          "w": "1",
+          "x": "0",
+          "y": "0",
+          "z": "0"
+        },
+        "position": [
+          "74",
+          "2",
+          "0"
+        ],
+        "transformRefs": [
+          "urn:fixture:calibration:v1"
+        ],
+        "units": [
+          "m",
+          "m",
+          "m"
+        ]
+      }
+    },
+    {
+      "derivation": {
+        "branch": "historical",
+        "counterfactual": false,
+        "method": "fixture-position-report",
+        "parents": []
+      },
+      "entity": "urn:fixture:performance:asset-7",
+      "eventTime": {
+        "basis": "UTC",
+        "end": null,
+        "start": "2026-09-28T12:01:15Z"
+      },
+      "knownAt": "2026-09-28T12:01:16Z",
+      "lifecycle": {
+        "operation": "assert",
+        "target": null,
+        "validUntil": "2026-09-28T12:01:20Z"
+      },
+      "origin": "synthetic-fixture-not-sensor-data",
+      "predicate": "position",
+      "quality": {
+        "kind": "unknown"
+      },
+      "recordId": "urn:fixture:performance:75",
+      "rights": {
+        "expiresAt": "2026-09-28T12:05:00Z",
+        "prohibitedInferences": [
+          "biometric-identification",
+          "actuation-authorization"
+        ],
+        "purposes": [
+          "operations",
+          "review",
+          "xr"
+        ]
+      },
+      "role": "reported-measurement",
+      "schemaVersion": "0.5.0",
+      "sources": [
+        "urn:fixture:provider-A"
+      ],
+      "spatial": {
+        "frame": "urn:frame:performance:stage",
+        "orientation": {
+          "w": "1",
+          "x": "0",
+          "y": "0",
+          "z": "0"
+        },
+        "position": [
+          "75",
+          "2",
+          "0"
+        ],
+        "transformRefs": [
+          "urn:fixture:calibration:v1"
+        ],
+        "units": [
+          "m",
+          "m",
+          "m"
+        ]
+      }
+    },
+    {
+      "derivation": {
+        "branch": "historical",
+        "counterfactual": false,
+        "method": "fixture-position-report",
+        "parents": []
+      },
+      "entity": "urn:fixture:performance:asset-7",
+      "eventTime": {
+        "basis": "UTC",
+        "end": null,
+        "start": "2026-09-28T12:01:16Z"
+      },
+      "knownAt": "2026-09-28T12:01:17Z",
+      "lifecycle": {
+        "operation": "assert",
+        "target": null,
+        "validUntil": "2026-09-28T12:01:21Z"
+      },
+      "origin": "synthetic-fixture-not-sensor-data",
+      "predicate": "position",
+      "quality": {
+        "kind": "unknown"
+      },
+      "recordId": "urn:fixture:performance:76",
+      "rights": {
+        "expiresAt": "2026-09-28T12:05:00Z",
+        "prohibitedInferences": [
+          "biometric-identification",
+          "actuation-authorization"
+        ],
+        "purposes": [
+          "operations",
+          "review",
+          "xr"
+        ]
+      },
+      "role": "reported-measurement",
+      "schemaVersion": "0.5.0",
+      "sources": [
+        "urn:fixture:provider-A"
+      ],
+      "spatial": {
+        "frame": "urn:frame:performance:stage",
+        "orientation": {
+          "w": "1",
+          "x": "0",
+          "y": "0",
+          "z": "0"
+        },
+        "position": [
+          "76",
+          "2",
+          "0"
+        ],
+        "transformRefs": [
+          "urn:fixture:calibration:v1"
+        ],
+        "units": [
+          "m",
+          "m",
+          "m"
+        ]
+      }
+    },
+    {
+      "derivation": {
+        "branch": "historical",
+        "counterfactual": false,
+        "method": "fixture-position-report",
+        "parents": []
+      },
+      "entity": "urn:fixture:performance:asset-7",
+      "eventTime": {
+        "basis": "UTC",
+        "end": null,
+        "start": "2026-09-28T12:01:17Z"
+      },
+      "knownAt": "2026-09-28T12:01:18Z",
+      "lifecycle": {
+        "operation": "assert",
+        "target": null,
+        "validUntil": "2026-09-28T12:01:22Z"
+      },
+      "origin": "synthetic-fixture-not-sensor-data",
+      "predicate": "position",
+      "quality": {
+        "kind": "unknown"
+      },
+      "recordId": "urn:fixture:performance:77",
+      "rights": {
+        "expiresAt": "2026-09-28T12:05:00Z",
+        "prohibitedInferences": [
+          "biometric-identification",
+          "actuation-authorization"
+        ],
+        "purposes": [
+          "operations",
+          "review",
+          "xr"
+        ]
+      },
+      "role": "reported-measurement",
+      "schemaVersion": "0.5.0",
+      "sources": [
+        "urn:fixture:provider-A"
+      ],
+      "spatial": {
+        "frame": "urn:frame:performance:stage",
+        "orientation": {
+          "w": "1",
+          "x": "0",
+          "y": "0",
+          "z": "0"
+        },
+        "position": [
+          "77",
+          "2",
+          "0"
+        ],
+        "transformRefs": [
+          "urn:fixture:calibration:v1"
+        ],
+        "units": [
+          "m",
+          "m",
+          "m"
+        ]
+      }
+    },
+    {
+      "derivation": {
+        "branch": "historical",
+        "counterfactual": false,
+        "method": "fixture-position-report",
+        "parents": []
+      },
+      "entity": "urn:fixture:performance:asset-7",
+      "eventTime": {
+        "basis": "UTC",
+        "end": null,
+        "start": "2026-09-28T12:01:18Z"
+      },
+      "knownAt": "2026-09-28T12:01:19Z",
+      "lifecycle": {
+        "operation": "assert",
+        "target": null,
+        "validUntil": "2026-09-28T12:01:23Z"
+      },
+      "origin": "synthetic-fixture-not-sensor-data",
+      "predicate": "position",
+      "quality": {
+        "kind": "unknown"
+      },
+      "recordId": "urn:fixture:performance:78",
+      "rights": {
+        "expiresAt": "2026-09-28T12:05:00Z",
+        "prohibitedInferences": [
+          "biometric-identification",
+          "actuation-authorization"
+        ],
+        "purposes": [
+          "operations",
+          "review",
+          "xr"
+        ]
+      },
+      "role": "reported-measurement",
+      "schemaVersion": "0.5.0",
+      "sources": [
+        "urn:fixture:provider-A"
+      ],
+      "spatial": {
+        "frame": "urn:frame:performance:stage",
+        "orientation": {
+          "w": "1",
+          "x": "0",
+          "y": "0",
+          "z": "0"
+        },
+        "position": [
+          "78",
+          "2",
+          "0"
+        ],
+        "transformRefs": [
+          "urn:fixture:calibration:v1"
+        ],
+        "units": [
+          "m",
+          "m",
+          "m"
+        ]
+      }
+    },
+    {
+      "derivation": {
+        "branch": "historical",
+        "counterfactual": false,
+        "method": "fixture-position-report",
+        "parents": []
+      },
+      "entity": "urn:fixture:performance:asset-7",
+      "eventTime": {
+        "basis": "UTC",
+        "end": null,
+        "start": "2026-09-28T12:01:19Z"
+      },
+      "knownAt": "2026-09-28T12:01:20Z",
+      "lifecycle": {
+        "operation": "assert",
+        "target": null,
+        "validUntil": "2026-09-28T12:01:24Z"
+      },
+      "origin": "synthetic-fixture-not-sensor-data",
+      "predicate": "position",
+      "quality": {
+        "kind": "unknown"
+      },
+      "recordId": "urn:fixture:performance:79",
+      "rights": {
+        "expiresAt": "2026-09-28T12:05:00Z",
+        "prohibitedInferences": [
+          "biometric-identification",
+          "actuation-authorization"
+        ],
+        "purposes": [
+          "operations",
+          "review",
+          "xr"
+        ]
+      },
+      "role": "reported-measurement",
+      "schemaVersion": "0.5.0",
+      "sources": [
+        "urn:fixture:provider-A"
+      ],
+      "spatial": {
+        "frame": "urn:frame:performance:stage",
+        "orientation": {
+          "w": "1",
+          "x": "0",
+          "y": "0",
+          "z": "0"
+        },
+        "position": [
+          "79",
+          "2",
+          "0"
+        ],
+        "transformRefs": [
+          "urn:fixture:calibration:v1"
+        ],
+        "units": [
+          "m",
+          "m",
+          "m"
+        ]
+      }
+    },
+    {
+      "derivation": {
+        "branch": "historical",
+        "counterfactual": false,
+        "method": "fixture-position-report",
+        "parents": []
+      },
+      "entity": "urn:fixture:performance:asset-7",
+      "eventTime": {
+        "basis": "UTC",
+        "end": null,
+        "start": "2026-09-28T12:01:20Z"
+      },
+      "knownAt": "2026-09-28T12:01:21Z",
+      "lifecycle": {
+        "operation": "assert",
+        "target": null,
+        "validUntil": "2026-09-28T12:01:25Z"
+      },
+      "origin": "synthetic-fixture-not-sensor-data",
+      "predicate": "position",
+      "quality": {
+        "kind": "unknown"
+      },
+      "recordId": "urn:fixture:performance:80",
+      "rights": {
+        "expiresAt": "2026-09-28T12:05:00Z",
+        "prohibitedInferences": [
+          "biometric-identification",
+          "actuation-authorization"
+        ],
+        "purposes": [
+          "operations",
+          "review",
+          "xr"
+        ]
+      },
+      "role": "reported-measurement",
+      "schemaVersion": "0.5.0",
+      "sources": [
+        "urn:fixture:provider-A"
+      ],
+      "spatial": {
+        "frame": "urn:frame:performance:stage",
+        "orientation": {
+          "w": "1",
+          "x": "0",
+          "y": "0",
+          "z": "0"
+        },
+        "position": [
+          "80",
+          "2",
+          "0"
+        ],
+        "transformRefs": [
+          "urn:fixture:calibration:v1"
+        ],
+        "units": [
+          "m",
+          "m",
+          "m"
+        ]
+      }
+    },
+    {
+      "derivation": {
+        "branch": "historical",
+        "counterfactual": false,
+        "method": "fixture-position-report",
+        "parents": []
+      },
+      "entity": "urn:fixture:performance:asset-7",
+      "eventTime": {
+        "basis": "UTC",
+        "end": null,
+        "start": "2026-09-28T12:01:21Z"
+      },
+      "knownAt": "2026-09-28T12:01:22Z",
+      "lifecycle": {
+        "operation": "assert",
+        "target": null,
+        "validUntil": "2026-09-28T12:01:26Z"
+      },
+      "origin": "synthetic-fixture-not-sensor-data",
+      "predicate": "position",
+      "quality": {
+        "kind": "unknown"
+      },
+      "recordId": "urn:fixture:performance:81",
+      "rights": {
+        "expiresAt": "2026-09-28T12:05:00Z",
+        "prohibitedInferences": [
+          "biometric-identification",
+          "actuation-authorization"
+        ],
+        "purposes": [
+          "operations",
+          "review",
+          "xr"
+        ]
+      },
+      "role": "reported-measurement",
+      "schemaVersion": "0.5.0",
+      "sources": [
+        "urn:fixture:provider-A"
+      ],
+      "spatial": {
+        "frame": "urn:frame:performance:stage",
+        "orientation": {
+          "w": "1",
+          "x": "0",
+          "y": "0",
+          "z": "0"
+        },
+        "position": [
+          "81",
+          "2",
+          "0"
+        ],
+        "transformRefs": [
+          "urn:fixture:calibration:v1"
+        ],
+        "units": [
+          "m",
+          "m",
+          "m"
+        ]
+      }
+    },
+    {
+      "derivation": {
+        "branch": "historical",
+        "counterfactual": false,
+        "method": "fixture-position-report",
+        "parents": []
+      },
+      "entity": "urn:fixture:performance:asset-7",
+      "eventTime": {
+        "basis": "UTC",
+        "end": null,
+        "start": "2026-09-28T12:01:22Z"
+      },
+      "knownAt": "2026-09-28T12:01:23Z",
+      "lifecycle": {
+        "operation": "assert",
+        "target": null,
+        "validUntil": "2026-09-28T12:01:27Z"
+      },
+      "origin": "synthetic-fixture-not-sensor-data",
+      "predicate": "position",
+      "quality": {
+        "kind": "unknown"
+      },
+      "recordId": "urn:fixture:performance:82",
+      "rights": {
+        "expiresAt": "2026-09-28T12:05:00Z",
+        "prohibitedInferences": [
+          "biometric-identification",
+          "actuation-authorization"
+        ],
+        "purposes": [
+          "operations",
+          "review",
+          "xr"
+        ]
+      },
+      "role": "reported-measurement",
+      "schemaVersion": "0.5.0",
+      "sources": [
+        "urn:fixture:provider-A"
+      ],
+      "spatial": {
+        "frame": "urn:frame:performance:stage",
+        "orientation": {
+          "w": "1",
+          "x": "0",
+          "y": "0",
+          "z": "0"
+        },
+        "position": [
+          "82",
+          "2",
+          "0"
+        ],
+        "transformRefs": [
+          "urn:fixture:calibration:v1"
+        ],
+        "units": [
+          "m",
+          "m",
+          "m"
+        ]
+      }
+    },
+    {
+      "derivation": {
+        "branch": "historical",
+        "counterfactual": false,
+        "method": "fixture-position-report",
+        "parents": []
+      },
+      "entity": "urn:fixture:performance:asset-7",
+      "eventTime": {
+        "basis": "UTC",
+        "end": null,
+        "start": "2026-09-28T12:01:23Z"
+      },
+      "knownAt": "2026-09-28T12:01:24Z",
+      "lifecycle": {
+        "operation": "assert",
+        "target": null,
+        "validUntil": "2026-09-28T12:01:28Z"
+      },
+      "origin": "synthetic-fixture-not-sensor-data",
+      "predicate": "position",
+      "quality": {
+        "kind": "unknown"
+      },
+      "recordId": "urn:fixture:performance:83",
+      "rights": {
+        "expiresAt": "2026-09-28T12:05:00Z",
+        "prohibitedInferences": [
+          "biometric-identification",
+          "actuation-authorization"
+        ],
+        "purposes": [
+          "operations",
+          "review",
+          "xr"
+        ]
+      },
+      "role": "reported-measurement",
+      "schemaVersion": "0.5.0",
+      "sources": [
+        "urn:fixture:provider-A"
+      ],
+      "spatial": {
+        "frame": "urn:frame:performance:stage",
+        "orientation": {
+          "w": "1",
+          "x": "0",
+          "y": "0",
+          "z": "0"
+        },
+        "position": [
+          "83",
+          "2",
+          "0"
+        ],
+        "transformRefs": [
+          "urn:fixture:calibration:v1"
+        ],
+        "units": [
+          "m",
+          "m",
+          "m"
+        ]
+      }
+    },
+    {
+      "derivation": {
+        "branch": "historical",
+        "counterfactual": false,
+        "method": "fixture-position-report",
+        "parents": []
+      },
+      "entity": "urn:fixture:performance:asset-7",
+      "eventTime": {
+        "basis": "UTC",
+        "end": null,
+        "start": "2026-09-28T12:01:24Z"
+      },
+      "knownAt": "2026-09-28T12:01:25Z",
+      "lifecycle": {
+        "operation": "assert",
+        "target": null,
+        "validUntil": "2026-09-28T12:01:29Z"
+      },
+      "origin": "synthetic-fixture-not-sensor-data",
+      "predicate": "position",
+      "quality": {
+        "kind": "unknown"
+      },
+      "recordId": "urn:fixture:performance:84",
+      "rights": {
+        "expiresAt": "2026-09-28T12:05:00Z",
+        "prohibitedInferences": [
+          "biometric-identification",
+          "actuation-authorization"
+        ],
+        "purposes": [
+          "operations",
+          "review",
+          "xr"
+        ]
+      },
+      "role": "reported-measurement",
+      "schemaVersion": "0.5.0",
+      "sources": [
+        "urn:fixture:provider-A"
+      ],
+      "spatial": {
+        "frame": "urn:frame:performance:stage",
+        "orientation": {
+          "w": "1",
+          "x": "0",
+          "y": "0",
+          "z": "0"
+        },
+        "position": [
+          "84",
+          "2",
+          "0"
+        ],
+        "transformRefs": [
+          "urn:fixture:calibration:v1"
+        ],
+        "units": [
+          "m",
+          "m",
+          "m"
+        ]
+      }
+    },
+    {
+      "derivation": {
+        "branch": "historical",
+        "counterfactual": false,
+        "method": "fixture-position-report",
+        "parents": []
+      },
+      "entity": "urn:fixture:performance:asset-7",
+      "eventTime": {
+        "basis": "UTC",
+        "end": null,
+        "start": "2026-09-28T12:01:25Z"
+      },
+      "knownAt": "2026-09-28T12:01:26Z",
+      "lifecycle": {
+        "operation": "assert",
+        "target": null,
+        "validUntil": "2026-09-28T12:01:30Z"
+      },
+      "origin": "synthetic-fixture-not-sensor-data",
+      "predicate": "position",
+      "quality": {
+        "kind": "unknown"
+      },
+      "recordId": "urn:fixture:performance:85",
+      "rights": {
+        "expiresAt": "2026-09-28T12:05:00Z",
+        "prohibitedInferences": [
+          "biometric-identification",
+          "actuation-authorization"
+        ],
+        "purposes": [
+          "operations",
+          "review",
+          "xr"
+        ]
+      },
+      "role": "reported-measurement",
+      "schemaVersion": "0.5.0",
+      "sources": [
+        "urn:fixture:provider-A"
+      ],
+      "spatial": {
+        "frame": "urn:frame:performance:stage",
+        "orientation": {
+          "w": "1",
+          "x": "0",
+          "y": "0",
+          "z": "0"
+        },
+        "position": [
+          "85",
+          "2",
+          "0"
+        ],
+        "transformRefs": [
+          "urn:fixture:calibration:v1"
+        ],
+        "units": [
+          "m",
+          "m",
+          "m"
+        ]
+      }
+    },
+    {
+      "derivation": {
+        "branch": "historical",
+        "counterfactual": false,
+        "method": "fixture-position-report",
+        "parents": []
+      },
+      "entity": "urn:fixture:performance:asset-7",
+      "eventTime": {
+        "basis": "UTC",
+        "end": null,
+        "start": "2026-09-28T12:01:26Z"
+      },
+      "knownAt": "2026-09-28T12:01:27Z",
+      "lifecycle": {
+        "operation": "assert",
+        "target": null,
+        "validUntil": "2026-09-28T12:01:31Z"
+      },
+      "origin": "synthetic-fixture-not-sensor-data",
+      "predicate": "position",
+      "quality": {
+        "kind": "unknown"
+      },
+      "recordId": "urn:fixture:performance:86",
+      "rights": {
+        "expiresAt": "2026-09-28T12:05:00Z",
+        "prohibitedInferences": [
+          "biometric-identification",
+          "actuation-authorization"
+        ],
+        "purposes": [
+          "operations",
+          "review",
+          "xr"
+        ]
+      },
+      "role": "reported-measurement",
+      "schemaVersion": "0.5.0",
+      "sources": [
+        "urn:fixture:provider-A"
+      ],
+      "spatial": {
+        "frame": "urn:frame:performance:stage",
+        "orientation": {
+          "w": "1",
+          "x": "0",
+          "y": "0",
+          "z": "0"
+        },
+        "position": [
+          "86",
+          "2",
+          "0"
+        ],
+        "transformRefs": [
+          "urn:fixture:calibration:v1"
+        ],
+        "units": [
+          "m",
+          "m",
+          "m"
+        ]
+      }
+    },
+    {
+      "derivation": {
+        "branch": "historical",
+        "counterfactual": false,
+        "method": "fixture-position-report",
+        "parents": []
+      },
+      "entity": "urn:fixture:performance:asset-7",
+      "eventTime": {
+        "basis": "UTC",
+        "end": null,
+        "start": "2026-09-28T12:01:27Z"
+      },
+      "knownAt": "2026-09-28T12:01:28Z",
+      "lifecycle": {
+        "operation": "assert",
+        "target": null,
+        "validUntil": "2026-09-28T12:01:32Z"
+      },
+      "origin": "synthetic-fixture-not-sensor-data",
+      "predicate": "position",
+      "quality": {
+        "kind": "unknown"
+      },
+      "recordId": "urn:fixture:performance:87",
+      "rights": {
+        "expiresAt": "2026-09-28T12:05:00Z",
+        "prohibitedInferences": [
+          "biometric-identification",
+          "actuation-authorization"
+        ],
+        "purposes": [
+          "operations",
+          "review",
+          "xr"
+        ]
+      },
+      "role": "reported-measurement",
+      "schemaVersion": "0.5.0",
+      "sources": [
+        "urn:fixture:provider-A"
+      ],
+      "spatial": {
+        "frame": "urn:frame:performance:stage",
+        "orientation": {
+          "w": "1",
+          "x": "0",
+          "y": "0",
+          "z": "0"
+        },
+        "position": [
+          "87",
+          "2",
+          "0"
+        ],
+        "transformRefs": [
+          "urn:fixture:calibration:v1"
+        ],
+        "units": [
+          "m",
+          "m",
+          "m"
+        ]
+      }
+    },
+    {
+      "derivation": {
+        "branch": "historical",
+        "counterfactual": false,
+        "method": "fixture-position-report",
+        "parents": []
+      },
+      "entity": "urn:fixture:performance:asset-7",
+      "eventTime": {
+        "basis": "UTC",
+        "end": null,
+        "start": "2026-09-28T12:01:28Z"
+      },
+      "knownAt": "2026-09-28T12:01:29Z",
+      "lifecycle": {
+        "operation": "assert",
+        "target": null,
+        "validUntil": "2026-09-28T12:01:33Z"
+      },
+      "origin": "synthetic-fixture-not-sensor-data",
+      "predicate": "position",
+      "quality": {
+        "kind": "unknown"
+      },
+      "recordId": "urn:fixture:performance:88",
+      "rights": {
+        "expiresAt": "2026-09-28T12:05:00Z",
+        "prohibitedInferences": [
+          "biometric-identification",
+          "actuation-authorization"
+        ],
+        "purposes": [
+          "operations",
+          "review",
+          "xr"
+        ]
+      },
+      "role": "reported-measurement",
+      "schemaVersion": "0.5.0",
+      "sources": [
+        "urn:fixture:provider-A"
+      ],
+      "spatial": {
+        "frame": "urn:frame:performance:stage",
+        "orientation": {
+          "w": "1",
+          "x": "0",
+          "y": "0",
+          "z": "0"
+        },
+        "position": [
+          "88",
+          "2",
+          "0"
+        ],
+        "transformRefs": [
+          "urn:fixture:calibration:v1"
+        ],
+        "units": [
+          "m",
+          "m",
+          "m"
+        ]
+      }
+    },
+    {
+      "derivation": {
+        "branch": "historical",
+        "counterfactual": false,
+        "method": "fixture-position-report",
+        "parents": []
+      },
+      "entity": "urn:fixture:performance:asset-7",
+      "eventTime": {
+        "basis": "UTC",
+        "end": null,
+        "start": "2026-09-28T12:01:29Z"
+      },
+      "knownAt": "2026-09-28T12:01:30Z",
+      "lifecycle": {
+        "operation": "assert",
+        "target": null,
+        "validUntil": "2026-09-28T12:01:34Z"
+      },
+      "origin": "synthetic-fixture-not-sensor-data",
+      "predicate": "position",
+      "quality": {
+        "kind": "unknown"
+      },
+      "recordId": "urn:fixture:performance:89",
+      "rights": {
+        "expiresAt": "2026-09-28T12:05:00Z",
+        "prohibitedInferences": [
+          "biometric-identification",
+          "actuation-authorization"
+        ],
+        "purposes": [
+          "operations",
+          "review",
+          "xr"
+        ]
+      },
+      "role": "reported-measurement",
+      "schemaVersion": "0.5.0",
+      "sources": [
+        "urn:fixture:provider-A"
+      ],
+      "spatial": {
+        "frame": "urn:frame:performance:stage",
+        "orientation": {
+          "w": "1",
+          "x": "0",
+          "y": "0",
+          "z": "0"
+        },
+        "position": [
+          "89",
+          "2",
+          "0"
+        ],
+        "transformRefs": [
+          "urn:fixture:calibration:v1"
+        ],
+        "units": [
+          "m",
+          "m",
+          "m"
+        ]
+      }
+    },
+    {
+      "derivation": {
+        "branch": "historical",
+        "counterfactual": false,
+        "method": "fixture-position-report",
+        "parents": []
+      },
+      "entity": "urn:fixture:performance:asset-7",
+      "eventTime": {
+        "basis": "UTC",
+        "end": null,
+        "start": "2026-09-28T12:00:20Z"
+      },
+      "knownAt": "2026-09-28T12:00:21Z",
+      "lifecycle": {
+        "operation": "assert",
+        "target": null,
+        "validUntil": "2026-09-28T12:00:25Z"
+      },
+      "origin": "synthetic-fixture-not-sensor-data",
+      "predicate": "position",
+      "quality": {
+        "kind": "unknown"
+      },
+      "recordId": "urn:fixture:performance:20:alternate",
+      "rights": {
+        "expiresAt": "2026-09-28T12:05:00Z",
+        "prohibitedInferences": [
+          "biometric-identification",
+          "actuation-authorization"
+        ],
+        "purposes": [
+          "operations",
+          "review",
+          "xr"
+        ]
+      },
+      "role": "reported-measurement",
+      "schemaVersion": "0.5.0",
+      "sources": [
+        "urn:fixture:provider-alternate"
+      ],
+      "spatial": {
+        "frame": "urn:frame:performance:stage",
+        "orientation": {
+          "w": "1",
+          "x": "0",
+          "y": "0",
+          "z": "0"
+        },
+        "position": [
+          "-3",
+          "2",
+          "0"
+        ],
+        "transformRefs": [
+          "urn:fixture:calibration:v1"
+        ],
+        "units": [
+          "m",
+          "m",
+          "m"
+        ]
+      }
+    },
+    {
+      "derivation": {
+        "branch": "historical",
+        "counterfactual": false,
+        "method": "fixture-position-report",
+        "parents": [
+          "urn:fixture:performance:10"
+        ]
+      },
+      "entity": "urn:fixture:performance:asset-7",
+      "eventTime": {
+        "basis": "UTC",
+        "end": null,
+        "start": "2026-09-28T12:00:10Z"
+      },
+      "knownAt": "2026-09-28T12:00:13Z",
+      "lifecycle": {
+        "operation": "supersede",
+        "target": "urn:fixture:performance:10",
+        "validUntil": "2026-09-28T12:00:15Z"
+      },
+      "origin": "synthetic-fixture-not-sensor-data",
+      "predicate": "position",
+      "quality": {
+        "kind": "unknown"
+      },
+      "recordId": "urn:fixture:performance:10:revision",
+      "rights": {
+        "expiresAt": "2026-09-28T12:05:00Z",
+        "prohibitedInferences": [
+          "biometric-identification",
+          "actuation-authorization"
+        ],
+        "purposes": [
+          "operations",
+          "review",
+          "xr"
+        ]
+      },
+      "role": "reported-measurement",
+      "schemaVersion": "0.5.0",
+      "sources": [
+        "urn:fixture:provider-A"
+      ],
+      "spatial": {
+        "frame": "urn:frame:performance:stage",
+        "orientation": {
+          "w": "1",
+          "x": "0",
+          "y": "0",
+          "z": "0"
+        },
+        "position": [
+          "10",
+          "3",
+          "0"
+        ],
+        "transformRefs": [
+          "urn:fixture:calibration:v1"
+        ],
+        "units": [
+          "m",
+          "m",
+          "m"
+        ]
+      }
+    }
+  ],
+  "rosettaProjection": {
+    "closure": [
+      {
+        "canonical": "{\"kind\":\"rosetta.observation\",\"pack\":\"rosetta.core\",\"parents\":[],\"payload\":{\"observationId\":\"observation.ae6c108fd06eb03f\",\"signal\":\"{\\\"derivation\\\":{\\\"branch\\\":\\\"historical\\\",\\\"counterfactual\\\":false,\\\"method\\\":\\\"synthetic-fixture\\\",\\\"parents\\\":[]},\\\"entity\\\":\\\"urn:fixture:performance:asset-7\\\",\\\"eventTime\\\":{\\\"basis\\\":\\\"UTC\\\",\\\"end\\\":null,\\\"start\\\":\\\"2026-09-28T12:00:00Z\\\"},\\\"knownAt\\\":\\\"2026-09-28T12:00:01Z\\\",\\\"lifecycle\\\":{\\\"operation\\\":\\\"assert\\\",\\\"target\\\":null,\\\"validUntil\\\":\\\"2026-09-28T12:00:05Z\\\"},\\\"origin\\\":\\\"synthetic-fixture-not-sensor-data\\\",\\\"predicate\\\":\\\"position\\\",\\\"quality\\\":{\\\"kind\\\":\\\"unknown\\\"},\\\"recordId\\\":\\\"urn:fixture:performance:0\\\",\\\"rights\\\":{\\\"expiresAt\\\":\\\"2026-09-28T12:05:00Z\\\",\\\"prohibitedInferences\\\":[\\\"biometric-identification\\\",\\\"actuation-authorization\\\"],\\\"purposes\\\":[\\\"operations\\\",\\\"review\\\",\\\"xr\\\"]},\\\"role\\\":\\\"reported-measurement\\\",\\\"schemaVersion\\\":\\\"0.5.0\\\",\\\"sources\\\":[\\\"urn:fixture:provider-A\\\"],\\\"spatial\\\":{\\\"frame\\\":\\\"urn:frame:performance:stage\\\",\\\"orientation\\\":{\\\"w\\\":\\\"1\\\",\\\"x\\\":\\\"0\\\",\\\"y\\\":\\\"0\\\",\\\"z\\\":\\\"0\\\"},\\\"position\\\":[\\\"0\\\",\\\"2\\\",\\\"0\\\"],\\\"transformRefs\\\":[\\\"urn:fixture:calibration:v1\\\"],\\\"units\\\":[\\\"m\\\",\\\"m\\\",\\\"m\\\"]}}\",\"source\":\"urn:fixture:provider-A\"},\"version\":\"0.1.0\"}",
+        "cid": "cidv1-sha256-b6adaae87601abe784dd482df5ce47e7ae94a456f6f8eba3c069583ee8672782",
+        "createdAt": "2026-09-28T12:00:01Z",
+        "kind": "rosetta.observation",
+        "pack": "rosetta.core",
+        "parents": [],
+        "payload": {
+          "observationId": "observation.ae6c108fd06eb03f",
+          "signal": "{\"derivation\":{\"branch\":\"historical\",\"counterfactual\":false,\"method\":\"synthetic-fixture\",\"parents\":[]},\"entity\":\"urn:fixture:performance:asset-7\",\"eventTime\":{\"basis\":\"UTC\",\"end\":null,\"start\":\"2026-09-28T12:00:00Z\"},\"knownAt\":\"2026-09-28T12:00:01Z\",\"lifecycle\":{\"operation\":\"assert\",\"target\":null,\"validUntil\":\"2026-09-28T12:00:05Z\"},\"origin\":\"synthetic-fixture-not-sensor-data\",\"predicate\":\"position\",\"quality\":{\"kind\":\"unknown\"},\"recordId\":\"urn:fixture:performance:0\",\"rights\":{\"expiresAt\":\"2026-09-28T12:05:00Z\",\"prohibitedInferences\":[\"biometric-identification\",\"actuation-authorization\"],\"purposes\":[\"operations\",\"review\",\"xr\"]},\"role\":\"reported-measurement\",\"schemaVersion\":\"0.5.0\",\"sources\":[\"urn:fixture:provider-A\"],\"spatial\":{\"frame\":\"urn:frame:performance:stage\",\"orientation\":{\"w\":\"1\",\"x\":\"0\",\"y\":\"0\",\"z\":\"0\"},\"position\":[\"0\",\"2\",\"0\"],\"transformRefs\":[\"urn:fixture:calibration:v1\"],\"units\":[\"m\",\"m\",\"m\"]}}",
+          "source": "urn:fixture:provider-A"
+        },
+        "version": "0.1.0"
+      },
+      {
+        "canonical": "{\"kind\":\"indranet.parsed_signal\",\"pack\":\"indranet.context\",\"parents\":[\"cidv1-sha256-b6adaae87601abe784dd482df5ce47e7ae94a456f6f8eba3c069583ee8672782\"],\"payload\":{\"dataOrigin\":\"synthetic-fixture-not-sensor-data\",\"eventTime\":\"2026-09-28T12:00:01Z\",\"knownAt\":\"2026-09-28T12:00:01Z\",\"mediaType\":\"application/json\",\"observationCid\":\"cidv1-sha256-b6adaae87601abe784dd482df5ce47e7ae94a456f6f8eba3c069583ee8672782\",\"parser\":\"python-json-reference\",\"purposes\":[\"operations\",\"review\",\"xr\"],\"sourceSha256\":\"ae6c108fd06eb03fa50b1f3eb9b1a789d3b84734e1615f2af84c1a6bad57fbde\"},\"version\":\"0.5.0\"}",
+        "cid": "cidv1-sha256-a20614a0ec8179dd393be8bd5c91fc20b67af78e1d25c66038e27721cf843110",
+        "createdAt": "2026-09-28T12:00:01Z",
+        "kind": "indranet.parsed_signal",
+        "pack": "indranet.context",
+        "parents": [
+          "cidv1-sha256-b6adaae87601abe784dd482df5ce47e7ae94a456f6f8eba3c069583ee8672782"
+        ],
+        "payload": {
+          "dataOrigin": "synthetic-fixture-not-sensor-data",
+          "eventTime": "2026-09-28T12:00:01Z",
+          "knownAt": "2026-09-28T12:00:01Z",
+          "mediaType": "application/json",
+          "observationCid": "cidv1-sha256-b6adaae87601abe784dd482df5ce47e7ae94a456f6f8eba3c069583ee8672782",
+          "parser": "python-json-reference",
+          "purposes": [
+            "operations",
+            "review",
+            "xr"
+          ],
+          "sourceSha256": "ae6c108fd06eb03fa50b1f3eb9b1a789d3b84734e1615f2af84c1a6bad57fbde"
+        },
+        "version": "0.5.0"
+      },
+      {
+        "canonical": "{\"kind\":\"indranet.native_record\",\"pack\":\"indranet.context\",\"parents\":[\"cidv1-sha256-a20614a0ec8179dd393be8bd5c91fc20b67af78e1d25c66038e27721cf843110\"],\"payload\":{\"derivation\":{\"branch\":\"historical\",\"counterfactual\":false,\"method\":\"synthetic-fixture\",\"parents\":[]},\"entity\":\"urn:fixture:performance:asset-7\",\"eventTime\":{\"basis\":\"UTC\",\"end\":null,\"start\":\"2026-09-28T12:00:00Z\"},\"knownAt\":\"2026-09-28T12:00:01Z\",\"lifecycle\":{\"operation\":\"assert\",\"target\":null,\"validUntil\":\"2026-09-28T12:00:05Z\"},\"origin\":\"synthetic-fixture-not-sensor-data\",\"predicate\":\"position\",\"quality\":{\"kind\":\"unknown\"},\"recordId\":\"urn:fixture:performance:0\",\"rights\":{\"expiresAt\":\"2026-09-28T12:05:00Z\",\"prohibitedInferences\":[\"biometric-identification\",\"actuation-authorization\"],\"purposes\":[\"operations\",\"review\",\"xr\"]},\"role\":\"reported-measurement\",\"schemaVersion\":\"0.5.0\",\"sources\":[\"urn:fixture:provider-A\"],\"spatial\":{\"frame\":\"urn:frame:performance:stage\",\"orientation\":{\"w\":\"1\",\"x\":\"0\",\"y\":\"0\",\"z\":\"0\"},\"position\":[\"0\",\"2\",\"0\"],\"transformRefs\":[\"urn:fixture:calibration:v1\"],\"units\":[\"m\",\"m\",\"m\"]}},\"version\":\"0.5.0\"}",
+        "cid": "cidv1-sha256-e18f4e73279cf72f098a23bb1052515458035aa53d341996e4632f061eb2cb0e",
+        "createdAt": "2026-09-28T12:00:01Z",
+        "kind": "indranet.native_record",
+        "pack": "indranet.context",
+        "parents": [
+          "cidv1-sha256-a20614a0ec8179dd393be8bd5c91fc20b67af78e1d25c66038e27721cf843110"
+        ],
+        "payload": {
+          "derivation": {
+            "branch": "historical",
+            "counterfactual": false,
+            "method": "synthetic-fixture",
+            "parents": []
+          },
+          "entity": "urn:fixture:performance:asset-7",
+          "eventTime": {
+            "basis": "UTC",
+            "end": null,
+            "start": "2026-09-28T12:00:00Z"
+          },
+          "knownAt": "2026-09-28T12:00:01Z",
+          "lifecycle": {
+            "operation": "assert",
+            "target": null,
+            "validUntil": "2026-09-28T12:00:05Z"
+          },
+          "origin": "synthetic-fixture-not-sensor-data",
+          "predicate": "position",
+          "quality": {
+            "kind": "unknown"
+          },
+          "recordId": "urn:fixture:performance:0",
+          "rights": {
+            "expiresAt": "2026-09-28T12:05:00Z",
+            "prohibitedInferences": [
+              "biometric-identification",
+              "actuation-authorization"
+            ],
+            "purposes": [
+              "operations",
+              "review",
+              "xr"
+            ]
+          },
+          "role": "reported-measurement",
+          "schemaVersion": "0.5.0",
+          "sources": [
+            "urn:fixture:provider-A"
+          ],
+          "spatial": {
+            "frame": "urn:frame:performance:stage",
+            "orientation": {
+              "w": "1",
+              "x": "0",
+              "y": "0",
+              "z": "0"
+            },
+            "position": [
+              "0",
+              "2",
+              "0"
+            ],
+            "transformRefs": [
+              "urn:fixture:calibration:v1"
+            ],
+            "units": [
+              "m",
+              "m",
+              "m"
+            ]
+          }
+        },
+        "version": "0.5.0"
+      },
+      {
+        "canonical": "{\"kind\":\"indranet.state_assertion\",\"pack\":\"indranet.context\",\"parents\":[\"cidv1-sha256-e18f4e73279cf72f098a23bb1052515458035aa53d341996e4632f061eb2cb0e\"],\"payload\":{\"dataOrigin\":\"synthetic-fixture-not-sensor-data\",\"epistemicRole\":\"reported-measurement\",\"eventTime\":\"2026-09-28T12:00:00Z\",\"evidenceCids\":[\"cidv1-sha256-e18f4e73279cf72f098a23bb1052515458035aa53d341996e4632f061eb2cb0e\"],\"frame\":\"urn:frame:performance:stage\",\"knownAt\":\"2026-09-28T12:00:01Z\",\"predicate\":\"position\",\"purposes\":[\"operations\",\"review\",\"xr\"],\"source\":\"urn:fixture:provider-A\",\"subject\":\"urn:fixture:performance:asset-7\",\"uncertainty\":{\"kind\":\"unknown\"},\"validUntil\":\"2026-09-28T12:00:05Z\",\"value\":{\"frame\":\"urn:frame:performance:stage\",\"orientation\":{\"w\":\"1\",\"x\":\"0\",\"y\":\"0\",\"z\":\"0\"},\"position\":[\"0\",\"2\",\"0\"],\"transformRefs\":[\"urn:fixture:calibration:v1\"],\"units\":[\"m\",\"m\",\"m\"]}},\"version\":\"0.5.0\"}",
+        "cid": "cidv1-sha256-835c88d1148107c02f94a22636fbde2e315ffd4b817925b08c103bd4d25a1099",
+        "createdAt": "2026-09-28T12:00:01Z",
+        "kind": "indranet.state_assertion",
+        "pack": "indranet.context",
+        "parents": [
+          "cidv1-sha256-e18f4e73279cf72f098a23bb1052515458035aa53d341996e4632f061eb2cb0e"
+        ],
+        "payload": {
+          "dataOrigin": "synthetic-fixture-not-sensor-data",
+          "epistemicRole": "reported-measurement",
+          "eventTime": "2026-09-28T12:00:00Z",
+          "evidenceCids": [
+            "cidv1-sha256-e18f4e73279cf72f098a23bb1052515458035aa53d341996e4632f061eb2cb0e"
+          ],
+          "frame": "urn:frame:performance:stage",
+          "knownAt": "2026-09-28T12:00:01Z",
+          "predicate": "position",
+          "purposes": [
+            "operations",
+            "review",
+            "xr"
+          ],
+          "source": "urn:fixture:provider-A",
+          "subject": "urn:fixture:performance:asset-7",
+          "uncertainty": {
+            "kind": "unknown"
+          },
+          "validUntil": "2026-09-28T12:00:05Z",
+          "value": {
+            "frame": "urn:frame:performance:stage",
+            "orientation": {
+              "w": "1",
+              "x": "0",
+              "y": "0",
+              "z": "0"
+            },
+            "position": [
+              "0",
+              "2",
+              "0"
+            ],
+            "transformRefs": [
+              "urn:fixture:calibration:v1"
+            ],
+            "units": [
+              "m",
+              "m",
+              "m"
+            ]
+          }
+        },
+        "version": "0.5.0"
+      }
+    ],
+    "externalRefsPreserved": [
+      "urn:fixture:provider-A"
+    ],
+    "integrationStatus": "local projection of an independently authored native profile",
+    "nativeDigest": "indranet-json-sha256:ae6c108fd06eb03fa50b1f3eb9b1a789d3b84734e1615f2af84c1a6bad57fbde",
+    "nativeRecordCid": "cidv1-sha256-e18f4e73279cf72f098a23bb1052515458035aa53d341996e4632f061eb2cb0e",
+    "nativeRuntimeExecuted": false,
+    "observationCid": "cidv1-sha256-b6adaae87601abe784dd482df5ce47e7ae94a456f6f8eba3c069583ee8672782",
+    "officialConformance": false,
+    "stateAssertionCid": "cidv1-sha256-835c88d1148107c02f94a22636fbde2e315ffd4b817925b08c103bd4d25a1099"
+  },
+  "scenario": "performance",
+  "sharedExample": {
+    "geoPose": null,
+    "locatingReference": {
+      "coordinates": [
+        "0",
+        "2",
+        "0"
+      ],
+      "generatedAt": "2026-09-28T12:00:00Z",
+      "locationProvider": "urn:fixture:provider-A",
+      "trackable": "urn:fixture:performance:asset-7",
+      "zone": "urn:frame:performance:stage"
+    },
+    "losses": [
+      {
+        "detail": "Explicit candidate attributes; no JSON-LD expansion or live temporal API.",
+        "status": "Composition",
+        "surface": "NGSI-LD"
+      },
+      {
+        "detail": "Declared complex-position Datastream; Sensor/ObservedProperty/FoI dereferencing is not executed.",
+        "status": "Specialization",
+        "surface": "SensorThings"
+      },
+      {
+        "detail": "Optional binary64 preview only; exact decimals remain in NGSI profile. Local Cartesian frames need an explicit geodetic transform.",
+        "status": "OutOfScope",
+        "surface": "GeoPose"
+      },
+      {
+        "detail": "Official API schema/runtime not retrieved. LocatingReference is independently authored, not an omlox payload.",
+        "status": "Unsupported",
+        "surface": "omlox"
+      }
+    ],
+    "nativeRuntimesExecuted": false,
+    "ngsiLd": {
+      "@context": {
+        "@vocab": "urn:indranet:candidate:0.5:",
+        "GeoProperty": "https://uri.etsi.org/ngsi-ld/GeoProperty",
+        "Property": "https://uri.etsi.org/ngsi-ld/Property",
+        "Relationship": "https://uri.etsi.org/ngsi-ld/Relationship"
+      },
+      "coordinateFrame": {
+        "type": "Property",
+        "value": "urn:frame:performance:stage"
+      },
+      "coordinateUnits": {
+        "type": "Property",
+        "value": [
+          "m",
+          "m",
+          "m"
+        ]
+      },
+      "derivation": {
+        "type": "Property",
+        "value": {
+          "branch": "historical",
+          "counterfactual": false,
+          "method": "synthetic-fixture",
+          "parents": []
+        }
+      },
+      "eventInterval": {
+        "type": "Property",
+        "value": {
+          "basis": "UTC",
+          "end": null,
+          "start": "2026-09-28T12:00:00Z"
+        }
+      },
+      "id": "urn:fixture:performance:asset-7",
+      "knownAt": {
+        "type": "Property",
+        "value": "2026-09-28T12:00:01Z"
+      },
+      "lifecycle": {
+        "type": "Property",
+        "value": {
+          "operation": "assert",
+          "target": null,
+          "validUntil": "2026-09-28T12:00:05Z"
+        }
+      },
+      "orientation": {
+        "type": "Property",
+        "value": {
+          "w": "1",
+          "x": "0",
+          "y": "0",
+          "z": "0"
+        }
+      },
+      "origin": {
+        "type": "Property",
+        "value": "synthetic-fixture-not-sensor-data"
+      },
+      "position": {
+        "observedAt": "2026-09-28T12:00:00Z",
+        "type": "Property",
+        "value": [
+          "0",
+          "2",
+          "0"
+        ]
+      },
+      "predicate": {
+        "type": "Property",
+        "value": "position"
+      },
+      "quality": {
+        "type": "Property",
+        "value": {
+          "kind": "unknown"
+        }
+      },
+      "recordId": {
+        "type": "Property",
+        "value": "urn:fixture:performance:0"
+      },
+      "rights": {
+        "type": "Property",
+        "value": {
+          "expiresAt": "2026-09-28T12:05:00Z",
+          "prohibitedInferences": [
+            "biometric-identification",
+            "actuation-authorization"
+          ],
+          "purposes": [
+            "operations",
+            "review",
+            "xr"
+          ]
+        }
+      },
+      "role": {
+        "type": "Property",
+        "value": "reported-measurement"
+      },
+      "schemaVersion": {
+        "type": "Property",
+        "value": "0.5.0"
+      },
+      "sources": {
+        "type": "Property",
+        "value": [
+          "urn:fixture:provider-A"
+        ]
+      },
+      "transformRefs": {
+        "type": "Property",
+        "value": [
+          "urn:fixture:calibration:v1"
+        ]
+      },
+      "type": "PhysicalContextRecord"
+    },
+    "officialConformance": false,
+    "profile": "indranet-mature-composition-reference/0.5.0",
+    "sensorThings": {
+      "@iot.id": "urn:fixture:performance:0",
+      "Datastream": {
+        "@iot.id": "urn:fixture:performance:asset-7:position-stream"
+      },
+      "parameters": {
+        "profile": "urn:indranet:candidate:position-result-v1"
+      },
+      "phenomenonTime": "2026-09-28T12:00:00Z",
+      "result": {
+        "coordinateFrame": "urn:frame:performance:stage",
+        "coordinates": [
+          "0",
+          "2",
+          "0"
+        ]
+      },
+      "resultTime": "2026-09-28T12:00:01Z",
+      "validTime": "2026-09-28T12:00:00Z/2026-09-28T12:00:05Z"
+    }
+  },
+  "views": {
+    "operations": {
+      "conflictPolicy": "retain candidates; no automatic reconciliation or trust ranking",
+      "omitted": 0,
+      "physicalActuationAuthority": false,
+      "purpose": "operations",
+      "states": [
+        {
+          "branch": "historical",
+          "counterfactual": false,
+          "entity": "urn:fixture:performance:asset-7",
+          "eventTime": {
+            "basis": "UTC",
+            "end": null,
+            "start": "2026-09-28T12:00:18Z"
+          },
+          "predicate": "position",
+          "prohibitedInferences": [
+            "biometric-identification",
+            "actuation-authorization"
+          ],
+          "quality": {
+            "kind": "unknown"
+          },
+          "recordId": "urn:fixture:performance:18",
+          "role": "reported-measurement",
+          "sources": [
+            "urn:fixture:provider-A"
+          ],
+          "spatial": {
+            "frame": "urn:frame:performance:stage",
+            "orientation": {
+              "w": "1",
+              "x": "0",
+              "y": "0",
+              "z": "0"
+            },
+            "position": [
+              "18",
+              "2",
+              "0"
+            ],
+            "transformRefs": [
+              "urn:fixture:calibration:v1"
+            ],
+            "units": [
+              "m",
+              "m",
+              "m"
+            ]
+          },
+          "stale": true
+        },
+        {
+          "branch": "historical",
+          "counterfactual": false,
+          "entity": "urn:fixture:performance:asset-7",
+          "eventTime": {
+            "basis": "UTC",
+            "end": null,
+            "start": "2026-09-28T12:00:19Z"
+          },
+          "predicate": "position",
+          "prohibitedInferences": [
+            "biometric-identification",
+            "actuation-authorization"
+          ],
+          "quality": {
+            "kind": "unknown"
+          },
+          "recordId": "urn:fixture:performance:19",
+          "role": "reported-measurement",
+          "sources": [
+            "urn:fixture:provider-A"
+          ],
+          "spatial": {
+            "frame": "urn:frame:performance:stage",
+            "orientation": {
+              "w": "1",
+              "x": "0",
+              "y": "0",
+              "z": "0"
+            },
+            "position": [
+              "19",
+              "2",
+              "0"
+            ],
+            "transformRefs": [
+              "urn:fixture:calibration:v1"
+            ],
+            "units": [
+              "m",
+              "m",
+              "m"
+            ]
+          },
+          "stale": true
+        },
+        {
+          "branch": "historical",
+          "counterfactual": false,
+          "entity": "urn:fixture:performance:asset-7",
+          "eventTime": {
+            "basis": "UTC",
+            "end": null,
+            "start": "2026-09-28T12:00:20Z"
+          },
+          "predicate": "position",
+          "prohibitedInferences": [
+            "biometric-identification",
+            "actuation-authorization"
+          ],
+          "quality": {
+            "kind": "unknown"
+          },
+          "recordId": "urn:fixture:performance:20",
+          "role": "reported-measurement",
+          "sources": [
+            "urn:fixture:provider-A"
+          ],
+          "spatial": {
+            "frame": "urn:frame:performance:stage",
+            "orientation": {
+              "w": "1",
+              "x": "0",
+              "y": "0",
+              "z": "0"
+            },
+            "position": [
+              "20",
+              "2",
+              "0"
+            ],
+            "transformRefs": [
+              "urn:fixture:calibration:v1"
+            ],
+            "units": [
+              "m",
+              "m",
+              "m"
+            ]
+          },
+          "stale": false
+        },
+        {
+          "branch": "historical",
+          "counterfactual": false,
+          "entity": "urn:fixture:performance:asset-7",
+          "eventTime": {
+            "basis": "UTC",
+            "end": null,
+            "start": "2026-09-28T12:00:21Z"
+          },
+          "predicate": "position",
+          "prohibitedInferences": [
+            "biometric-identification",
+            "actuation-authorization"
+          ],
+          "quality": {
+            "kind": "unknown"
+          },
+          "recordId": "urn:fixture:performance:21",
+          "role": "reported-measurement",
+          "sources": [
+            "urn:fixture:provider-A"
+          ],
+          "spatial": {
+            "frame": "urn:frame:performance:stage",
+            "orientation": {
+              "w": "1",
+              "x": "0",
+              "y": "0",
+              "z": "0"
+            },
+            "position": [
+              "21",
+              "2",
+              "0"
+            ],
+            "transformRefs": [
+              "urn:fixture:calibration:v1"
+            ],
+            "units": [
+              "m",
+              "m",
+              "m"
+            ]
+          },
+          "stale": false
+        },
+        {
+          "branch": "historical",
+          "counterfactual": false,
+          "entity": "urn:fixture:performance:asset-7",
+          "eventTime": {
+            "basis": "UTC",
+            "end": null,
+            "start": "2026-09-28T12:00:22Z"
+          },
+          "predicate": "position",
+          "prohibitedInferences": [
+            "biometric-identification",
+            "actuation-authorization"
+          ],
+          "quality": {
+            "kind": "unknown"
+          },
+          "recordId": "urn:fixture:performance:22",
+          "role": "reported-measurement",
+          "sources": [
+            "urn:fixture:provider-A"
+          ],
+          "spatial": {
+            "frame": "urn:frame:performance:stage",
+            "orientation": {
+              "w": "1",
+              "x": "0",
+              "y": "0",
+              "z": "0"
+            },
+            "position": [
+              "22",
+              "2",
+              "0"
+            ],
+            "transformRefs": [
+              "urn:fixture:calibration:v1"
+            ],
+            "units": [
+              "m",
+              "m",
+              "m"
+            ]
+          },
+          "stale": false
+        },
+        {
+          "branch": "historical",
+          "counterfactual": false,
+          "entity": "urn:fixture:performance:asset-7",
+          "eventTime": {
+            "basis": "UTC",
+            "end": null,
+            "start": "2026-09-28T12:00:20Z"
+          },
+          "predicate": "position",
+          "prohibitedInferences": [
+            "biometric-identification",
+            "actuation-authorization"
+          ],
+          "quality": {
+            "kind": "unknown"
+          },
+          "recordId": "urn:fixture:performance:20:alternate",
+          "role": "reported-measurement",
+          "sources": [
+            "urn:fixture:provider-alternate"
+          ],
+          "spatial": {
+            "frame": "urn:frame:performance:stage",
+            "orientation": {
+              "w": "1",
+              "x": "0",
+              "y": "0",
+              "z": "0"
+            },
+            "position": [
+              "-3",
+              "2",
+              "0"
+            ],
+            "transformRefs": [
+              "urn:fixture:calibration:v1"
+            ],
+            "units": [
+              "m",
+              "m",
+              "m"
+            ]
+          },
+          "stale": false
+        }
+      ]
+    },
+    "review": {
+      "conflictPolicy": "retain candidates; no automatic reconciliation or trust ranking",
+      "omitted": 0,
+      "physicalActuationAuthority": false,
+      "purpose": "review",
+      "states": [
+        {
+          "branch": "historical",
+          "counterfactual": false,
+          "entity": "urn:fixture:performance:asset-7",
+          "eventTime": {
+            "basis": "UTC",
+            "end": null,
+            "start": "2026-09-28T12:00:18Z"
+          },
+          "predicate": "position",
+          "prohibitedInferences": [
+            "biometric-identification",
+            "actuation-authorization"
+          ],
+          "quality": {
+            "kind": "unknown"
+          },
+          "recordId": "urn:fixture:performance:18",
+          "role": "reported-measurement",
+          "sources": [
+            "urn:fixture:provider-A"
+          ],
+          "spatial": {
+            "frame": "urn:frame:performance:stage",
+            "orientation": {
+              "w": "1",
+              "x": "0",
+              "y": "0",
+              "z": "0"
+            },
+            "position": [
+              "18",
+              "2",
+              "0"
+            ],
+            "transformRefs": [
+              "urn:fixture:calibration:v1"
+            ],
+            "units": [
+              "m",
+              "m",
+              "m"
+            ]
+          },
+          "stale": true
+        },
+        {
+          "branch": "historical",
+          "counterfactual": false,
+          "entity": "urn:fixture:performance:asset-7",
+          "eventTime": {
+            "basis": "UTC",
+            "end": null,
+            "start": "2026-09-28T12:00:19Z"
+          },
+          "predicate": "position",
+          "prohibitedInferences": [
+            "biometric-identification",
+            "actuation-authorization"
+          ],
+          "quality": {
+            "kind": "unknown"
+          },
+          "recordId": "urn:fixture:performance:19",
+          "role": "reported-measurement",
+          "sources": [
+            "urn:fixture:provider-A"
+          ],
+          "spatial": {
+            "frame": "urn:frame:performance:stage",
+            "orientation": {
+              "w": "1",
+              "x": "0",
+              "y": "0",
+              "z": "0"
+            },
+            "position": [
+              "19",
+              "2",
+              "0"
+            ],
+            "transformRefs": [
+              "urn:fixture:calibration:v1"
+            ],
+            "units": [
+              "m",
+              "m",
+              "m"
+            ]
+          },
+          "stale": true
+        },
+        {
+          "branch": "historical",
+          "counterfactual": false,
+          "entity": "urn:fixture:performance:asset-7",
+          "eventTime": {
+            "basis": "UTC",
+            "end": null,
+            "start": "2026-09-28T12:00:20Z"
+          },
+          "predicate": "position",
+          "prohibitedInferences": [
+            "biometric-identification",
+            "actuation-authorization"
+          ],
+          "quality": {
+            "kind": "unknown"
+          },
+          "recordId": "urn:fixture:performance:20",
+          "role": "reported-measurement",
+          "sources": [
+            "urn:fixture:provider-A"
+          ],
+          "spatial": {
+            "frame": "urn:frame:performance:stage",
+            "orientation": {
+              "w": "1",
+              "x": "0",
+              "y": "0",
+              "z": "0"
+            },
+            "position": [
+              "20",
+              "2",
+              "0"
+            ],
+            "transformRefs": [
+              "urn:fixture:calibration:v1"
+            ],
+            "units": [
+              "m",
+              "m",
+              "m"
+            ]
+          },
+          "stale": false
+        },
+        {
+          "branch": "historical",
+          "counterfactual": false,
+          "entity": "urn:fixture:performance:asset-7",
+          "eventTime": {
+            "basis": "UTC",
+            "end": null,
+            "start": "2026-09-28T12:00:21Z"
+          },
+          "predicate": "position",
+          "prohibitedInferences": [
+            "biometric-identification",
+            "actuation-authorization"
+          ],
+          "quality": {
+            "kind": "unknown"
+          },
+          "recordId": "urn:fixture:performance:21",
+          "role": "reported-measurement",
+          "sources": [
+            "urn:fixture:provider-A"
+          ],
+          "spatial": {
+            "frame": "urn:frame:performance:stage",
+            "orientation": {
+              "w": "1",
+              "x": "0",
+              "y": "0",
+              "z": "0"
+            },
+            "position": [
+              "21",
+              "2",
+              "0"
+            ],
+            "transformRefs": [
+              "urn:fixture:calibration:v1"
+            ],
+            "units": [
+              "m",
+              "m",
+              "m"
+            ]
+          },
+          "stale": false
+        },
+        {
+          "branch": "historical",
+          "counterfactual": false,
+          "entity": "urn:fixture:performance:asset-7",
+          "eventTime": {
+            "basis": "UTC",
+            "end": null,
+            "start": "2026-09-28T12:00:22Z"
+          },
+          "predicate": "position",
+          "prohibitedInferences": [
+            "biometric-identification",
+            "actuation-authorization"
+          ],
+          "quality": {
+            "kind": "unknown"
+          },
+          "recordId": "urn:fixture:performance:22",
+          "role": "reported-measurement",
+          "sources": [
+            "urn:fixture:provider-A"
+          ],
+          "spatial": {
+            "frame": "urn:frame:performance:stage",
+            "orientation": {
+              "w": "1",
+              "x": "0",
+              "y": "0",
+              "z": "0"
+            },
+            "position": [
+              "22",
+              "2",
+              "0"
+            ],
+            "transformRefs": [
+              "urn:fixture:calibration:v1"
+            ],
+            "units": [
+              "m",
+              "m",
+              "m"
+            ]
+          },
+          "stale": false
+        },
+        {
+          "branch": "historical",
+          "counterfactual": false,
+          "entity": "urn:fixture:performance:asset-7",
+          "eventTime": {
+            "basis": "UTC",
+            "end": null,
+            "start": "2026-09-28T12:00:20Z"
+          },
+          "predicate": "position",
+          "prohibitedInferences": [
+            "biometric-identification",
+            "actuation-authorization"
+          ],
+          "quality": {
+            "kind": "unknown"
+          },
+          "recordId": "urn:fixture:performance:20:alternate",
+          "role": "reported-measurement",
+          "sources": [
+            "urn:fixture:provider-alternate"
+          ],
+          "spatial": {
+            "frame": "urn:frame:performance:stage",
+            "orientation": {
+              "w": "1",
+              "x": "0",
+              "y": "0",
+              "z": "0"
+            },
+            "position": [
+              "-3",
+              "2",
+              "0"
+            ],
+            "transformRefs": [
+              "urn:fixture:calibration:v1"
+            ],
+            "units": [
+              "m",
+              "m",
+              "m"
+            ]
+          },
+          "stale": false
+        }
+      ]
+    },
+    "xr": {
+      "conflictPolicy": "retain candidates; no automatic reconciliation or trust ranking",
+      "omitted": 0,
+      "physicalActuationAuthority": false,
+      "purpose": "xr",
+      "states": [
+        {
+          "branch": "historical",
+          "counterfactual": false,
+          "entity": "urn:fixture:performance:asset-7",
+          "eventTime": {
+            "basis": "UTC",
+            "end": null,
+            "start": "2026-09-28T12:00:18Z"
+          },
+          "predicate": "position",
+          "prohibitedInferences": [
+            "biometric-identification",
+            "actuation-authorization"
+          ],
+          "quality": {
+            "kind": "unknown"
+          },
+          "recordId": "urn:fixture:performance:18",
+          "role": "reported-measurement",
+          "sources": [
+            "urn:fixture:provider-A"
+          ],
+          "spatial": {
+            "frame": "urn:frame:performance:stage",
+            "orientation": {
+              "w": "1",
+              "x": "0",
+              "y": "0",
+              "z": "0"
+            },
+            "position": [
+              "18",
+              "2",
+              "0"
+            ],
+            "transformRefs": [
+              "urn:fixture:calibration:v1"
+            ],
+            "units": [
+              "m",
+              "m",
+              "m"
+            ]
+          },
+          "stale": true
+        },
+        {
+          "branch": "historical",
+          "counterfactual": false,
+          "entity": "urn:fixture:performance:asset-7",
+          "eventTime": {
+            "basis": "UTC",
+            "end": null,
+            "start": "2026-09-28T12:00:19Z"
+          },
+          "predicate": "position",
+          "prohibitedInferences": [
+            "biometric-identification",
+            "actuation-authorization"
+          ],
+          "quality": {
+            "kind": "unknown"
+          },
+          "recordId": "urn:fixture:performance:19",
+          "role": "reported-measurement",
+          "sources": [
+            "urn:fixture:provider-A"
+          ],
+          "spatial": {
+            "frame": "urn:frame:performance:stage",
+            "orientation": {
+              "w": "1",
+              "x": "0",
+              "y": "0",
+              "z": "0"
+            },
+            "position": [
+              "19",
+              "2",
+              "0"
+            ],
+            "transformRefs": [
+              "urn:fixture:calibration:v1"
+            ],
+            "units": [
+              "m",
+              "m",
+              "m"
+            ]
+          },
+          "stale": true
+        },
+        {
+          "branch": "historical",
+          "counterfactual": false,
+          "entity": "urn:fixture:performance:asset-7",
+          "eventTime": {
+            "basis": "UTC",
+            "end": null,
+            "start": "2026-09-28T12:00:20Z"
+          },
+          "predicate": "position",
+          "prohibitedInferences": [
+            "biometric-identification",
+            "actuation-authorization"
+          ],
+          "quality": {
+            "kind": "unknown"
+          },
+          "recordId": "urn:fixture:performance:20",
+          "role": "reported-measurement",
+          "sources": [
+            "urn:fixture:provider-A"
+          ],
+          "spatial": {
+            "frame": "urn:frame:performance:stage",
+            "orientation": {
+              "w": "1",
+              "x": "0",
+              "y": "0",
+              "z": "0"
+            },
+            "position": [
+              "20",
+              "2",
+              "0"
+            ],
+            "transformRefs": [
+              "urn:fixture:calibration:v1"
+            ],
+            "units": [
+              "m",
+              "m",
+              "m"
+            ]
+          },
+          "stale": false
+        },
+        {
+          "branch": "historical",
+          "counterfactual": false,
+          "entity": "urn:fixture:performance:asset-7",
+          "eventTime": {
+            "basis": "UTC",
+            "end": null,
+            "start": "2026-09-28T12:00:21Z"
+          },
+          "predicate": "position",
+          "prohibitedInferences": [
+            "biometric-identification",
+            "actuation-authorization"
+          ],
+          "quality": {
+            "kind": "unknown"
+          },
+          "recordId": "urn:fixture:performance:21",
+          "role": "reported-measurement",
+          "sources": [
+            "urn:fixture:provider-A"
+          ],
+          "spatial": {
+            "frame": "urn:frame:performance:stage",
+            "orientation": {
+              "w": "1",
+              "x": "0",
+              "y": "0",
+              "z": "0"
+            },
+            "position": [
+              "21",
+              "2",
+              "0"
+            ],
+            "transformRefs": [
+              "urn:fixture:calibration:v1"
+            ],
+            "units": [
+              "m",
+              "m",
+              "m"
+            ]
+          },
+          "stale": false
+        },
+        {
+          "branch": "historical",
+          "counterfactual": false,
+          "entity": "urn:fixture:performance:asset-7",
+          "eventTime": {
+            "basis": "UTC",
+            "end": null,
+            "start": "2026-09-28T12:00:22Z"
+          },
+          "predicate": "position",
+          "prohibitedInferences": [
+            "biometric-identification",
+            "actuation-authorization"
+          ],
+          "quality": {
+            "kind": "unknown"
+          },
+          "recordId": "urn:fixture:performance:22",
+          "role": "reported-measurement",
+          "sources": [
+            "urn:fixture:provider-A"
+          ],
+          "spatial": {
+            "frame": "urn:frame:performance:stage",
+            "orientation": {
+              "w": "1",
+              "x": "0",
+              "y": "0",
+              "z": "0"
+            },
+            "position": [
+              "22",
+              "2",
+              "0"
+            ],
+            "transformRefs": [
+              "urn:fixture:calibration:v1"
+            ],
+            "units": [
+              "m",
+              "m",
+              "m"
+            ]
+          },
+          "stale": false
+        },
+        {
+          "branch": "historical",
+          "counterfactual": false,
+          "entity": "urn:fixture:performance:asset-7",
+          "eventTime": {
+            "basis": "UTC",
+            "end": null,
+            "start": "2026-09-28T12:00:20Z"
+          },
+          "predicate": "position",
+          "prohibitedInferences": [
+            "biometric-identification",
+            "actuation-authorization"
+          ],
+          "quality": {
+            "kind": "unknown"
+          },
+          "recordId": "urn:fixture:performance:20:alternate",
+          "role": "reported-measurement",
+          "sources": [
+            "urn:fixture:provider-alternate"
+          ],
+          "spatial": {
+            "frame": "urn:frame:performance:stage",
+            "orientation": {
+              "w": "1",
+              "x": "0",
+              "y": "0",
+              "z": "0"
+            },
+            "position": [
+              "-3",
+              "2",
+              "0"
+            ],
+            "transformRefs": [
+              "urn:fixture:calibration:v1"
+            ],
+            "units": [
+              "m",
+              "m",
+              "m"
+            ]
+          },
+          "stale": false
+        }
+      ]
+    }
+  }
+}

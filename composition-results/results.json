@@ -1,0 +1,62 @@
+{
+  "status": "PASS",
+  "version": "0.5.0",
+  "scenarios": [
+    {
+      "scenario": "performance",
+      "records": 86,
+      "ngsiProfileRoundTrips": 86,
+      "compositionProfileRoundTrips": 86,
+      "consumerPurposes": [
+        "operations",
+        "review",
+        "xr"
+      ],
+      "dataOrigin": "synthetic-fixture",
+      "fullStandardsExperimentExecuted": false
+    },
+    {
+      "scenario": "warehouse",
+      "records": 92,
+      "ngsiProfileRoundTrips": 92,
+      "compositionProfileRoundTrips": 92,
+      "consumerPurposes": [
+        "operations",
+        "review",
+        "xr"
+      ],
+      "dataOrigin": "synthetic-fixture",
+      "fullStandardsExperimentExecuted": false
+    },
+    {
+      "scenario": "executable-world",
+      "records": 92,
+      "ngsiProfileRoundTrips": 92,
+      "compositionProfileRoundTrips": 92,
+      "consumerPurposes": [
+        "operations",
+        "review",
+        "xr"
+      ],
+      "dataOrigin": "synthetic-fixture",
+      "fullStandardsExperimentExecuted": false
+    }
+  ],
+  "recordCount": 270,
+  "profileRoundTrips": 540,
+  "digestSetSize": 270,
+  "comparisonConclusion": "Both declared profiles preserve the selected native fields. No necessity or performance winner follows.",
+  "executed": "Local Python profile codecs, lifecycle, purpose views and optional Rosetta projection.",
+  "notExecuted": [
+    "NGSI-LD broker",
+    "JSON-LD expansion",
+    "SensorThings server",
+    "omlox Hub or official omlox schema",
+    "vendor hardware",
+    "neural decoder",
+    "human perceptual study",
+    "full registered standards-composition experiment"
+  ],
+  "officialConformance": false,
+  "physicalActuation": false
+}
