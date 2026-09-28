@@ -1,0 +1,326 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:indranet:candidate:0.5:native-record",
+  "type": "object",
+  "properties": {
+    "schemaVersion": {
+      "const": "0.5.0"
+    },
+    "recordId": {
+      "type": "string",
+      "minLength": 1
+    },
+    "entity": {
+      "type": "string",
+      "minLength": 1
+    },
+    "predicate": {
+      "type": "string",
+      "minLength": 1
+    },
+    "role": {
+      "enum": [
+        "reported-measurement",
+        "human-report",
+        "inferred",
+        "predicted",
+        "simulated",
+        "synthesized"
+      ]
+    },
+    "eventTime": {
+      "type": "object",
+      "properties": {
+        "start": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "end": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "date-time"
+        },
+        "basis": {
+          "const": "UTC"
+        }
+      },
+      "required": [
+        "start",
+        "end",
+        "basis"
+      ],
+      "additionalProperties": false
+    },
+    "knownAt": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "spatial": {
+      "type": "object",
+      "properties": {
+        "frame": {
+          "type": "string",
+          "minLength": 1
+        },
+        "units": {
+          "type": "array",
+          "items": {
+            "enum": [
+              "m",
+              "deg"
+            ]
+          },
+          "minItems": 2,
+          "maxItems": 3
+        },
+        "position": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^-?(?:[0-9]+)(?:\\.[0-9]+)?$"
+          },
+          "minItems": 2,
+          "maxItems": 3
+        },
+        "orientation": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "type": "object",
+              "properties": {
+                "x": {
+                  "type": "string",
+                  "pattern": "^-?(?:[0-9]+)(?:\\.[0-9]+)?$"
+                },
+                "y": {
+                  "type": "string",
+                  "pattern": "^-?(?:[0-9]+)(?:\\.[0-9]+)?$"
+                },
+                "z": {
+                  "type": "string",
+                  "pattern": "^-?(?:[0-9]+)(?:\\.[0-9]+)?$"
+                },
+                "w": {
+                  "type": "string",
+                  "pattern": "^-?(?:[0-9]+)(?:\\.[0-9]+)?$"
+                }
+              },
+              "required": [
+                "x",
+                "y",
+                "z",
+                "w"
+              ],
+              "additionalProperties": false
+            }
+          ]
+        },
+        "transformRefs": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "uniqueItems": true
+        }
+      },
+      "required": [
+        "frame",
+        "units",
+        "position",
+        "orientation",
+        "transformRefs"
+      ],
+      "additionalProperties": false
+    },
+    "quality": {
+      "oneOf": [
+        {
+          "type": "object",
+          "properties": {
+            "kind": {
+              "const": "unknown"
+            }
+          },
+          "required": [
+            "kind"
+          ],
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "properties": {
+            "kind": {
+              "const": "bound"
+            },
+            "value": {
+              "type": "string",
+              "pattern": "^-?(?:[0-9]+)(?:\\.[0-9]+)?$"
+            },
+            "unit": {
+              "const": "m"
+            },
+            "interpretation": {
+              "const": "declared-bound-not-calibrated"
+            }
+          },
+          "required": [
+            "kind",
+            "value",
+            "unit",
+            "interpretation"
+          ],
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "properties": {
+            "kind": {
+              "const": "native-reference"
+            },
+            "ref": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "required": [
+            "kind",
+            "ref"
+          ],
+          "additionalProperties": false
+        }
+      ]
+    },
+    "sources": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "uniqueItems": true,
+      "minItems": 1
+    },
+    "derivation": {
+      "type": "object",
+      "properties": {
+        "parents": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "uniqueItems": true
+        },
+        "method": {
+          "type": "string",
+          "minLength": 1
+        },
+        "branch": {
+          "type": "string",
+          "minLength": 1
+        },
+        "counterfactual": {
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "parents",
+        "method",
+        "branch",
+        "counterfactual"
+      ],
+      "additionalProperties": false
+    },
+    "rights": {
+      "type": "object",
+      "properties": {
+        "purposes": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "uniqueItems": true,
+          "minItems": 1
+        },
+        "expiresAt": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "date-time"
+        },
+        "prohibitedInferences": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "uniqueItems": true
+        }
+      },
+      "required": [
+        "purposes",
+        "expiresAt",
+        "prohibitedInferences"
+      ],
+      "additionalProperties": false
+    },
+    "lifecycle": {
+      "type": "object",
+      "properties": {
+        "operation": {
+          "enum": [
+            "assert",
+            "supersede",
+            "retract"
+          ]
+        },
+        "target": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "validUntil": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "date-time"
+        }
+      },
+      "required": [
+        "operation",
+        "target",
+        "validUntil"
+      ],
+      "additionalProperties": false
+    },
+    "origin": {
+      "type": "string",
+      "minLength": 1
+    }
+  },
+  "required": [
+    "schemaVersion",
+    "recordId",
+    "entity",
+    "predicate",
+    "role",
+    "eventTime",
+    "knownAt",
+    "spatial",
+    "quality",
+    "sources",
+    "derivation",
+    "rights",
+    "lifecycle",
+    "origin"
+  ],
+  "additionalProperties": false
+}

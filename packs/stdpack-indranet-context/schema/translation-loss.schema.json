@@ -1,0 +1,58 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:indranet:candidate:0.5:translation-loss",
+  "type": "object",
+  "properties": {
+    "sourceSurface": {
+      "type": "string",
+      "minLength": 1
+    },
+    "targetSurface": {
+      "type": "string",
+      "minLength": 1
+    },
+    "field": {
+      "type": "string",
+      "minLength": 1
+    },
+    "classification": {
+      "enum": [
+        "Exact",
+        "StructurallyEquivalent",
+        "Specialization",
+        "Composition",
+        "LossyDeclared",
+        "LossyUndeclared",
+        "Unsupported",
+        "Ambiguous",
+        "OutOfScope",
+        "ImplementationPolicyOnly"
+      ]
+    },
+    "reason": {
+      "type": "string",
+      "minLength": 1
+    },
+    "evidenceRefs": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "uniqueItems": true
+    },
+    "approvedByConsumer": {
+      "type": "boolean"
+    }
+  },
+  "required": [
+    "sourceSurface",
+    "targetSurface",
+    "field",
+    "classification",
+    "reason",
+    "evidenceRefs",
+    "approvedByConsumer"
+  ],
+  "additionalProperties": false
+}

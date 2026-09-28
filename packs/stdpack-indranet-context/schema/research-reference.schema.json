@@ -1,0 +1,119 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:indranet:candidate:0.5:research-reference",
+  "type": "object",
+  "properties": {
+    "schemaVersion": {
+      "const": "0.5.0"
+    },
+    "recordId": {
+      "type": "string",
+      "minLength": 1
+    },
+    "systemLabel": {
+      "enum": [
+        "code-as-world",
+        "physmind",
+        "programmable-world-model",
+        "stateflow",
+        "pilebelief",
+        "object-path-graphs",
+        "astronex-world"
+      ]
+    },
+    "sourceId": {
+      "type": "string",
+      "minLength": 1
+    },
+    "sourceUrl": {
+      "type": "string",
+      "format": "uri"
+    },
+    "role": {
+      "enum": [
+        "hypothesis",
+        "simulation",
+        "prediction",
+        "evaluation",
+        "generated-appearance",
+        "topology"
+      ]
+    },
+    "inputRefs": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "uniqueItems": true,
+      "minItems": 1
+    },
+    "outputRefs": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "uniqueItems": true,
+      "minItems": 1
+    },
+    "knownAt": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "branch": {
+      "type": "string",
+      "minLength": 1
+    },
+    "counterfactual": {
+      "type": "boolean"
+    },
+    "contractIntent": {
+      "type": "string",
+      "minLength": 1
+    },
+    "execution": {
+      "const": "simulated-reference-envelope"
+    },
+    "assumptions": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "uniqueItems": true,
+      "minItems": 1
+    },
+    "nonclaims": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "uniqueItems": true,
+      "minItems": 1
+    },
+    "physicalActuationAuthority": {
+      "const": false
+    }
+  },
+  "required": [
+    "schemaVersion",
+    "recordId",
+    "systemLabel",
+    "sourceId",
+    "sourceUrl",
+    "role",
+    "inputRefs",
+    "outputRefs",
+    "knownAt",
+    "branch",
+    "counterfactual",
+    "contractIntent",
+    "execution",
+    "assumptions",
+    "nonclaims",
+    "physicalActuationAuthority"
+  ],
+  "additionalProperties": false
+}
