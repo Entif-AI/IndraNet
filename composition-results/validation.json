@@ -4,18 +4,8 @@
   "negativeVectorsRejected": 6,
   "replay": [
     {
-      "file": "field-crosswalk.json",
-      "sha256": "f9bc15f1261fc5095306c41aa971dffe066c9c7ad56c5a13cd795696287a1e19",
-      "equal": true
-    },
-    {
-      "file": "performance.json",
-      "sha256": "0b0b103da10b841a2078bce01e12c7b8a60aa1cb0a09be6e585c3cfb575ba76c",
-      "equal": true
-    },
-    {
-      "file": "warehouse.json",
-      "sha256": "7dc9cf2b501f3b32ca246b1e97fd36099e75802cbd3a1ddfc25e35d25cf61f9e",
+      "file": "executable-world.json",
+      "sha256": "5e339a2d63ddcc799679c2b864a2f9f0c9e3b9bc2ae63ea531d2595ce4986ff3",
       "equal": true
     },
     {
@@ -24,8 +14,18 @@
       "equal": true
     },
     {
-      "file": "executable-world.json",
-      "sha256": "5e339a2d63ddcc799679c2b864a2f9f0c9e3b9bc2ae63ea531d2595ce4986ff3",
+      "file": "warehouse.json",
+      "sha256": "7dc9cf2b501f3b32ca246b1e97fd36099e75802cbd3a1ddfc25e35d25cf61f9e",
+      "equal": true
+    },
+    {
+      "file": "performance.json",
+      "sha256": "0b0b103da10b841a2078bce01e12c7b8a60aa1cb0a09be6e585c3cfb575ba76c",
+      "equal": true
+    },
+    {
+      "file": "field-crosswalk.json",
+      "sha256": "f9bc15f1261fc5095306c41aa971dffe066c9c7ad56c5a13cd795696287a1e19",
       "equal": true
     }
   ],
