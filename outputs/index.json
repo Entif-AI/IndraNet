@@ -1,0 +1,45 @@
+{
+  "version": "0.5.0",
+  "scenarios": [
+    {
+      "scenario": "performance",
+      "file": "performance.json",
+      "tiles": 24,
+      "dataOrigin": "synthetic-fixture"
+    },
+    {
+      "scenario": "xr",
+      "file": "xr.json",
+      "tiles": 5,
+      "dataOrigin": "synthetic-fixture"
+    },
+    {
+      "scenario": "warehouse",
+      "file": "warehouse.json",
+      "tiles": 11,
+      "dataOrigin": "synthetic-fixture"
+    },
+    {
+      "scenario": "public-space",
+      "file": "public-space.json",
+      "tiles": 4,
+      "dataOrigin": "synthetic-fixture"
+    },
+    {
+      "scenario": "executable-worlds",
+      "file": "executable-worlds.json",
+      "tiles": 11,
+      "dataOrigin": "synthetic-fixture"
+    },
+    {
+      "scenario": "generative-reality",
+      "file": "generative-reality.json",
+      "tiles": 4,
+      "dataOrigin": "synthetic-fixture"
+    }
+  ],
+  "totalScenarioTiles": 59,
+  "nativeRuntimeExecuted": false,
+  "physicalActuation": false,
+  "neuralDecoderExecuted": false
+}
