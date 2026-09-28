@@ -1,0 +1,52 @@
+{
+  "classification": "PUBLIC_CANDIDATE_REQUIRES_AUTHOR_IP_RIGHTS_REVIEW",
+  "published": false,
+  "master_source_lock_sha256": "b6031eea5a65a2b735505e696c7bd193468abf697094401d163aeba6db0bb79c",
+  "master_source_files": 194,
+  "included_source_files": 187,
+  "omitted_private_source_records": [
+    {
+      "path": "Evidence/project-readings/corpus.json",
+      "sha256": "a6ae521da4339d81902826f8b6abfe6847f9b5e8a1435eea7101857d03c06594",
+      "bytes": 101401
+    },
+    {
+      "path": "Evidence/project-readings/ignition.json",
+      "sha256": "52e4cdea087a6c5c78aee524d98c4c2e055571e15559bbb41f214d63d707019b",
+      "bytes": 73842
+    },
+    {
+      "path": "Evidence/project-readings/rosetta-core-supplied.txt",
+      "sha256": "0e846a3f785581a95211f0bb72857a3d71a5d340a81e4092e0df3923e31c2b98",
+      "bytes": 152916
+    },
+    {
+      "path": "Evidence/project-readings/rosetta-roadmap-supplied.txt",
+      "sha256": "48754883fcbc8e23b077546e0e3945f733e5866a5dd45db8c7bdcac045d2302c",
+      "bytes": 22426
+    },
+    {
+      "path": "Evidence/project-readings/transcript-full.md",
+      "sha256": "82b1ddd780e4b6a9cb6c917e1b4b19d4bdc69a984c33c2e341f428336529e073",
+      "bytes": 175795
+    },
+    {
+      "path": "Evidence/project-readings/transcript-index.json",
+      "sha256": "957673b1e563eda4900191e45efed9ae2e207ed50344109fa69ce895ec1cc684",
+      "bytes": 8173
+    },
+    {
+      "path": "Evidence/project-readings/transcript-user-turns.md",
+      "sha256": "d345840c73ad028756a030a1b22985efcccb5125d3e503945688d7c63e0af1f5",
+      "bytes": 9982
+    }
+  ],
+  "omitted_trees": [
+    "Input/",
+    "Lineage/",
+    "SourceSnapshot/",
+    "Evidence/project-readings/",
+    "Notes private control and exemplar extracts"
+  ],
+  "policy": "Master lock remains unmodified as a commitment to the production source set. This projection does not claim to contain private source closure. Use MANIFEST.json for this exact projection."
+}

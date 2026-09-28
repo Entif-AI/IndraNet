@@ -1,0 +1,79 @@
+{
+  "version": "0.5.0",
+  "verified_at": "2026-09-28T13:14:05.400021+00:00",
+  "status": "PASS_WITH_NAMED_LIMITATIONS",
+  "source_lock_files": 194,
+  "unit_tests": 120,
+  "native_records": 270,
+  "profile_round_trips": 540,
+  "schema_count": 24,
+  "pack_identity_files": 78,
+  "companion_tiles": 59,
+  "research_reference_packages": 7,
+  "figure_pairs": 20,
+  "workbook_tabs": 12,
+  "website_html_pages": 5,
+  "pdf_pages": {
+    "manuscript": 69,
+    "technical_supplement": 6,
+    "video_script": 6
+  },
+  "replayed_json_artifacts": 14,
+  "replay_all_equal": true,
+  "structural_qa": {
+    "checks": {
+      "scientific_source_lock": {
+        "files": 194,
+        "mismatches": []
+      },
+      "figure_pairs": 20,
+      "website": {
+        "html_pages": 5,
+        "local_links_checked": 142,
+        "locked_files": 41,
+        "external_scripts": []
+      },
+      "website_fixture_logic": {
+        "returncode": 0,
+        "stdout": "{\"status\":\"pass\",\"tested\":\"DOM-stub fixture toggles and aria-pressed; not a browser rendering test\",\"views\":3}\n",
+        "stderr": ""
+      },
+      "pdfs": [
+        {
+          "path": "Draft/IndraNet_Manuscript_v0.5.0.pdf",
+          "pages": 69,
+          "empty_text_pages": [],
+          "out_of_page_blocks": [],
+          "sha256": "dbb22d7a1a0d9a74e8ff117611ec7d072de552ee9e61a7888525191ee69ccb7b"
+        },
+        {
+          "path": "Technical/Technical_Supplement.pdf",
+          "pages": 6,
+          "empty_text_pages": [],
+          "out_of_page_blocks": [],
+          "sha256": "5734ee3198d13acfa803eb1d2fb7d8c7cca6455a065b8a6f9cbe84b747d2c91b"
+        },
+        {
+          "path": "Video/companion-script.pdf",
+          "pages": 6,
+          "empty_text_pages": [],
+          "out_of_page_blocks": [],
+          "sha256": "56dbd4f326ab69193fb35bf3d92604518a682823e8a69748ddd92dca14a87081"
+        }
+      ]
+    },
+    "errors": [],
+    "limitations": [
+      "Browser navigation blocked by environment administrator for both file and loopback HTTP; no full browser or mobile visual QA claimed."
+    ],
+    "status": "PASS_WITH_NAMED_LIMITATIONS"
+  },
+  "open_items": [
+    "Native broker/SensorThings/omlox experiment not executed; protocol and intake harness delivered.",
+    "Vendor interoperability, neural decoder, real-world safety and total communication-cost benefits not established.",
+    "Independent external review and author/IP/license/ROCK acceptance remain pending.",
+    "No film, voice, music or avatar generated; producer draft requires timed read and final editorial judgment.",
+    "Full browser/mobile visual QA blocked by runtime administrator; static HTML rendering and DOM-stub logic are not substitutes."
+  ],
+  "scope": "Checks concern local artifacts and explicitly synthetic/reference behavior."
+}
