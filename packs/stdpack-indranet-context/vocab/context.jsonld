@@ -1,0 +1,30 @@
+{
+  "@context": {
+    "indranet": "urn:indranet:candidate:",
+    "prov": "http://www.w3.org/ns/prov#",
+    "sosa": "http://www.w3.org/ns/sosa/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "cid": "indranet:contentId",
+    "kind": "indranet:kind",
+    "subject": {
+      "@id": "indranet:subject",
+      "@type": "@id"
+    },
+    "evidenceCids": {
+      "@id": "prov:wasDerivedFrom",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "eventTime": {
+      "@id": "indranet:eventTime",
+      "@type": "xsd:dateTime"
+    },
+    "knownAt": {
+      "@id": "indranet:knownAt",
+      "@type": "xsd:dateTime"
+    },
+    "purpose": "indranet:purpose",
+    "epistemicRole": "indranet:epistemicRole"
+  },
+  "note": "Use explicit absolute IRIs for RDF links; raw repository CID strings are not silently converted to standardized CID URIs."
+}

@@ -1,0 +1,26 @@
+# DocID: INDRANET-CANDIDATE-0.5.0
+# Artifact: context-shapes
+# Version: 0.5.0
+# Status: Candidate
+# Depends-On: Rosetta-v3.0.0, W3C-SHACL
+# Source-Of-Truth: pack.json
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix i: <urn:indranet:candidate:> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+
+i:StateShape a sh:NodeShape ;
+  sh:targetClass i:StateAssertion ;
+  sh:property [ sh:path i:subject ; sh:minCount 1 ; sh:maxCount 1 ; sh:nodeKind sh:IRI ] ;
+  sh:property [ sh:path i:eventTime ; sh:minCount 1 ; sh:maxCount 1 ; sh:datatype xsd:dateTime ] ;
+  sh:property [ sh:path i:knownAt ; sh:minCount 1 ; sh:maxCount 1 ; sh:datatype xsd:dateTime ] ;
+  sh:property [ sh:path i:purpose ; sh:minCount 1 ; sh:datatype xsd:string ] ;
+  sh:property [ sh:path prov:wasDerivedFrom ; sh:minCount 1 ; sh:nodeKind sh:IRI ] ;
+  sh:property [ sh:path i:epistemicRole ; sh:minCount 1 ; sh:maxCount 1 ;
+    sh:in ("reported-measurement" "human-report" "inferred" "predicted" "simulated" "synthesized") ] .
+
+i:ContextShape a sh:NodeShape ;
+  sh:targetClass i:ContextBinding ;
+  sh:property [ sh:path i:purpose ; sh:minCount 1 ; sh:maxCount 1 ; sh:datatype xsd:string ] ;
+  sh:property [ sh:path i:expiresAt ; sh:minCount 1 ; sh:maxCount 1 ; sh:datatype xsd:dateTime ] ;
+  sh:property [ sh:path i:selectedArtifact ; sh:minCount 1 ; sh:nodeKind sh:IRI ] .
