@@ -1,0 +1,9 @@
+{
+  "id": "openxr",
+  "version": "0.5.0",
+  "standardAuthority": "OpenXR predecessor mapping",
+  "mappedFields": "spatial anchors and reference spaces",
+  "projection": "See unchanged legacy integration package",
+  "mappingLoss": "No headset runtime or extension acceptance",
+  "runtimeStatus": "reference-only"
+}

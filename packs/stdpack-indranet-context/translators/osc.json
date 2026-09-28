@@ -1,0 +1,9 @@
+{
+  "id": "osc",
+  "version": "0.5.0",
+  "standardAuthority": "OSC 1.0 integer-message subset",
+  "mappedFields": "address, typetag i, 32-bit value",
+  "projection": "Context-bound local effect preview",
+  "mappingLoss": "No UDP send, device acknowledgment or scheduling",
+  "runtimeStatus": "reference-only"
+}

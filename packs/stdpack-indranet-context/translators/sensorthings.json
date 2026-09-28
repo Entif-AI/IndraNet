@@ -1,0 +1,9 @@
+{
+  "id": "sensorthings",
+  "version": "0.5.0",
+  "standardAuthority": "OGC SensorThings 1.1",
+  "mappedFields": "phenomenonTime, result, resultQuality",
+  "projection": "Observation signal and position-profile interpretation",
+  "mappingLoss": "Resource relationships and server behavior not executed",
+  "runtimeStatus": "reference-only"
+}

@@ -1,0 +1,9 @@
+{
+  "id": "openusd",
+  "version": "0.5.0",
+  "standardAuthority": "OpenUSD predecessor mapping",
+  "mappedFields": "scene geometry and asset references",
+  "projection": "See unchanged legacy integration package",
+  "mappingLoss": "No native scene runtime assertion",
+  "runtimeStatus": "reference-only"
+}

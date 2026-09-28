@@ -1,0 +1,9 @@
+{
+  "id": "research-systems",
+  "version": "0.5.0",
+  "standardAuthority": "Code-as-World, PhysMind and scene-memory families",
+  "mappedFields": "Evidence, candidate model, simulation and output references",
+  "projection": "Namespaced reference boundaries; six old simulated packages retained",
+  "mappingLoss": "No upstream research model inference is claimed",
+  "runtimeStatus": "reference-only"
+}

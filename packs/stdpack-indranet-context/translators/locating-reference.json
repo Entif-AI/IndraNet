@@ -1,0 +1,9 @@
+{
+  "id": "locating-reference",
+  "version": "0.5.0",
+  "standardAuthority": "Open Location Hub independent subset",
+  "mappedFields": "position, crs, accuracy, timestamp_generated",
+  "projection": "Vendor quality preserved without converting to covariance",
+  "mappingLoss": "Not official/certified omlox interoperability",
+  "runtimeStatus": "reference-only"
+}
