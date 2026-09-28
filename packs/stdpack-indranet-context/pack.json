@@ -1,0 +1,269 @@
+{
+  "id": "indranet-context-candidate",
+  "pack_id": "cidv1-sha256-fbc231b53b3f8915c7ebe81aeb5c4943ef23d641770e02736c56be05e0c7c9e2",
+  "kind": "stdpack",
+  "category": "StdPack",
+  "namespace": "indranet.context",
+  "doc_id": "INDRANET-CANDIDATE-0.5.0",
+  "version": "0.5.0",
+  "title": "IndraNet Context Composition Candidate",
+  "status": "draft",
+  "compatible_core": {
+    "min": "3.0.0",
+    "max_exclusive": "4.0.0"
+  },
+  "entrypoints": {
+    "schema": [
+      "schema/asset.schema.json",
+      "schema/association.schema.json",
+      "schema/axis-registry.schema.json",
+      "schema/clock-binding.schema.json",
+      "schema/consumer-contract.schema.json",
+      "schema/context-binding.schema.json",
+      "schema/derivation-rule.schema.json",
+      "schema/effect-preview.schema.json",
+      "schema/executable-model.schema.json",
+      "schema/frame-transform.schema.json",
+      "schema/ingress-contract.schema.json",
+      "schema/native-record.schema.json",
+      "schema/parsed-signal.schema.json",
+      "schema/physical-evidence-anchor.schema.json",
+      "schema/reconstruction-state.schema.json",
+      "schema/research-reference.schema.json",
+      "schema/review-request.schema.json",
+      "schema/revision.schema.json",
+      "schema/simulation.schema.json",
+      "schema/state-assertion.schema.json",
+      "schema/tile-envelope.schema.json",
+      "schema/translation-loss.schema.json",
+      "schema/witness.schema.json",
+      "schema/world-package.schema.json"
+    ],
+    "examples": [
+      "examples/consumer-contract.json",
+      "examples/derivation-rule.json",
+      "examples/executable-worlds.json",
+      "examples/frame-transform.json",
+      "examples/generative-reality.json",
+      "examples/ingress-contract.json",
+      "examples/native-record.json",
+      "examples/performance.json",
+      "examples/public-space.json",
+      "examples/research-astronex-world.json",
+      "examples/research-code-as-world.json",
+      "examples/research-object-path-graphs.json",
+      "examples/research-physmind.json",
+      "examples/research-pilebelief.json",
+      "examples/research-programmable-world-model.json",
+      "examples/research-stateflow.json",
+      "examples/warehouse.json",
+      "examples/xr.json"
+    ],
+    "shacl": [
+      "shacl/context.shapes.ttl"
+    ],
+    "vocab": [
+      "vocab/context.jsonld",
+      "vocab/kinds.json"
+    ],
+    "tests": [
+      "tests/README.md"
+    ]
+  },
+  "exports": [
+    {
+      "kind": "json-schema",
+      "id": "asset.schema",
+      "path": "schema/asset.schema.json",
+      "version": "0.5.0"
+    },
+    {
+      "kind": "json-schema",
+      "id": "association.schema",
+      "path": "schema/association.schema.json",
+      "version": "0.5.0"
+    },
+    {
+      "kind": "json-schema",
+      "id": "axis-registry.schema",
+      "path": "schema/axis-registry.schema.json",
+      "version": "0.5.0"
+    },
+    {
+      "kind": "json-schema",
+      "id": "consumer-contract.schema",
+      "path": "schema/consumer-contract.schema.json",
+      "version": "0.5.0"
+    },
+    {
+      "kind": "json-schema",
+      "id": "context-binding.schema",
+      "path": "schema/context-binding.schema.json",
+      "version": "0.5.0"
+    },
+    {
+      "kind": "json-schema",
+      "id": "derivation-rule.schema",
+      "path": "schema/derivation-rule.schema.json",
+      "version": "0.5.0"
+    },
+    {
+      "kind": "json-schema",
+      "id": "effect-preview.schema",
+      "path": "schema/effect-preview.schema.json",
+      "version": "0.5.0"
+    },
+    {
+      "kind": "json-schema",
+      "id": "executable-model.schema",
+      "path": "schema/executable-model.schema.json",
+      "version": "0.5.0"
+    },
+    {
+      "kind": "json-schema",
+      "id": "frame-transform.schema",
+      "path": "schema/frame-transform.schema.json",
+      "version": "0.5.0"
+    },
+    {
+      "kind": "json-schema",
+      "id": "ingress-contract.schema",
+      "path": "schema/ingress-contract.schema.json",
+      "version": "0.5.0"
+    },
+    {
+      "kind": "json-schema",
+      "id": "parsed-signal.schema",
+      "path": "schema/parsed-signal.schema.json",
+      "version": "0.5.0"
+    },
+    {
+      "kind": "json-schema",
+      "id": "reconstruction-state.schema",
+      "path": "schema/reconstruction-state.schema.json",
+      "version": "0.5.0"
+    },
+    {
+      "kind": "json-schema",
+      "id": "review-request.schema",
+      "path": "schema/review-request.schema.json",
+      "version": "0.5.0"
+    },
+    {
+      "kind": "json-schema",
+      "id": "revision.schema",
+      "path": "schema/revision.schema.json",
+      "version": "0.5.0"
+    },
+    {
+      "kind": "json-schema",
+      "id": "simulation.schema",
+      "path": "schema/simulation.schema.json",
+      "version": "0.5.0"
+    },
+    {
+      "kind": "json-schema",
+      "id": "state-assertion.schema",
+      "path": "schema/state-assertion.schema.json",
+      "version": "0.5.0"
+    },
+    {
+      "kind": "json-schema",
+      "id": "tile-envelope.schema",
+      "path": "schema/tile-envelope.schema.json",
+      "version": "0.5.0"
+    },
+    {
+      "kind": "json-schema",
+      "id": "witness.schema",
+      "path": "schema/witness.schema.json",
+      "version": "0.5.0"
+    },
+    {
+      "kind": "json-schema",
+      "id": "world-package.schema",
+      "path": "schema/world-package.schema.json",
+      "version": "0.5.0"
+    },
+    {
+      "kind": "json-ld",
+      "id": "indranet-context",
+      "path": "vocab/context.jsonld",
+      "version": "0.5.0"
+    },
+    {
+      "kind": "shacl",
+      "id": "indranet-shapes",
+      "path": "shacl/context.shapes.ttl",
+      "version": "0.5.0"
+    },
+    {
+      "kind": "json-schema",
+      "id": "native-record.schema",
+      "path": "schema/native-record.schema.json",
+      "version": "0.5.0"
+    },
+    {
+      "kind": "json-schema",
+      "id": "research-reference.schema",
+      "path": "schema/research-reference.schema.json",
+      "version": "0.5.0"
+    },
+    {
+      "kind": "json-schema",
+      "id": "physical-evidence-anchor.schema",
+      "path": "schema/physical-evidence-anchor.schema.json",
+      "version": "0.5.0"
+    },
+    {
+      "kind": "json-schema",
+      "id": "clock-binding.schema",
+      "path": "schema/clock-binding.schema.json",
+      "version": "0.5.0"
+    },
+    {
+      "kind": "json-schema",
+      "id": "translation-loss.schema",
+      "path": "schema/translation-loss.schema.json",
+      "version": "0.5.0"
+    }
+  ],
+  "profiles": [
+    {
+      "name": "performance",
+      "path": "profiles/performance.json"
+    },
+    {
+      "name": "xr",
+      "path": "profiles/xr.json"
+    },
+    {
+      "name": "warehouse",
+      "path": "profiles/warehouse.json"
+    },
+    {
+      "name": "public-space",
+      "path": "profiles/public-space.json"
+    },
+    {
+      "name": "executable-worlds",
+      "path": "profiles/executable-worlds.json"
+    },
+    {
+      "name": "generative-reality",
+      "path": "profiles/generative-reality.json"
+    },
+    {
+      "name": "native-independent",
+      "path": "profiles/native-independent.json"
+    },
+    {
+      "name": "mature-composition",
+      "path": "profiles/mature-composition.json"
+    }
+  ],
+  "source_of_truth": {
+    "doctrine": "Rosetta v3.0.0 Core Spine; candidate local domain profile",
+    "traceability_required": true
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "native-independent",
+  "version": "0.5.0",
+  "implementation": "src/indranet/native.py",
+  "rosettaRequired": false,
+  "canonicalization": "restricted explicit-decimal JSON; not RFC8785",
+  "identityPrefix": "indranet-json-sha256:",
+  "validator": "validate plus Ledger.admit",
+  "limits": [
+    "single-process reference",
+    "grants supplied by trusted caller",
+    "no physical truth or actuation authority"
+  ]
+}
