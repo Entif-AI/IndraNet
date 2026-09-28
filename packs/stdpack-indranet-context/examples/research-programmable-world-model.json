@@ -1,0 +1,33 @@
+{
+  "schema": "research-reference",
+  "payload": {
+    "schemaVersion": "0.5.0",
+    "recordId": "urn:fixture:programmable-world-model",
+    "systemLabel": "programmable-world-model",
+    "sourceId": "S36",
+    "sourceUrl": "https://arxiv.org/abs/2609.10540",
+    "role": "simulation",
+    "inputRefs": [
+      "urn:fixture:evidence:1"
+    ],
+    "outputRefs": [
+      "urn:fixture:result:1"
+    ],
+    "knownAt": "2026-09-28T12:00:01Z",
+    "branch": "proposal:A",
+    "counterfactual": true,
+    "contractIntent": "program state and generated appearance references",
+    "execution": "simulated-reference-envelope",
+    "assumptions": [
+      "Upstream output has been supplied as a fixture",
+      "References are inert and not dereferenced",
+      "Coordinate, clock and licensing bindings require the upstream integration owner"
+    ],
+    "nonclaims": [
+      "No upstream implementation or weights were executed",
+      "No benchmark is reproduced",
+      "No vendor interoperability, endorsement or actuation authorization"
+    ],
+    "physicalActuationAuthority": false
+  }
+}
