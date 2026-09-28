@@ -1,0 +1,86 @@
+{
+  "scenario": "public-space",
+  "expectedResult": {
+    "aggregate": {
+      "privacyGuarantee": "none; illustrative suppression, not differential privacy or anonymity proof",
+      "suppressedZones": 1,
+      "zones": [
+        {
+          "count": 6,
+          "zone": "entry"
+        },
+        {
+          "count": 4,
+          "zone": "exit"
+        }
+      ]
+    },
+    "operatorView": {
+      "actuationAuthority": false,
+      "eventAt": "2026-09-15T12:00:04Z",
+      "groups": [
+        {
+          "candidates": [
+            {
+              "ageSeconds": 4,
+              "cid": "cidv1-sha256-4483943931a8afe63a5e80017a1c53d5e1668af679732953eba57e9ee34d9022",
+              "dataOrigin": "synthetic-fixture",
+              "epistemicRole": "reported-measurement",
+              "eventTime": "2026-09-15T12:00:00Z",
+              "frame": null,
+              "source": "fixture",
+              "stale": false,
+              "uncertainty": {
+                "kind": "unknown"
+              },
+              "value": {
+                "privacyGuarantee": "none; illustrative suppression, not differential privacy or anonymity proof",
+                "suppressedZones": 1,
+                "zones": [
+                  {
+                    "count": 6,
+                    "zone": "entry"
+                  },
+                  {
+                    "count": 4,
+                    "zone": "exit"
+                  }
+                ]
+              }
+            }
+          ],
+          "predicate": "occupancy",
+          "status": "available",
+          "subject": "rid:indranet:venue-zone-summary"
+        }
+      ],
+      "knownAt": "2026-09-15T12:00:04Z",
+      "omittedCount": 0,
+      "purpose": "situational-awareness"
+    },
+    "publicView": {
+      "actuationAuthority": false,
+      "eventAt": "2026-09-15T12:00:04Z",
+      "groups": [],
+      "knownAt": "2026-09-15T12:00:04Z",
+      "omittedCount": 1,
+      "purpose": "public-display"
+    },
+    "review": {
+      "automaticEnforcement": false,
+      "disposition": "human-review-requested",
+      "evidenceCids": [
+        "cidv1-sha256-4483943931a8afe63a5e80017a1c53d5e1668af679732953eba57e9ee34d9022"
+      ],
+      "identityInference": false,
+      "knownAt": "2026-09-15T12:00:02Z",
+      "question": "Does an operator need to inspect the entrance?"
+    }
+  },
+  "tileCids": [
+    "cidv1-sha256-dbe5baa31000f67ffd7fc4ff80f3bad3d186e1d9f8c5d629a318024e40ddb2cc",
+    "cidv1-sha256-01ce55e58222ad90a61a011f003012edd4ed91241c9a248b53f7ce47b6e0b3d8",
+    "cidv1-sha256-4483943931a8afe63a5e80017a1c53d5e1668af679732953eba57e9ee34d9022",
+    "cidv1-sha256-5b6cefa47cc9e475efa9836fd1e7955231549e3ec7df97edc6fcbf761e77049a"
+  ]
+}

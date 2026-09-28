@@ -1,0 +1,274 @@
+{
+  "scenario": "warehouse",
+  "expectedResult": {
+    "afterCorrectionKnown": {
+      "actuationAuthority": false,
+      "eventAt": "2026-09-15T12:00:10Z",
+      "groups": [
+        {
+          "candidates": [
+            {
+              "ageSeconds": 70,
+              "cid": "cidv1-sha256-246793060b321face88ae497feb72ef4742e3cf95ec3a7cd17e9f819537de5c1",
+              "dataOrigin": "synthetic-fixture",
+              "epistemicRole": "reported-measurement",
+              "eventTime": "2026-09-15T11:59:00Z",
+              "frame": null,
+              "source": "fixture",
+              "stale": true,
+              "uncertainty": {
+                "kind": "unknown"
+              },
+              "value": 40
+            }
+          ],
+          "predicate": "battery-percent",
+          "status": "stale",
+          "subject": "rid:indranet:robot-7"
+        },
+        {
+          "candidates": [
+            {
+              "ageSeconds": 2,
+              "cid": "cidv1-sha256-04298e7731b4eb84bee41520edbf46557e45d34841cfaa2490e2cc92ff71ae34",
+              "dataOrigin": "synthetic-fixture",
+              "epistemicRole": "inferred",
+              "eventTime": "2026-09-15T12:00:08Z",
+              "frame": "warehouse-A",
+              "source": "fixture:explicit-correction",
+              "stale": false,
+              "uncertainty": {
+                "kind": "unknown"
+              },
+              "value": {
+                "frame": "warehouse-A",
+                "x": "5",
+                "y": "3",
+                "z": "0"
+              }
+            },
+            {
+              "ageSeconds": 8,
+              "cid": "cidv1-sha256-ac2c5721dc083cd4315dd69ca1f062be87210cae998e46b5fb24f45746a1f6c8",
+              "dataOrigin": "synthetic-fixture",
+              "epistemicRole": "reported-measurement",
+              "eventTime": "2026-09-15T12:00:02Z",
+              "frame": "warehouse-A",
+              "source": "fixture:robot-localization",
+              "stale": false,
+              "uncertainty": {
+                "kind": "unknown"
+              },
+              "value": {
+                "frame": "warehouse-A",
+                "x": "5",
+                "y": "3",
+                "z": "0"
+              }
+            }
+          ],
+          "predicate": "position",
+          "status": "available",
+          "subject": "rid:indranet:robot-7"
+        }
+      ],
+      "knownAt": "2026-09-15T12:00:10Z",
+      "omittedCount": 0,
+      "purpose": "operations"
+    },
+    "beforeCorrectionKnown": {
+      "actuationAuthority": false,
+      "eventAt": "2026-09-15T12:00:09Z",
+      "groups": [
+        {
+          "candidates": [
+            {
+              "ageSeconds": 69,
+              "cid": "cidv1-sha256-246793060b321face88ae497feb72ef4742e3cf95ec3a7cd17e9f819537de5c1",
+              "dataOrigin": "synthetic-fixture",
+              "epistemicRole": "reported-measurement",
+              "eventTime": "2026-09-15T11:59:00Z",
+              "frame": null,
+              "source": "fixture",
+              "stale": true,
+              "uncertainty": {
+                "kind": "unknown"
+              },
+              "value": 40
+            }
+          ],
+          "predicate": "battery-percent",
+          "status": "stale",
+          "subject": "rid:indranet:robot-7"
+        },
+        {
+          "candidates": [
+            {
+              "ageSeconds": 9,
+              "cid": "cidv1-sha256-18a2c5003d60676440c7a2f7bbed125d981696c6d005bfd5bf80952a16bb9487",
+              "dataOrigin": "synthetic-fixture",
+              "epistemicRole": "reported-measurement",
+              "eventTime": "2026-09-15T12:00:00Z",
+              "frame": "warehouse-A",
+              "source": "fixture:location-A",
+              "stale": false,
+              "uncertainty": {
+                "distribution": "not-specified",
+                "kind": "vendor-estimate",
+                "unit": "m",
+                "value": "0.2"
+              },
+              "value": {
+                "frame": "warehouse-A",
+                "x": "2",
+                "y": "3",
+                "z": "0"
+              }
+            },
+            {
+              "ageSeconds": 7,
+              "cid": "cidv1-sha256-ac2c5721dc083cd4315dd69ca1f062be87210cae998e46b5fb24f45746a1f6c8",
+              "dataOrigin": "synthetic-fixture",
+              "epistemicRole": "reported-measurement",
+              "eventTime": "2026-09-15T12:00:02Z",
+              "frame": "warehouse-A",
+              "source": "fixture:robot-localization",
+              "stale": false,
+              "uncertainty": {
+                "kind": "unknown"
+              },
+              "value": {
+                "frame": "warehouse-A",
+                "x": "5",
+                "y": "3",
+                "z": "0"
+              }
+            }
+          ],
+          "predicate": "position",
+          "status": "contested",
+          "subject": "rid:indranet:robot-7"
+        }
+      ],
+      "knownAt": "2026-09-15T12:00:09Z",
+      "omittedCount": 0,
+      "purpose": "operations"
+    },
+    "initial": {
+      "actuationAuthority": false,
+      "eventAt": "2026-09-15T12:00:04Z",
+      "groups": [
+        {
+          "candidates": [
+            {
+              "ageSeconds": 64,
+              "cid": "cidv1-sha256-246793060b321face88ae497feb72ef4742e3cf95ec3a7cd17e9f819537de5c1",
+              "dataOrigin": "synthetic-fixture",
+              "epistemicRole": "reported-measurement",
+              "eventTime": "2026-09-15T11:59:00Z",
+              "frame": null,
+              "source": "fixture",
+              "stale": true,
+              "uncertainty": {
+                "kind": "unknown"
+              },
+              "value": 40
+            }
+          ],
+          "predicate": "battery-percent",
+          "status": "stale",
+          "subject": "rid:indranet:robot-7"
+        },
+        {
+          "candidates": [
+            {
+              "ageSeconds": 4,
+              "cid": "cidv1-sha256-18a2c5003d60676440c7a2f7bbed125d981696c6d005bfd5bf80952a16bb9487",
+              "dataOrigin": "synthetic-fixture",
+              "epistemicRole": "reported-measurement",
+              "eventTime": "2026-09-15T12:00:00Z",
+              "frame": "warehouse-A",
+              "source": "fixture:location-A",
+              "stale": false,
+              "uncertainty": {
+                "distribution": "not-specified",
+                "kind": "vendor-estimate",
+                "unit": "m",
+                "value": "0.2"
+              },
+              "value": {
+                "frame": "warehouse-A",
+                "x": "2",
+                "y": "3",
+                "z": "0"
+              }
+            },
+            {
+              "ageSeconds": 2,
+              "cid": "cidv1-sha256-ac2c5721dc083cd4315dd69ca1f062be87210cae998e46b5fb24f45746a1f6c8",
+              "dataOrigin": "synthetic-fixture",
+              "epistemicRole": "reported-measurement",
+              "eventTime": "2026-09-15T12:00:02Z",
+              "frame": "warehouse-A",
+              "source": "fixture:robot-localization",
+              "stale": false,
+              "uncertainty": {
+                "kind": "unknown"
+              },
+              "value": {
+                "frame": "warehouse-A",
+                "x": "5",
+                "y": "3",
+                "z": "0"
+              }
+            }
+          ],
+          "predicate": "position",
+          "status": "contested",
+          "subject": "rid:indranet:robot-7"
+        }
+      ],
+      "knownAt": "2026-09-15T12:00:04Z",
+      "omittedCount": 0,
+      "purpose": "operations"
+    },
+    "nativeMappings": [
+      {
+        "assertionCid": "cidv1-sha256-18a2c5003d60676440c7a2f7bbed125d981696c6d005bfd5bf80952a16bb9487",
+        "formCid": "cidv1-sha256-494307690271b178a4e23892608da2bc0eb404b195b2f187b4f17a2ac0a2a166",
+        "loss": [
+          "Independently authored locating subset, not official omlox certification",
+          "Provider association and zone calibration require separate evidence"
+        ],
+        "nativeRuntimeExecuted": false,
+        "observationCid": "cidv1-sha256-b20b6e946b2dfd3a401df2d729b174b0b60e90588aadc98bbbcfecae3a335a18",
+        "standard": "locating-reference"
+      },
+      {
+        "assertionCid": "cidv1-sha256-ac2c5721dc083cd4315dd69ca1f062be87210cae998e46b5fb24f45746a1f6c8",
+        "formCid": "cidv1-sha256-6fe1da41466eb57e505127196f79bd83fd6910fb6f91c307191895432aa3d3d1",
+        "loss": [
+          "ROS clock-to-UTC binding is supplied by the caller",
+          "DDS and tf2 runtime are not executed",
+          "Native orientation is preserved in signal but omitted from this position-only projection"
+        ],
+        "nativeRuntimeExecuted": false,
+        "observationCid": "cidv1-sha256-03033e32971d6cc750e1b4681c69af250f1a16744d5f8ce88e361c9b71a8996b",
+        "standard": "ros-pose"
+      }
+    ]
+  },
+  "tileCids": [
+    "cidv1-sha256-b20b6e946b2dfd3a401df2d729b174b0b60e90588aadc98bbbcfecae3a335a18",
+    "cidv1-sha256-494307690271b178a4e23892608da2bc0eb404b195b2f187b4f17a2ac0a2a166",
+    "cidv1-sha256-18a2c5003d60676440c7a2f7bbed125d981696c6d005bfd5bf80952a16bb9487",
+    "cidv1-sha256-03033e32971d6cc750e1b4681c69af250f1a16744d5f8ce88e361c9b71a8996b",
+    "cidv1-sha256-6fe1da41466eb57e505127196f79bd83fd6910fb6f91c307191895432aa3d3d1",
+    "cidv1-sha256-ac2c5721dc083cd4315dd69ca1f062be87210cae998e46b5fb24f45746a1f6c8",
+    "cidv1-sha256-3117de62a3943ea20810dcc7fe8f7a6c63f3bb6a70757ca9e4e7e17273f86d4d",
+    "cidv1-sha256-161fe6fb55a748370940c99428f1a79a83a3820f0930c82e510d35787c807f7e",
+    "cidv1-sha256-246793060b321face88ae497feb72ef4742e3cf95ec3a7cd17e9f819537de5c1",
+    "cidv1-sha256-04298e7731b4eb84bee41520edbf46557e45d34841cfaa2490e2cc92ff71ae34",
+    "cidv1-sha256-ff19bfe340955aefbfe6a7f503d6012401fcff4d06070dda5486f327a6159cfb"
+  ]
+}

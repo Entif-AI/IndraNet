@@ -1,0 +1,9 @@
+{
+  "id": "vda5050",
+  "version": "0.5.0",
+  "standardAuthority": "VDA 5050 3.0.0 predecessor mapping",
+  "mappedFields": "mobileRobotPosition and map reference",
+  "projection": "See unchanged legacy integration package",
+  "mappingLoss": "No robot fleet execution",
+  "runtimeStatus": "reference-only"
+}
