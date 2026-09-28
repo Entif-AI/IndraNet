@@ -1,0 +1,47 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:indranet:candidate:schema:review-request:0.5.0",
+  "title": "IndraNet candidate review request",
+  "$comment": "Candidate v0.5.0; Rosetta Core semantics retained; no assigned ROCK identifier. Source-of-truth: pack.json.",
+  "type": "object",
+  "properties": {
+    "evidenceCids": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^cidv1-sha256-[a-f0-9]{64}$"
+      },
+      "minItems": 1
+    },
+    "question": {
+      "type": "string",
+      "minLength": 1
+    },
+    "disposition": {
+      "enum": [
+        "human-review-requested",
+        "resolved",
+        "withdrawn"
+      ]
+    },
+    "identityInference": {
+      "const": false
+    },
+    "automaticEnforcement": {
+      "const": false
+    },
+    "knownAt": {
+      "type": "string",
+      "format": "date-time"
+    }
+  },
+  "required": [
+    "evidenceCids",
+    "question",
+    "disposition",
+    "identityInference",
+    "automaticEnforcement",
+    "knownAt"
+  ],
+  "additionalProperties": false
+}
