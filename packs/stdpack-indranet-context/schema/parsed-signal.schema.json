@@ -1,0 +1,57 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:indranet:candidate:schema:parsed-signal:0.5.0",
+  "title": "IndraNet candidate parsed signal",
+  "$comment": "Candidate v0.5.0; Rosetta Core semantics retained; no assigned ROCK identifier. Source-of-truth: pack.json.",
+  "type": "object",
+  "properties": {
+    "observationCid": {
+      "type": "string",
+      "pattern": "^cidv1-sha256-[a-f0-9]{64}$"
+    },
+    "parser": {
+      "type": "string",
+      "minLength": 1
+    },
+    "mediaType": {
+      "enum": [
+        "application/json"
+      ]
+    },
+    "eventTime": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "knownAt": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "purposes": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "minItems": 1
+    },
+    "dataOrigin": {
+      "type": "string",
+      "minLength": 1
+    },
+    "sourceSha256": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    }
+  },
+  "required": [
+    "observationCid",
+    "parser",
+    "mediaType",
+    "eventTime",
+    "knownAt",
+    "purposes",
+    "dataOrigin",
+    "sourceSha256"
+  ],
+  "additionalProperties": false
+}

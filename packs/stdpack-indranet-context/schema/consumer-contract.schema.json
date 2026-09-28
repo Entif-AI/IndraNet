@@ -1,0 +1,80 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:indranet:candidate:schema:consumer-contract:0.5.0",
+  "title": "IndraNet candidate consumer contract",
+  "$comment": "Candidate v0.5.0; Rosetta Core semantics retained; no assigned ROCK identifier. Source-of-truth: pack.json.",
+  "type": "object",
+  "properties": {
+    "consumerId": {
+      "type": "string",
+      "minLength": 1
+    },
+    "purpose": {
+      "type": "string",
+      "minLength": 1
+    },
+    "acceptedRoles": {
+      "type": "array",
+      "items": {
+        "enum": [
+          "reported-measurement",
+          "human-report",
+          "inferred",
+          "predicted",
+          "simulated",
+          "synthesized"
+        ]
+      },
+      "minItems": 1
+    },
+    "maxAgeSeconds": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "requiredFrame": {
+      "anyOf": [
+        {
+          "type": "string",
+          "minLength": 1
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "conflictBehavior": {
+      "enum": [
+        "show-all",
+        "abstain"
+      ]
+    },
+    "appearanceMode": {
+      "anyOf": [
+        {
+          "enum": [
+            "evidence",
+            "perceptual",
+            "creative"
+          ]
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "actuationAuthority": {
+      "const": false
+    }
+  },
+  "required": [
+    "consumerId",
+    "purpose",
+    "acceptedRoles",
+    "maxAgeSeconds",
+    "requiredFrame",
+    "conflictBehavior",
+    "appearanceMode",
+    "actuationAuthority"
+  ],
+  "additionalProperties": false
+}
