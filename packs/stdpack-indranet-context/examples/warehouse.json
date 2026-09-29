@@ -1,0 +1,549 @@
+{
+  "dataOrigin": "synthetic-fixture",
+  "nativeRuntimeExecuted": false,
+  "result": {
+    "afterCorrectionKnown": {
+      "actuationAuthority": false,
+      "eventAt": "2026-09-15T12:00:10Z",
+      "groups": [
+        {
+          "candidates": [
+            {
+              "ageSeconds": 70,
+              "cid": "cidv1-sha256-bedea3ed4bec2fe40dc8ced4653d8de792f14a59bd4c13fbc8c5931a5f5e7436",
+              "dataOrigin": "synthetic-fixture",
+              "epistemicRole": "reported-measurement",
+              "eventTime": "2026-09-15T11:59:00Z",
+              "frame": null,
+              "source": "fixture",
+              "stale": true,
+              "uncertainty": {
+                "kind": "unknown"
+              },
+              "value": 40
+            }
+          ],
+          "predicate": "battery-percent",
+          "status": "stale",
+          "subject": "rid:indranet:robot-7"
+        },
+        {
+          "candidates": [
+            {
+              "ageSeconds": 2,
+              "cid": "cidv1-sha256-d80b03bdc9095012e40961be8d55da5ab2d408f03f7adfe729b454eac29d1e47",
+              "dataOrigin": "synthetic-fixture",
+              "epistemicRole": "inferred",
+              "eventTime": "2026-09-15T12:00:08Z",
+              "frame": "warehouse-A",
+              "source": "fixture:explicit-correction",
+              "stale": false,
+              "uncertainty": {
+                "kind": "unknown"
+              },
+              "value": {
+                "frame": "warehouse-A",
+                "x": "5",
+                "y": "3",
+                "z": "0"
+              }
+            },
+            {
+              "ageSeconds": 8,
+              "cid": "cidv1-sha256-db68b0b4432e600492c1e4be6640de5618916198da04072b33e63286f67f1171",
+              "dataOrigin": "synthetic-fixture",
+              "epistemicRole": "reported-measurement",
+              "eventTime": "2026-09-15T12:00:02Z",
+              "frame": "warehouse-A",
+              "source": "fixture:robot-localization",
+              "stale": false,
+              "uncertainty": {
+                "kind": "unknown"
+              },
+              "value": {
+                "frame": "warehouse-A",
+                "x": "5",
+                "y": "3",
+                "z": "0"
+              }
+            }
+          ],
+          "predicate": "position",
+          "status": "available",
+          "subject": "rid:indranet:robot-7"
+        }
+      ],
+      "knownAt": "2026-09-15T12:00:10Z",
+      "omittedCount": 0,
+      "purpose": "operations"
+    },
+    "beforeCorrectionKnown": {
+      "actuationAuthority": false,
+      "eventAt": "2026-09-15T12:00:09Z",
+      "groups": [
+        {
+          "candidates": [
+            {
+              "ageSeconds": 69,
+              "cid": "cidv1-sha256-bedea3ed4bec2fe40dc8ced4653d8de792f14a59bd4c13fbc8c5931a5f5e7436",
+              "dataOrigin": "synthetic-fixture",
+              "epistemicRole": "reported-measurement",
+              "eventTime": "2026-09-15T11:59:00Z",
+              "frame": null,
+              "source": "fixture",
+              "stale": true,
+              "uncertainty": {
+                "kind": "unknown"
+              },
+              "value": 40
+            }
+          ],
+          "predicate": "battery-percent",
+          "status": "stale",
+          "subject": "rid:indranet:robot-7"
+        },
+        {
+          "candidates": [
+            {
+              "ageSeconds": 9,
+              "cid": "cidv1-sha256-6b2c03070b02ebf2fa800daa53eb9bb6e84368c843f9c063cc1903622dc7d68b",
+              "dataOrigin": "synthetic-fixture",
+              "epistemicRole": "reported-measurement",
+              "eventTime": "2026-09-15T12:00:00Z",
+              "frame": "warehouse-A",
+              "source": "fixture:location-A",
+              "stale": false,
+              "uncertainty": {
+                "distribution": "not-specified",
+                "kind": "vendor-estimate",
+                "unit": "m",
+                "value": "0.2"
+              },
+              "value": {
+                "frame": "warehouse-A",
+                "x": "2",
+                "y": "3",
+                "z": "0"
+              }
+            },
+            {
+              "ageSeconds": 7,
+              "cid": "cidv1-sha256-db68b0b4432e600492c1e4be6640de5618916198da04072b33e63286f67f1171",
+              "dataOrigin": "synthetic-fixture",
+              "epistemicRole": "reported-measurement",
+              "eventTime": "2026-09-15T12:00:02Z",
+              "frame": "warehouse-A",
+              "source": "fixture:robot-localization",
+              "stale": false,
+              "uncertainty": {
+                "kind": "unknown"
+              },
+              "value": {
+                "frame": "warehouse-A",
+                "x": "5",
+                "y": "3",
+                "z": "0"
+              }
+            }
+          ],
+          "predicate": "position",
+          "status": "contested",
+          "subject": "rid:indranet:robot-7"
+        }
+      ],
+      "knownAt": "2026-09-15T12:00:09Z",
+      "omittedCount": 0,
+      "purpose": "operations"
+    },
+    "initial": {
+      "actuationAuthority": false,
+      "eventAt": "2026-09-15T12:00:04Z",
+      "groups": [
+        {
+          "candidates": [
+            {
+              "ageSeconds": 64,
+              "cid": "cidv1-sha256-bedea3ed4bec2fe40dc8ced4653d8de792f14a59bd4c13fbc8c5931a5f5e7436",
+              "dataOrigin": "synthetic-fixture",
+              "epistemicRole": "reported-measurement",
+              "eventTime": "2026-09-15T11:59:00Z",
+              "frame": null,
+              "source": "fixture",
+              "stale": true,
+              "uncertainty": {
+                "kind": "unknown"
+              },
+              "value": 40
+            }
+          ],
+          "predicate": "battery-percent",
+          "status": "stale",
+          "subject": "rid:indranet:robot-7"
+        },
+        {
+          "candidates": [
+            {
+              "ageSeconds": 4,
+              "cid": "cidv1-sha256-6b2c03070b02ebf2fa800daa53eb9bb6e84368c843f9c063cc1903622dc7d68b",
+              "dataOrigin": "synthetic-fixture",
+              "epistemicRole": "reported-measurement",
+              "eventTime": "2026-09-15T12:00:00Z",
+              "frame": "warehouse-A",
+              "source": "fixture:location-A",
+              "stale": false,
+              "uncertainty": {
+                "distribution": "not-specified",
+                "kind": "vendor-estimate",
+                "unit": "m",
+                "value": "0.2"
+              },
+              "value": {
+                "frame": "warehouse-A",
+                "x": "2",
+                "y": "3",
+                "z": "0"
+              }
+            },
+            {
+              "ageSeconds": 2,
+              "cid": "cidv1-sha256-db68b0b4432e600492c1e4be6640de5618916198da04072b33e63286f67f1171",
+              "dataOrigin": "synthetic-fixture",
+              "epistemicRole": "reported-measurement",
+              "eventTime": "2026-09-15T12:00:02Z",
+              "frame": "warehouse-A",
+              "source": "fixture:robot-localization",
+              "stale": false,
+              "uncertainty": {
+                "kind": "unknown"
+              },
+              "value": {
+                "frame": "warehouse-A",
+                "x": "5",
+                "y": "3",
+                "z": "0"
+              }
+            }
+          ],
+          "predicate": "position",
+          "status": "contested",
+          "subject": "rid:indranet:robot-7"
+        }
+      ],
+      "knownAt": "2026-09-15T12:00:04Z",
+      "omittedCount": 0,
+      "purpose": "operations"
+    },
+    "nativeMappings": [
+      {
+        "assertionCid": "cidv1-sha256-6b2c03070b02ebf2fa800daa53eb9bb6e84368c843f9c063cc1903622dc7d68b",
+        "formCid": "cidv1-sha256-c873a4ba1736912b22b285dfc0730efe36c0bc79a40ed70d48909c86ec0b36bb",
+        "loss": [
+          "Independently authored locating subset, not official omlox certification",
+          "Provider association and zone calibration require separate evidence"
+        ],
+        "nativeRuntimeExecuted": false,
+        "observationCid": "cidv1-sha256-b20b6e946b2dfd3a401df2d729b174b0b60e90588aadc98bbbcfecae3a335a18",
+        "standard": "locating-reference"
+      },
+      {
+        "assertionCid": "cidv1-sha256-db68b0b4432e600492c1e4be6640de5618916198da04072b33e63286f67f1171",
+        "formCid": "cidv1-sha256-a02d82468b22dca4bfc6ad5bb38a0cf0079a95c4e18b024e1861dcd5287528c7",
+        "loss": [
+          "ROS clock-to-UTC binding is supplied by the caller",
+          "DDS and tf2 runtime are not executed",
+          "Native orientation is preserved in signal but omitted from this position-only projection"
+        ],
+        "nativeRuntimeExecuted": false,
+        "observationCid": "cidv1-sha256-03033e32971d6cc750e1b4681c69af250f1a16744d5f8ce88e361c9b71a8996b",
+        "standard": "ros-pose"
+      }
+    ]
+  },
+  "scenario": "warehouse",
+  "tileCount": 11,
+  "tiles": [
+    {
+      "canonical": "{\"kind\":\"rosetta.observation\",\"pack\":\"rosetta.core\",\"parents\":[],\"payload\":{\"observationId\":\"observation.9fd95e434aa3d301\",\"signal\":\"{\\\"position\\\":{\\\"type\\\":\\\"Point\\\",\\\"coordinates\\\":[2,3,0]},\\\"crs\\\":\\\"warehouse-A\\\",\\\"timestamp_generated\\\":\\\"2026-09-15T12:00:00Z\\\",\\\"accuracy\\\":0.2}\",\"source\":\"fixture:location-A\"},\"version\":\"0.1.0\"}",
+      "cid": "cidv1-sha256-b20b6e946b2dfd3a401df2d729b174b0b60e90588aadc98bbbcfecae3a335a18",
+      "createdAt": "2026-09-15T12:00:01Z",
+      "kind": "rosetta.observation",
+      "pack": "rosetta.core",
+      "parents": [],
+      "payload": {
+        "observationId": "observation.9fd95e434aa3d301",
+        "signal": "{\"position\":{\"type\":\"Point\",\"coordinates\":[2,3,0]},\"crs\":\"warehouse-A\",\"timestamp_generated\":\"2026-09-15T12:00:00Z\",\"accuracy\":0.2}",
+        "source": "fixture:location-A"
+      },
+      "version": "0.1.0"
+    },
+    {
+      "canonical": "{\"kind\":\"indranet.parsed_signal\",\"pack\":\"indranet.context\",\"parents\":[\"cidv1-sha256-b20b6e946b2dfd3a401df2d729b174b0b60e90588aadc98bbbcfecae3a335a18\"],\"payload\":{\"dataOrigin\":\"synthetic-fixture\",\"eventTime\":\"2026-09-15T12:00:00Z\",\"knownAt\":\"2026-09-15T12:00:01Z\",\"mediaType\":\"application/json\",\"observationCid\":\"cidv1-sha256-b20b6e946b2dfd3a401df2d729b174b0b60e90588aadc98bbbcfecae3a335a18\",\"parser\":\"python-json-reference\",\"purposes\":[\"operations\",\"robot-advisory\"],\"sourceSha256\":\"9fd95e434aa3d3019c29ba9ab1d05b7c490781f14411224f354522a616b8573f\"},\"version\":\"0.5.0\"}",
+      "cid": "cidv1-sha256-c873a4ba1736912b22b285dfc0730efe36c0bc79a40ed70d48909c86ec0b36bb",
+      "createdAt": "2026-09-15T12:00:01Z",
+      "kind": "indranet.parsed_signal",
+      "pack": "indranet.context",
+      "parents": [
+        "cidv1-sha256-b20b6e946b2dfd3a401df2d729b174b0b60e90588aadc98bbbcfecae3a335a18"
+      ],
+      "payload": {
+        "dataOrigin": "synthetic-fixture",
+        "eventTime": "2026-09-15T12:00:00Z",
+        "knownAt": "2026-09-15T12:00:01Z",
+        "mediaType": "application/json",
+        "observationCid": "cidv1-sha256-b20b6e946b2dfd3a401df2d729b174b0b60e90588aadc98bbbcfecae3a335a18",
+        "parser": "python-json-reference",
+        "purposes": [
+          "operations",
+          "robot-advisory"
+        ],
+        "sourceSha256": "9fd95e434aa3d3019c29ba9ab1d05b7c490781f14411224f354522a616b8573f"
+      },
+      "version": "0.5.0"
+    },
+    {
+      "canonical": "{\"kind\":\"indranet.state_assertion\",\"pack\":\"indranet.context\",\"parents\":[\"cidv1-sha256-c873a4ba1736912b22b285dfc0730efe36c0bc79a40ed70d48909c86ec0b36bb\"],\"payload\":{\"dataOrigin\":\"synthetic-fixture\",\"epistemicRole\":\"reported-measurement\",\"eventTime\":\"2026-09-15T12:00:00Z\",\"evidenceCids\":[\"cidv1-sha256-c873a4ba1736912b22b285dfc0730efe36c0bc79a40ed70d48909c86ec0b36bb\"],\"frame\":\"warehouse-A\",\"knownAt\":\"2026-09-15T12:00:01Z\",\"predicate\":\"position\",\"purposes\":[\"operations\",\"robot-advisory\"],\"source\":\"fixture:location-A\",\"subject\":\"rid:indranet:robot-7\",\"uncertainty\":{\"distribution\":\"not-specified\",\"kind\":\"vendor-estimate\",\"unit\":\"m\",\"value\":\"0.2\"},\"validUntil\":null,\"value\":{\"frame\":\"warehouse-A\",\"x\":\"2\",\"y\":\"3\",\"z\":\"0\"}},\"version\":\"0.5.0\"}",
+      "cid": "cidv1-sha256-6b2c03070b02ebf2fa800daa53eb9bb6e84368c843f9c063cc1903622dc7d68b",
+      "createdAt": "2026-09-15T12:00:01Z",
+      "kind": "indranet.state_assertion",
+      "pack": "indranet.context",
+      "parents": [
+        "cidv1-sha256-c873a4ba1736912b22b285dfc0730efe36c0bc79a40ed70d48909c86ec0b36bb"
+      ],
+      "payload": {
+        "dataOrigin": "synthetic-fixture",
+        "epistemicRole": "reported-measurement",
+        "eventTime": "2026-09-15T12:00:00Z",
+        "evidenceCids": [
+          "cidv1-sha256-c873a4ba1736912b22b285dfc0730efe36c0bc79a40ed70d48909c86ec0b36bb"
+        ],
+        "frame": "warehouse-A",
+        "knownAt": "2026-09-15T12:00:01Z",
+        "predicate": "position",
+        "purposes": [
+          "operations",
+          "robot-advisory"
+        ],
+        "source": "fixture:location-A",
+        "subject": "rid:indranet:robot-7",
+        "uncertainty": {
+          "distribution": "not-specified",
+          "kind": "vendor-estimate",
+          "unit": "m",
+          "value": "0.2"
+        },
+        "validUntil": null,
+        "value": {
+          "frame": "warehouse-A",
+          "x": "2",
+          "y": "3",
+          "z": "0"
+        }
+      },
+      "version": "0.5.0"
+    },
+    {
+      "canonical": "{\"kind\":\"rosetta.observation\",\"pack\":\"rosetta.core\",\"parents\":[],\"payload\":{\"observationId\":\"observation.d513432080fd6b80\",\"signal\":\"{\\\"pose\\\":{\\\"position\\\":{\\\"x\\\":5,\\\"y\\\":3,\\\"z\\\":0}},\\\"header\\\":{\\\"frame_id\\\":\\\"warehouse-A\\\"},\\\"profileEventTime\\\":\\\"2026-09-15T12:00:02Z\\\"}\",\"source\":\"fixture:robot-localization\"},\"version\":\"0.1.0\"}",
+      "cid": "cidv1-sha256-03033e32971d6cc750e1b4681c69af250f1a16744d5f8ce88e361c9b71a8996b",
+      "createdAt": "2026-09-15T12:00:03Z",
+      "kind": "rosetta.observation",
+      "pack": "rosetta.core",
+      "parents": [],
+      "payload": {
+        "observationId": "observation.d513432080fd6b80",
+        "signal": "{\"pose\":{\"position\":{\"x\":5,\"y\":3,\"z\":0}},\"header\":{\"frame_id\":\"warehouse-A\"},\"profileEventTime\":\"2026-09-15T12:00:02Z\"}",
+        "source": "fixture:robot-localization"
+      },
+      "version": "0.1.0"
+    },
+    {
+      "canonical": "{\"kind\":\"indranet.parsed_signal\",\"pack\":\"indranet.context\",\"parents\":[\"cidv1-sha256-03033e32971d6cc750e1b4681c69af250f1a16744d5f8ce88e361c9b71a8996b\"],\"payload\":{\"dataOrigin\":\"synthetic-fixture\",\"eventTime\":\"2026-09-15T12:00:02Z\",\"knownAt\":\"2026-09-15T12:00:03Z\",\"mediaType\":\"application/json\",\"observationCid\":\"cidv1-sha256-03033e32971d6cc750e1b4681c69af250f1a16744d5f8ce88e361c9b71a8996b\",\"parser\":\"python-json-reference\",\"purposes\":[\"operations\",\"robot-advisory\"],\"sourceSha256\":\"d513432080fd6b80c73501b1248668821304c580c6ac7b13cec0bfe91aa865b4\"},\"version\":\"0.5.0\"}",
+      "cid": "cidv1-sha256-a02d82468b22dca4bfc6ad5bb38a0cf0079a95c4e18b024e1861dcd5287528c7",
+      "createdAt": "2026-09-15T12:00:03Z",
+      "kind": "indranet.parsed_signal",
+      "pack": "indranet.context",
+      "parents": [
+        "cidv1-sha256-03033e32971d6cc750e1b4681c69af250f1a16744d5f8ce88e361c9b71a8996b"
+      ],
+      "payload": {
+        "dataOrigin": "synthetic-fixture",
+        "eventTime": "2026-09-15T12:00:02Z",
+        "knownAt": "2026-09-15T12:00:03Z",
+        "mediaType": "application/json",
+        "observationCid": "cidv1-sha256-03033e32971d6cc750e1b4681c69af250f1a16744d5f8ce88e361c9b71a8996b",
+        "parser": "python-json-reference",
+        "purposes": [
+          "operations",
+          "robot-advisory"
+        ],
+        "sourceSha256": "d513432080fd6b80c73501b1248668821304c580c6ac7b13cec0bfe91aa865b4"
+      },
+      "version": "0.5.0"
+    },
+    {
+      "canonical": "{\"kind\":\"indranet.state_assertion\",\"pack\":\"indranet.context\",\"parents\":[\"cidv1-sha256-a02d82468b22dca4bfc6ad5bb38a0cf0079a95c4e18b024e1861dcd5287528c7\"],\"payload\":{\"dataOrigin\":\"synthetic-fixture\",\"epistemicRole\":\"reported-measurement\",\"eventTime\":\"2026-09-15T12:00:02Z\",\"evidenceCids\":[\"cidv1-sha256-a02d82468b22dca4bfc6ad5bb38a0cf0079a95c4e18b024e1861dcd5287528c7\"],\"frame\":\"warehouse-A\",\"knownAt\":\"2026-09-15T12:00:03Z\",\"predicate\":\"position\",\"purposes\":[\"operations\",\"robot-advisory\"],\"source\":\"fixture:robot-localization\",\"subject\":\"rid:indranet:robot-7\",\"uncertainty\":{\"kind\":\"unknown\"},\"validUntil\":null,\"value\":{\"frame\":\"warehouse-A\",\"x\":\"5\",\"y\":\"3\",\"z\":\"0\"}},\"version\":\"0.5.0\"}",
+      "cid": "cidv1-sha256-db68b0b4432e600492c1e4be6640de5618916198da04072b33e63286f67f1171",
+      "createdAt": "2026-09-15T12:00:03Z",
+      "kind": "indranet.state_assertion",
+      "pack": "indranet.context",
+      "parents": [
+        "cidv1-sha256-a02d82468b22dca4bfc6ad5bb38a0cf0079a95c4e18b024e1861dcd5287528c7"
+      ],
+      "payload": {
+        "dataOrigin": "synthetic-fixture",
+        "epistemicRole": "reported-measurement",
+        "eventTime": "2026-09-15T12:00:02Z",
+        "evidenceCids": [
+          "cidv1-sha256-a02d82468b22dca4bfc6ad5bb38a0cf0079a95c4e18b024e1861dcd5287528c7"
+        ],
+        "frame": "warehouse-A",
+        "knownAt": "2026-09-15T12:00:03Z",
+        "predicate": "position",
+        "purposes": [
+          "operations",
+          "robot-advisory"
+        ],
+        "source": "fixture:robot-localization",
+        "subject": "rid:indranet:robot-7",
+        "uncertainty": {
+          "kind": "unknown"
+        },
+        "validUntil": null,
+        "value": {
+          "frame": "warehouse-A",
+          "x": "5",
+          "y": "3",
+          "z": "0"
+        }
+      },
+      "version": "0.5.0"
+    },
+    {
+      "canonical": "{\"kind\":\"rosetta.observation\",\"pack\":\"rosetta.core\",\"parents\":[],\"payload\":{\"observationId\":\"observation.e979df2bc83112ae\",\"signal\":\"{\\\"battery\\\":40}\",\"source\":\"fixture:robot-status\"},\"version\":\"0.1.0\"}",
+      "cid": "cidv1-sha256-3117de62a3943ea20810dcc7fe8f7a6c63f3bb6a70757ca9e4e7e17273f86d4d",
+      "createdAt": "2026-09-15T12:00:01Z",
+      "kind": "rosetta.observation",
+      "pack": "rosetta.core",
+      "parents": [],
+      "payload": {
+        "observationId": "observation.e979df2bc83112ae",
+        "signal": "{\"battery\":40}",
+        "source": "fixture:robot-status"
+      },
+      "version": "0.1.0"
+    },
+    {
+      "canonical": "{\"kind\":\"indranet.parsed_signal\",\"pack\":\"indranet.context\",\"parents\":[\"cidv1-sha256-3117de62a3943ea20810dcc7fe8f7a6c63f3bb6a70757ca9e4e7e17273f86d4d\"],\"payload\":{\"dataOrigin\":\"synthetic-fixture\",\"eventTime\":\"2026-09-15T11:59:00Z\",\"knownAt\":\"2026-09-15T12:00:01Z\",\"mediaType\":\"application/json\",\"observationCid\":\"cidv1-sha256-3117de62a3943ea20810dcc7fe8f7a6c63f3bb6a70757ca9e4e7e17273f86d4d\",\"parser\":\"python-json-reference\",\"purposes\":[\"operations\"],\"sourceSha256\":\"e979df2bc83112aef3171a6cf28e74bb383e29dad2ac89337511a222465a7e9e\"},\"version\":\"0.5.0\"}",
+      "cid": "cidv1-sha256-e623414b1b48aa800fc057d3e7efa865cdbf9be73f57c5867f660e3d8b4c2b75",
+      "createdAt": "2026-09-15T12:00:01Z",
+      "kind": "indranet.parsed_signal",
+      "pack": "indranet.context",
+      "parents": [
+        "cidv1-sha256-3117de62a3943ea20810dcc7fe8f7a6c63f3bb6a70757ca9e4e7e17273f86d4d"
+      ],
+      "payload": {
+        "dataOrigin": "synthetic-fixture",
+        "eventTime": "2026-09-15T11:59:00Z",
+        "knownAt": "2026-09-15T12:00:01Z",
+        "mediaType": "application/json",
+        "observationCid": "cidv1-sha256-3117de62a3943ea20810dcc7fe8f7a6c63f3bb6a70757ca9e4e7e17273f86d4d",
+        "parser": "python-json-reference",
+        "purposes": [
+          "operations"
+        ],
+        "sourceSha256": "e979df2bc83112aef3171a6cf28e74bb383e29dad2ac89337511a222465a7e9e"
+      },
+      "version": "0.5.0"
+    },
+    {
+      "canonical": "{\"kind\":\"indranet.state_assertion\",\"pack\":\"indranet.context\",\"parents\":[\"cidv1-sha256-e623414b1b48aa800fc057d3e7efa865cdbf9be73f57c5867f660e3d8b4c2b75\"],\"payload\":{\"dataOrigin\":\"synthetic-fixture\",\"epistemicRole\":\"reported-measurement\",\"eventTime\":\"2026-09-15T11:59:00Z\",\"evidenceCids\":[\"cidv1-sha256-e623414b1b48aa800fc057d3e7efa865cdbf9be73f57c5867f660e3d8b4c2b75\"],\"frame\":null,\"knownAt\":\"2026-09-15T12:00:01Z\",\"predicate\":\"battery-percent\",\"purposes\":[\"operations\"],\"source\":\"fixture\",\"subject\":\"rid:indranet:robot-7\",\"uncertainty\":{\"kind\":\"unknown\"},\"validUntil\":null,\"value\":40},\"version\":\"0.5.0\"}",
+      "cid": "cidv1-sha256-bedea3ed4bec2fe40dc8ced4653d8de792f14a59bd4c13fbc8c5931a5f5e7436",
+      "createdAt": "2026-09-15T12:00:01Z",
+      "kind": "indranet.state_assertion",
+      "pack": "indranet.context",
+      "parents": [
+        "cidv1-sha256-e623414b1b48aa800fc057d3e7efa865cdbf9be73f57c5867f660e3d8b4c2b75"
+      ],
+      "payload": {
+        "dataOrigin": "synthetic-fixture",
+        "epistemicRole": "reported-measurement",
+        "eventTime": "2026-09-15T11:59:00Z",
+        "evidenceCids": [
+          "cidv1-sha256-e623414b1b48aa800fc057d3e7efa865cdbf9be73f57c5867f660e3d8b4c2b75"
+        ],
+        "frame": null,
+        "knownAt": "2026-09-15T12:00:01Z",
+        "predicate": "battery-percent",
+        "purposes": [
+          "operations"
+        ],
+        "source": "fixture",
+        "subject": "rid:indranet:robot-7",
+        "uncertainty": {
+          "kind": "unknown"
+        },
+        "validUntil": null,
+        "value": 40
+      },
+      "version": "0.5.0"
+    },
+    {
+      "canonical": "{\"kind\":\"indranet.state_assertion\",\"pack\":\"indranet.context\",\"parents\":[\"cidv1-sha256-c873a4ba1736912b22b285dfc0730efe36c0bc79a40ed70d48909c86ec0b36bb\"],\"payload\":{\"dataOrigin\":\"synthetic-fixture\",\"epistemicRole\":\"inferred\",\"eventTime\":\"2026-09-15T12:00:08Z\",\"evidenceCids\":[\"cidv1-sha256-c873a4ba1736912b22b285dfc0730efe36c0bc79a40ed70d48909c86ec0b36bb\"],\"frame\":\"warehouse-A\",\"knownAt\":\"2026-09-15T12:00:10Z\",\"predicate\":\"position\",\"purposes\":[\"operations\",\"robot-advisory\"],\"source\":\"fixture:explicit-correction\",\"subject\":\"rid:indranet:robot-7\",\"uncertainty\":{\"kind\":\"unknown\"},\"validUntil\":null,\"value\":{\"frame\":\"warehouse-A\",\"x\":\"5\",\"y\":\"3\",\"z\":\"0\"}},\"version\":\"0.5.0\"}",
+      "cid": "cidv1-sha256-d80b03bdc9095012e40961be8d55da5ab2d408f03f7adfe729b454eac29d1e47",
+      "createdAt": "2026-09-15T12:00:10Z",
+      "kind": "indranet.state_assertion",
+      "pack": "indranet.context",
+      "parents": [
+        "cidv1-sha256-c873a4ba1736912b22b285dfc0730efe36c0bc79a40ed70d48909c86ec0b36bb"
+      ],
+      "payload": {
+        "dataOrigin": "synthetic-fixture",
+        "epistemicRole": "inferred",
+        "eventTime": "2026-09-15T12:00:08Z",
+        "evidenceCids": [
+          "cidv1-sha256-c873a4ba1736912b22b285dfc0730efe36c0bc79a40ed70d48909c86ec0b36bb"
+        ],
+        "frame": "warehouse-A",
+        "knownAt": "2026-09-15T12:00:10Z",
+        "predicate": "position",
+        "purposes": [
+          "operations",
+          "robot-advisory"
+        ],
+        "source": "fixture:explicit-correction",
+        "subject": "rid:indranet:robot-7",
+        "uncertainty": {
+          "kind": "unknown"
+        },
+        "validUntil": null,
+        "value": {
+          "frame": "warehouse-A",
+          "x": "5",
+          "y": "3",
+          "z": "0"
+        }
+      },
+      "version": "0.5.0"
+    },
+    {
+      "canonical": "{\"kind\":\"indranet.revision\",\"pack\":\"indranet.context\",\"parents\":[\"cidv1-sha256-6b2c03070b02ebf2fa800daa53eb9bb6e84368c843f9c063cc1903622dc7d68b\",\"cidv1-sha256-d80b03bdc9095012e40961be8d55da5ab2d408f03f7adfe729b454eac29d1e47\"],\"payload\":{\"authority\":\"fixture-author\",\"eventTime\":\"2026-09-15T12:00:08Z\",\"knownAt\":\"2026-09-15T12:00:10Z\",\"operation\":\"supersede\",\"reason\":\"Recorded correction, not automatic sensor fusion\",\"replacementCid\":\"cidv1-sha256-d80b03bdc9095012e40961be8d55da5ab2d408f03f7adfe729b454eac29d1e47\",\"targetCid\":\"cidv1-sha256-6b2c03070b02ebf2fa800daa53eb9bb6e84368c843f9c063cc1903622dc7d68b\"},\"version\":\"0.5.0\"}",
+      "cid": "cidv1-sha256-ca8391bce02b281664f9d49da590d03d6cd57699ae2ff136c487db3bafdacae9",
+      "createdAt": "2026-09-15T12:00:10Z",
+      "kind": "indranet.revision",
+      "pack": "indranet.context",
+      "parents": [
+        "cidv1-sha256-6b2c03070b02ebf2fa800daa53eb9bb6e84368c843f9c063cc1903622dc7d68b",
+        "cidv1-sha256-d80b03bdc9095012e40961be8d55da5ab2d408f03f7adfe729b454eac29d1e47"
+      ],
+      "payload": {
+        "authority": "fixture-author",
+        "eventTime": "2026-09-15T12:00:08Z",
+        "knownAt": "2026-09-15T12:00:10Z",
+        "operation": "supersede",
+        "reason": "Recorded correction, not automatic sensor fusion",
+        "replacementCid": "cidv1-sha256-d80b03bdc9095012e40961be8d55da5ab2d408f03f7adfe729b454eac29d1e47",
+        "targetCid": "cidv1-sha256-6b2c03070b02ebf2fa800daa53eb9bb6e84368c843f9c063cc1903622dc7d68b"
+      },
+      "version": "0.5.0"
+    }
+  ]
+}

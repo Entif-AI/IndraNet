@@ -1,0 +1,51 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:indranet:candidate:schema:witness:0.5.0",
+  "title": "IndraNet candidate witness",
+  "$comment": "Candidate v0.5.0; Rosetta Core semantics retained; no assigned ROCK identifier. Source-of-truth: pack.json.",
+  "type": "object",
+  "properties": {
+    "witnessId": {
+      "type": "string",
+      "minLength": 1
+    },
+    "mediaType": {
+      "type": "string",
+      "minLength": 1
+    },
+    "content": {
+      "type": "string",
+      "minLength": 1
+    },
+    "eventTime": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "knownAt": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "dataOrigin": {
+      "type": "string",
+      "minLength": 1
+    },
+    "purposes": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "minItems": 1
+    }
+  },
+  "required": [
+    "witnessId",
+    "mediaType",
+    "content",
+    "eventTime",
+    "knownAt",
+    "dataOrigin",
+    "purposes"
+  ],
+  "additionalProperties": false
+}

@@ -1,0 +1,74 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:indranet:candidate:schema:executable-model:0.5.0",
+  "title": "IndraNet candidate executable model",
+  "$comment": "Candidate v0.5.0; Rosetta Core semantics retained; no assigned ROCK identifier. Source-of-truth: pack.json.",
+  "type": "object",
+  "properties": {
+    "hypothesisFrameCid": {
+      "type": "string",
+      "pattern": "^cidv1-sha256-[a-f0-9]{64}$"
+    },
+    "model": {
+      "type": "string",
+      "minLength": 1
+    },
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "initialVelocity": {
+          "type": "string",
+          "pattern": "^-?(?:0|[1-9][0-9]*)(?:\\.[0-9]+)?$"
+        },
+        "deceleration": {
+          "type": "string",
+          "pattern": "^-?(?:0|[1-9][0-9]*)(?:\\.[0-9]+)?$"
+        }
+      },
+      "required": [
+        "initialVelocity",
+        "deceleration"
+      ],
+      "additionalProperties": false
+    },
+    "units": {
+      "type": "object",
+      "properties": {
+        "position": {
+          "type": "string",
+          "minLength": 1
+        },
+        "time": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "required": [
+        "position",
+        "time"
+      ],
+      "additionalProperties": false
+    },
+    "assumptions": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "minItems": 1
+    },
+    "knownAt": {
+      "type": "string",
+      "format": "date-time"
+    }
+  },
+  "required": [
+    "hypothesisFrameCid",
+    "model",
+    "parameters",
+    "units",
+    "assumptions",
+    "knownAt"
+  ],
+  "additionalProperties": false
+}

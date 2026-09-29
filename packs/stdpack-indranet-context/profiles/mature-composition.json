@@ -1,0 +1,14 @@
+{
+  "name": "mature-composition-reference",
+  "version": "0.5.0",
+  "surfaces": [
+    "NGSI-LD declared Properties",
+    "SensorThings complex position-result Datastream",
+    "GeoPose geodetic preview",
+    "independent locating reference, not omlox"
+  ],
+  "nativeRuntimeExecuted": false,
+  "fullExperimentExecuted": false,
+  "lossReporting": true,
+  "comparison": "No expressivity winner; selected fields preserved in both strong profiles"
+}

@@ -1,0 +1,39 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:indranet:candidate:schema:association:0.5.0",
+  "title": "IndraNet candidate association",
+  "$comment": "Candidate v0.5.0; Rosetta Core semantics retained; no assigned ROCK identifier. Source-of-truth: pack.json.",
+  "type": "object",
+  "properties": {
+    "externalId": {
+      "type": "string",
+      "minLength": 1
+    },
+    "entityRef": {
+      "type": "string",
+      "minLength": 1
+    },
+    "relationship": {
+      "enum": [
+        "assigned-to",
+        "corresponds-to"
+      ]
+    },
+    "knownAt": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "basis": {
+      "type": "string",
+      "minLength": 1
+    }
+  },
+  "required": [
+    "externalId",
+    "entityRef",
+    "relationship",
+    "knownAt",
+    "basis"
+  ],
+  "additionalProperties": false
+}

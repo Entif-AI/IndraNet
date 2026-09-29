@@ -1,0 +1,53 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:indranet:candidate:schema:context-binding:0.5.0",
+  "title": "IndraNet candidate context binding",
+  "$comment": "Candidate v0.5.0; Rosetta Core semantics retained; no assigned ROCK identifier. Source-of-truth: pack.json.",
+  "type": "object",
+  "properties": {
+    "purpose": {
+      "type": "string",
+      "minLength": 1
+    },
+    "selectedCids": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^cidv1-sha256-[a-f0-9]{64}$"
+      },
+      "minItems": 1
+    },
+    "mode": {
+      "type": "string",
+      "minLength": 1
+    },
+    "expiresAt": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "knownAt": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "priorContextCid": {
+      "anyOf": [
+        {
+          "type": "string",
+          "pattern": "^cidv1-sha256-[a-f0-9]{64}$"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    }
+  },
+  "required": [
+    "purpose",
+    "selectedCids",
+    "mode",
+    "expiresAt",
+    "knownAt",
+    "priorContextCid"
+  ],
+  "additionalProperties": false
+}

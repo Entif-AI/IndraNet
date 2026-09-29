@@ -1,0 +1,56 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:indranet:candidate:schema:effect-preview:0.5.0",
+  "title": "IndraNet candidate effect preview",
+  "$comment": "Candidate v0.5.0; Rosetta Core semantics retained; no assigned ROCK identifier. Source-of-truth: pack.json.",
+  "type": "object",
+  "properties": {
+    "contextCid": {
+      "type": "string",
+      "pattern": "^cidv1-sha256-[a-f0-9]{64}$"
+    },
+    "gestureCid": {
+      "type": "string",
+      "pattern": "^cidv1-sha256-[a-f0-9]{64}$"
+    },
+    "address": {
+      "type": "string",
+      "pattern": "^/"
+    },
+    "value": {
+      "type": "integer",
+      "minimum": -2147483648,
+      "maximum": 2147483647
+    },
+    "oscHex": {
+      "type": "string",
+      "pattern": "^(?:[0-9a-f]{2})+$"
+    },
+    "mode": {
+      "type": "string",
+      "minLength": 1
+    },
+    "eventTime": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "sent": {
+      "const": false
+    },
+    "actuationAuthority": {
+      "const": false
+    }
+  },
+  "required": [
+    "contextCid",
+    "gestureCid",
+    "address",
+    "value",
+    "oscHex",
+    "mode",
+    "eventTime",
+    "sent",
+    "actuationAuthority"
+  ],
+  "additionalProperties": false
+}

@@ -1,0 +1,18 @@
+{
+  "name": "warehouse",
+  "status": "candidate",
+  "purpose": "operations",
+  "required_exports": [
+    "revision",
+    "state-assertion",
+    "frame-transform"
+  ],
+  "required_tests": [
+    "test_warehouse_conflict",
+    "test_correction_does_not_rewrite_known_history"
+  ],
+  "forbidden_claims": [
+    "No fleet controller, safety certification or live locating hub"
+  ],
+  "compatibility": "Rosetta Core meaning plus restricted inspected envelope subset"
+}

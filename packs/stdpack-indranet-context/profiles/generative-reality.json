@@ -1,0 +1,19 @@
+{
+  "name": "generative-reality",
+  "status": "candidate",
+  "purpose": "remote-presence",
+  "required_exports": [
+    "world-package",
+    "reconstruction-state",
+    "witness",
+    "derivation-rule"
+  ],
+  "required_tests": [
+    "test_missing_witness_modes",
+    "test_derivation_invalidation"
+  ],
+  "forbidden_claims": [
+    "Receiver planning only; no learned decoder or measured bitrate benefit"
+  ],
+  "compatibility": "Rosetta Core meaning plus restricted inspected envelope subset"
+}

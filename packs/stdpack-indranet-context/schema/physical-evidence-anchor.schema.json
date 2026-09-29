@@ -1,0 +1,67 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:indranet:candidate:0.5:physical-evidence-anchor",
+  "type": "object",
+  "properties": {
+    "anchorId": {
+      "type": "string",
+      "minLength": 1
+    },
+    "sourceRefs": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "uniqueItems": true,
+      "minItems": 1
+    },
+    "anchorType": {
+      "enum": [
+        "temporal-window",
+        "track-segment",
+        "spatial-volume",
+        "graph-substructure",
+        "sensor-sample-range"
+      ]
+    },
+    "frameRef": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "timeBasis": {
+      "type": "string",
+      "minLength": 1
+    },
+    "uncertaintyRef": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "provenanceRefs": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "uniqueItems": true
+    },
+    "interpretation": {
+      "const": "evidence reference, not an inferred physical truth"
+    }
+  },
+  "required": [
+    "anchorId",
+    "sourceRefs",
+    "anchorType",
+    "frameRef",
+    "timeBasis",
+    "uncertaintyRef",
+    "provenanceRefs",
+    "interpretation"
+  ],
+  "additionalProperties": false
+}

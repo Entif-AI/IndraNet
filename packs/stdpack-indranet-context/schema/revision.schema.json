@@ -1,0 +1,82 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:indranet:candidate:schema:revision:0.5.0",
+  "title": "IndraNet candidate revision",
+  "$comment": "Candidate v0.5.0; Rosetta Core semantics retained; no assigned ROCK identifier. Source-of-truth: pack.json.",
+  "type": "object",
+  "properties": {
+    "targetCid": {
+      "type": "string",
+      "pattern": "^cidv1-sha256-[a-f0-9]{64}$"
+    },
+    "replacementCid": {
+      "anyOf": [
+        {
+          "type": "string",
+          "pattern": "^cidv1-sha256-[a-f0-9]{64}$"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "operation": {
+      "enum": [
+        "supersede",
+        "retract"
+      ]
+    },
+    "eventTime": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "knownAt": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "reason": {
+      "type": "string",
+      "minLength": 1
+    },
+    "authority": {
+      "type": "string",
+      "minLength": 1
+    }
+  },
+  "required": [
+    "targetCid",
+    "replacementCid",
+    "operation",
+    "eventTime",
+    "knownAt",
+    "reason",
+    "authority"
+  ],
+  "additionalProperties": false,
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "operation": {
+            "const": "retract"
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "replacementCid": {
+            "type": "null"
+          }
+        }
+      },
+      "else": {
+        "properties": {
+          "replacementCid": {
+            "type": "string",
+            "pattern": "^cidv1-sha256-[a-f0-9]{64}$"
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,256 @@
+{
+  "dataOrigin": "synthetic-fixture",
+  "nativeRuntimeExecuted": false,
+  "result": {
+    "attendee": {
+      "actuationAuthority": false,
+      "eventAt": "2026-09-15T12:00:04Z",
+      "groups": [
+        {
+          "candidates": [
+            {
+              "ageSeconds": 4,
+              "cid": "cidv1-sha256-dce260ba3afa40e8d6b93b5a58e3f2fbe4701d245e1a330eb124d779c689bfba",
+              "dataOrigin": "synthetic-fixture",
+              "epistemicRole": "reported-measurement",
+              "eventTime": "2026-09-15T12:00:00Z",
+              "frame": "GeoPose:WGS84-ENU",
+              "source": "fixture:shared-anchor",
+              "stale": false,
+              "uncertainty": {
+                "kind": "unknown"
+              },
+              "value": {
+                "frame": "GeoPose:WGS84-ENU",
+                "height": "10",
+                "latitude": "40",
+                "longitude": "-74",
+                "orientation": {
+                  "w": "1",
+                  "x": "0",
+                  "y": "0",
+                  "z": "0"
+                }
+              }
+            }
+          ],
+          "predicate": "position",
+          "status": "available",
+          "subject": "rid:indranet:fixture-performer-01"
+        }
+      ],
+      "knownAt": "2026-09-15T12:00:04Z",
+      "omittedCount": 1,
+      "purpose": "xr"
+    },
+    "mapping": {
+      "assertionCid": "cidv1-sha256-dce260ba3afa40e8d6b93b5a58e3f2fbe4701d245e1a330eb124d779c689bfba",
+      "formCid": "cidv1-sha256-a9a5a06406f63765f06df6edb7925dd4d41d992e9cfb98f4127f843c7171f36c",
+      "loss": [
+        "profileEventTime is sidecar metadata, not a Basic GeoPose field",
+        "Orientation/frame conversion is not inferred"
+      ],
+      "nativeRuntimeExecuted": false,
+      "observationCid": "cidv1-sha256-ed98e05efb06adb6461f2a731ec63627a1387725ad52ac2a70eef87a6297a4f7",
+      "standard": "geopose"
+    },
+    "technician": {
+      "actuationAuthority": false,
+      "eventAt": "2026-09-15T12:00:04Z",
+      "groups": [
+        {
+          "candidates": [
+            {
+              "ageSeconds": 4,
+              "cid": "cidv1-sha256-f6530ded4ac04c8ad5eecfe7ad5be4c1c8693dcbf3aee70e434d169bc6073cf5",
+              "dataOrigin": "synthetic-fixture",
+              "epistemicRole": "human-report",
+              "eventTime": "2026-09-15T12:00:00Z",
+              "frame": null,
+              "source": "fixture",
+              "stale": false,
+              "uncertainty": {
+                "kind": "unknown"
+              },
+              "value": "Inspect loose attachment before next use"
+            }
+          ],
+          "predicate": "maintenance-note",
+          "status": "available",
+          "subject": "rid:indranet:fixture-performer-01"
+        },
+        {
+          "candidates": [
+            {
+              "ageSeconds": 4,
+              "cid": "cidv1-sha256-dce260ba3afa40e8d6b93b5a58e3f2fbe4701d245e1a330eb124d779c689bfba",
+              "dataOrigin": "synthetic-fixture",
+              "epistemicRole": "reported-measurement",
+              "eventTime": "2026-09-15T12:00:00Z",
+              "frame": "GeoPose:WGS84-ENU",
+              "source": "fixture:shared-anchor",
+              "stale": false,
+              "uncertainty": {
+                "kind": "unknown"
+              },
+              "value": {
+                "frame": "GeoPose:WGS84-ENU",
+                "height": "10",
+                "latitude": "40",
+                "longitude": "-74",
+                "orientation": {
+                  "w": "1",
+                  "x": "0",
+                  "y": "0",
+                  "z": "0"
+                }
+              }
+            }
+          ],
+          "predicate": "position",
+          "status": "available",
+          "subject": "rid:indranet:fixture-performer-01"
+        }
+      ],
+      "knownAt": "2026-09-15T12:00:04Z",
+      "omittedCount": 0,
+      "purpose": "maintenance"
+    }
+  },
+  "scenario": "xr",
+  "tileCount": 5,
+  "tiles": [
+    {
+      "canonical": "{\"kind\":\"rosetta.observation\",\"pack\":\"rosetta.core\",\"parents\":[],\"payload\":{\"observationId\":\"observation.c009e02328040031\",\"signal\":\"{\\\"position\\\":{\\\"lat\\\":40,\\\"lon\\\":-74,\\\"h\\\":10},\\\"quaternion\\\":{\\\"x\\\":0,\\\"y\\\":0,\\\"z\\\":0,\\\"w\\\":1},\\\"profileEventTime\\\":\\\"2026-09-15T12:00:00Z\\\"}\",\"source\":\"fixture:shared-anchor\"},\"version\":\"0.1.0\"}",
+      "cid": "cidv1-sha256-ed98e05efb06adb6461f2a731ec63627a1387725ad52ac2a70eef87a6297a4f7",
+      "createdAt": "2026-09-15T12:00:01Z",
+      "kind": "rosetta.observation",
+      "pack": "rosetta.core",
+      "parents": [],
+      "payload": {
+        "observationId": "observation.c009e02328040031",
+        "signal": "{\"position\":{\"lat\":40,\"lon\":-74,\"h\":10},\"quaternion\":{\"x\":0,\"y\":0,\"z\":0,\"w\":1},\"profileEventTime\":\"2026-09-15T12:00:00Z\"}",
+        "source": "fixture:shared-anchor"
+      },
+      "version": "0.1.0"
+    },
+    {
+      "canonical": "{\"kind\":\"indranet.parsed_signal\",\"pack\":\"indranet.context\",\"parents\":[\"cidv1-sha256-ed98e05efb06adb6461f2a731ec63627a1387725ad52ac2a70eef87a6297a4f7\"],\"payload\":{\"dataOrigin\":\"synthetic-fixture\",\"eventTime\":\"2026-09-15T12:00:00Z\",\"knownAt\":\"2026-09-15T12:00:01Z\",\"mediaType\":\"application/json\",\"observationCid\":\"cidv1-sha256-ed98e05efb06adb6461f2a731ec63627a1387725ad52ac2a70eef87a6297a4f7\",\"parser\":\"python-json-reference\",\"purposes\":[\"maintenance\",\"xr\"],\"sourceSha256\":\"c009e023280400315ff314fb84ac95e47e50c7d8994ac3ec73569634a75e1761\"},\"version\":\"0.5.0\"}",
+      "cid": "cidv1-sha256-a9a5a06406f63765f06df6edb7925dd4d41d992e9cfb98f4127f843c7171f36c",
+      "createdAt": "2026-09-15T12:00:01Z",
+      "kind": "indranet.parsed_signal",
+      "pack": "indranet.context",
+      "parents": [
+        "cidv1-sha256-ed98e05efb06adb6461f2a731ec63627a1387725ad52ac2a70eef87a6297a4f7"
+      ],
+      "payload": {
+        "dataOrigin": "synthetic-fixture",
+        "eventTime": "2026-09-15T12:00:00Z",
+        "knownAt": "2026-09-15T12:00:01Z",
+        "mediaType": "application/json",
+        "observationCid": "cidv1-sha256-ed98e05efb06adb6461f2a731ec63627a1387725ad52ac2a70eef87a6297a4f7",
+        "parser": "python-json-reference",
+        "purposes": [
+          "maintenance",
+          "xr"
+        ],
+        "sourceSha256": "c009e023280400315ff314fb84ac95e47e50c7d8994ac3ec73569634a75e1761"
+      },
+      "version": "0.5.0"
+    },
+    {
+      "canonical": "{\"kind\":\"indranet.state_assertion\",\"pack\":\"indranet.context\",\"parents\":[\"cidv1-sha256-a9a5a06406f63765f06df6edb7925dd4d41d992e9cfb98f4127f843c7171f36c\"],\"payload\":{\"dataOrigin\":\"synthetic-fixture\",\"epistemicRole\":\"reported-measurement\",\"eventTime\":\"2026-09-15T12:00:00Z\",\"evidenceCids\":[\"cidv1-sha256-a9a5a06406f63765f06df6edb7925dd4d41d992e9cfb98f4127f843c7171f36c\"],\"frame\":\"GeoPose:WGS84-ENU\",\"knownAt\":\"2026-09-15T12:00:01Z\",\"predicate\":\"position\",\"purposes\":[\"maintenance\",\"xr\"],\"source\":\"fixture:shared-anchor\",\"subject\":\"rid:indranet:fixture-performer-01\",\"uncertainty\":{\"kind\":\"unknown\"},\"validUntil\":null,\"value\":{\"frame\":\"GeoPose:WGS84-ENU\",\"height\":\"10\",\"latitude\":\"40\",\"longitude\":\"-74\",\"orientation\":{\"w\":\"1\",\"x\":\"0\",\"y\":\"0\",\"z\":\"0\"}}},\"version\":\"0.5.0\"}",
+      "cid": "cidv1-sha256-dce260ba3afa40e8d6b93b5a58e3f2fbe4701d245e1a330eb124d779c689bfba",
+      "createdAt": "2026-09-15T12:00:01Z",
+      "kind": "indranet.state_assertion",
+      "pack": "indranet.context",
+      "parents": [
+        "cidv1-sha256-a9a5a06406f63765f06df6edb7925dd4d41d992e9cfb98f4127f843c7171f36c"
+      ],
+      "payload": {
+        "dataOrigin": "synthetic-fixture",
+        "epistemicRole": "reported-measurement",
+        "eventTime": "2026-09-15T12:00:00Z",
+        "evidenceCids": [
+          "cidv1-sha256-a9a5a06406f63765f06df6edb7925dd4d41d992e9cfb98f4127f843c7171f36c"
+        ],
+        "frame": "GeoPose:WGS84-ENU",
+        "knownAt": "2026-09-15T12:00:01Z",
+        "predicate": "position",
+        "purposes": [
+          "maintenance",
+          "xr"
+        ],
+        "source": "fixture:shared-anchor",
+        "subject": "rid:indranet:fixture-performer-01",
+        "uncertainty": {
+          "kind": "unknown"
+        },
+        "validUntil": null,
+        "value": {
+          "frame": "GeoPose:WGS84-ENU",
+          "height": "10",
+          "latitude": "40",
+          "longitude": "-74",
+          "orientation": {
+            "w": "1",
+            "x": "0",
+            "y": "0",
+            "z": "0"
+          }
+        }
+      },
+      "version": "0.5.0"
+    },
+    {
+      "canonical": "{\"kind\":\"indranet.association\",\"pack\":\"indranet.context\",\"parents\":[\"cidv1-sha256-a9a5a06406f63765f06df6edb7925dd4d41d992e9cfb98f4127f843c7171f36c\"],\"payload\":{\"basis\":\"explicit fixture declaration\",\"entityRef\":\"rid:indranet:fixture-performer-01\",\"externalId\":\"urn:fixture:headset:anchor-7\",\"knownAt\":\"2026-09-15T12:00:01Z\",\"relationship\":\"assigned-to\"},\"version\":\"0.5.0\"}",
+      "cid": "cidv1-sha256-32568e27ed63ec194026f0ec58d4ed0e593410adb5a20bc1ac3a961041a50903",
+      "createdAt": "2026-09-15T12:00:01Z",
+      "kind": "indranet.association",
+      "pack": "indranet.context",
+      "parents": [
+        "cidv1-sha256-a9a5a06406f63765f06df6edb7925dd4d41d992e9cfb98f4127f843c7171f36c"
+      ],
+      "payload": {
+        "basis": "explicit fixture declaration",
+        "entityRef": "rid:indranet:fixture-performer-01",
+        "externalId": "urn:fixture:headset:anchor-7",
+        "knownAt": "2026-09-15T12:00:01Z",
+        "relationship": "assigned-to"
+      },
+      "version": "0.5.0"
+    },
+    {
+      "canonical": "{\"kind\":\"indranet.state_assertion\",\"pack\":\"indranet.context\",\"parents\":[\"cidv1-sha256-32568e27ed63ec194026f0ec58d4ed0e593410adb5a20bc1ac3a961041a50903\"],\"payload\":{\"dataOrigin\":\"synthetic-fixture\",\"epistemicRole\":\"human-report\",\"eventTime\":\"2026-09-15T12:00:00Z\",\"evidenceCids\":[\"cidv1-sha256-32568e27ed63ec194026f0ec58d4ed0e593410adb5a20bc1ac3a961041a50903\"],\"frame\":null,\"knownAt\":\"2026-09-15T12:00:01Z\",\"predicate\":\"maintenance-note\",\"purposes\":[\"maintenance\"],\"source\":\"fixture\",\"subject\":\"rid:indranet:fixture-performer-01\",\"uncertainty\":{\"kind\":\"unknown\"},\"validUntil\":null,\"value\":\"Inspect loose attachment before next use\"},\"version\":\"0.5.0\"}",
+      "cid": "cidv1-sha256-f6530ded4ac04c8ad5eecfe7ad5be4c1c8693dcbf3aee70e434d169bc6073cf5",
+      "createdAt": "2026-09-15T12:00:01Z",
+      "kind": "indranet.state_assertion",
+      "pack": "indranet.context",
+      "parents": [
+        "cidv1-sha256-32568e27ed63ec194026f0ec58d4ed0e593410adb5a20bc1ac3a961041a50903"
+      ],
+      "payload": {
+        "dataOrigin": "synthetic-fixture",
+        "epistemicRole": "human-report",
+        "eventTime": "2026-09-15T12:00:00Z",
+        "evidenceCids": [
+          "cidv1-sha256-32568e27ed63ec194026f0ec58d4ed0e593410adb5a20bc1ac3a961041a50903"
+        ],
+        "frame": null,
+        "knownAt": "2026-09-15T12:00:01Z",
+        "predicate": "maintenance-note",
+        "purposes": [
+          "maintenance"
+        ],
+        "source": "fixture",
+        "subject": "rid:indranet:fixture-performer-01",
+        "uncertainty": {
+          "kind": "unknown"
+        },
+        "validUntil": null,
+        "value": "Inspect loose attachment before next use"
+      },
+      "version": "0.5.0"
+    }
+  ]
+}

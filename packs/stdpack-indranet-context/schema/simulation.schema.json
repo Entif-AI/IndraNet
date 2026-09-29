@@ -1,0 +1,58 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:indranet:candidate:schema:simulation:0.5.0",
+  "title": "IndraNet candidate simulation",
+  "$comment": "Candidate v0.5.0; Rosetta Core semantics retained; no assigned ROCK identifier. Source-of-truth: pack.json.",
+  "type": "object",
+  "properties": {
+    "modelCid": {
+      "type": "string",
+      "pattern": "^cidv1-sha256-[a-f0-9]{64}$"
+    },
+    "hypothesisFrameCid": {
+      "type": "string",
+      "pattern": "^cidv1-sha256-[a-f0-9]{64}$"
+    },
+    "sampleTimes": {
+      "type": "array",
+      "items": {
+        "type": "integer",
+        "minimum": 0
+      },
+      "minItems": 1
+    },
+    "positions": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^-?(?:0|[1-9][0-9]*)(?:\\.[0-9]+)?$"
+      },
+      "minItems": 1
+    },
+    "epistemicRole": {
+      "const": "simulated"
+    },
+    "counterfactual": {
+      "type": "boolean"
+    },
+    "dataOrigin": {
+      "type": "string",
+      "minLength": 1
+    },
+    "knownAt": {
+      "type": "string",
+      "format": "date-time"
+    }
+  },
+  "required": [
+    "modelCid",
+    "hypothesisFrameCid",
+    "sampleTimes",
+    "positions",
+    "epistemicRole",
+    "counterfactual",
+    "dataOrigin",
+    "knownAt"
+  ],
+  "additionalProperties": false
+}

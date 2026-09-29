@@ -1,0 +1,628 @@
+{
+  "dataOrigin": "synthetic-fixture",
+  "nativeRuntimeExecuted": false,
+  "result": {
+    "elpqMatrixCid": "cidv1-sha256-163029eadf707bb1496c12e56e68a46ac93e431dd4a6aa0400edb552460bda5e",
+    "first": {
+      "actuationAuthority": false,
+      "address": "/indranet/demo/light/level",
+      "contextCid": "cidv1-sha256-e9f5af10969eb64afe87eb8ce921405fc15ac6971547a50db87aec3acdf8e0c6",
+      "eventTime": "2026-09-15T12:00:02Z",
+      "gestureCid": "cidv1-sha256-d923c02095a4c535060509a26ac57f9b5bf63774e5f84aa02bb0bd37188e8eab",
+      "mode": "light-sculpture",
+      "oscHex": "2f696e6472616e65742f64656d6f2f6c696768742f6c6576656c00002c69000000000050",
+      "sent": false,
+      "value": 80
+    },
+    "interpretationChain": {
+      "concept": "cidv1-sha256-9992732e34a371ed83c084348ea5623aeac59070595694fb8d168bf08fd0dc5e",
+      "conjecture": "cidv1-sha256-2f2623a10c6ae03bd8ee50304dfee290277f9518f5728694215b2c4fcb959021",
+      "form": "cidv1-sha256-54ac7d756c9785ff8749bec681e2232f8a74395b8b6d7472f8a02f06f721a1d8",
+      "frame": "cidv1-sha256-13811006bd405ff21e9c8f84fb1047336bbce89547a2d88bb6e985e071f4011a",
+      "lexeme": "cidv1-sha256-2d8b196f5f8d833dc92bb0d087e84675536a25924c29c247c9324052a600b550",
+      "observation": "cidv1-sha256-0fd61f05435b047a1468d2b823ffc931741daf3082edc52110f0b0566daac125"
+    },
+    "oldPreviewUnderNewContext": {
+      "actuationAuthority": false,
+      "reasons": [
+        "context-changed"
+      ],
+      "sent": false,
+      "status": "refused"
+    },
+    "second": {
+      "actuationAuthority": false,
+      "address": "/indranet/demo/sound/send",
+      "contextCid": "cidv1-sha256-579e185467d3dfc50c825294662f815ac0a661b50e592f37032fe272b5a977d7",
+      "eventTime": "2026-09-15T12:00:04Z",
+      "gestureCid": "cidv1-sha256-d923c02095a4c535060509a26ac57f9b5bf63774e5f84aa02bb0bd37188e8eab",
+      "mode": "sound-sculpture",
+      "oscHex": "2f696e6472616e65742f64656d6f2f736f756e642f73656e640000002c69000000000023",
+      "sent": false,
+      "value": 35
+    },
+    "signedFixture": {
+      "nonclaim": "Signature checks mechanics only; no trusted identity or vendor attestation",
+      "receipt": {
+        "canonical": "{\"kind\":\"rosetta.receipt\",\"pack\":\"rrp\",\"parents\":[\"cidv1-sha256-d06e516489a432a27e2ac5bf6d4f6500b626aae37f2c4576befe2d25d334cc71\",\"cidv1-sha256-e0010d2b9ff566f1acdb23e2e934e198ef303c6d3b551f14b42810d523211b40\"],\"payload\":{\"claims\":[{\"claimType\":\"indranet:local-integrity\",\"evidence\":[{\"cid\":\"cidv1-sha256-e0010d2b9ff566f1acdb23e2e934e198ef303c6d3b551f14b42810d523211b40\"}],\"statement\":\"Restricted envelope integrity checked locally\",\"verdict\":\"pass\"}],\"digests\":[{\"alg\":\"sha256\",\"cidRef\":\"cidv1-sha256-d06e516489a432a27e2ac5bf6d4f6500b626aae37f2c4576befe2d25d334cc71\",\"digest\":\"d06e516489a432a27e2ac5bf6d4f6500b626aae37f2c4576befe2d25d334cc71\",\"of\":\"canonical-body\"}],\"policyRefs\":[],\"receiptType\":\"indranet:fixture-integrity\",\"subjects\":[{\"cid\":\"cidv1-sha256-d06e516489a432a27e2ac5bf6d4f6500b626aae37f2c4576befe2d25d334cc71\",\"role\":\"artifact\"}]},\"version\":\"0.1.0\"}",
+        "cid": "cidv1-sha256-f212d988e8ca0952a0c148b16bdee2010953c5484caa0ee108727ca39019bfee",
+        "createdAt": "2026-09-15T12:00:04Z",
+        "kind": "rosetta.receipt",
+        "pack": "rrp",
+        "parents": [
+          "cidv1-sha256-d06e516489a432a27e2ac5bf6d4f6500b626aae37f2c4576befe2d25d334cc71",
+          "cidv1-sha256-e0010d2b9ff566f1acdb23e2e934e198ef303c6d3b551f14b42810d523211b40"
+        ],
+        "payload": {
+          "claims": [
+            {
+              "claimType": "indranet:local-integrity",
+              "evidence": [
+                {
+                  "cid": "cidv1-sha256-e0010d2b9ff566f1acdb23e2e934e198ef303c6d3b551f14b42810d523211b40"
+                }
+              ],
+              "statement": "Restricted envelope integrity checked locally",
+              "verdict": "pass"
+            }
+          ],
+          "digests": [
+            {
+              "alg": "sha256",
+              "cidRef": "cidv1-sha256-d06e516489a432a27e2ac5bf6d4f6500b626aae37f2c4576befe2d25d334cc71",
+              "digest": "d06e516489a432a27e2ac5bf6d4f6500b626aae37f2c4576befe2d25d334cc71",
+              "of": "canonical-body"
+            }
+          ],
+          "policyRefs": [],
+          "receiptType": "indranet:fixture-integrity",
+          "subjects": [
+            {
+              "cid": "cidv1-sha256-d06e516489a432a27e2ac5bf6d4f6500b626aae37f2c4576befe2d25d334cc71",
+              "role": "artifact"
+            }
+          ]
+        },
+        "version": "0.1.0"
+      },
+      "signature": {
+        "algorithm": "ed25519",
+        "keyId": "public-test-fixture-only",
+        "publicKeyPem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAQnPXv++WlmGS0lXoNMkiTfTH1SaYbLAKKCR+QLLRGSc=\n-----END PUBLIC KEY-----\n",
+        "signatureBase64": "EryuCYl0hXaxVCXnFV5tcnJPHnT0ONn9RoBRbRiiKn/z9Rz1MVgnSLXMZG7cBGaygyf2dGzVEpB4O6RicWlgCw==",
+        "signedCid": "cidv1-sha256-f212d988e8ca0952a0c148b16bdee2010953c5484caa0ee108727ca39019bfee"
+      }
+    }
+  },
+  "scenario": "performance",
+  "tileCount": 24,
+  "tiles": [
+    {
+      "canonical": "{\"kind\":\"rosetta.observation\",\"pack\":\"rosetta.core\",\"parents\":[],\"payload\":{\"observationId\":\"observation.9d1bd8648ee686cb\",\"signal\":\"{\\\"gesture\\\":\\\"raise-arm\\\",\\\"position\\\":[1,2,3]}\",\"source\":\"fixture:performer\"},\"version\":\"0.1.0\"}",
+      "cid": "cidv1-sha256-0fd61f05435b047a1468d2b823ffc931741daf3082edc52110f0b0566daac125",
+      "createdAt": "2026-09-15T12:00:01Z",
+      "kind": "rosetta.observation",
+      "pack": "rosetta.core",
+      "parents": [],
+      "payload": {
+        "observationId": "observation.9d1bd8648ee686cb",
+        "signal": "{\"gesture\":\"raise-arm\",\"position\":[1,2,3]}",
+        "source": "fixture:performer"
+      },
+      "version": "0.1.0"
+    },
+    {
+      "canonical": "{\"kind\":\"indranet.parsed_signal\",\"pack\":\"indranet.context\",\"parents\":[\"cidv1-sha256-0fd61f05435b047a1468d2b823ffc931741daf3082edc52110f0b0566daac125\"],\"payload\":{\"dataOrigin\":\"synthetic-fixture\",\"eventTime\":\"2026-09-15T12:00:00Z\",\"knownAt\":\"2026-09-15T12:00:01Z\",\"mediaType\":\"application/json\",\"observationCid\":\"cidv1-sha256-0fd61f05435b047a1468d2b823ffc931741daf3082edc52110f0b0566daac125\",\"parser\":\"python-json-reference\",\"purposes\":[\"performance\",\"xr\"],\"sourceSha256\":\"9d1bd8648ee686cb1b8a2384bb8da47b05286bddf7b495d28710dbc146ca9e94\"},\"version\":\"0.5.0\"}",
+      "cid": "cidv1-sha256-d930883c7b2a1be17cb464d2625abd9f73e7644c1f6207a77e7700c05f3cb309",
+      "createdAt": "2026-09-15T12:00:01Z",
+      "kind": "indranet.parsed_signal",
+      "pack": "indranet.context",
+      "parents": [
+        "cidv1-sha256-0fd61f05435b047a1468d2b823ffc931741daf3082edc52110f0b0566daac125"
+      ],
+      "payload": {
+        "dataOrigin": "synthetic-fixture",
+        "eventTime": "2026-09-15T12:00:00Z",
+        "knownAt": "2026-09-15T12:00:01Z",
+        "mediaType": "application/json",
+        "observationCid": "cidv1-sha256-0fd61f05435b047a1468d2b823ffc931741daf3082edc52110f0b0566daac125",
+        "parser": "python-json-reference",
+        "purposes": [
+          "performance",
+          "xr"
+        ],
+        "sourceSha256": "9d1bd8648ee686cb1b8a2384bb8da47b05286bddf7b495d28710dbc146ca9e94"
+      },
+      "version": "0.5.0"
+    },
+    {
+      "canonical": "{\"kind\":\"indranet.state_assertion\",\"pack\":\"indranet.context\",\"parents\":[\"cidv1-sha256-d930883c7b2a1be17cb464d2625abd9f73e7644c1f6207a77e7700c05f3cb309\"],\"payload\":{\"dataOrigin\":\"synthetic-fixture\",\"epistemicRole\":\"inferred\",\"eventTime\":\"2026-09-15T12:00:00Z\",\"evidenceCids\":[\"cidv1-sha256-d930883c7b2a1be17cb464d2625abd9f73e7644c1f6207a77e7700c05f3cb309\"],\"frame\":null,\"knownAt\":\"2026-09-15T12:00:01Z\",\"predicate\":\"gesture\",\"purposes\":[\"performance\",\"xr\"],\"source\":\"fixture\",\"subject\":\"rid:indranet:fixture-performer-01\",\"uncertainty\":{\"kind\":\"unknown\"},\"validUntil\":null,\"value\":\"raise-arm\"},\"version\":\"0.5.0\"}",
+      "cid": "cidv1-sha256-d923c02095a4c535060509a26ac57f9b5bf63774e5f84aa02bb0bd37188e8eab",
+      "createdAt": "2026-09-15T12:00:01Z",
+      "kind": "indranet.state_assertion",
+      "pack": "indranet.context",
+      "parents": [
+        "cidv1-sha256-d930883c7b2a1be17cb464d2625abd9f73e7644c1f6207a77e7700c05f3cb309"
+      ],
+      "payload": {
+        "dataOrigin": "synthetic-fixture",
+        "epistemicRole": "inferred",
+        "eventTime": "2026-09-15T12:00:00Z",
+        "evidenceCids": [
+          "cidv1-sha256-d930883c7b2a1be17cb464d2625abd9f73e7644c1f6207a77e7700c05f3cb309"
+        ],
+        "frame": null,
+        "knownAt": "2026-09-15T12:00:01Z",
+        "predicate": "gesture",
+        "purposes": [
+          "performance",
+          "xr"
+        ],
+        "source": "fixture",
+        "subject": "rid:indranet:fixture-performer-01",
+        "uncertainty": {
+          "kind": "unknown"
+        },
+        "validUntil": null,
+        "value": "raise-arm"
+      },
+      "version": "0.5.0"
+    },
+    {
+      "canonical": "{\"kind\":\"indranet.context_binding\",\"pack\":\"indranet.context\",\"parents\":[\"cidv1-sha256-d923c02095a4c535060509a26ac57f9b5bf63774e5f84aa02bb0bd37188e8eab\"],\"payload\":{\"expiresAt\":\"2026-09-15T12:01:00Z\",\"knownAt\":\"2026-09-15T12:00:01Z\",\"mode\":\"light-sculpture\",\"priorContextCid\":null,\"purpose\":\"performance\",\"selectedCids\":[\"cidv1-sha256-d923c02095a4c535060509a26ac57f9b5bf63774e5f84aa02bb0bd37188e8eab\"]},\"version\":\"0.5.0\"}",
+      "cid": "cidv1-sha256-e9f5af10969eb64afe87eb8ce921405fc15ac6971547a50db87aec3acdf8e0c6",
+      "createdAt": "2026-09-15T12:00:01Z",
+      "kind": "indranet.context_binding",
+      "pack": "indranet.context",
+      "parents": [
+        "cidv1-sha256-d923c02095a4c535060509a26ac57f9b5bf63774e5f84aa02bb0bd37188e8eab"
+      ],
+      "payload": {
+        "expiresAt": "2026-09-15T12:01:00Z",
+        "knownAt": "2026-09-15T12:00:01Z",
+        "mode": "light-sculpture",
+        "priorContextCid": null,
+        "purpose": "performance",
+        "selectedCids": [
+          "cidv1-sha256-d923c02095a4c535060509a26ac57f9b5bf63774e5f84aa02bb0bd37188e8eab"
+        ]
+      },
+      "version": "0.5.0"
+    },
+    {
+      "canonical": "{\"kind\":\"rosetta.run\",\"pack\":\"rosetta.core\",\"parents\":[],\"payload\":{\"runId\":\"demo.ec3acdf8e0c6\",\"summary\":\"Context-bound effect preview\",\"tags\":[\"synthetic-fixture\",\"no-device-execution\"]},\"version\":\"0.1.0\"}",
+      "cid": "cidv1-sha256-44ed88780736a8a76aaca70b91c442e1785f6638353c823517bf1ef9869e6f66",
+      "createdAt": "2026-09-15T12:00:02Z",
+      "kind": "rosetta.run",
+      "pack": "rosetta.core",
+      "parents": [],
+      "payload": {
+        "runId": "demo.ec3acdf8e0c6",
+        "summary": "Context-bound effect preview",
+        "tags": [
+          "synthetic-fixture",
+          "no-device-execution"
+        ]
+      },
+      "version": "0.1.0"
+    },
+    {
+      "canonical": "{\"kind\":\"rosetta.action\",\"pack\":\"rosetta.core\",\"parents\":[\"cidv1-sha256-44ed88780736a8a76aaca70b91c442e1785f6638353c823517bf1ef9869e6f66\",\"cidv1-sha256-d923c02095a4c535060509a26ac57f9b5bf63774e5f84aa02bb0bd37188e8eab\",\"cidv1-sha256-e9f5af10969eb64afe87eb8ce921405fc15ac6971547a50db87aec3acdf8e0c6\"],\"payload\":{\"actionId\":\"action.ec3acdf8e0c6\",\"intent\":\"Compile a preview packet from an explicitly selected gesture and context\",\"runCid\":\"cidv1-sha256-44ed88780736a8a76aaca70b91c442e1785f6638353c823517bf1ef9869e6f66\"},\"version\":\"0.1.0\"}",
+      "cid": "cidv1-sha256-1d9ffda45dcf99a8d31db492da95bc79d71c44c66100d1e18296712e60ba5f75",
+      "createdAt": "2026-09-15T12:00:02Z",
+      "kind": "rosetta.action",
+      "pack": "rosetta.core",
+      "parents": [
+        "cidv1-sha256-44ed88780736a8a76aaca70b91c442e1785f6638353c823517bf1ef9869e6f66",
+        "cidv1-sha256-d923c02095a4c535060509a26ac57f9b5bf63774e5f84aa02bb0bd37188e8eab",
+        "cidv1-sha256-e9f5af10969eb64afe87eb8ce921405fc15ac6971547a50db87aec3acdf8e0c6"
+      ],
+      "payload": {
+        "actionId": "action.ec3acdf8e0c6",
+        "intent": "Compile a preview packet from an explicitly selected gesture and context",
+        "runCid": "cidv1-sha256-44ed88780736a8a76aaca70b91c442e1785f6638353c823517bf1ef9869e6f66"
+      },
+      "version": "0.1.0"
+    },
+    {
+      "canonical": "{\"kind\":\"rosetta.toolcall\",\"pack\":\"rosetta.core\",\"parents\":[\"cidv1-sha256-1d9ffda45dcf99a8d31db492da95bc79d71c44c66100d1e18296712e60ba5f75\"],\"payload\":{\"args\":{\"address\":\"/indranet/demo/light/level\",\"contextCid\":\"cidv1-sha256-e9f5af10969eb64afe87eb8ce921405fc15ac6971547a50db87aec3acdf8e0c6\",\"value\":80},\"tool\":\"local.osc_packet_preview\",\"toolCallId\":\"preview.712e60ba5f75\"},\"version\":\"0.1.0\"}",
+      "cid": "cidv1-sha256-1500de7706ea33d26b27bc798f9978093585f05744c07ae09cdec5930bf150fd",
+      "createdAt": "2026-09-15T12:00:02Z",
+      "kind": "rosetta.toolcall",
+      "pack": "rosetta.core",
+      "parents": [
+        "cidv1-sha256-1d9ffda45dcf99a8d31db492da95bc79d71c44c66100d1e18296712e60ba5f75"
+      ],
+      "payload": {
+        "args": {
+          "address": "/indranet/demo/light/level",
+          "contextCid": "cidv1-sha256-e9f5af10969eb64afe87eb8ce921405fc15ac6971547a50db87aec3acdf8e0c6",
+          "value": 80
+        },
+        "tool": "local.osc_packet_preview",
+        "toolCallId": "preview.712e60ba5f75"
+      },
+      "version": "0.1.0"
+    },
+    {
+      "canonical": "{\"kind\":\"indranet.effect_preview\",\"pack\":\"indranet.context\",\"parents\":[\"cidv1-sha256-1500de7706ea33d26b27bc798f9978093585f05744c07ae09cdec5930bf150fd\",\"cidv1-sha256-d923c02095a4c535060509a26ac57f9b5bf63774e5f84aa02bb0bd37188e8eab\",\"cidv1-sha256-e9f5af10969eb64afe87eb8ce921405fc15ac6971547a50db87aec3acdf8e0c6\"],\"payload\":{\"actuationAuthority\":false,\"address\":\"/indranet/demo/light/level\",\"contextCid\":\"cidv1-sha256-e9f5af10969eb64afe87eb8ce921405fc15ac6971547a50db87aec3acdf8e0c6\",\"eventTime\":\"2026-09-15T12:00:02Z\",\"gestureCid\":\"cidv1-sha256-d923c02095a4c535060509a26ac57f9b5bf63774e5f84aa02bb0bd37188e8eab\",\"mode\":\"light-sculpture\",\"oscHex\":\"2f696e6472616e65742f64656d6f2f6c696768742f6c6576656c00002c69000000000050\",\"sent\":false,\"value\":80},\"version\":\"0.5.0\"}",
+      "cid": "cidv1-sha256-66cf174daeaa0eb8952c006f38fb88a79f6bc69c32270eac62e695ba19dd320e",
+      "createdAt": "2026-09-15T12:00:02Z",
+      "kind": "indranet.effect_preview",
+      "pack": "indranet.context",
+      "parents": [
+        "cidv1-sha256-1500de7706ea33d26b27bc798f9978093585f05744c07ae09cdec5930bf150fd",
+        "cidv1-sha256-d923c02095a4c535060509a26ac57f9b5bf63774e5f84aa02bb0bd37188e8eab",
+        "cidv1-sha256-e9f5af10969eb64afe87eb8ce921405fc15ac6971547a50db87aec3acdf8e0c6"
+      ],
+      "payload": {
+        "actuationAuthority": false,
+        "address": "/indranet/demo/light/level",
+        "contextCid": "cidv1-sha256-e9f5af10969eb64afe87eb8ce921405fc15ac6971547a50db87aec3acdf8e0c6",
+        "eventTime": "2026-09-15T12:00:02Z",
+        "gestureCid": "cidv1-sha256-d923c02095a4c535060509a26ac57f9b5bf63774e5f84aa02bb0bd37188e8eab",
+        "mode": "light-sculpture",
+        "oscHex": "2f696e6472616e65742f64656d6f2f6c696768742f6c6576656c00002c69000000000050",
+        "sent": false,
+        "value": 80
+      },
+      "version": "0.5.0"
+    },
+    {
+      "canonical": "{\"kind\":\"rosetta.evaluation\",\"pack\":\"rosetta.core\",\"parents\":[\"cidv1-sha256-1d9ffda45dcf99a8d31db492da95bc79d71c44c66100d1e18296712e60ba5f75\",\"cidv1-sha256-66cf174daeaa0eb8952c006f38fb88a79f6bc69c32270eac62e695ba19dd320e\"],\"payload\":{\"evaluationId\":\"eval.95ba19dd320e\",\"summary\":\"Local packet compilation completed; no endpoint was contacted\",\"verdict\":\"pass\"},\"version\":\"0.1.0\"}",
+      "cid": "cidv1-sha256-e76750204bbef63a729810c59085b2e095afcb74a2cecf98e3e4fd225eb3aaa2",
+      "createdAt": "2026-09-15T12:00:02Z",
+      "kind": "rosetta.evaluation",
+      "pack": "rosetta.core",
+      "parents": [
+        "cidv1-sha256-1d9ffda45dcf99a8d31db492da95bc79d71c44c66100d1e18296712e60ba5f75",
+        "cidv1-sha256-66cf174daeaa0eb8952c006f38fb88a79f6bc69c32270eac62e695ba19dd320e"
+      ],
+      "payload": {
+        "evaluationId": "eval.95ba19dd320e",
+        "summary": "Local packet compilation completed; no endpoint was contacted",
+        "verdict": "pass"
+      },
+      "version": "0.1.0"
+    },
+    {
+      "canonical": "{\"kind\":\"indranet.context_binding\",\"pack\":\"indranet.context\",\"parents\":[\"cidv1-sha256-d923c02095a4c535060509a26ac57f9b5bf63774e5f84aa02bb0bd37188e8eab\",\"cidv1-sha256-e9f5af10969eb64afe87eb8ce921405fc15ac6971547a50db87aec3acdf8e0c6\"],\"payload\":{\"expiresAt\":\"2026-09-15T12:01:00Z\",\"knownAt\":\"2026-09-15T12:00:03Z\",\"mode\":\"sound-sculpture\",\"priorContextCid\":\"cidv1-sha256-e9f5af10969eb64afe87eb8ce921405fc15ac6971547a50db87aec3acdf8e0c6\",\"purpose\":\"performance\",\"selectedCids\":[\"cidv1-sha256-d923c02095a4c535060509a26ac57f9b5bf63774e5f84aa02bb0bd37188e8eab\"]},\"version\":\"0.5.0\"}",
+      "cid": "cidv1-sha256-579e185467d3dfc50c825294662f815ac0a661b50e592f37032fe272b5a977d7",
+      "createdAt": "2026-09-15T12:00:03Z",
+      "kind": "indranet.context_binding",
+      "pack": "indranet.context",
+      "parents": [
+        "cidv1-sha256-d923c02095a4c535060509a26ac57f9b5bf63774e5f84aa02bb0bd37188e8eab",
+        "cidv1-sha256-e9f5af10969eb64afe87eb8ce921405fc15ac6971547a50db87aec3acdf8e0c6"
+      ],
+      "payload": {
+        "expiresAt": "2026-09-15T12:01:00Z",
+        "knownAt": "2026-09-15T12:00:03Z",
+        "mode": "sound-sculpture",
+        "priorContextCid": "cidv1-sha256-e9f5af10969eb64afe87eb8ce921405fc15ac6971547a50db87aec3acdf8e0c6",
+        "purpose": "performance",
+        "selectedCids": [
+          "cidv1-sha256-d923c02095a4c535060509a26ac57f9b5bf63774e5f84aa02bb0bd37188e8eab"
+        ]
+      },
+      "version": "0.5.0"
+    },
+    {
+      "canonical": "{\"kind\":\"rosetta.run\",\"pack\":\"rosetta.core\",\"parents\":[],\"payload\":{\"runId\":\"demo.e272b5a977d7\",\"summary\":\"Context-bound effect preview\",\"tags\":[\"synthetic-fixture\",\"no-device-execution\"]},\"version\":\"0.1.0\"}",
+      "cid": "cidv1-sha256-13e32d626ea4ebe286c491759f1e36357de2277cb59bdcd904cebabb286a7ddf",
+      "createdAt": "2026-09-15T12:00:04Z",
+      "kind": "rosetta.run",
+      "pack": "rosetta.core",
+      "parents": [],
+      "payload": {
+        "runId": "demo.e272b5a977d7",
+        "summary": "Context-bound effect preview",
+        "tags": [
+          "synthetic-fixture",
+          "no-device-execution"
+        ]
+      },
+      "version": "0.1.0"
+    },
+    {
+      "canonical": "{\"kind\":\"rosetta.action\",\"pack\":\"rosetta.core\",\"parents\":[\"cidv1-sha256-13e32d626ea4ebe286c491759f1e36357de2277cb59bdcd904cebabb286a7ddf\",\"cidv1-sha256-579e185467d3dfc50c825294662f815ac0a661b50e592f37032fe272b5a977d7\",\"cidv1-sha256-d923c02095a4c535060509a26ac57f9b5bf63774e5f84aa02bb0bd37188e8eab\"],\"payload\":{\"actionId\":\"action.e272b5a977d7\",\"intent\":\"Compile a preview packet from an explicitly selected gesture and context\",\"runCid\":\"cidv1-sha256-13e32d626ea4ebe286c491759f1e36357de2277cb59bdcd904cebabb286a7ddf\"},\"version\":\"0.1.0\"}",
+      "cid": "cidv1-sha256-fa0240c1badd5cfc58bc296b31f2f549b627073d7e7f853cd0b413e222eedb1f",
+      "createdAt": "2026-09-15T12:00:04Z",
+      "kind": "rosetta.action",
+      "pack": "rosetta.core",
+      "parents": [
+        "cidv1-sha256-13e32d626ea4ebe286c491759f1e36357de2277cb59bdcd904cebabb286a7ddf",
+        "cidv1-sha256-579e185467d3dfc50c825294662f815ac0a661b50e592f37032fe272b5a977d7",
+        "cidv1-sha256-d923c02095a4c535060509a26ac57f9b5bf63774e5f84aa02bb0bd37188e8eab"
+      ],
+      "payload": {
+        "actionId": "action.e272b5a977d7",
+        "intent": "Compile a preview packet from an explicitly selected gesture and context",
+        "runCid": "cidv1-sha256-13e32d626ea4ebe286c491759f1e36357de2277cb59bdcd904cebabb286a7ddf"
+      },
+      "version": "0.1.0"
+    },
+    {
+      "canonical": "{\"kind\":\"rosetta.toolcall\",\"pack\":\"rosetta.core\",\"parents\":[\"cidv1-sha256-fa0240c1badd5cfc58bc296b31f2f549b627073d7e7f853cd0b413e222eedb1f\"],\"payload\":{\"args\":{\"address\":\"/indranet/demo/sound/send\",\"contextCid\":\"cidv1-sha256-579e185467d3dfc50c825294662f815ac0a661b50e592f37032fe272b5a977d7\",\"value\":35},\"tool\":\"local.osc_packet_preview\",\"toolCallId\":\"preview.13e222eedb1f\"},\"version\":\"0.1.0\"}",
+      "cid": "cidv1-sha256-c17d5206bb0d35f2c71ceb745ed5794890a2f54a4e3323ea85cb5d6d20bf5412",
+      "createdAt": "2026-09-15T12:00:04Z",
+      "kind": "rosetta.toolcall",
+      "pack": "rosetta.core",
+      "parents": [
+        "cidv1-sha256-fa0240c1badd5cfc58bc296b31f2f549b627073d7e7f853cd0b413e222eedb1f"
+      ],
+      "payload": {
+        "args": {
+          "address": "/indranet/demo/sound/send",
+          "contextCid": "cidv1-sha256-579e185467d3dfc50c825294662f815ac0a661b50e592f37032fe272b5a977d7",
+          "value": 35
+        },
+        "tool": "local.osc_packet_preview",
+        "toolCallId": "preview.13e222eedb1f"
+      },
+      "version": "0.1.0"
+    },
+    {
+      "canonical": "{\"kind\":\"indranet.effect_preview\",\"pack\":\"indranet.context\",\"parents\":[\"cidv1-sha256-579e185467d3dfc50c825294662f815ac0a661b50e592f37032fe272b5a977d7\",\"cidv1-sha256-c17d5206bb0d35f2c71ceb745ed5794890a2f54a4e3323ea85cb5d6d20bf5412\",\"cidv1-sha256-d923c02095a4c535060509a26ac57f9b5bf63774e5f84aa02bb0bd37188e8eab\"],\"payload\":{\"actuationAuthority\":false,\"address\":\"/indranet/demo/sound/send\",\"contextCid\":\"cidv1-sha256-579e185467d3dfc50c825294662f815ac0a661b50e592f37032fe272b5a977d7\",\"eventTime\":\"2026-09-15T12:00:04Z\",\"gestureCid\":\"cidv1-sha256-d923c02095a4c535060509a26ac57f9b5bf63774e5f84aa02bb0bd37188e8eab\",\"mode\":\"sound-sculpture\",\"oscHex\":\"2f696e6472616e65742f64656d6f2f736f756e642f73656e640000002c69000000000023\",\"sent\":false,\"value\":35},\"version\":\"0.5.0\"}",
+      "cid": "cidv1-sha256-d06e516489a432a27e2ac5bf6d4f6500b626aae37f2c4576befe2d25d334cc71",
+      "createdAt": "2026-09-15T12:00:04Z",
+      "kind": "indranet.effect_preview",
+      "pack": "indranet.context",
+      "parents": [
+        "cidv1-sha256-579e185467d3dfc50c825294662f815ac0a661b50e592f37032fe272b5a977d7",
+        "cidv1-sha256-c17d5206bb0d35f2c71ceb745ed5794890a2f54a4e3323ea85cb5d6d20bf5412",
+        "cidv1-sha256-d923c02095a4c535060509a26ac57f9b5bf63774e5f84aa02bb0bd37188e8eab"
+      ],
+      "payload": {
+        "actuationAuthority": false,
+        "address": "/indranet/demo/sound/send",
+        "contextCid": "cidv1-sha256-579e185467d3dfc50c825294662f815ac0a661b50e592f37032fe272b5a977d7",
+        "eventTime": "2026-09-15T12:00:04Z",
+        "gestureCid": "cidv1-sha256-d923c02095a4c535060509a26ac57f9b5bf63774e5f84aa02bb0bd37188e8eab",
+        "mode": "sound-sculpture",
+        "oscHex": "2f696e6472616e65742f64656d6f2f736f756e642f73656e640000002c69000000000023",
+        "sent": false,
+        "value": 35
+      },
+      "version": "0.5.0"
+    },
+    {
+      "canonical": "{\"kind\":\"rosetta.evaluation\",\"pack\":\"rosetta.core\",\"parents\":[\"cidv1-sha256-d06e516489a432a27e2ac5bf6d4f6500b626aae37f2c4576befe2d25d334cc71\",\"cidv1-sha256-fa0240c1badd5cfc58bc296b31f2f549b627073d7e7f853cd0b413e222eedb1f\"],\"payload\":{\"evaluationId\":\"eval.2d25d334cc71\",\"summary\":\"Local packet compilation completed; no endpoint was contacted\",\"verdict\":\"pass\"},\"version\":\"0.1.0\"}",
+      "cid": "cidv1-sha256-051066aeda2f6654c07879146c5b3f6e856e952dddad902a1789826b915712bd",
+      "createdAt": "2026-09-15T12:00:04Z",
+      "kind": "rosetta.evaluation",
+      "pack": "rosetta.core",
+      "parents": [
+        "cidv1-sha256-d06e516489a432a27e2ac5bf6d4f6500b626aae37f2c4576befe2d25d334cc71",
+        "cidv1-sha256-fa0240c1badd5cfc58bc296b31f2f549b627073d7e7f853cd0b413e222eedb1f"
+      ],
+      "payload": {
+        "evaluationId": "eval.2d25d334cc71",
+        "summary": "Local packet compilation completed; no endpoint was contacted",
+        "verdict": "pass"
+      },
+      "version": "0.1.0"
+    },
+    {
+      "canonical": "{\"kind\":\"rosetta.form.token\",\"pack\":\"rosetta.core\",\"parents\":[\"cidv1-sha256-0fd61f05435b047a1468d2b823ffc931741daf3082edc52110f0b0566daac125\"],\"payload\":{\"formId\":\"form.b0566daac125\",\"length\":8,\"observationCid\":\"cidv1-sha256-0fd61f05435b047a1468d2b823ffc931741daf3082edc52110f0b0566daac125\",\"offset\":24,\"surface\":\"position\",\"tokenType\":\"word\"},\"version\":\"0.1.0\"}",
+      "cid": "cidv1-sha256-54ac7d756c9785ff8749bec681e2232f8a74395b8b6d7472f8a02f06f721a1d8",
+      "createdAt": "2026-09-15T12:00:02Z",
+      "kind": "rosetta.form.token",
+      "pack": "rosetta.core",
+      "parents": [
+        "cidv1-sha256-0fd61f05435b047a1468d2b823ffc931741daf3082edc52110f0b0566daac125"
+      ],
+      "payload": {
+        "formId": "form.b0566daac125",
+        "length": 8,
+        "observationCid": "cidv1-sha256-0fd61f05435b047a1468d2b823ffc931741daf3082edc52110f0b0566daac125",
+        "offset": 24,
+        "surface": "position",
+        "tokenType": "word"
+      },
+      "version": "0.1.0"
+    },
+    {
+      "canonical": "{\"kind\":\"rosetta.lexeme\",\"pack\":\"rosetta.core\",\"parents\":[\"cidv1-sha256-54ac7d756c9785ff8749bec681e2232f8a74395b8b6d7472f8a02f06f721a1d8\"],\"payload\":{\"formCids\":[\"cidv1-sha256-54ac7d756c9785ff8749bec681e2232f8a74395b8b6d7472f8a02f06f721a1d8\"],\"language\":\"en\",\"lemma\":\"position\",\"lexemeId\":\"lexeme.position\",\"sense\":\"field-name-in-declared-position-message\",\"xid\":\"urn:indranet:candidate:position-field\"},\"version\":\"0.1.0\"}",
+      "cid": "cidv1-sha256-2d8b196f5f8d833dc92bb0d087e84675536a25924c29c247c9324052a600b550",
+      "createdAt": "2026-09-15T12:00:02Z",
+      "kind": "rosetta.lexeme",
+      "pack": "rosetta.core",
+      "parents": [
+        "cidv1-sha256-54ac7d756c9785ff8749bec681e2232f8a74395b8b6d7472f8a02f06f721a1d8"
+      ],
+      "payload": {
+        "formCids": [
+          "cidv1-sha256-54ac7d756c9785ff8749bec681e2232f8a74395b8b6d7472f8a02f06f721a1d8"
+        ],
+        "language": "en",
+        "lemma": "position",
+        "lexemeId": "lexeme.position",
+        "sense": "field-name-in-declared-position-message",
+        "xid": "urn:indranet:candidate:position-field"
+      },
+      "version": "0.1.0"
+    },
+    {
+      "canonical": "{\"kind\":\"rosetta.concept\",\"pack\":\"rosetta.core\",\"parents\":[\"cidv1-sha256-2d8b196f5f8d833dc92bb0d087e84675536a25924c29c247c9324052a600b550\"],\"payload\":{\"conceptId\":\"concept.physical-entity\",\"label\":\"Physical entity in the reference scene\",\"namespace\":\"indranet\",\"rid\":\"rid:indranet:fixture-performer-01\",\"xid\":\"urn:fixture:native:asset-7\",\"xidPack\":\"indranet.context\"},\"version\":\"0.1.0\"}",
+      "cid": "cidv1-sha256-9992732e34a371ed83c084348ea5623aeac59070595694fb8d168bf08fd0dc5e",
+      "createdAt": "2026-09-15T12:00:02Z",
+      "kind": "rosetta.concept",
+      "pack": "rosetta.core",
+      "parents": [
+        "cidv1-sha256-2d8b196f5f8d833dc92bb0d087e84675536a25924c29c247c9324052a600b550"
+      ],
+      "payload": {
+        "conceptId": "concept.physical-entity",
+        "label": "Physical entity in the reference scene",
+        "namespace": "indranet",
+        "rid": "rid:indranet:fixture-performer-01",
+        "xid": "urn:fixture:native:asset-7",
+        "xidPack": "indranet.context"
+      },
+      "version": "0.1.0"
+    },
+    {
+      "canonical": "{\"kind\":\"rosetta.frame\",\"pack\":\"rosetta.core\",\"parents\":[\"cidv1-sha256-2d8b196f5f8d833dc92bb0d087e84675536a25924c29c247c9324052a600b550\",\"cidv1-sha256-9992732e34a371ed83c084348ea5623aeac59070595694fb8d168bf08fd0dc5e\"],\"payload\":{\"conceptCids\":[\"cidv1-sha256-9992732e34a371ed83c084348ea5623aeac59070595694fb8d168bf08fd0dc5e\"],\"description\":\"Interpretation under an explicit message profile\",\"frameId\":\"frame.located-entity\",\"frameType\":\"indranet.LocatedEntity\",\"roles\":[{\"filledBy\":[\"cidv1-sha256-9992732e34a371ed83c084348ea5623aeac59070595694fb8d168bf08fd0dc5e\"],\"required\":true,\"roleName\":\"subject\"}]},\"version\":\"0.1.0\"}",
+      "cid": "cidv1-sha256-13811006bd405ff21e9c8f84fb1047336bbce89547a2d88bb6e985e071f4011a",
+      "createdAt": "2026-09-15T12:00:02Z",
+      "kind": "rosetta.frame",
+      "pack": "rosetta.core",
+      "parents": [
+        "cidv1-sha256-2d8b196f5f8d833dc92bb0d087e84675536a25924c29c247c9324052a600b550",
+        "cidv1-sha256-9992732e34a371ed83c084348ea5623aeac59070595694fb8d168bf08fd0dc5e"
+      ],
+      "payload": {
+        "conceptCids": [
+          "cidv1-sha256-9992732e34a371ed83c084348ea5623aeac59070595694fb8d168bf08fd0dc5e"
+        ],
+        "description": "Interpretation under an explicit message profile",
+        "frameId": "frame.located-entity",
+        "frameType": "indranet.LocatedEntity",
+        "roles": [
+          {
+            "filledBy": [
+              "cidv1-sha256-9992732e34a371ed83c084348ea5623aeac59070595694fb8d168bf08fd0dc5e"
+            ],
+            "required": true,
+            "roleName": "subject"
+          }
+        ]
+      },
+      "version": "0.1.0"
+    },
+    {
+      "canonical": "{\"kind\":\"rosetta.conjecture\",\"pack\":\"rosetta.core\",\"parents\":[\"cidv1-sha256-13811006bd405ff21e9c8f84fb1047336bbce89547a2d88bb6e985e071f4011a\",\"cidv1-sha256-9992732e34a371ed83c084348ea5623aeac59070595694fb8d168bf08fd0dc5e\"],\"payload\":{\"conjectureId\":\"conjecture.field-binding\",\"layer\":\"L3_concept_frame\",\"method\":\"explicit-fixture-binding\",\"nonReplayable\":false,\"options\":[{\"evidence\":\"Declared fixture profile, not an estimated confidence\",\"targetCid\":\"cidv1-sha256-13811006bd405ff21e9c8f84fb1047336bbce89547a2d88bb6e985e071f4011a\",\"weight\":1}],\"selectedCid\":\"cidv1-sha256-13811006bd405ff21e9c8f84fb1047336bbce89547a2d88bb6e985e071f4011a\",\"sourceCid\":\"cidv1-sha256-9992732e34a371ed83c084348ea5623aeac59070595694fb8d168bf08fd0dc5e\"},\"version\":\"0.1.0\"}",
+      "cid": "cidv1-sha256-2f2623a10c6ae03bd8ee50304dfee290277f9518f5728694215b2c4fcb959021",
+      "createdAt": "2026-09-15T12:00:02Z",
+      "kind": "rosetta.conjecture",
+      "pack": "rosetta.core",
+      "parents": [
+        "cidv1-sha256-13811006bd405ff21e9c8f84fb1047336bbce89547a2d88bb6e985e071f4011a",
+        "cidv1-sha256-9992732e34a371ed83c084348ea5623aeac59070595694fb8d168bf08fd0dc5e"
+      ],
+      "payload": {
+        "conjectureId": "conjecture.field-binding",
+        "layer": "L3_concept_frame",
+        "method": "explicit-fixture-binding",
+        "nonReplayable": false,
+        "options": [
+          {
+            "evidence": "Declared fixture profile, not an estimated confidence",
+            "targetCid": "cidv1-sha256-13811006bd405ff21e9c8f84fb1047336bbce89547a2d88bb6e985e071f4011a",
+            "weight": 1
+          }
+        ],
+        "selectedCid": "cidv1-sha256-13811006bd405ff21e9c8f84fb1047336bbce89547a2d88bb6e985e071f4011a",
+        "sourceCid": "cidv1-sha256-9992732e34a371ed83c084348ea5623aeac59070595694fb8d168bf08fd0dc5e"
+      },
+      "version": "0.1.0"
+    },
+    {
+      "canonical": "{\"kind\":\"indranet.axis_registry\",\"pack\":\"indranet.context\",\"parents\":[],\"payload\":{\"axes\":{\"ethos\":\"ethical alignment and trustworthiness\",\"logos\":\"logical coherence and truthfulness\",\"pathos\":\"emotional appropriateness and resonance\",\"quixote\":\"creative and non-utilitarian value\"},\"range\":[0,100],\"registryId\":\"fixture-elpq-v1\",\"status\":\"illustrative-rubric; not a canonical axis assignment\"},\"version\":\"0.5.0\"}",
+      "cid": "cidv1-sha256-5ae2bbafefc1a3f7c62dc7b2ec08a9174012de820439e29fa3e0a14a85c72710",
+      "createdAt": "2026-09-15T12:00:04Z",
+      "kind": "indranet.axis_registry",
+      "pack": "indranet.context",
+      "parents": [],
+      "payload": {
+        "axes": {
+          "ethos": "ethical alignment and trustworthiness",
+          "logos": "logical coherence and truthfulness",
+          "pathos": "emotional appropriateness and resonance",
+          "quixote": "creative and non-utilitarian value"
+        },
+        "range": [
+          0,
+          100
+        ],
+        "registryId": "fixture-elpq-v1",
+        "status": "illustrative-rubric; not a canonical axis assignment"
+      },
+      "version": "0.5.0"
+    },
+    {
+      "canonical": "{\"kind\":\"rosetta.matrix\",\"pack\":\"rosetta.core\",\"parents\":[\"cidv1-sha256-5ae2bbafefc1a3f7c62dc7b2ec08a9174012de820439e29fa3e0a14a85c72710\",\"cidv1-sha256-d06e516489a432a27e2ac5bf6d4f6500b626aae37f2c4576befe2d25d334cc71\"],\"payload\":{\"axisRegistryCid\":\"cidv1-sha256-5ae2bbafefc1a3f7c62dc7b2ec08a9174012de820439e29fa3e0a14a85c72710\",\"basis\":\"Synthetic demonstration values assigned by this reference, not measured or inferred scores\",\"safetyProbability\":null,\"scoreUncertainty\":\"not-estimated\",\"subjectCid\":\"cidv1-sha256-d06e516489a432a27e2ac5bf6d4f6500b626aae37f2c4576befe2d25d334cc71\",\"values\":{\"ethos\":80,\"logos\":85,\"pathos\":70,\"quixote\":90}},\"version\":\"0.1.0\"}",
+      "cid": "cidv1-sha256-163029eadf707bb1496c12e56e68a46ac93e431dd4a6aa0400edb552460bda5e",
+      "createdAt": "2026-09-15T12:00:04Z",
+      "kind": "rosetta.matrix",
+      "pack": "rosetta.core",
+      "parents": [
+        "cidv1-sha256-5ae2bbafefc1a3f7c62dc7b2ec08a9174012de820439e29fa3e0a14a85c72710",
+        "cidv1-sha256-d06e516489a432a27e2ac5bf6d4f6500b626aae37f2c4576befe2d25d334cc71"
+      ],
+      "payload": {
+        "axisRegistryCid": "cidv1-sha256-5ae2bbafefc1a3f7c62dc7b2ec08a9174012de820439e29fa3e0a14a85c72710",
+        "basis": "Synthetic demonstration values assigned by this reference, not measured or inferred scores",
+        "safetyProbability": null,
+        "scoreUncertainty": "not-estimated",
+        "subjectCid": "cidv1-sha256-d06e516489a432a27e2ac5bf6d4f6500b626aae37f2c4576befe2d25d334cc71",
+        "values": {
+          "ethos": 80,
+          "logos": 85,
+          "pathos": 70,
+          "quixote": 90
+        }
+      },
+      "version": "0.1.0"
+    },
+    {
+      "canonical": "{\"kind\":\"rosetta.evaluation\",\"pack\":\"rosetta.core\",\"parents\":[\"cidv1-sha256-d06e516489a432a27e2ac5bf6d4f6500b626aae37f2c4576befe2d25d334cc71\"],\"payload\":{\"evaluationId\":\"eval.integrity.2d25d334cc71\",\"summary\":\"The local subject envelope passed its restricted integrity check\",\"verdict\":\"pass\"},\"version\":\"0.1.0\"}",
+      "cid": "cidv1-sha256-e0010d2b9ff566f1acdb23e2e934e198ef303c6d3b551f14b42810d523211b40",
+      "createdAt": "2026-09-15T12:00:04Z",
+      "kind": "rosetta.evaluation",
+      "pack": "rosetta.core",
+      "parents": [
+        "cidv1-sha256-d06e516489a432a27e2ac5bf6d4f6500b626aae37f2c4576befe2d25d334cc71"
+      ],
+      "payload": {
+        "evaluationId": "eval.integrity.2d25d334cc71",
+        "summary": "The local subject envelope passed its restricted integrity check",
+        "verdict": "pass"
+      },
+      "version": "0.1.0"
+    },
+    {
+      "canonical": "{\"kind\":\"rosetta.receipt\",\"pack\":\"rrp\",\"parents\":[\"cidv1-sha256-d06e516489a432a27e2ac5bf6d4f6500b626aae37f2c4576befe2d25d334cc71\",\"cidv1-sha256-e0010d2b9ff566f1acdb23e2e934e198ef303c6d3b551f14b42810d523211b40\"],\"payload\":{\"claims\":[{\"claimType\":\"indranet:local-integrity\",\"evidence\":[{\"cid\":\"cidv1-sha256-e0010d2b9ff566f1acdb23e2e934e198ef303c6d3b551f14b42810d523211b40\"}],\"statement\":\"Restricted envelope integrity checked locally\",\"verdict\":\"pass\"}],\"digests\":[{\"alg\":\"sha256\",\"cidRef\":\"cidv1-sha256-d06e516489a432a27e2ac5bf6d4f6500b626aae37f2c4576befe2d25d334cc71\",\"digest\":\"d06e516489a432a27e2ac5bf6d4f6500b626aae37f2c4576befe2d25d334cc71\",\"of\":\"canonical-body\"}],\"policyRefs\":[],\"receiptType\":\"indranet:fixture-integrity\",\"subjects\":[{\"cid\":\"cidv1-sha256-d06e516489a432a27e2ac5bf6d4f6500b626aae37f2c4576befe2d25d334cc71\",\"role\":\"artifact\"}]},\"version\":\"0.1.0\"}",
+      "cid": "cidv1-sha256-f212d988e8ca0952a0c148b16bdee2010953c5484caa0ee108727ca39019bfee",
+      "createdAt": "2026-09-15T12:00:04Z",
+      "kind": "rosetta.receipt",
+      "pack": "rrp",
+      "parents": [
+        "cidv1-sha256-d06e516489a432a27e2ac5bf6d4f6500b626aae37f2c4576befe2d25d334cc71",
+        "cidv1-sha256-e0010d2b9ff566f1acdb23e2e934e198ef303c6d3b551f14b42810d523211b40"
+      ],
+      "payload": {
+        "claims": [
+          {
+            "claimType": "indranet:local-integrity",
+            "evidence": [
+              {
+                "cid": "cidv1-sha256-e0010d2b9ff566f1acdb23e2e934e198ef303c6d3b551f14b42810d523211b40"
+              }
+            ],
+            "statement": "Restricted envelope integrity checked locally",
+            "verdict": "pass"
+          }
+        ],
+        "digests": [
+          {
+            "alg": "sha256",
+            "cidRef": "cidv1-sha256-d06e516489a432a27e2ac5bf6d4f6500b626aae37f2c4576befe2d25d334cc71",
+            "digest": "d06e516489a432a27e2ac5bf6d4f6500b626aae37f2c4576befe2d25d334cc71",
+            "of": "canonical-body"
+          }
+        ],
+        "policyRefs": [],
+        "receiptType": "indranet:fixture-integrity",
+        "subjects": [
+          {
+            "cid": "cidv1-sha256-d06e516489a432a27e2ac5bf6d4f6500b626aae37f2c4576befe2d25d334cc71",
+            "role": "artifact"
+          }
+        ]
+      },
+      "version": "0.1.0"
+    }
+  ]
+}

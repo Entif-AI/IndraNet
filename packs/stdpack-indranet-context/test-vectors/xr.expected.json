@@ -1,0 +1,126 @@
+{
+  "scenario": "xr",
+  "expectedResult": {
+    "attendee": {
+      "actuationAuthority": false,
+      "eventAt": "2026-09-15T12:00:04Z",
+      "groups": [
+        {
+          "candidates": [
+            {
+              "ageSeconds": 4,
+              "cid": "cidv1-sha256-7b4f68e577c2ec033c6c6c7b2e70568af6d5e359acf4dfc38b6849fd83d2f10a",
+              "dataOrigin": "synthetic-fixture",
+              "epistemicRole": "reported-measurement",
+              "eventTime": "2026-09-15T12:00:00Z",
+              "frame": "GeoPose:WGS84-ENU",
+              "source": "fixture:shared-anchor",
+              "stale": false,
+              "uncertainty": {
+                "kind": "unknown"
+              },
+              "value": {
+                "frame": "GeoPose:WGS84-ENU",
+                "height": "10",
+                "latitude": "40",
+                "longitude": "-74",
+                "orientation": {
+                  "w": "1",
+                  "x": "0",
+                  "y": "0",
+                  "z": "0"
+                }
+              }
+            }
+          ],
+          "predicate": "position",
+          "status": "available",
+          "subject": "rid:indranet:fixture-performer-01"
+        }
+      ],
+      "knownAt": "2026-09-15T12:00:04Z",
+      "omittedCount": 1,
+      "purpose": "xr"
+    },
+    "mapping": {
+      "assertionCid": "cidv1-sha256-7b4f68e577c2ec033c6c6c7b2e70568af6d5e359acf4dfc38b6849fd83d2f10a",
+      "formCid": "cidv1-sha256-45d40652e610263037116b320d7992739fb88213c36a4fb931a31778b29af7f9",
+      "loss": [
+        "profileEventTime is sidecar metadata, not a Basic GeoPose field",
+        "Orientation/frame conversion is not inferred"
+      ],
+      "nativeRuntimeExecuted": false,
+      "observationCid": "cidv1-sha256-ed98e05efb06adb6461f2a731ec63627a1387725ad52ac2a70eef87a6297a4f7",
+      "standard": "geopose"
+    },
+    "technician": {
+      "actuationAuthority": false,
+      "eventAt": "2026-09-15T12:00:04Z",
+      "groups": [
+        {
+          "candidates": [
+            {
+              "ageSeconds": 4,
+              "cid": "cidv1-sha256-5bc69b696cf6bd82e32f7d9c822937affab68ac4482908a7fea18f80aee93b00",
+              "dataOrigin": "synthetic-fixture",
+              "epistemicRole": "human-report",
+              "eventTime": "2026-09-15T12:00:00Z",
+              "frame": null,
+              "source": "fixture",
+              "stale": false,
+              "uncertainty": {
+                "kind": "unknown"
+              },
+              "value": "Inspect loose attachment before next use"
+            }
+          ],
+          "predicate": "maintenance-note",
+          "status": "available",
+          "subject": "rid:indranet:fixture-performer-01"
+        },
+        {
+          "candidates": [
+            {
+              "ageSeconds": 4,
+              "cid": "cidv1-sha256-7b4f68e577c2ec033c6c6c7b2e70568af6d5e359acf4dfc38b6849fd83d2f10a",
+              "dataOrigin": "synthetic-fixture",
+              "epistemicRole": "reported-measurement",
+              "eventTime": "2026-09-15T12:00:00Z",
+              "frame": "GeoPose:WGS84-ENU",
+              "source": "fixture:shared-anchor",
+              "stale": false,
+              "uncertainty": {
+                "kind": "unknown"
+              },
+              "value": {
+                "frame": "GeoPose:WGS84-ENU",
+                "height": "10",
+                "latitude": "40",
+                "longitude": "-74",
+                "orientation": {
+                  "w": "1",
+                  "x": "0",
+                  "y": "0",
+                  "z": "0"
+                }
+              }
+            }
+          ],
+          "predicate": "position",
+          "status": "available",
+          "subject": "rid:indranet:fixture-performer-01"
+        }
+      ],
+      "knownAt": "2026-09-15T12:00:04Z",
+      "omittedCount": 0,
+      "purpose": "maintenance"
+    }
+  },
+  "tileCids": [
+    "cidv1-sha256-ed98e05efb06adb6461f2a731ec63627a1387725ad52ac2a70eef87a6297a4f7",
+    "cidv1-sha256-45d40652e610263037116b320d7992739fb88213c36a4fb931a31778b29af7f9",
+    "cidv1-sha256-7b4f68e577c2ec033c6c6c7b2e70568af6d5e359acf4dfc38b6849fd83d2f10a",
+    "cidv1-sha256-b977750b592df3d7b61ba3603cfd6ff404a23d4cd9f40680ba17ad2711fac30e",
+    "cidv1-sha256-5bc69b696cf6bd82e32f7d9c822937affab68ac4482908a7fea18f80aee93b00"
+  ]
+}

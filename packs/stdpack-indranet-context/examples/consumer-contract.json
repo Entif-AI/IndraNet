@@ -1,0 +1,17 @@
+{
+  "schema": "consumer-contract",
+  "payload": {
+    "consumerId": "fixture:technician",
+    "purpose": "maintenance",
+    "acceptedRoles": [
+      "reported-measurement",
+      "human-report",
+      "inferred"
+    ],
+    "maxAgeSeconds": 10,
+    "requiredFrame": "stage",
+    "conflictBehavior": "show-all",
+    "appearanceMode": null,
+    "actuationAuthority": false
+  }
+}

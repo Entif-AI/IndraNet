@@ -1,0 +1,9 @@
+{
+  "id": "geopose",
+  "version": "0.5.0",
+  "standardAuthority": "OGC GeoPose 1.0 Basic",
+  "mappedFields": "position lat/lon/h, quaternion",
+  "projection": "Preserved native pose plus sidecar event time",
+  "mappingLoss": "No orientation conversion or complete GeoPose conformance",
+  "runtimeStatus": "reference-only"
+}

@@ -1,0 +1,9 @@
+{
+  "id": "ngsi-ld",
+  "version": "0.5.0",
+  "standardAuthority": "ETSI NGSI-LD",
+  "mappedFields": "id, Point GeoProperty, observedAt",
+  "projection": "Explicit CRS84 position assertion",
+  "mappingLoss": "JSON-LD expansion and broker API not executed",
+  "runtimeStatus": "reference-only"
+}

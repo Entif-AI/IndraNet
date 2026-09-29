@@ -1,0 +1,38 @@
+{
+  "schema": "frame-transform",
+  "payload": {
+    "child": "prop",
+    "parent": "stage",
+    "matrix": [
+      [
+        "1",
+        "0",
+        "0",
+        "2"
+      ],
+      [
+        "0",
+        "1",
+        "0",
+        "3"
+      ],
+      [
+        "0",
+        "0",
+        "1",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "1"
+      ]
+    ],
+    "validFrom": "2026-09-15T12:00:00Z",
+    "validUntil": "2026-09-15T12:01:00Z",
+    "evidenceCid": "cidv1-sha256-0fd61f05435b047a1468d2b823ffc931741daf3082edc52110f0b0566daac125",
+    "unit": "m",
+    "rotationConvention": "right-handed-active-column-vector"
+  }
+}

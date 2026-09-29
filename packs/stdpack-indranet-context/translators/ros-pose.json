@@ -1,0 +1,9 @@
+{
+  "id": "ros-pose",
+  "version": "0.5.0",
+  "standardAuthority": "ROS Pose-like reference",
+  "mappedFields": "header frame_id, pose position",
+  "projection": "Local position assertion under caller-supplied UTC binding",
+  "mappingLoss": "No DDS, tf2 runtime or complete message serialization",
+  "runtimeStatus": "reference-only"
+}

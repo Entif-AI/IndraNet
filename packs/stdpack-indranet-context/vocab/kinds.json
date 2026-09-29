@@ -1,0 +1,92 @@
+{
+  "version": "0.5.0",
+  "namespace": "indranet.context",
+  "kinds": {
+    "indranet.parsed_signal": {
+      "schema": "schema/parsed-signal.schema.json",
+      "role": "executed-reference"
+    },
+    "indranet.state_assertion": {
+      "schema": "schema/state-assertion.schema.json",
+      "role": "executed-reference"
+    },
+    "indranet.revision": {
+      "schema": "schema/revision.schema.json",
+      "role": "executed-reference"
+    },
+    "indranet.association": {
+      "schema": "schema/association.schema.json",
+      "role": "executed-reference"
+    },
+    "indranet.context_binding": {
+      "schema": "schema/context-binding.schema.json",
+      "role": "executed-reference"
+    },
+    "indranet.effect_preview": {
+      "schema": "schema/effect-preview.schema.json",
+      "role": "executed-reference"
+    },
+    "indranet.axis_registry": {
+      "schema": "schema/axis-registry.schema.json",
+      "role": "executed-reference"
+    },
+    "indranet.executable_model": {
+      "schema": "schema/executable-model.schema.json",
+      "role": "executed-reference"
+    },
+    "indranet.simulation": {
+      "schema": "schema/simulation.schema.json",
+      "role": "executed-reference"
+    },
+    "indranet.asset": {
+      "schema": "schema/asset.schema.json",
+      "role": "executed-reference"
+    },
+    "indranet.witness": {
+      "schema": "schema/witness.schema.json",
+      "role": "executed-reference"
+    },
+    "indranet.world_package": {
+      "schema": "schema/world-package.schema.json",
+      "role": "executed-reference"
+    },
+    "indranet.reconstruction_state": {
+      "schema": "schema/reconstruction-state.schema.json",
+      "role": "executed-reference"
+    },
+    "indranet.review_request": {
+      "schema": "schema/review-request.schema.json",
+      "role": "executed-reference"
+    },
+    "indranet.frame_transform": {
+      "schema": "schema/frame-transform.schema.json",
+      "role": "specified-contract"
+    },
+    "indranet.consumer_contract": {
+      "schema": "schema/consumer-contract.schema.json",
+      "role": "specified-contract"
+    },
+    "indranet.derivation_rule": {
+      "schema": "schema/derivation-rule.schema.json",
+      "role": "specified-contract"
+    },
+    "indranet.ingress_contract": {
+      "schema": "schema/ingress-contract.schema.json",
+      "role": "specified-contract"
+    }
+  },
+  "core_reuse": [
+    "rosetta.observation",
+    "rosetta.form.token",
+    "rosetta.lexeme",
+    "rosetta.concept",
+    "rosetta.frame",
+    "rosetta.conjecture",
+    "rosetta.matrix",
+    "rosetta.run",
+    "rosetta.action",
+    "rosetta.toolcall",
+    "rosetta.evaluation",
+    "rosetta.receipt"
+  ]
+}

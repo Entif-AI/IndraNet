@@ -1,0 +1,70 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:indranet:candidate:schema:reconstruction-state:0.5.0",
+  "title": "IndraNet candidate reconstruction state",
+  "$comment": "Candidate v0.5.0; Rosetta Core semantics retained; no assigned ROCK identifier. Source-of-truth: pack.json.",
+  "type": "object",
+  "properties": {
+    "baselineCid": {
+      "type": "string",
+      "pattern": "^cidv1-sha256-[a-f0-9]{64}$"
+    },
+    "eventTime": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "validUntil": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "requiredWitnesses": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^cidv1-sha256-[a-f0-9]{64}$"
+      },
+      "minItems": 1
+    },
+    "purposes": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "minItems": 1
+    },
+    "changedObjects": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "minItems": 1
+    },
+    "epistemicRole": {
+      "enum": [
+        "reported-measurement",
+        "human-report",
+        "inferred",
+        "predicted",
+        "simulated",
+        "synthesized"
+      ]
+    },
+    "knownAt": {
+      "type": "string",
+      "format": "date-time"
+    }
+  },
+  "required": [
+    "baselineCid",
+    "eventTime",
+    "validUntil",
+    "requiredWitnesses",
+    "purposes",
+    "changedObjects",
+    "epistemicRole",
+    "knownAt"
+  ],
+  "additionalProperties": false
+}

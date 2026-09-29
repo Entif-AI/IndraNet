@@ -1,0 +1,17 @@
+{
+  "name": "public-space",
+  "status": "candidate",
+  "purpose": "situational-awareness",
+  "required_exports": [
+    "review-request",
+    "consumer-contract"
+  ],
+  "required_tests": [
+    "test_aggregate_suppression",
+    "test_unauthorized_not_returned"
+  ],
+  "forbidden_claims": [
+    "Synthetic aggregates only; no anonymity or danger-detection claim"
+  ],
+  "compatibility": "Rosetta Core meaning plus restricted inspected envelope subset"
+}

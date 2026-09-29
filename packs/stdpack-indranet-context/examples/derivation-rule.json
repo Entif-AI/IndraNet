@@ -1,0 +1,17 @@
+{
+  "schema": "derivation-rule",
+  "payload": {
+    "ruleId": "fixture:attachment",
+    "inputs": [
+      "performer",
+      "attachment-rule"
+    ],
+    "output": "prop",
+    "operation": "declared-attachment",
+    "validUntil": "2026-09-15T12:01:00Z",
+    "evidenceCids": [
+      "cidv1-sha256-0fd61f05435b047a1468d2b823ffc931741daf3082edc52110f0b0566daac125"
+    ],
+    "onInvalidation": "request-refresh"
+  }
+}

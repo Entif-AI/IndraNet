@@ -1,0 +1,16 @@
+{
+  "name": "executable-worlds",
+  "status": "candidate",
+  "purpose": "physical-reasoning",
+  "required_exports": [
+    "executable-model",
+    "simulation"
+  ],
+  "required_tests": [
+    "test_competing_models_remain_unresolved"
+  ],
+  "forbidden_claims": [
+    "Analytic local models only; no research-system inference executed"
+  ],
+  "compatibility": "Rosetta Core meaning plus restricted inspected envelope subset"
+}

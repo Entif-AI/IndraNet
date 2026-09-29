@@ -1,0 +1,55 @@
+{
+  "status": "PASS",
+  "schemaCount": 24,
+  "payloadValidations": 43,
+  "scenarioTiles": 59,
+  "replay": [
+    {
+      "path": "executable-worlds.json",
+      "sha256": "5f0e23479de9c9a9e682f95ef853c2963eafcee1a62a568cea880a299db2fedd",
+      "match": true
+    },
+    {
+      "path": "generative-reality.json",
+      "sha256": "db5d4358161fa0b73ff132926d88beaaf585716a800542e18a5caa9c3cf91748",
+      "match": true
+    },
+    {
+      "path": "index.json",
+      "sha256": "248b8c90d96efa3980d9336c79d391d5a7fd8426d5e966dae97168e476af9847",
+      "match": true
+    },
+    {
+      "path": "performance.json",
+      "sha256": "8ed651d46bb9b206f255ada2b1f035bc7774dd7d9f807109b991f25bf2cdf87c",
+      "match": true
+    },
+    {
+      "path": "public-space.json",
+      "sha256": "c20d8bffae171195b5fb4fda4a2072a7fda9bc3f9b21d56b975eee04501f8fc7",
+      "match": true
+    },
+    {
+      "path": "warehouse.json",
+      "sha256": "15b6e06310cd10de81607eb68eb88f70870f0dbcf17c1e98a512f70067f7379b",
+      "match": true
+    },
+    {
+      "path": "xr.json",
+      "sha256": "4aa1355fbc57f58f458701db345aeae4951e4e05fd1f1449533a10d6fdd424e2",
+      "match": true
+    }
+  ],
+  "rdfConstraintSubset": {
+    "positive": "PASS",
+    "missingEvidenceNegative": "REJECTED",
+    "fullShaclEngine": false
+  },
+  "pack": {
+    "pack_id": "cidv1-sha256-fbc231b53b3f8915c7ebe81aeb5c4943ef23d641770e02736c56be05e0c7c9e2",
+    "files": 78,
+    "algorithm": "rosetta-pack-id-v1"
+  },
+  "nativeRuntimeConformance": false,
+  "fullRosettaConformance": false
+}

@@ -1,0 +1,100 @@
+[
+  {
+    "nativeField": "recordId",
+    "ngsiLd": "Property.value (declared profile)",
+    "sensorThings": "profile-carried, not a native SensorThings field",
+    "classification": "Composition",
+    "silentLossAllowed": false
+  },
+  {
+    "nativeField": "entity",
+    "ngsiLd": "Property.value (declared profile)",
+    "sensorThings": "profile-carried, not a native SensorThings field",
+    "classification": "Composition",
+    "silentLossAllowed": false
+  },
+  {
+    "nativeField": "predicate",
+    "ngsiLd": "Property.value (declared profile)",
+    "sensorThings": "profile-carried, not a native SensorThings field",
+    "classification": "Composition",
+    "silentLossAllowed": false
+  },
+  {
+    "nativeField": "eventTime",
+    "ngsiLd": "Property.value (declared profile)",
+    "sensorThings": "phenomenonTime",
+    "classification": "Composition",
+    "silentLossAllowed": false
+  },
+  {
+    "nativeField": "knownAt",
+    "ngsiLd": "Property.value (declared profile)",
+    "sensorThings": "resultTime",
+    "classification": "Composition",
+    "silentLossAllowed": false
+  },
+  {
+    "nativeField": "spatial",
+    "ngsiLd": "Property.value (declared profile)",
+    "sensorThings": "complex result under Datastream profile",
+    "classification": "Composition",
+    "silentLossAllowed": false
+  },
+  {
+    "nativeField": "role",
+    "ngsiLd": "Property.value (declared profile)",
+    "sensorThings": "profile-carried, not a native SensorThings field",
+    "classification": "Composition",
+    "silentLossAllowed": false
+  },
+  {
+    "nativeField": "knownAt",
+    "ngsiLd": "Property.value (declared profile)",
+    "sensorThings": "resultTime",
+    "classification": "Composition",
+    "silentLossAllowed": false
+  },
+  {
+    "nativeField": "quality",
+    "ngsiLd": "Property.value (declared profile)",
+    "sensorThings": "profile-carried, not a native SensorThings field",
+    "classification": "Composition",
+    "silentLossAllowed": false
+  },
+  {
+    "nativeField": "sources",
+    "ngsiLd": "Property.value (declared profile)",
+    "sensorThings": "profile-carried, not a native SensorThings field",
+    "classification": "Composition",
+    "silentLossAllowed": false
+  },
+  {
+    "nativeField": "derivation",
+    "ngsiLd": "Property.value (declared profile)",
+    "sensorThings": "profile-carried, not a native SensorThings field",
+    "classification": "Composition",
+    "silentLossAllowed": false
+  },
+  {
+    "nativeField": "rights",
+    "ngsiLd": "Property.value (declared profile)",
+    "sensorThings": "profile-carried, not a native SensorThings field",
+    "classification": "Composition",
+    "silentLossAllowed": false
+  },
+  {
+    "nativeField": "lifecycle",
+    "ngsiLd": "Property.value (declared profile)",
+    "sensorThings": "validTime when present",
+    "classification": "Composition",
+    "silentLossAllowed": false
+  },
+  {
+    "nativeField": "origin",
+    "ngsiLd": "Property.value (declared profile)",
+    "sensorThings": "profile-carried, not a native SensorThings field",
+    "classification": "Composition",
+    "silentLossAllowed": false
+  }
+]

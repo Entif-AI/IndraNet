@@ -1,0 +1,116 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:indranet:candidate:schema:state-assertion:0.5.0",
+  "title": "IndraNet candidate state assertion",
+  "$comment": "Candidate v0.5.0; Rosetta Core semantics retained; no assigned ROCK identifier. Source-of-truth: pack.json.",
+  "type": "object",
+  "properties": {
+    "subject": {
+      "type": "string",
+      "minLength": 1
+    },
+    "predicate": {
+      "type": "string",
+      "minLength": 1
+    },
+    "value": {
+      "oneOf": [
+        {
+          "type": "object"
+        },
+        {
+          "type": "string"
+        },
+        {
+          "type": "integer"
+        }
+      ]
+    },
+    "evidenceCids": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^cidv1-sha256-[a-f0-9]{64}$"
+      },
+      "minItems": 1
+    },
+    "eventTime": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "knownAt": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "purposes": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "minItems": 1
+    },
+    "epistemicRole": {
+      "enum": [
+        "reported-measurement",
+        "human-report",
+        "inferred",
+        "predicted",
+        "simulated",
+        "synthesized"
+      ]
+    },
+    "frame": {
+      "anyOf": [
+        {
+          "type": "string",
+          "minLength": 1
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "uncertainty": {
+      "type": "object",
+      "required": [
+        "kind"
+      ]
+    },
+    "validUntil": {
+      "anyOf": [
+        {
+          "type": "string",
+          "format": "date-time"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "source": {
+      "type": "string",
+      "minLength": 1
+    },
+    "dataOrigin": {
+      "type": "string",
+      "minLength": 1
+    }
+  },
+  "required": [
+    "subject",
+    "predicate",
+    "value",
+    "evidenceCids",
+    "eventTime",
+    "knownAt",
+    "purposes",
+    "epistemicRole",
+    "frame",
+    "uncertainty",
+    "validUntil",
+    "source",
+    "dataOrigin"
+  ],
+  "additionalProperties": false
+}

@@ -1,0 +1,10 @@
+{
+  "version": "0.5.0",
+  "status": "candidate-reference",
+  "classification": "screen-before-publication",
+  "semanticAuthority": "Rosetta v3.0.0 Core Spine",
+  "inspectedCommit": "1fc05c404d15fa7cc9713e7ee19d87b94316f07a",
+  "assignedRockId": null,
+  "nativeVendorInterop": false,
+  "independentNativeCore": true
+}

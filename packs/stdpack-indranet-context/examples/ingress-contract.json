@@ -1,0 +1,18 @@
+{
+  "schema": "ingress-contract",
+  "payload": {
+    "adapterId": "reference-locating",
+    "standard": "Open Location Hub subset",
+    "nativeVersion": "0.1.8 inspected precedent",
+    "timeBinding": "timestamp_generated UTC declared by fixture",
+    "frameBinding": "explicit local frame",
+    "quantityConvention": "metres; accuracy remains a vendor estimate",
+    "identityScope": "provider-scoped ID plus explicit physical association",
+    "unsupportedSemantics": [
+      "certified omlox",
+      "live association",
+      "calibration"
+    ],
+    "runtimeStatus": "reference-mapping"
+  }
+}

@@ -1,0 +1,331 @@
+{
+  "dataOrigin": "synthetic-fixture",
+  "nativeRuntimeExecuted": false,
+  "result": {
+    "conjectureCid": "cidv1-sha256-641a7c4b8a2a5d4b9aca4ba0bbb7fa16e844c77b91d6908eb0df5d250bcbc247",
+    "evaluation": {
+      "evaluationId": "eval.motion-unresolved",
+      "summary": "Both analytic candidates executed. This fixture does not select a true causal mechanism.",
+      "verdict": "unknown"
+    },
+    "simulations": [
+      {
+        "counterfactual": false,
+        "dataOrigin": "synthetic-fixture",
+        "epistemicRole": "simulated",
+        "hypothesisFrameCid": "cidv1-sha256-fb17319fb41f29449297931508bfabe76bf4255aaaeb960f6f838b45b90ec695",
+        "knownAt": "2026-09-15T12:00:02Z",
+        "modelCid": "cidv1-sha256-586526bc469022b8c47c6d30201d679427d75dd3f1e1a3d3b62e3de567e8d360",
+        "positions": [
+          "0.0",
+          "4.25",
+          "8.0"
+        ],
+        "sampleTimes": [
+          0,
+          1,
+          2
+        ]
+      },
+      {
+        "counterfactual": false,
+        "dataOrigin": "synthetic-fixture",
+        "epistemicRole": "simulated",
+        "hypothesisFrameCid": "cidv1-sha256-5b4ab3ee0db477323b24b4744c62b7952dfbddf6654d2830236faa64ada9761d",
+        "knownAt": "2026-09-15T12:00:02Z",
+        "modelCid": "cidv1-sha256-54807e58605c175b9140af96a339cb83b90b98d0f1ffbbd715c74e419f12b685",
+        "positions": [
+          "0.0",
+          "4.0",
+          "7.0"
+        ],
+        "sampleTimes": [
+          0,
+          1,
+          2
+        ]
+      }
+    ]
+  },
+  "scenario": "executable-worlds",
+  "tileCount": 11,
+  "tiles": [
+    {
+      "canonical": "{\"kind\":\"rosetta.observation\",\"pack\":\"rosetta.core\",\"parents\":[],\"payload\":{\"observationId\":\"observation.22e7c532cac4ce1e\",\"signal\":\"{\\\"sampleTimes\\\":[0,1,2],\\\"x\\\":[0,4,7]}\",\"source\":\"fixture:recorded-motion\"},\"version\":\"0.1.0\"}",
+      "cid": "cidv1-sha256-80674562828b2e584cc0253e9c08100ce402c50c8e99564d36cf0e2ce783ed1c",
+      "createdAt": "2026-09-15T12:00:01Z",
+      "kind": "rosetta.observation",
+      "pack": "rosetta.core",
+      "parents": [],
+      "payload": {
+        "observationId": "observation.22e7c532cac4ce1e",
+        "signal": "{\"sampleTimes\":[0,1,2],\"x\":[0,4,7]}",
+        "source": "fixture:recorded-motion"
+      },
+      "version": "0.1.0"
+    },
+    {
+      "canonical": "{\"kind\":\"indranet.parsed_signal\",\"pack\":\"indranet.context\",\"parents\":[\"cidv1-sha256-80674562828b2e584cc0253e9c08100ce402c50c8e99564d36cf0e2ce783ed1c\"],\"payload\":{\"dataOrigin\":\"synthetic-fixture\",\"eventTime\":\"2026-09-15T12:00:00Z\",\"knownAt\":\"2026-09-15T12:00:01Z\",\"mediaType\":\"application/json\",\"observationCid\":\"cidv1-sha256-80674562828b2e584cc0253e9c08100ce402c50c8e99564d36cf0e2ce783ed1c\",\"parser\":\"python-json-reference\",\"purposes\":[\"physical-reasoning\"],\"sourceSha256\":\"22e7c532cac4ce1e8e042aa82f05bdf5c2307c4f6a79a8d945305c09f4da4fd7\"},\"version\":\"0.5.0\"}",
+      "cid": "cidv1-sha256-ec5590e7f38d848528db95fb9cfc1661436c29719e5e4a1cbaf45860a1383377",
+      "createdAt": "2026-09-15T12:00:01Z",
+      "kind": "indranet.parsed_signal",
+      "pack": "indranet.context",
+      "parents": [
+        "cidv1-sha256-80674562828b2e584cc0253e9c08100ce402c50c8e99564d36cf0e2ce783ed1c"
+      ],
+      "payload": {
+        "dataOrigin": "synthetic-fixture",
+        "eventTime": "2026-09-15T12:00:00Z",
+        "knownAt": "2026-09-15T12:00:01Z",
+        "mediaType": "application/json",
+        "observationCid": "cidv1-sha256-80674562828b2e584cc0253e9c08100ce402c50c8e99564d36cf0e2ce783ed1c",
+        "parser": "python-json-reference",
+        "purposes": [
+          "physical-reasoning"
+        ],
+        "sourceSha256": "22e7c532cac4ce1e8e042aa82f05bdf5c2307c4f6a79a8d945305c09f4da4fd7"
+      },
+      "version": "0.5.0"
+    },
+    {
+      "canonical": "{\"kind\":\"rosetta.concept\",\"pack\":\"rosetta.core\",\"parents\":[\"cidv1-sha256-ec5590e7f38d848528db95fb9cfc1661436c29719e5e4a1cbaf45860a1383377\"],\"payload\":{\"conceptId\":\"concept.moving-body\",\"label\":\"Moving body in the synthetic scene\",\"namespace\":\"indranet\",\"rid\":\"rid:indranet:body-1\"},\"version\":\"0.1.0\"}",
+      "cid": "cidv1-sha256-f1b9af9e0ba2c8607dd86384b2461684d80d313fb69f9f2ea3f8c26c6d95ed4c",
+      "createdAt": "2026-09-15T12:00:01Z",
+      "kind": "rosetta.concept",
+      "pack": "rosetta.core",
+      "parents": [
+        "cidv1-sha256-ec5590e7f38d848528db95fb9cfc1661436c29719e5e4a1cbaf45860a1383377"
+      ],
+      "payload": {
+        "conceptId": "concept.moving-body",
+        "label": "Moving body in the synthetic scene",
+        "namespace": "indranet",
+        "rid": "rid:indranet:body-1"
+      },
+      "version": "0.1.0"
+    },
+    {
+      "canonical": "{\"kind\":\"rosetta.frame\",\"pack\":\"rosetta.core\",\"parents\":[\"cidv1-sha256-ec5590e7f38d848528db95fb9cfc1661436c29719e5e4a1cbaf45860a1383377\",\"cidv1-sha256-f1b9af9e0ba2c8607dd86384b2461684d80d313fb69f9f2ea3f8c26c6d95ed4c\"],\"payload\":{\"conceptCids\":[\"cidv1-sha256-f1b9af9e0ba2c8607dd86384b2461684d80d313fb69f9f2ea3f8c26c6d95ed4c\"],\"description\":\"A candidate constant-deceleration explanation: low-drag\",\"frameId\":\"frame.low-drag\",\"frameType\":\"indranet.ExecutableWorldHypothesis\",\"roles\":[{\"filledBy\":[\"cidv1-sha256-f1b9af9e0ba2c8607dd86384b2461684d80d313fb69f9f2ea3f8c26c6d95ed4c\"],\"required\":true,\"roleName\":\"subject\"}]},\"version\":\"0.1.0\"}",
+      "cid": "cidv1-sha256-fb17319fb41f29449297931508bfabe76bf4255aaaeb960f6f838b45b90ec695",
+      "createdAt": "2026-09-15T12:00:01Z",
+      "kind": "rosetta.frame",
+      "pack": "rosetta.core",
+      "parents": [
+        "cidv1-sha256-ec5590e7f38d848528db95fb9cfc1661436c29719e5e4a1cbaf45860a1383377",
+        "cidv1-sha256-f1b9af9e0ba2c8607dd86384b2461684d80d313fb69f9f2ea3f8c26c6d95ed4c"
+      ],
+      "payload": {
+        "conceptCids": [
+          "cidv1-sha256-f1b9af9e0ba2c8607dd86384b2461684d80d313fb69f9f2ea3f8c26c6d95ed4c"
+        ],
+        "description": "A candidate constant-deceleration explanation: low-drag",
+        "frameId": "frame.low-drag",
+        "frameType": "indranet.ExecutableWorldHypothesis",
+        "roles": [
+          {
+            "filledBy": [
+              "cidv1-sha256-f1b9af9e0ba2c8607dd86384b2461684d80d313fb69f9f2ea3f8c26c6d95ed4c"
+            ],
+            "required": true,
+            "roleName": "subject"
+          }
+        ]
+      },
+      "version": "0.1.0"
+    },
+    {
+      "canonical": "{\"kind\":\"indranet.executable_model\",\"pack\":\"indranet.context\",\"parents\":[\"cidv1-sha256-fb17319fb41f29449297931508bfabe76bf4255aaaeb960f6f838b45b90ec695\"],\"payload\":{\"assumptions\":[\"one-dimensional motion\",\"nonnegative velocity within this two-second example\"],\"hypothesisFrameCid\":\"cidv1-sha256-fb17319fb41f29449297931508bfabe76bf4255aaaeb960f6f838b45b90ec695\",\"knownAt\":\"2026-09-15T12:00:01Z\",\"model\":\"constant-deceleration-1d\",\"parameters\":{\"deceleration\":\"0.5\",\"initialVelocity\":\"4.5\"},\"units\":{\"position\":\"m\",\"time\":\"s\"}},\"version\":\"0.5.0\"}",
+      "cid": "cidv1-sha256-586526bc469022b8c47c6d30201d679427d75dd3f1e1a3d3b62e3de567e8d360",
+      "createdAt": "2026-09-15T12:00:01Z",
+      "kind": "indranet.executable_model",
+      "pack": "indranet.context",
+      "parents": [
+        "cidv1-sha256-fb17319fb41f29449297931508bfabe76bf4255aaaeb960f6f838b45b90ec695"
+      ],
+      "payload": {
+        "assumptions": [
+          "one-dimensional motion",
+          "nonnegative velocity within this two-second example"
+        ],
+        "hypothesisFrameCid": "cidv1-sha256-fb17319fb41f29449297931508bfabe76bf4255aaaeb960f6f838b45b90ec695",
+        "knownAt": "2026-09-15T12:00:01Z",
+        "model": "constant-deceleration-1d",
+        "parameters": {
+          "deceleration": "0.5",
+          "initialVelocity": "4.5"
+        },
+        "units": {
+          "position": "m",
+          "time": "s"
+        }
+      },
+      "version": "0.5.0"
+    },
+    {
+      "canonical": "{\"kind\":\"indranet.simulation\",\"pack\":\"indranet.context\",\"parents\":[\"cidv1-sha256-586526bc469022b8c47c6d30201d679427d75dd3f1e1a3d3b62e3de567e8d360\"],\"payload\":{\"counterfactual\":false,\"dataOrigin\":\"synthetic-fixture\",\"epistemicRole\":\"simulated\",\"hypothesisFrameCid\":\"cidv1-sha256-fb17319fb41f29449297931508bfabe76bf4255aaaeb960f6f838b45b90ec695\",\"knownAt\":\"2026-09-15T12:00:02Z\",\"modelCid\":\"cidv1-sha256-586526bc469022b8c47c6d30201d679427d75dd3f1e1a3d3b62e3de567e8d360\",\"positions\":[\"0.0\",\"4.25\",\"8.0\"],\"sampleTimes\":[0,1,2]},\"version\":\"0.5.0\"}",
+      "cid": "cidv1-sha256-3c03966e8743ea7a65421b0d9a5d40abce7ca870d8be647eb355942e07294318",
+      "createdAt": "2026-09-15T12:00:02Z",
+      "kind": "indranet.simulation",
+      "pack": "indranet.context",
+      "parents": [
+        "cidv1-sha256-586526bc469022b8c47c6d30201d679427d75dd3f1e1a3d3b62e3de567e8d360"
+      ],
+      "payload": {
+        "counterfactual": false,
+        "dataOrigin": "synthetic-fixture",
+        "epistemicRole": "simulated",
+        "hypothesisFrameCid": "cidv1-sha256-fb17319fb41f29449297931508bfabe76bf4255aaaeb960f6f838b45b90ec695",
+        "knownAt": "2026-09-15T12:00:02Z",
+        "modelCid": "cidv1-sha256-586526bc469022b8c47c6d30201d679427d75dd3f1e1a3d3b62e3de567e8d360",
+        "positions": [
+          "0.0",
+          "4.25",
+          "8.0"
+        ],
+        "sampleTimes": [
+          0,
+          1,
+          2
+        ]
+      },
+      "version": "0.5.0"
+    },
+    {
+      "canonical": "{\"kind\":\"rosetta.frame\",\"pack\":\"rosetta.core\",\"parents\":[\"cidv1-sha256-ec5590e7f38d848528db95fb9cfc1661436c29719e5e4a1cbaf45860a1383377\",\"cidv1-sha256-f1b9af9e0ba2c8607dd86384b2461684d80d313fb69f9f2ea3f8c26c6d95ed4c\"],\"payload\":{\"conceptCids\":[\"cidv1-sha256-f1b9af9e0ba2c8607dd86384b2461684d80d313fb69f9f2ea3f8c26c6d95ed4c\"],\"description\":\"A candidate constant-deceleration explanation: high-drag\",\"frameId\":\"frame.high-drag\",\"frameType\":\"indranet.ExecutableWorldHypothesis\",\"roles\":[{\"filledBy\":[\"cidv1-sha256-f1b9af9e0ba2c8607dd86384b2461684d80d313fb69f9f2ea3f8c26c6d95ed4c\"],\"required\":true,\"roleName\":\"subject\"}]},\"version\":\"0.1.0\"}",
+      "cid": "cidv1-sha256-5b4ab3ee0db477323b24b4744c62b7952dfbddf6654d2830236faa64ada9761d",
+      "createdAt": "2026-09-15T12:00:01Z",
+      "kind": "rosetta.frame",
+      "pack": "rosetta.core",
+      "parents": [
+        "cidv1-sha256-ec5590e7f38d848528db95fb9cfc1661436c29719e5e4a1cbaf45860a1383377",
+        "cidv1-sha256-f1b9af9e0ba2c8607dd86384b2461684d80d313fb69f9f2ea3f8c26c6d95ed4c"
+      ],
+      "payload": {
+        "conceptCids": [
+          "cidv1-sha256-f1b9af9e0ba2c8607dd86384b2461684d80d313fb69f9f2ea3f8c26c6d95ed4c"
+        ],
+        "description": "A candidate constant-deceleration explanation: high-drag",
+        "frameId": "frame.high-drag",
+        "frameType": "indranet.ExecutableWorldHypothesis",
+        "roles": [
+          {
+            "filledBy": [
+              "cidv1-sha256-f1b9af9e0ba2c8607dd86384b2461684d80d313fb69f9f2ea3f8c26c6d95ed4c"
+            ],
+            "required": true,
+            "roleName": "subject"
+          }
+        ]
+      },
+      "version": "0.1.0"
+    },
+    {
+      "canonical": "{\"kind\":\"indranet.executable_model\",\"pack\":\"indranet.context\",\"parents\":[\"cidv1-sha256-5b4ab3ee0db477323b24b4744c62b7952dfbddf6654d2830236faa64ada9761d\"],\"payload\":{\"assumptions\":[\"one-dimensional motion\",\"nonnegative velocity within this two-second example\"],\"hypothesisFrameCid\":\"cidv1-sha256-5b4ab3ee0db477323b24b4744c62b7952dfbddf6654d2830236faa64ada9761d\",\"knownAt\":\"2026-09-15T12:00:01Z\",\"model\":\"constant-deceleration-1d\",\"parameters\":{\"deceleration\":\"1.0\",\"initialVelocity\":\"4.5\"},\"units\":{\"position\":\"m\",\"time\":\"s\"}},\"version\":\"0.5.0\"}",
+      "cid": "cidv1-sha256-54807e58605c175b9140af96a339cb83b90b98d0f1ffbbd715c74e419f12b685",
+      "createdAt": "2026-09-15T12:00:01Z",
+      "kind": "indranet.executable_model",
+      "pack": "indranet.context",
+      "parents": [
+        "cidv1-sha256-5b4ab3ee0db477323b24b4744c62b7952dfbddf6654d2830236faa64ada9761d"
+      ],
+      "payload": {
+        "assumptions": [
+          "one-dimensional motion",
+          "nonnegative velocity within this two-second example"
+        ],
+        "hypothesisFrameCid": "cidv1-sha256-5b4ab3ee0db477323b24b4744c62b7952dfbddf6654d2830236faa64ada9761d",
+        "knownAt": "2026-09-15T12:00:01Z",
+        "model": "constant-deceleration-1d",
+        "parameters": {
+          "deceleration": "1.0",
+          "initialVelocity": "4.5"
+        },
+        "units": {
+          "position": "m",
+          "time": "s"
+        }
+      },
+      "version": "0.5.0"
+    },
+    {
+      "canonical": "{\"kind\":\"indranet.simulation\",\"pack\":\"indranet.context\",\"parents\":[\"cidv1-sha256-54807e58605c175b9140af96a339cb83b90b98d0f1ffbbd715c74e419f12b685\"],\"payload\":{\"counterfactual\":false,\"dataOrigin\":\"synthetic-fixture\",\"epistemicRole\":\"simulated\",\"hypothesisFrameCid\":\"cidv1-sha256-5b4ab3ee0db477323b24b4744c62b7952dfbddf6654d2830236faa64ada9761d\",\"knownAt\":\"2026-09-15T12:00:02Z\",\"modelCid\":\"cidv1-sha256-54807e58605c175b9140af96a339cb83b90b98d0f1ffbbd715c74e419f12b685\",\"positions\":[\"0.0\",\"4.0\",\"7.0\"],\"sampleTimes\":[0,1,2]},\"version\":\"0.5.0\"}",
+      "cid": "cidv1-sha256-fe4ccfc7ada70432468ace5917befd400884791e7af69a478fae51b92812060c",
+      "createdAt": "2026-09-15T12:00:02Z",
+      "kind": "indranet.simulation",
+      "pack": "indranet.context",
+      "parents": [
+        "cidv1-sha256-54807e58605c175b9140af96a339cb83b90b98d0f1ffbbd715c74e419f12b685"
+      ],
+      "payload": {
+        "counterfactual": false,
+        "dataOrigin": "synthetic-fixture",
+        "epistemicRole": "simulated",
+        "hypothesisFrameCid": "cidv1-sha256-5b4ab3ee0db477323b24b4744c62b7952dfbddf6654d2830236faa64ada9761d",
+        "knownAt": "2026-09-15T12:00:02Z",
+        "modelCid": "cidv1-sha256-54807e58605c175b9140af96a339cb83b90b98d0f1ffbbd715c74e419f12b685",
+        "positions": [
+          "0.0",
+          "4.0",
+          "7.0"
+        ],
+        "sampleTimes": [
+          0,
+          1,
+          2
+        ]
+      },
+      "version": "0.5.0"
+    },
+    {
+      "canonical": "{\"kind\":\"rosetta.conjecture\",\"pack\":\"rosetta.core\",\"parents\":[\"cidv1-sha256-5b4ab3ee0db477323b24b4744c62b7952dfbddf6654d2830236faa64ada9761d\",\"cidv1-sha256-f1b9af9e0ba2c8607dd86384b2461684d80d313fb69f9f2ea3f8c26c6d95ed4c\",\"cidv1-sha256-fb17319fb41f29449297931508bfabe76bf4255aaaeb960f6f838b45b90ec695\"],\"payload\":{\"conjectureId\":\"conjecture.motion\",\"layer\":\"L3_concept_frame\",\"method\":\"declared-equal-fixture-prior\",\"nonReplayable\":false,\"options\":[{\"evidence\":\"Equal illustrative priors; not model-estimated probabilities\",\"targetCid\":\"cidv1-sha256-fb17319fb41f29449297931508bfabe76bf4255aaaeb960f6f838b45b90ec695\",\"weight\":0.5},{\"evidence\":\"Equal illustrative priors; not model-estimated probabilities\",\"targetCid\":\"cidv1-sha256-5b4ab3ee0db477323b24b4744c62b7952dfbddf6654d2830236faa64ada9761d\",\"weight\":0.5}],\"sourceCid\":\"cidv1-sha256-f1b9af9e0ba2c8607dd86384b2461684d80d313fb69f9f2ea3f8c26c6d95ed4c\"},\"version\":\"0.1.0\"}",
+      "cid": "cidv1-sha256-641a7c4b8a2a5d4b9aca4ba0bbb7fa16e844c77b91d6908eb0df5d250bcbc247",
+      "createdAt": "2026-09-15T12:00:02Z",
+      "kind": "rosetta.conjecture",
+      "pack": "rosetta.core",
+      "parents": [
+        "cidv1-sha256-5b4ab3ee0db477323b24b4744c62b7952dfbddf6654d2830236faa64ada9761d",
+        "cidv1-sha256-f1b9af9e0ba2c8607dd86384b2461684d80d313fb69f9f2ea3f8c26c6d95ed4c",
+        "cidv1-sha256-fb17319fb41f29449297931508bfabe76bf4255aaaeb960f6f838b45b90ec695"
+      ],
+      "payload": {
+        "conjectureId": "conjecture.motion",
+        "layer": "L3_concept_frame",
+        "method": "declared-equal-fixture-prior",
+        "nonReplayable": false,
+        "options": [
+          {
+            "evidence": "Equal illustrative priors; not model-estimated probabilities",
+            "targetCid": "cidv1-sha256-fb17319fb41f29449297931508bfabe76bf4255aaaeb960f6f838b45b90ec695",
+            "weight": 0.5
+          },
+          {
+            "evidence": "Equal illustrative priors; not model-estimated probabilities",
+            "targetCid": "cidv1-sha256-5b4ab3ee0db477323b24b4744c62b7952dfbddf6654d2830236faa64ada9761d",
+            "weight": 0.5
+          }
+        ],
+        "sourceCid": "cidv1-sha256-f1b9af9e0ba2c8607dd86384b2461684d80d313fb69f9f2ea3f8c26c6d95ed4c"
+      },
+      "version": "0.1.0"
+    },
+    {
+      "canonical": "{\"kind\":\"rosetta.evaluation\",\"pack\":\"rosetta.core\",\"parents\":[\"cidv1-sha256-3c03966e8743ea7a65421b0d9a5d40abce7ca870d8be647eb355942e07294318\",\"cidv1-sha256-641a7c4b8a2a5d4b9aca4ba0bbb7fa16e844c77b91d6908eb0df5d250bcbc247\",\"cidv1-sha256-80674562828b2e584cc0253e9c08100ce402c50c8e99564d36cf0e2ce783ed1c\",\"cidv1-sha256-fe4ccfc7ada70432468ace5917befd400884791e7af69a478fae51b92812060c\"],\"payload\":{\"evaluationId\":\"eval.motion-unresolved\",\"summary\":\"Both analytic candidates executed. This fixture does not select a true causal mechanism.\",\"verdict\":\"unknown\"},\"version\":\"0.1.0\"}",
+      "cid": "cidv1-sha256-a4637cc46f933ac637821de8bd25eb689aee471b758adcc5a3b68c8585bdc946",
+      "createdAt": "2026-09-15T12:00:03Z",
+      "kind": "rosetta.evaluation",
+      "pack": "rosetta.core",
+      "parents": [
+        "cidv1-sha256-3c03966e8743ea7a65421b0d9a5d40abce7ca870d8be647eb355942e07294318",
+        "cidv1-sha256-641a7c4b8a2a5d4b9aca4ba0bbb7fa16e844c77b91d6908eb0df5d250bcbc247",
+        "cidv1-sha256-80674562828b2e584cc0253e9c08100ce402c50c8e99564d36cf0e2ce783ed1c",
+        "cidv1-sha256-fe4ccfc7ada70432468ace5917befd400884791e7af69a478fae51b92812060c"
+      ],
+      "payload": {
+        "evaluationId": "eval.motion-unresolved",
+        "summary": "Both analytic candidates executed. This fixture does not select a true causal mechanism.",
+        "verdict": "unknown"
+      },
+      "version": "0.1.0"
+    }
+  ]
+}

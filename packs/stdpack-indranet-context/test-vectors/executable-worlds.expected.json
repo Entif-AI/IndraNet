@@ -1,0 +1,62 @@
+{
+  "scenario": "executable-worlds",
+  "expectedResult": {
+    "conjectureCid": "cidv1-sha256-fe842381c4a31b62e8fa83ed29403504c9028688a5e68927273d9475f7629888",
+    "evaluation": {
+      "evaluationId": "eval.motion-unresolved",
+      "summary": "Both analytic candidates executed. This fixture does not select a true causal mechanism.",
+      "verdict": "unknown"
+    },
+    "simulations": [
+      {
+        "counterfactual": false,
+        "dataOrigin": "synthetic-fixture",
+        "epistemicRole": "simulated",
+        "hypothesisFrameCid": "cidv1-sha256-8e5b3a839ac89664cf87216433186e31f42cb0e5efc713efb4726f77f85ec1b1",
+        "knownAt": "2026-09-15T12:00:02Z",
+        "modelCid": "cidv1-sha256-f62fd483a2673ef990461cc8afd7e9f8651945bb7eb218346740eb1c18b4f48b",
+        "positions": [
+          "0.0",
+          "4.25",
+          "8.0"
+        ],
+        "sampleTimes": [
+          0,
+          1,
+          2
+        ]
+      },
+      {
+        "counterfactual": false,
+        "dataOrigin": "synthetic-fixture",
+        "epistemicRole": "simulated",
+        "hypothesisFrameCid": "cidv1-sha256-680bebe7a3d5cfa49e7ffc04dc34a70baebaf3510cc2ddae65b5a5314633f6e2",
+        "knownAt": "2026-09-15T12:00:02Z",
+        "modelCid": "cidv1-sha256-d9ec1616bb22524ae56aca960a6f92d88a017bce5f6930cb1570759b9fa88f29",
+        "positions": [
+          "0.0",
+          "4.0",
+          "7.0"
+        ],
+        "sampleTimes": [
+          0,
+          1,
+          2
+        ]
+      }
+    ]
+  },
+  "tileCids": [
+    "cidv1-sha256-80674562828b2e584cc0253e9c08100ce402c50c8e99564d36cf0e2ce783ed1c",
+    "cidv1-sha256-7de66abe5b7770c4e1523e723104211539292548f5ad3affe0172f940082980d",
+    "cidv1-sha256-d49429283571d69030337ca07ccc21f5b09d9389c877368658d0af7f849860c7",
+    "cidv1-sha256-8e5b3a839ac89664cf87216433186e31f42cb0e5efc713efb4726f77f85ec1b1",
+    "cidv1-sha256-f62fd483a2673ef990461cc8afd7e9f8651945bb7eb218346740eb1c18b4f48b",
+    "cidv1-sha256-0f937c38ac0f9134900572a5915ad6c8111ce173a70198b975915b8197fac566",
+    "cidv1-sha256-680bebe7a3d5cfa49e7ffc04dc34a70baebaf3510cc2ddae65b5a5314633f6e2",
+    "cidv1-sha256-d9ec1616bb22524ae56aca960a6f92d88a017bce5f6930cb1570759b9fa88f29",
+    "cidv1-sha256-539c8f276596d208fc3d35a1b42f6a30c704fce62c2a156f34da77c6b3263656",
+    "cidv1-sha256-fe842381c4a31b62e8fa83ed29403504c9028688a5e68927273d9475f7629888",
+    "cidv1-sha256-27282df03db1481efa85c96227f3904284b5451d91e0adaaa87bb8f8f3e6f471"
+  ]
+}

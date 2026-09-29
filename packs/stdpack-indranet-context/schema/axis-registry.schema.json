@@ -1,0 +1,60 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:indranet:candidate:schema:axis-registry:0.5.0",
+  "title": "IndraNet candidate axis registry",
+  "$comment": "Candidate v0.5.0; Rosetta Core semantics retained; no assigned ROCK identifier. Source-of-truth: pack.json.",
+  "type": "object",
+  "properties": {
+    "registryId": {
+      "type": "string",
+      "minLength": 1
+    },
+    "range": {
+      "type": "array",
+      "items": {
+        "type": "integer"
+      },
+      "minItems": 2,
+      "maxItems": 2
+    },
+    "axes": {
+      "type": "object",
+      "properties": {
+        "ethos": {
+          "type": "string",
+          "minLength": 1
+        },
+        "logos": {
+          "type": "string",
+          "minLength": 1
+        },
+        "pathos": {
+          "type": "string",
+          "minLength": 1
+        },
+        "quixote": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "required": [
+        "ethos",
+        "logos",
+        "pathos",
+        "quixote"
+      ],
+      "additionalProperties": false
+    },
+    "status": {
+      "type": "string",
+      "minLength": 1
+    }
+  },
+  "required": [
+    "registryId",
+    "range",
+    "axes",
+    "status"
+  ],
+  "additionalProperties": false
+}

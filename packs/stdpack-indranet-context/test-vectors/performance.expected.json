@@ -1,0 +1,122 @@
+{
+  "scenario": "performance",
+  "expectedResult": {
+    "elpqMatrixCid": "cidv1-sha256-1c64431a342d01f1084578902d4a5e397da280426d98383dbb76beeb2bb1d7b5",
+    "first": {
+      "actuationAuthority": false,
+      "address": "/indranet/demo/light/level",
+      "contextCid": "cidv1-sha256-35b9b3df2758b1e0eb33f79bf9ffa2a81b4bc438ff5664cf73e5057d35d38b9c",
+      "eventTime": "2026-09-15T12:00:02Z",
+      "gestureCid": "cidv1-sha256-50faeba5a0f47aa9bfc0f4a1794dd9c3d1d51cf278347a6fad2440b50c789b9e",
+      "mode": "light-sculpture",
+      "oscHex": "2f696e6472616e65742f64656d6f2f6c696768742f6c6576656c00002c69000000000050",
+      "sent": false,
+      "value": 80
+    },
+    "interpretationChain": {
+      "concept": "cidv1-sha256-9992732e34a371ed83c084348ea5623aeac59070595694fb8d168bf08fd0dc5e",
+      "conjecture": "cidv1-sha256-2f2623a10c6ae03bd8ee50304dfee290277f9518f5728694215b2c4fcb959021",
+      "form": "cidv1-sha256-54ac7d756c9785ff8749bec681e2232f8a74395b8b6d7472f8a02f06f721a1d8",
+      "frame": "cidv1-sha256-13811006bd405ff21e9c8f84fb1047336bbce89547a2d88bb6e985e071f4011a",
+      "lexeme": "cidv1-sha256-2d8b196f5f8d833dc92bb0d087e84675536a25924c29c247c9324052a600b550",
+      "observation": "cidv1-sha256-0fd61f05435b047a1468d2b823ffc931741daf3082edc52110f0b0566daac125"
+    },
+    "oldPreviewUnderNewContext": {
+      "actuationAuthority": false,
+      "reasons": [
+        "context-changed"
+      ],
+      "sent": false,
+      "status": "refused"
+    },
+    "second": {
+      "actuationAuthority": false,
+      "address": "/indranet/demo/sound/send",
+      "contextCid": "cidv1-sha256-4222a8cc55e0adabced20b42364f584ed79ee7dff81d77dde8dc4be896aea71c",
+      "eventTime": "2026-09-15T12:00:04Z",
+      "gestureCid": "cidv1-sha256-50faeba5a0f47aa9bfc0f4a1794dd9c3d1d51cf278347a6fad2440b50c789b9e",
+      "mode": "sound-sculpture",
+      "oscHex": "2f696e6472616e65742f64656d6f2f736f756e642f73656e640000002c69000000000023",
+      "sent": false,
+      "value": 35
+    },
+    "signedFixture": {
+      "nonclaim": "Signature checks mechanics only; no trusted identity or vendor attestation",
+      "receipt": {
+        "canonical": "{\"kind\":\"rosetta.receipt\",\"pack\":\"rrp\",\"parents\":[\"cidv1-sha256-24eee5555ca5612e932ba77b9430ef41cafab66547b30ab8a84f344e46b2a0c6\",\"cidv1-sha256-fa4506cb31fd3f72e96fb49fe2357d16635633938efe07e0390a2c964a0996d6\"],\"payload\":{\"claims\":[{\"claimType\":\"indranet:local-integrity\",\"evidence\":[{\"cid\":\"cidv1-sha256-24eee5555ca5612e932ba77b9430ef41cafab66547b30ab8a84f344e46b2a0c6\"}],\"statement\":\"Restricted envelope integrity checked locally\",\"verdict\":\"pass\"}],\"digests\":[{\"alg\":\"sha256\",\"cidRef\":\"cidv1-sha256-fa4506cb31fd3f72e96fb49fe2357d16635633938efe07e0390a2c964a0996d6\",\"digest\":\"fa4506cb31fd3f72e96fb49fe2357d16635633938efe07e0390a2c964a0996d6\",\"of\":\"canonical-body\"}],\"policyRefs\":[],\"receiptType\":\"indranet:fixture-integrity\",\"subjects\":[{\"cid\":\"cidv1-sha256-fa4506cb31fd3f72e96fb49fe2357d16635633938efe07e0390a2c964a0996d6\",\"role\":\"artifact\"}]},\"version\":\"0.1.0\"}",
+        "cid": "cidv1-sha256-975cd0f4154ce0c07fd3f37cc8212b6b95ef6a18c72524c4622d7f12d498639b",
+        "createdAt": "2026-09-15T12:00:04Z",
+        "kind": "rosetta.receipt",
+        "pack": "rrp",
+        "parents": [
+          "cidv1-sha256-24eee5555ca5612e932ba77b9430ef41cafab66547b30ab8a84f344e46b2a0c6",
+          "cidv1-sha256-fa4506cb31fd3f72e96fb49fe2357d16635633938efe07e0390a2c964a0996d6"
+        ],
+        "payload": {
+          "claims": [
+            {
+              "claimType": "indranet:local-integrity",
+              "evidence": [
+                {
+                  "cid": "cidv1-sha256-24eee5555ca5612e932ba77b9430ef41cafab66547b30ab8a84f344e46b2a0c6"
+                }
+              ],
+              "statement": "Restricted envelope integrity checked locally",
+              "verdict": "pass"
+            }
+          ],
+          "digests": [
+            {
+              "alg": "sha256",
+              "cidRef": "cidv1-sha256-fa4506cb31fd3f72e96fb49fe2357d16635633938efe07e0390a2c964a0996d6",
+              "digest": "fa4506cb31fd3f72e96fb49fe2357d16635633938efe07e0390a2c964a0996d6",
+              "of": "canonical-body"
+            }
+          ],
+          "policyRefs": [],
+          "receiptType": "indranet:fixture-integrity",
+          "subjects": [
+            {
+              "cid": "cidv1-sha256-fa4506cb31fd3f72e96fb49fe2357d16635633938efe07e0390a2c964a0996d6",
+              "role": "artifact"
+            }
+          ]
+        },
+        "version": "0.1.0"
+      },
+      "signature": {
+        "algorithm": "ed25519",
+        "keyId": "public-test-fixture-only",
+        "publicKeyPem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEArtjVGf0XqtQtDVMX7irNAgKNOWZoV945gQhNlvvmD4E=\n-----END PUBLIC KEY-----\n",
+        "signatureBase64": "yDD7kIOSja5EdSZo44b+LJFZJjnYnrS+YIgMktY9o/R12Aym1RzvYV8MdZFP+jpVkI6V0ehcvEAoN+e0nl2BDQ==",
+        "signedCid": "cidv1-sha256-975cd0f4154ce0c07fd3f37cc8212b6b95ef6a18c72524c4622d7f12d498639b"
+      }
+    }
+  },
+  "tileCids": [
+    "cidv1-sha256-0fd61f05435b047a1468d2b823ffc931741daf3082edc52110f0b0566daac125",
+    "cidv1-sha256-cd59dc012af7f1367ea48f33d8ff4671a744483965ea1a4d72a617861f782ab8",
+    "cidv1-sha256-50faeba5a0f47aa9bfc0f4a1794dd9c3d1d51cf278347a6fad2440b50c789b9e",
+    "cidv1-sha256-35b9b3df2758b1e0eb33f79bf9ffa2a81b4bc438ff5664cf73e5057d35d38b9c",
+    "cidv1-sha256-e680a702233dbd9d90b1560ea1f3abdced7f77980077e535b34e095ea13cc6ba",
+    "cidv1-sha256-d8cd25509fe67761c03565811c69bda12458cccb549eb89b650e819228bd124b",
+    "cidv1-sha256-5326a8a849962c0fe91ba51184f90e83b89679ca28b9a587b9681b545d271c33",
+    "cidv1-sha256-f264976956f89082fe0357db1ff445a20183a0ca871198f4526e7e91e11b4454",
+    "cidv1-sha256-3de746049ec7ee9ecf2c9956c28830ac7dc9aedcff7cc18a64d79f7d4d9086f7",
+    "cidv1-sha256-4222a8cc55e0adabced20b42364f584ed79ee7dff81d77dde8dc4be896aea71c",
+    "cidv1-sha256-1b1be5570094fa25656f5557c83793cb5c6a92feef6069c72391a77670dfda5e",
+    "cidv1-sha256-5ee9116adc69fa50f3ced08960034767927c9f1cbeba7d2ded0729dc273e9bdb",
+    "cidv1-sha256-9e079302ab2601c9f0b15582320f2a1e4085959cbdcbb546522281d7927d0b28",
+    "cidv1-sha256-fa4506cb31fd3f72e96fb49fe2357d16635633938efe07e0390a2c964a0996d6",
+    "cidv1-sha256-94eff4189c8f05ab9c201c75a86558dc1fd599b1b2fad004704407b60ac5af99",
+    "cidv1-sha256-54ac7d756c9785ff8749bec681e2232f8a74395b8b6d7472f8a02f06f721a1d8",
+    "cidv1-sha256-2d8b196f5f8d833dc92bb0d087e84675536a25924c29c247c9324052a600b550",
+    "cidv1-sha256-9992732e34a371ed83c084348ea5623aeac59070595694fb8d168bf08fd0dc5e",
+    "cidv1-sha256-13811006bd405ff21e9c8f84fb1047336bbce89547a2d88bb6e985e071f4011a",
+    "cidv1-sha256-2f2623a10c6ae03bd8ee50304dfee290277f9518f5728694215b2c4fcb959021",
+    "cidv1-sha256-5da692a80728cf9db5f6e3228259ee2503d2c6edab2df4014fcf1ce6ab660b57",
+    "cidv1-sha256-1c64431a342d01f1084578902d4a5e397da280426d98383dbb76beeb2bb1d7b5",
+    "cidv1-sha256-24eee5555ca5612e932ba77b9430ef41cafab66547b30ab8a84f344e46b2a0c6",
+    "cidv1-sha256-975cd0f4154ce0c07fd3f37cc8212b6b95ef6a18c72524c4622d7f12d498639b"
+  ]
+}

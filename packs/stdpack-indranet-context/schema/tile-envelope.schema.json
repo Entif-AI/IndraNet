@@ -1,0 +1,55 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:indranet:candidate:schema:tile-envelope:0.5.0",
+  "title": "IndraNet candidate tile envelope",
+  "$comment": "Candidate v0.5.0; Rosetta Core semantics retained; no assigned ROCK identifier. Source-of-truth: pack.json.",
+  "type": "object",
+  "properties": {
+    "cid": {
+      "type": "string",
+      "pattern": "^cidv1-sha256-[a-f0-9]{64}$"
+    },
+    "kind": {
+      "type": "string",
+      "minLength": 1
+    },
+    "pack": {
+      "type": "string",
+      "minLength": 1
+    },
+    "version": {
+      "type": "string",
+      "minLength": 1
+    },
+    "parents": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^cidv1-sha256-[a-f0-9]{64}$"
+      },
+      "minItems": 0
+    },
+    "createdAt": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "canonical": {
+      "type": "string",
+      "minLength": 1
+    },
+    "payload": {
+      "type": "object"
+    }
+  },
+  "required": [
+    "cid",
+    "kind",
+    "pack",
+    "version",
+    "parents",
+    "createdAt",
+    "canonical",
+    "payload"
+  ],
+  "additionalProperties": false
+}

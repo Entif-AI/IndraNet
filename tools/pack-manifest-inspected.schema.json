@@ -1,0 +1,234 @@
+{
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "namespace": {
+      "type": "string"
+    },
+    "doc_id": {
+      "type": "string"
+    },
+    "version": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string"
+    },
+    "summary": {
+      "type": "string"
+    },
+    "pack_id": {
+      "type": "string",
+      "pattern": "^cidv1-sha256-[a-f0-9]{64}$"
+    },
+    "kind": {
+      "type": "string",
+      "enum": [
+        "pack",
+        "stdpack",
+        "vocabpack",
+        "schema-pack"
+      ]
+    },
+    "category": {
+      "type": "string",
+      "enum": [
+        "StdPack",
+        "VocabPack",
+        "SchemaPack",
+        "GovernancePack",
+        "RecipePack",
+        "SkillPack",
+        "PersonaPack"
+      ]
+    },
+    "compatible_core": {
+      "type": "object",
+      "properties": {
+        "min": {
+          "type": "string"
+        },
+        "max_exclusive": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "min",
+        "max_exclusive"
+      ],
+      "additionalProperties": false
+    },
+    "entrypoints": {
+      "type": "object",
+      "properties": {
+        "examples": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "schema": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "shacl": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "tests": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "vocab": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "required": [],
+      "additionalProperties": false
+    },
+    "dependsOn": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "depends_on": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "doc_id": {
+            "type": "string"
+          },
+          "version_range": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "doc_id",
+          "version_range"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "owners": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "role": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "name",
+          "role"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "exports": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "kind": {
+            "type": "string"
+          },
+          "id": {
+            "type": "string"
+          },
+          "path": {
+            "type": "string"
+          },
+          "version": {
+            "type": "string"
+          },
+          "hash": {
+            "type": "string"
+          },
+          "profile": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "kind",
+          "id",
+          "path",
+          "version"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "profiles": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "path": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "name"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "source_of_truth": {
+      "type": "object",
+      "properties": {
+        "doctrine": {
+          "type": "string"
+        },
+        "traceability_required": {
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "doctrine",
+        "traceability_required"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "required": [
+    "id",
+    "pack_id",
+    "kind",
+    "category",
+    "namespace",
+    "doc_id",
+    "version",
+    "title",
+    "status",
+    "entrypoints"
+  ],
+  "additionalProperties": false,
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:indranet:inspection:pack-manifest-reconstruction",
+  "description": "Behavioral reconstruction of inspected manifest schema blob 2a4c0ed67840fe7dbbf76fdadb5f7dd3e98a4eb2; not a byte-identical vendored source."
+}
